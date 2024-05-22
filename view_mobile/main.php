@@ -1,5095 +1,3868 @@
-<main>
-   <router-outlet></router-outlet>
-   <app-main-page class="ng-star-inserted">
-      <!---->
-      <slider>
-         <!---->
-      </slider>
-      <app-static-inner-content contentcode="m_main-static">
-         <div extroutelink="" id="m_main-static" class="ng-star-inserted">
-            <div id="bosbos">
-               <style type="text/css">
-                  #jpf-container {
-                  display:none !important;
-                  }
-                  .main-button:hover {
-                  background: #ca8d2c;
-                  }
-                  .main-button-content .flex-item a { 
-                  display: block;
-                  height: 52px;
-                  background: linear-gradient(to bottom,#c38a41,#c38a11 100%);
-                  }
-                  .flex-item a img {
-                  height: 30px;
-                  margin-top: 12px;
-                  }  
-                  .main-button-content .flex-item i { 
-                  display: block;
-                  height: 15px;
-                  position: relative;
-                  padding: 0;
-                  top: -7px;
-                  text-align: center;
-                  background: transparent;
-                  color: #FFF;
-                  margin: 0;
-                  }
-                  #sync1 .item {
-                  background: #0c83e7;
-                  padding: 0;
-                  margin: 0;
-                  color: #FFF;
-                  border-radius: 3px;
-                  text-align: center;
-                  }
-                  .owl-theme .owl-nav {
-                  margin: 0 !important;
-                  }
-                  .owl-stage-outer {
-                  margin:0 !important;
-                  }
-                  .owl-theme .owl-nav [class*='owl-'] {
-                  -webkit-transition: all 0.3s ease;
-                  transition: all 0.3s ease;
-                  }
-                  .owl-theme .owl-nav [class*='owl-'].disabled:hover {
-                  background-color: #D6D6D6;
-                  }
-                  #sync1.owl-theme {
-                  position: relative;
-                  }
-                  #sync1.owl-theme .owl-next,
-                  #sync1.owl-theme .owl-prev {
-                  width: 22px;
-                  height: 40px;
-                  margin-top: -20px;
-                  position: absolute;
-                  top: 50%;
-                  }
-                  #sync1.owl-theme .owl-prev {
-                  left: 10px;
-                  }
-                  #sync1.owl-theme .owl-next {
-                  right: 10px;
-                  }
-                  .owl-theme .owl-nav [class*=owl-] { 
-                  background: rgba(0,0,0,0.2) !important;
-                  }
-                  #com-egt-jackpot-html-jackpotBanner {
-                  display:none;
-                  }
-               </style>
-               <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/owl.carousel.min.js"></script>
-               <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.carousel.min.css">
-               <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.theme.default.min.css">
-               <div id="sync1" class="owl-carousel owl-theme">
-                  <div class="item"><img src="https://liman.cdnroot.blog/other/limanmobilepuan.jpg"></div>
-                              
-                  <div class="item"><img src="https://liman.cdnroot.blog/home/m/1706796026-liman-mobil-900x500px-9.jpg"> </div>
-               
-                  <div class="item"><img src="https://liman.cdnroot.blog/home/m/1702308369-liman-mobil-bannerlar-900x500px-3.jpg"> </div>
-               
-                  <div class="item"><img src="https://liman.cdnroot.blog/home/m/1642152841-liman-mobil-bannerlar-900x500px-12.jpg"> </div>
-               
-                  <div class="item"><img src="https://liman.cdnroot.blog/home/m/1647947484-liman-mobil-bannerlar-900x500px-08.jpg"> </div>
-               
-                  <div class="item"><img src="https://liman.cdnroot.blog/home/m/1698705654-liman-mobil-bannerlar-900x500px.jpg"> </div>
-               
-                  <div class="item"><img src="https://liman.cdnroot.blog/home/m/1642152927-liman-mobil-bannerlar-900x500px-13.jpg"> </div>
-               
-                  <div class="item"><img src="https://liman.cdnroot.blog/home/m/1642152985-liman-mobil-bannerlar-900x500px-01.jpg"> </div>
-               
-                  <div class="item"><img src="https://liman.cdnroot.blog/home/m/1642152907-liman-mobil-bannerlar-900x500px-16.jpg"> </div>
-               
-                  <div class="item"><img src="https://liman.cdnroot.blog/home/m/1684264527-liman-mobil-bannerlar-900x500px.jpg"> </div>
-               
-                  <div class="item"><img src="https://liman.cdnroot.blog/home/m/1684264521-liman-mobil-bannerlar-900x500px-18.jpg"> </div>
-               
-                  <div class="item"><img src="https://liman.cdnroot.blog/home/m/1642152939-liman-mobil-bannerlar-900x500px-10.jpg"> </div>
-               
-                  <div class="item"><img src="https://liman.cdnroot.blog/home/m/1642152968-liman-mobil-bannerlar-900x500px-05.jpg"> </div>
-               
-                  <div class="item"><img src="https://liman.cdnroot.blog/home/m/1698747025-liman-mobil-bannerlar-900x500px-1.jpg"> </div>
-               
-                  <div class="item"><img src="https://liman.cdnroot.blog/other/limanmobilepuan.jpg"></div>
-                        
-                        
-                  <div class="owl-nav">
-                     <div class="owl-prev">
-                        <svg width="100%" height="100%" viewBox="0 0 11 20">
-                           <path style="fill:none;stroke-width: 1px;stroke: #fff;" d="M9.554,1.001l-8.607,8.607l8.607,8.606"></path>
-                        </svg>
+<div class="main-template__container" style="padding-top: 52px;">
+               <div class="landing-page" style="">
+                  <div class="slider-section">
+                     <div class="slider-section__slider">
+                        <div class="slick-slider landing-page__slider slick-initialized" dir="ltr">
+                           <button type="button" class="slick-arrow slick-prev custom-prev-arrow"></button>
+                           <div class="slick-list">
+                              <div class="slick-track" style="width: 5590px; opacity: 1; transform: translate3d(-2150px, 0px, 0px);">
+                                 <div data-index="-1" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 430px;">
+                                    <div>
+                                       <div class="styles__Container-sc-1xwzz5u-0 kDBWc">
+                                          <div class="styles__Overlay-sc-1xwzz5u-1 hdwbTk"></div>
+                                          <img class="lazy-img styles__BackgroundImg-sc-1xwzz5u-2 HISEB" src="https://s3.bgelmedia.com/hub/b2/banners/ba5nSIOOwNsJB0Mkdxk2j77ovR60NHKXkbGW0deA.jpg" alt="">
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div data-index="0" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 430px;">
+                                    <div>
+                                       <div class="styles__Container-sc-1xwzz5u-0 kDBWc">
+                                          <div class="styles__Overlay-sc-1xwzz5u-1 hdwbTk"></div>
+                                          <img class="lazy-img styles__BackgroundImg-sc-1xwzz5u-2 HISEB" src="https://s3.bgelmedia.com/hub/b2/banners/Zks0xEpUudTKMS0WaGof2KJoA4MUT3xNIv1F75nt.jpg" alt="">
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div data-index="1" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 430px;">
+                                    <div>
+                                       <div class="styles__Container-sc-1xwzz5u-0 kDBWc">
+                                          <div class="styles__Overlay-sc-1xwzz5u-1 hdwbTk"></div>
+                                          <img class="lazy-img styles__BackgroundImg-sc-1xwzz5u-2 HISEB" src="https://s3.bgelmedia.com/hub/b2/banners/2ATIezLsZERWRfWU5bxWGwdcS1XZNJtNqelYUciO.jpg" alt="">
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div data-index="2" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 430px;">
+                                    <div>
+                                       <div class="styles__Container-sc-1xwzz5u-0 kDBWc">
+                                          <div class="styles__Overlay-sc-1xwzz5u-1 hdwbTk"></div>
+                                          <img class="lazy-img styles__BackgroundImg-sc-1xwzz5u-2 HISEB" src="https://s3.bgelmedia.com/hub/b2/banners/Nj7ImtWKLQyvuNF4SHkzsc84gCXm653niIjPAr94.jpg" alt="">
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div data-index="3" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 430px;">
+                                    <div>
+                                       <div class="styles__Container-sc-1xwzz5u-0 kDBWc">
+                                          <div class="styles__Overlay-sc-1xwzz5u-1 hdwbTk"></div>
+                                          <img class="lazy-img styles__BackgroundImg-sc-1xwzz5u-2 HISEB" src="https://s3.bgelmedia.com/hub/b2/banners/qDoZV7FO1WJaWr5WmKa3RAv1fSWpAwdqixvvfSPZ.jpg" alt="">
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div data-index="4" class="slick-slide slick-active slick-current" tabindex="-1" aria-hidden="false" style="outline: none; width: 430px;">
+                                    <div>
+                                       <div class="styles__Container-sc-1xwzz5u-0 kDBWc">
+                                          <div class="styles__Overlay-sc-1xwzz5u-1 hdwbTk"></div>
+                                          <img class="lazy-img styles__BackgroundImg-sc-1xwzz5u-2 HISEB" src="https://s3.bgelmedia.com/hub/b2/banners/FndxezModlRmtpR4YT5VnTGs1Onf5uB0pTrcenbm.jpg" alt="">
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div data-index="5" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 430px;">
+                                    <div>
+                                       <div class="styles__Container-sc-1xwzz5u-0 kDBWc">
+                                          <div class="styles__Overlay-sc-1xwzz5u-1 hdwbTk"></div>
+                                          <img class="lazy-img styles__BackgroundImg-sc-1xwzz5u-2 HISEB" src="https://s3.bgelmedia.com/hub/b2/banners/ba5nSIOOwNsJB0Mkdxk2j77ovR60NHKXkbGW0deA.jpg" alt="">
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div data-index="6" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 430px;">
+                                    <div>
+                                       <div class="styles__Container-sc-1xwzz5u-0 kDBWc">
+                                          <div class="styles__Overlay-sc-1xwzz5u-1 hdwbTk"></div>
+                                          <img class="lazy-img styles__BackgroundImg-sc-1xwzz5u-2 HISEB" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div data-index="7" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 430px;">
+                                    <div>
+                                       <div class="styles__Container-sc-1xwzz5u-0 kDBWc">
+                                          <div class="styles__Overlay-sc-1xwzz5u-1 hdwbTk"></div>
+                                          <img class="lazy-img styles__BackgroundImg-sc-1xwzz5u-2 HISEB" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div data-index="8" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 430px;">
+                                    <div>
+                                       <div class="styles__Container-sc-1xwzz5u-0 kDBWc">
+                                          <div class="styles__Overlay-sc-1xwzz5u-1 hdwbTk"></div>
+                                          <img class="lazy-img styles__BackgroundImg-sc-1xwzz5u-2 HISEB" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div data-index="9" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 430px;">
+                                    <div>
+                                       <div class="styles__Container-sc-1xwzz5u-0 kDBWc">
+                                          <div class="styles__Overlay-sc-1xwzz5u-1 hdwbTk"></div>
+                                          <img class="lazy-img styles__BackgroundImg-sc-1xwzz5u-2 HISEB" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div data-index="10" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 430px;">
+                                    <div>
+                                       <div class="styles__Container-sc-1xwzz5u-0 kDBWc">
+                                          <div class="styles__Overlay-sc-1xwzz5u-1 hdwbTk"></div>
+                                          <img class="lazy-img styles__BackgroundImg-sc-1xwzz5u-2 HISEB" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div data-index="11" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 430px;">
+                                    <div>
+                                       <div class="styles__Container-sc-1xwzz5u-0 kDBWc">
+                                          <div class="styles__Overlay-sc-1xwzz5u-1 hdwbTk"></div>
+                                          <img class="lazy-img styles__BackgroundImg-sc-1xwzz5u-2 HISEB" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <button type="button" class="slick-arrow slick-next custom-next-arrow"></button>
+                           <ul class="slick-dots" style="display: block;">
+                              <li class="">
+                                 <a class="slick-dots" href="#">
+                                    <svg class="slider-loader" viewBox="0 0 33.83098862 33.83098862" width="26" height="26" xmlns="http://www.w3.org/2000/svg">
+                                       <circle class="slider-loader__background" stroke="#767A85" stroke-width="2" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431"></circle>
+                                       <circle class="slider-loader__circle" stroke="#FFD60E" stroke-width="2.5" stroke-dasharray="100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431"></circle>
+                                    </svg>
+                                 </a>
+                              </li>
+                              <li class="">
+                                 <a class="slick-dots" href="#">
+                                    <svg class="slider-loader" viewBox="0 0 33.83098862 33.83098862" width="26" height="26" xmlns="http://www.w3.org/2000/svg">
+                                       <circle class="slider-loader__background" stroke="#767A85" stroke-width="2" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431"></circle>
+                                       <circle class="slider-loader__circle" stroke="#FFD60E" stroke-width="2.5" stroke-dasharray="100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431"></circle>
+                                    </svg>
+                                 </a>
+                              </li>
+                              <li class="">
+                                 <a class="slick-dots" href="#">
+                                    <svg class="slider-loader" viewBox="0 0 33.83098862 33.83098862" width="26" height="26" xmlns="http://www.w3.org/2000/svg">
+                                       <circle class="slider-loader__background" stroke="#767A85" stroke-width="2" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431"></circle>
+                                       <circle class="slider-loader__circle" stroke="#FFD60E" stroke-width="2.5" stroke-dasharray="100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431"></circle>
+                                    </svg>
+                                 </a>
+                              </li>
+                              <li class="">
+                                 <a class="slick-dots" href="#">
+                                    <svg class="slider-loader" viewBox="0 0 33.83098862 33.83098862" width="26" height="26" xmlns="http://www.w3.org/2000/svg">
+                                       <circle class="slider-loader__background" stroke="#767A85" stroke-width="2" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431"></circle>
+                                       <circle class="slider-loader__circle" stroke="#FFD60E" stroke-width="2.5" stroke-dasharray="100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431"></circle>
+                                    </svg>
+                                 </a>
+                              </li>
+                              <li class="slick-active">
+                                 <a class="slick-dots" href="#">
+                                    <svg class="slider-loader" viewBox="0 0 33.83098862 33.83098862" width="26" height="26" xmlns="http://www.w3.org/2000/svg">
+                                       <circle class="slider-loader__background" stroke="#767A85" stroke-width="2" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431"></circle>
+                                       <circle class="slider-loader__circle" stroke="#FFD60E" stroke-width="2.5" stroke-dasharray="100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431"></circle>
+                                    </svg>
+                                 </a>
+                              </li>
+                              <li class="">
+                                 <a class="slick-dots" href="#">
+                                    <svg class="slider-loader" viewBox="0 0 33.83098862 33.83098862" width="26" height="26" xmlns="http://www.w3.org/2000/svg">
+                                       <circle class="slider-loader__background" stroke="#767A85" stroke-width="2" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431"></circle>
+                                       <circle class="slider-loader__circle" stroke="#FFD60E" stroke-width="2.5" stroke-dasharray="100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431"></circle>
+                                    </svg>
+                                 </a>
+                              </li>
+                           </ul>
+                        </div>
                      </div>
-                     <div class="owl-next">
-                        <svg width="100%" height="100%" viewBox="0 0 11 20" version="1.1">
-                           <path style="fill:none;stroke-width: 1px;stroke: #fff;" d="M1.054,18.214l8.606,-8.606l-8.606,-8.607"></path>
-                        </svg>
+                     <div class="slider-section__winners">
+                        <div style="">
+                           <div class="styles__Row-sc-1adhk5t-0 hgfhfv">
+                              <div class="ticker" style="position: relative; overflow: hidden; height: 27px;">
+                                 <div class="ticker__element" style="will-change: transform; position: absolute; left: 0px; top: 0px; transform: translate3d(-1479.96px, 0px, 0px);">
+                                    <div class="styles__Line-sc-1adhk5t-5 bjZxfh">
+                                       <div class="styles__Item-sc-1adhk5t-1 gOroKF">
+                                          <a class="styles__Container-sc-1fgvnf7-5 gwhLIO" href="/tr/game/gates-of-olympus-1000/play-for-real">
+                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src="https://s3.bgelmedia.com/hub/games/ZxFoSJpGKQwyqbd6WYJtfn3U1zf3tgah3IqLw21z.jpg" alt="">
+                                             <span class="styles__Text-sc-1fgvnf7-1 deTYBV">
+                                                <span class="styles__Player-sc-1fgvnf7-2 hkZRTC">Yav*******</span> 
+                                                <div class="text-link styles__GameLink-sc-1fgvnf7-4 cYCUZm"><span class="text-link__label">Gates of Olympus 1000™</span></div>
+                                                oyununda <span class="styles__Amount-sc-1fgvnf7-3 cJOMgU">₺802000</span> kazandı
+                                             </span>
+                                          </a>
+                                       </div>
+                                       <div class="styles__Item-sc-1adhk5t-1 gOroKF">
+                                          <a class="styles__Container-sc-1fgvnf7-5 gwhLIO" href="/tr/game/candy-palace/play-for-real">
+                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src="https://s3.bgelmedia.com/hub/games/jPTG9FhxHWevp73vUgpozuwWgA9YmZDc9erKfJhL.jpg" alt="">
+                                             <span class="styles__Text-sc-1fgvnf7-1 deTYBV">
+                                                <span class="styles__Player-sc-1fgvnf7-2 hkZRTC">Emr*</span> 
+                                                <div class="text-link styles__GameLink-sc-1fgvnf7-4 cYCUZm"><span class="text-link__label">Candy Palace</span></div>
+                                                oyununda <span class="styles__Amount-sc-1fgvnf7-3 cJOMgU">₺651550</span> kazandı
+                                             </span>
+                                          </a>
+                                       </div>
+                                       <div class="styles__Item-sc-1adhk5t-1 gOroKF">
+                                          <a class="styles__Container-sc-1fgvnf7-5 gwhLIO" href="/tr/game/sweet-bonanza/play-for-real">
+                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src="https://s3.bgelmedia.com/hub/games/RFFmnMSOrY6gg6rEo3PzVD1KuUxbn7vJzHXlDd9o.jpg" alt="">
+                                             <span class="styles__Text-sc-1fgvnf7-1 deTYBV">
+                                                <span class="styles__Player-sc-1fgvnf7-2 hkZRTC">Hak** ***</span> 
+                                                <div class="text-link styles__GameLink-sc-1fgvnf7-4 cYCUZm"><span class="text-link__label">Sweet Bonanza</span></div>
+                                                oyununda <span class="styles__Amount-sc-1fgvnf7-3 cJOMgU">₺625150</span> kazandı
+                                             </span>
+                                          </a>
+                                       </div>
+                                       <div class="styles__Item-sc-1adhk5t-1 gOroKF">
+                                          <a class="styles__Container-sc-1fgvnf7-5 gwhLIO" href="/tr/game/wanted-dead-or-a-wild/play-for-real">
+                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src="https://s3.bgelmedia.com/hub/games/R2EERzRoE6nUU5oeGz5cfZ4oYeOvNrG6uPlS8krS.jpg" alt="">
+                                             <span class="styles__Text-sc-1fgvnf7-1 deTYBV">
+                                                <span class="styles__Player-sc-1fgvnf7-2 hkZRTC">Sam**</span> 
+                                                <div class="text-link styles__GameLink-sc-1fgvnf7-4 cYCUZm"><span class="text-link__label">Wanted dead or a wild</span></div>
+                                                oyununda <span class="styles__Amount-sc-1fgvnf7-3 cJOMgU">₺272250</span> kazandı
+                                             </span>
+                                          </a>
+                                       </div>
+                                       <div class="styles__Item-sc-1adhk5t-1 gOroKF">
+                                          <a class="styles__Container-sc-1fgvnf7-5 gwhLIO" href="/tr/game/bigger-bass-blizzard-christmas-catch/play-for-real">
+                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src="https://s3.bgelmedia.com/hub/games/1svediNui3DQFjPQsl1UR5Ujnzl7GFw8t3rbCoo2.jpg" alt="">
+                                             <span class="styles__Text-sc-1fgvnf7-1 deTYBV">
+                                                <span class="styles__Player-sc-1fgvnf7-2 hkZRTC">Bil**</span> 
+                                                <div class="text-link styles__GameLink-sc-1fgvnf7-4 cYCUZm"><span class="text-link__label">Bigger Bass Blizzard - Christmas Catch™</span></div>
+                                                oyununda <span class="styles__Amount-sc-1fgvnf7-3 cJOMgU">₺192000</span> kazandı
+                                             </span>
+                                          </a>
+                                       </div>
+                                       <div class="styles__Item-sc-1adhk5t-1 gOroKF">
+                                          <a class="styles__Container-sc-1fgvnf7-5 gwhLIO" href="/tr/game/gates-of-olympustm/play-for-real">
+                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src="https://s3.bgelmedia.com/hub/games/FqXplqJ5u00IhUp1HWrik1ed6wIrHICDm5QRtxMr.jpg" alt="">
+                                             <span class="styles__Text-sc-1fgvnf7-1 deTYBV">
+                                                <span class="styles__Player-sc-1fgvnf7-2 hkZRTC">Ali ***</span> 
+                                                <div class="text-link styles__GameLink-sc-1fgvnf7-4 cYCUZm"><span class="text-link__label">Gates of Olympus™</span></div>
+                                                oyununda <span class="styles__Amount-sc-1fgvnf7-3 cJOMgU">₺182962</span> kazandı
+                                             </span>
+                                          </a>
+                                       </div>
+                                       <div class="styles__Item-sc-1adhk5t-1 gOroKF">
+                                          <a class="styles__Container-sc-1fgvnf7-5 gwhLIO" href="/tr/game/sweet-bonanza/play-for-real">
+                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src="https://s3.bgelmedia.com/hub/games/RFFmnMSOrY6gg6rEo3PzVD1KuUxbn7vJzHXlDd9o.jpg" alt="">
+                                             <span class="styles__Text-sc-1fgvnf7-1 deTYBV">
+                                                <span class="styles__Player-sc-1fgvnf7-2 hkZRTC">Şıh ******</span> 
+                                                <div class="text-link styles__GameLink-sc-1fgvnf7-4 cYCUZm"><span class="text-link__label">Sweet Bonanza</span></div>
+                                                oyununda <span class="styles__Amount-sc-1fgvnf7-3 cJOMgU">₺168273</span> kazandı
+                                             </span>
+                                          </a>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="ticker__element" style="will-change: transform; position: absolute; left: 0px; top: 0px; transform: translate3d(430px, 0px, 0px);">
+                                    <div class="styles__Line-sc-1adhk5t-5 bjZxfh">
+                                       <div class="styles__Item-sc-1adhk5t-1 gOroKF">
+                                          <a class="styles__Container-sc-1fgvnf7-5 gwhLIO" href="/tr/game/gates-of-olympus-1000/play-for-real">
+                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src="https://s3.bgelmedia.com/hub/games/ZxFoSJpGKQwyqbd6WYJtfn3U1zf3tgah3IqLw21z.jpg" alt="">
+                                             <span class="styles__Text-sc-1fgvnf7-1 deTYBV">
+                                                <span class="styles__Player-sc-1fgvnf7-2 hkZRTC">Yav*******</span> 
+                                                <div class="text-link styles__GameLink-sc-1fgvnf7-4 cYCUZm"><span class="text-link__label">Gates of Olympus 1000™</span></div>
+                                                oyununda <span class="styles__Amount-sc-1fgvnf7-3 cJOMgU">₺802000</span> kazandı
+                                             </span>
+                                          </a>
+                                       </div>
+                                       <div class="styles__Item-sc-1adhk5t-1 gOroKF">
+                                          <a class="styles__Container-sc-1fgvnf7-5 gwhLIO" href="/tr/game/candy-palace/play-for-real">
+                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src="https://s3.bgelmedia.com/hub/games/jPTG9FhxHWevp73vUgpozuwWgA9YmZDc9erKfJhL.jpg" alt="">
+                                             <span class="styles__Text-sc-1fgvnf7-1 deTYBV">
+                                                <span class="styles__Player-sc-1fgvnf7-2 hkZRTC">Emr*</span> 
+                                                <div class="text-link styles__GameLink-sc-1fgvnf7-4 cYCUZm"><span class="text-link__label">Candy Palace</span></div>
+                                                oyununda <span class="styles__Amount-sc-1fgvnf7-3 cJOMgU">₺651550</span> kazandı
+                                             </span>
+                                          </a>
+                                       </div>
+                                       <div class="styles__Item-sc-1adhk5t-1 gOroKF">
+                                          <a class="styles__Container-sc-1fgvnf7-5 gwhLIO" href="/tr/game/sweet-bonanza/play-for-real">
+                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src="https://s3.bgelmedia.com/hub/games/RFFmnMSOrY6gg6rEo3PzVD1KuUxbn7vJzHXlDd9o.jpg" alt="">
+                                             <span class="styles__Text-sc-1fgvnf7-1 deTYBV">
+                                                <span class="styles__Player-sc-1fgvnf7-2 hkZRTC">Hak** ***</span> 
+                                                <div class="text-link styles__GameLink-sc-1fgvnf7-4 cYCUZm"><span class="text-link__label">Sweet Bonanza</span></div>
+                                                oyununda <span class="styles__Amount-sc-1fgvnf7-3 cJOMgU">₺625150</span> kazandı
+                                             </span>
+                                          </a>
+                                       </div>
+                                       <div class="styles__Item-sc-1adhk5t-1 gOroKF">
+                                          <a class="styles__Container-sc-1fgvnf7-5 gwhLIO" href="/tr/game/wanted-dead-or-a-wild/play-for-real">
+                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src="https://s3.bgelmedia.com/hub/games/R2EERzRoE6nUU5oeGz5cfZ4oYeOvNrG6uPlS8krS.jpg" alt="">
+                                             <span class="styles__Text-sc-1fgvnf7-1 deTYBV">
+                                                <span class="styles__Player-sc-1fgvnf7-2 hkZRTC">Sam**</span> 
+                                                <div class="text-link styles__GameLink-sc-1fgvnf7-4 cYCUZm"><span class="text-link__label">Wanted dead or a wild</span></div>
+                                                oyununda <span class="styles__Amount-sc-1fgvnf7-3 cJOMgU">₺272250</span> kazandı
+                                             </span>
+                                          </a>
+                                       </div>
+                                       <div class="styles__Item-sc-1adhk5t-1 gOroKF">
+                                          <a class="styles__Container-sc-1fgvnf7-5 gwhLIO" href="/tr/game/bigger-bass-blizzard-christmas-catch/play-for-real">
+                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src="https://s3.bgelmedia.com/hub/games/1svediNui3DQFjPQsl1UR5Ujnzl7GFw8t3rbCoo2.jpg" alt="">
+                                             <span class="styles__Text-sc-1fgvnf7-1 deTYBV">
+                                                <span class="styles__Player-sc-1fgvnf7-2 hkZRTC">Bil**</span> 
+                                                <div class="text-link styles__GameLink-sc-1fgvnf7-4 cYCUZm"><span class="text-link__label">Bigger Bass Blizzard - Christmas Catch™</span></div>
+                                                oyununda <span class="styles__Amount-sc-1fgvnf7-3 cJOMgU">₺192000</span> kazandı
+                                             </span>
+                                          </a>
+                                       </div>
+                                       <div class="styles__Item-sc-1adhk5t-1 gOroKF">
+                                          <a class="styles__Container-sc-1fgvnf7-5 gwhLIO" href="/tr/game/gates-of-olympustm/play-for-real">
+                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src="https://s3.bgelmedia.com/hub/games/FqXplqJ5u00IhUp1HWrik1ed6wIrHICDm5QRtxMr.jpg" alt="">
+                                             <span class="styles__Text-sc-1fgvnf7-1 deTYBV">
+                                                <span class="styles__Player-sc-1fgvnf7-2 hkZRTC">Ali ***</span> 
+                                                <div class="text-link styles__GameLink-sc-1fgvnf7-4 cYCUZm"><span class="text-link__label">Gates of Olympus™</span></div>
+                                                oyununda <span class="styles__Amount-sc-1fgvnf7-3 cJOMgU">₺182962</span> kazandı
+                                             </span>
+                                          </a>
+                                       </div>
+                                       <div class="styles__Item-sc-1adhk5t-1 gOroKF">
+                                          <a class="styles__Container-sc-1fgvnf7-5 gwhLIO" href="/tr/game/sweet-bonanza/play-for-real">
+                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src="https://s3.bgelmedia.com/hub/games/RFFmnMSOrY6gg6rEo3PzVD1KuUxbn7vJzHXlDd9o.jpg" alt="">
+                                             <span class="styles__Text-sc-1fgvnf7-1 deTYBV">
+                                                <span class="styles__Player-sc-1fgvnf7-2 hkZRTC">Şıh ******</span> 
+                                                <div class="text-link styles__GameLink-sc-1fgvnf7-4 cYCUZm"><span class="text-link__label">Sweet Bonanza</span></div>
+                                                oyununda <span class="styles__Amount-sc-1fgvnf7-3 cJOMgU">₺168273</span> kazandı
+                                             </span>
+                                          </a>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
                      </div>
                   </div>
-                  <div class="owl-dots disabled"></div>
+                  <div class="sport-links" style="">
+                     <div class="sport-links__header">
+                        <span class="sport-links__icon">
+                           <svg width="30" height="28" viewBox="0 0 30 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <circle cx="15.5909" cy="15.7727" r="10.0455" fill="#FFEEDA"></circle>
+                              <path d="M24.1924 4.8076C21.7372 2.35225 18.4724 1 15 1C11.5276 1 8.26276 2.35225 5.8076 4.8076C3.35225 7.26276 2 10.5276 2 14C2 17.4724 3.35225 20.7372 5.8076 23.1924C8.26276 25.6478 11.5276 27 15 27C16.7363 27 18.4206 26.6618 19.9776 26.0169C21.5345 25.372 22.9645 24.4203 24.1924 23.1924C26.6478 20.7372 28 17.4724 28 14C28 10.5276 26.6478 7.26276 24.1924 4.8076ZM19.4608 17.3837C21.4173 15.6653 23.8558 14.6798 26.4571 14.557C26.3367 17.0703 25.3957 19.551 23.6364 21.5593L19.4608 17.3837ZM26.4303 13.0326V13.0334C24.9878 13.0972 23.5795 13.397 22.2326 13.9296C20.8131 14.4908 19.5209 15.2886 18.3817 16.3044L16.0771 14L23.6364 6.44073C25.2999 8.33948 26.2318 10.6605 26.4303 13.0326ZM14.9296 21.2326C14.3972 22.5793 14.0974 23.988 14.0336 25.4303C14.0332 25.4303 14.033 25.4303 14.0326 25.4303C11.6605 25.2318 9.33948 24.2999 7.44073 22.6364L15 15.0771L17.3044 17.3817C16.2886 18.5209 15.4908 19.8131 14.9296 21.2326ZM10.539 10.6163C8.58272 12.3343 6.14343 13.3188 3.54288 13.4426C3.66328 10.9293 4.60413 8.44897 6.36362 6.44073L10.539 10.6163ZM7.44073 5.36362C9.44897 3.60373 11.9299 2.66269 14.443 2.54228C14.32 5.14403 13.3347 7.58272 11.6163 9.53899L7.44073 5.36362ZM15.0704 6.76724C15.6028 5.42055 15.9026 4.01157 15.9664 2.56906H15.9678C18.3393 2.76822 20.6605 3.69954 22.5593 5.36362L15 12.9227L12.6956 10.6183C13.7112 9.47888 14.509 8.18694 15.0704 6.76724ZM3.56966 14.9674C3.56966 14.9672 3.56966 14.9672 3.56966 14.9672C5.01196 14.9032 6.42055 14.6028 7.76724 14.0704C9.18694 13.5092 10.4789 12.7114 11.6183 11.6956L13.9227 14L6.36362 21.5593C4.69994 19.6605 3.76822 17.3393 3.56966 14.9674ZM15.557 25.4573C15.68 22.8556 16.6653 20.4173 18.3837 18.4608L22.5593 22.6364C20.551 24.3959 18.0705 25.3367 15.557 25.4573Z" fill="#FF9E2C" stroke="#FF9E2C" stroke-width="0.5"></path>
+                           </svg>
+                        </span>
+                        <h3 class="sport-links__title">Spor Bahisleri</h3>
+                     </div>
+                     <div class="sport-links__body">
+                        <div class="slick-slider slick-initialized" dir="ltr">
+                           <button type="button" class="slick-arrow slick-prev custom-prev-arrow"></button>
+                           <div class="slick-list" style="padding: 0px;">
+                              <div class="slick-track" style="width: 9552px; opacity: 1; transform: translate3d(-829.5px, 0px, 0px);">
+                                 <div data-index="-8" tabindex="-1" class="slick-slide slick-center slick-cloned" aria-hidden="true">
+                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="/tr/sportsbook?page=/sport/300"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt=""><span class="styles__Name-sc-11gq51y-2 bAojrc">FIFA</span></a></div>
+                                 </div>
+                                 <div data-index="-7" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="/tr/sportsbook?page=/sport/1"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt=""><span class="styles__Name-sc-11gq51y-2 bAojrc">Futbol</span></a></div>
+                                 </div>
+                                 <div data-index="-6" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="/tr/sportsbook?page=/sport/302"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt=""><span class="styles__Name-sc-11gq51y-2 bAojrc">NBA 2K</span></a></div>
+                                 </div>
+                                 <div data-index="-5" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="/tr/sportsbook?page=/sport/5"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt=""><span class="styles__Name-sc-11gq51y-2 bAojrc">Tenis</span></a></div>
+                                 </div>
+                                 <div data-index="-4" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="/tr/sportsbook?page=/sport/23"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt=""><span class="styles__Name-sc-11gq51y-2 bAojrc">Voleybol</span></a></div>
+                                 </div>
+                                 <div data-index="-3" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="/tr/sportsbook?page=/sport/40"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt=""><span class="styles__Name-sc-11gq51y-2 bAojrc">Formula 1</span></a></div>
+                                 </div>
+                                 <div data-index="-2" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="/tr/sportsbook?page=/sport/10"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt=""><span class="styles__Name-sc-11gq51y-2 bAojrc">Boks</span></a></div>
+                                 </div>
+                                 <div data-index="-1" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="/tr/sportsbook?page=/sport/2"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src="https://s3.bgelmedia.com/hub/b2/pages/tCiU94ixK75HVsNriKUD2Gnc5T3AAAgunEEZZbCv.png" alt=""><span class="styles__Name-sc-11gq51y-2 bAojrc">Basketbol</span></a></div>
+                                 </div>
+                                 <div data-index="0" class="slick-slide slick-active slick-center slick-current" tabindex="-1" aria-hidden="false" style="outline: none;">
+                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="/tr/sportsbook?page=/sport/300"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src="https://s3.bgelmedia.com/hub/b2/pages/J2bkL76bdTdDUKBNjxBalitgV6EXdTM9CwXYwRt5.png" alt=""><span class="styles__Name-sc-11gq51y-2 bAojrc">FIFA</span></a></div>
+                                 </div>
+                                 <div data-index="1" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="/tr/sportsbook?page=/sport/1"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src="https://s3.bgelmedia.com/hub/b2/pages/QIV99h2YXPt2aF6vnLsWMOrUEdkiv23BZ3gKRgJ4.png" alt=""><span class="styles__Name-sc-11gq51y-2 bAojrc">Futbol</span></a></div>
+                                 </div>
+                                 <div data-index="2" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="/tr/sportsbook?page=/sport/302"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src="https://s3.bgelmedia.com/hub/b2/pages/fqaDY5HBUd4XPgpS2Bs8JFiIF1drZmtNeGpvunUO.png" alt=""><span class="styles__Name-sc-11gq51y-2 bAojrc">NBA 2K</span></a></div>
+                                 </div>
+                                 <div data-index="3" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="/tr/sportsbook?page=/sport/5"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt=""><span class="styles__Name-sc-11gq51y-2 bAojrc">Tenis</span></a></div>
+                                 </div>
+                                 <div data-index="4" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="/tr/sportsbook?page=/sport/23"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt=""><span class="styles__Name-sc-11gq51y-2 bAojrc">Voleybol</span></a></div>
+                                 </div>
+                                 <div data-index="5" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="/tr/sportsbook?page=/sport/40"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt=""><span class="styles__Name-sc-11gq51y-2 bAojrc">Formula 1</span></a></div>
+                                 </div>
+                                 <div data-index="6" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="/tr/sportsbook?page=/sport/10"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt=""><span class="styles__Name-sc-11gq51y-2 bAojrc">Boks</span></a></div>
+                                 </div>
+                                 <div data-index="7" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="/tr/sportsbook?page=/sport/2"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt=""><span class="styles__Name-sc-11gq51y-2 bAojrc">Basketbol</span></a></div>
+                                 </div>
+                                 <div data-index="8" tabindex="-1" class="slick-slide slick-center slick-cloned" aria-hidden="true">
+                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="/tr/sportsbook?page=/sport/300"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt=""><span class="styles__Name-sc-11gq51y-2 bAojrc">FIFA</span></a></div>
+                                 </div>
+                                 <div data-index="9" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="/tr/sportsbook?page=/sport/1"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt=""><span class="styles__Name-sc-11gq51y-2 bAojrc">Futbol</span></a></div>
+                                 </div>
+                                 <div data-index="10" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="/tr/sportsbook?page=/sport/302"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt=""><span class="styles__Name-sc-11gq51y-2 bAojrc">NBA 2K</span></a></div>
+                                 </div>
+                                 <div data-index="11" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="/tr/sportsbook?page=/sport/5"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt=""><span class="styles__Name-sc-11gq51y-2 bAojrc">Tenis</span></a></div>
+                                 </div>
+                                 <div data-index="12" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="/tr/sportsbook?page=/sport/23"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt=""><span class="styles__Name-sc-11gq51y-2 bAojrc">Voleybol</span></a></div>
+                                 </div>
+                                 <div data-index="13" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="/tr/sportsbook?page=/sport/40"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt=""><span class="styles__Name-sc-11gq51y-2 bAojrc">Formula 1</span></a></div>
+                                 </div>
+                                 <div data-index="14" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="/tr/sportsbook?page=/sport/10"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt=""><span class="styles__Name-sc-11gq51y-2 bAojrc">Boks</span></a></div>
+                                 </div>
+                                 <div data-index="15" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="/tr/sportsbook?page=/sport/2"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt=""><span class="styles__Name-sc-11gq51y-2 bAojrc">Basketbol</span></a></div>
+                                 </div>
+                              </div>
+                           </div>
+                           <button type="button" class="slick-arrow slick-next custom-next-arrow"></button>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="casino-sliders">
+                     <div></div>
+                     <div>
+                        <div class="game-slider casino-sliders__slider">
+                           <div class="game-slider__top-panel">
+                              <div class="game-slider__header">
+                                 <div class="game-slider__title">En popüler</div>
+                              </div>
+                              <div class="game-slider__control">
+                                 <div class="slider-control">
+                                    <div class="slider-control__label">
+                                       <div class="text-link"><span class="text-link__label">Tümünü Göster</span></div>
+                                    </div>
+                                    <div class="slider-control__button-wrap"></div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="slick-slider slick-initialized" dir="ltr">
+                              <button type="button" class="slick-arrow slick-prev custom-prev-arrow"></button>
+                              <div class="slick-list">
+                                 <div class="slick-track" style="width: 24660px; opacity: 1; transform: translate3d(-3200px, 0px, 0px);">
+                                    <div data-index="-20" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Take it while it's HOT</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="-19" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Sweet Bonanza</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="-18" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Fish for Cash</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="-17" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Fruit Fall</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="-16" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Thor vs Loki</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="-15" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Halloween Horrors Megaways</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="-14" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Hunt for Shangri-La</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="-13" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Aviator</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="-12" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Astronaut</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="-11" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__labels"><span class="game-card__jackpot-label">2479998.02 ₺</span></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">100 Burning Hot</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="-10" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Bahsegel Penalty Champion</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="-9" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Spaceman</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="-8" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Halloween Bonanza</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="-7" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Ezugi Live Blackjack</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="-6" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Twin Harlequin</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="-5" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Prison Escape</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="-4" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Ezugi Turkish Roulette</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="-3" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Let it Snow</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="-2" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__labels"><span class="game-card__jackpot-label">2479998.02 ₺</span></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Candy Palace</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="-1" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;https://s3.bgelmedia.com/hub/games/FqXplqJ5u00IhUp1HWrik1ed6wIrHICDm5QRtxMr.jpg&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Gates of Olympus™</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="0" class="slick-slide slick-active slick-current" tabindex="-1" aria-hidden="false" style="outline: none;">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;https://s3.bgelmedia.com/hub/games/ASQdjcZ1jkw15Dth0TGIDJGcyf8C3uCLhKxLNb8L.jpg&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Take it while it's HOT</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="1" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;https://s3.bgelmedia.com/hub/games/RFFmnMSOrY6gg6rEo3PzVD1KuUxbn7vJzHXlDd9o.jpg&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Sweet Bonanza</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="2" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;https://s3.bgelmedia.com/hub/games/YTvCpS9KVYC6CYRbln9siPNjjYwsvr2cvRrUN8k4.jpg&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Fish for Cash</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="3" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Fruit Fall</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="4" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Thor vs Loki</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="5" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Halloween Horrors Megaways</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="6" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Hunt for Shangri-La</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="7" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Aviator</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="8" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Astronaut</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="9" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__labels"><span class="game-card__jackpot-label">2479998.02 ₺</span></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">100 Burning Hot</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="10" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Bahsegel Penalty Champion</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="11" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Spaceman</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="12" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Halloween Bonanza</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="13" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Ezugi Live Blackjack</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="14" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Twin Harlequin</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="15" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Prison Escape</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="16" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Ezugi Turkish Roulette</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="17" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Let it Snow</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="18" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__labels"><span class="game-card__jackpot-label">2479998.02 ₺</span></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Candy Palace</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="19" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Gates of Olympus™</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="20" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Take it while it's HOT</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="21" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Sweet Bonanza</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="22" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Fish for Cash</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="23" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Fruit Fall</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="24" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Thor vs Loki</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="25" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Halloween Horrors Megaways</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="26" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Hunt for Shangri-La</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="27" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Aviator</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="28" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Astronaut</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="29" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__labels"><span class="game-card__jackpot-label">2479998.02 ₺</span></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">100 Burning Hot</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="30" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Bahsegel Penalty Champion</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="31" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Spaceman</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="32" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Halloween Bonanza</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="33" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Ezugi Live Blackjack</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="34" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Twin Harlequin</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="35" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Prison Escape</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="36" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Ezugi Turkish Roulette</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="37" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Let it Snow</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="38" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__labels"><span class="game-card__jackpot-label">2479998.02 ₺</span></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Candy Palace</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="39" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Gates of Olympus™</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <button type="button" class="slick-arrow slick-next custom-next-arrow"></button>
+                           </div>
+                        </div>
+                     </div>
+                     <div></div>
+                     <div></div>
+                     <div></div>
+                     <div>
+                        <div class="game-slider casino-sliders__slider">
+                           <div class="game-slider__top-panel">
+                              <div class="game-slider__header">
+                                 <div class="game-slider__title">Canlı Casino</div>
+                              </div>
+                              <div class="game-slider__control">
+                                 <div class="slider-control">
+                                    <div class="slider-control__label">
+                                       <div class="text-link"><span class="text-link__label">Tümünü Göster</span></div>
+                                    </div>
+                                    <div class="slider-control__button-wrap"></div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="slick-slider slick-initialized" dir="ltr">
+                              <button type="button" class="slick-arrow slick-prev custom-prev-arrow"></button>
+                              <div class="slick-list">
+                                 <div class="slick-track" style="width: 24660px; opacity: 1; transform: translate3d(-3200px, 0px, 0px);">
+                                    <div data-index="-20" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Treasure Island</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="-19" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__labels"><span class="game-card__jackpot-label">2479998.02 ₺</span></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Live Speed Roulette</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="-18" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Snakes &amp; Ladders Live</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="-17" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Funky Time</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="-16" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Monopoly Big Baller</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="-15" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Crazy Time</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="-14" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Football Studio</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="-13" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Immersive Roulette</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="-12" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Football studio dice</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="-11" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Ultimate Sic Bo</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="-10" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Türkçe Lightning Rulet</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="-9" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Ezugi Live Blackjack</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="-8" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Lucky 7</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="-7" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Mega Ball</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="-6" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Casino Malta Roulette</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="-5" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Crazy Coin Flip</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="-4" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">XXXtreme Lightning Roulette</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="-3" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Turkish Roulette</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="-2" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Live Blackjack</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="-1" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;https://s3.bgelmedia.com/hub/games/1hfJMoqUEqATVyRiNPoz5bzNyjRbwxTZCwD1OcF9.jpg&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Live Holdem</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="0" class="slick-slide slick-active slick-current" tabindex="-1" aria-hidden="false" style="outline: none;">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;https://s3.bgelmedia.com/hub/games/UqKmrkUAhjblbinkFK0tA493QGAstwcKoqO8LkkS.jpg&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Treasure Island</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="1" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;https://s3.bgelmedia.com/hub/games/RIoQjFADtgfymqRIGQF89gjfDWK7PKTJuuqUtSiZ.jpg&quot;);"></div>
+                                                   <div class="game-card__labels"><span class="game-card__jackpot-label">2479998.02 ₺</span></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Live Speed Roulette</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="2" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;https://s3.bgelmedia.com/hub/games/QWA8S99FL0P1o6G6HB2fMH4ybcV1jOBk1ken0QZn.jpg&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Snakes &amp; Ladders Live</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="3" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Funky Time</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="4" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Monopoly Big Baller</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="5" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Crazy Time</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="6" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Football Studio</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="7" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Immersive Roulette</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="8" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Football studio dice</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="9" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Ultimate Sic Bo</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="10" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Türkçe Lightning Rulet</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="11" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Ezugi Live Blackjack</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="12" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Lucky 7</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="13" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Mega Ball</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="14" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Casino Malta Roulette</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="15" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Crazy Coin Flip</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="16" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">XXXtreme Lightning Roulette</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="17" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Turkish Roulette</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="18" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Live Blackjack</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="19" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Live Holdem</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="20" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Treasure Island</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="21" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__labels"><span class="game-card__jackpot-label">2479998.02 ₺</span></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Live Speed Roulette</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="22" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Snakes &amp; Ladders Live</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="23" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Funky Time</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="24" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Monopoly Big Baller</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="25" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Crazy Time</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="26" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Football Studio</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="27" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Immersive Roulette</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="28" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Football studio dice</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="29" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Ultimate Sic Bo</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="30" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Türkçe Lightning Rulet</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="31" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Ezugi Live Blackjack</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="32" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Lucky 7</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="33" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Mega Ball</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="34" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Casino Malta Roulette</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="35" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Crazy Coin Flip</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="36" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">XXXtreme Lightning Roulette</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="37" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Turkish Roulette</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="38" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Live Blackjack</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="39" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Live Holdem</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <button type="button" class="slick-arrow slick-next custom-next-arrow"></button>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="casino-sliders__slider">
+                        <h2 class="casino-sliders__title casino-sliders__title--thematic">Oyun Kategorileri</h2>
+                        <div class="casino-sliders__scroll-container casino-sliders__scroll-container--thematic">
+                           <div class="slick-slider thematic-category-slider slick-initialized" dir="ltr">
+                              <div class="slick-list">
+                                 <div class="slick-track" style="width: 18495px; opacity: 1; transform: translate3d(-2226px, 0px, 0px);">
+                                    <div data-index="-15" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href="/tr/casino/bonus-buy"><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src="https://s3.bgelmedia.com/hub/b2/categories/LN6MO3HG1K45gC4rLEGVpzIgRYSeSidCKkRHNsZo.png" alt=""><span class="styles__Name-sc-1yplnui-2 ddtuqH">Freespin</span></a></div>
+                                    </div>
+                                    <div data-index="-14" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href="/tr/casino/megaways"><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src="https://s3.bgelmedia.com/hub/b2/categories/4775YIIPFPZz9kwOKcRZRWL2855cNqcKhEMO3K5k.png" alt=""><span class="styles__Name-sc-1yplnui-2 ddtuqH">Megaways</span></a></div>
+                                    </div>
+                                    <div data-index="-13" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href="/tr/casino/fruits"><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src="https://s3.bgelmedia.com/hub/b2/categories/yiBZ6Tm1ZrhXJUxvQx0ir1oMQbKHFZyRLfpXu3YT.png" alt=""><span class="styles__Name-sc-1yplnui-2 ddtuqH">Meyve</span></a></div>
+                                    </div>
+                                    <div data-index="-12" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href="/tr/casino/gold"><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src="https://s3.bgelmedia.com/hub/b2/categories/MB01bH2yprbgj2pl6vPn1ED5ou14CGNVaBr9u6Ww.png" alt=""><span class="styles__Name-sc-1yplnui-2 ddtuqH">Altın</span></a></div>
+                                    </div>
+                                    <div data-index="-11" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href="/tr/casino/egypt"><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src="https://s3.bgelmedia.com/hub/b2/categories/3mAETjDSIxdKuZ9czJSdbtKUQ9UvRqG7tSKgQtjZ.png" alt=""><span class="styles__Name-sc-1yplnui-2 ddtuqH">Mısır</span></a></div>
+                                    </div>
+                                    <div data-index="-10" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href="/tr/casino/horror"><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src="https://s3.bgelmedia.com/hub/b2/categories/k0NpEvxBmcwQKJTVa1fRGxYAaeVcpAWEPEnqLH9p.png" alt=""><span class="styles__Name-sc-1yplnui-2 ddtuqH">Korku</span></a></div>
+                                    </div>
+                                    <div data-index="-9" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href="/tr/casino/advanture"><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src="https://s3.bgelmedia.com/hub/b2/categories/YnGIVqbr08BiR7lv4LZetxZ6G2e11OZy06NbSLA0.png" alt=""><span class="styles__Name-sc-1yplnui-2 ddtuqH">Macera</span></a></div>
+                                    </div>
+                                    <div data-index="-8" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href="/tr/casino/animals"><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src="https://s3.bgelmedia.com/hub/b2/categories/LpefzDEdJw7WplyFHpuQ9lsvyhLROKFJVzY9r4xL.png" alt=""><span class="styles__Name-sc-1yplnui-2 ddtuqH">Hayvanlar</span></a></div>
+                                    </div>
+                                    <div data-index="-7" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href="/tr/casino/irish"><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src="https://s3.bgelmedia.com/hub/b2/categories/LvVhy8FBNFmngoqDCEaQt8UnpdNNJgV3KTD2tLzg.png" alt=""><span class="styles__Name-sc-1yplnui-2 ddtuqH">İrlanda</span></a></div>
+                                    </div>
+                                    <div data-index="-6" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href="/tr/casino/cartoon"><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src="https://s3.bgelmedia.com/hub/b2/categories/N8EWCiKW1Hgn6BVDwFpHwsBXVQWWznnMUKCUOJoK.png" alt=""><span class="styles__Name-sc-1yplnui-2 ddtuqH">Çizgi Karakterler</span></a></div>
+                                    </div>
+                                    <div data-index="-5" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href="/tr/casino/fantasy"><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src="https://s3.bgelmedia.com/hub/b2/categories/MbwHgowX9sgoZw6wOKbIsrLjvh49lp48YBzjF3QM.png" alt=""><span class="styles__Name-sc-1yplnui-2 ddtuqH">Fantezi</span></a></div>
+                                    </div>
+                                    <div data-index="-4" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href="/tr/casino/myth"><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src="https://s3.bgelmedia.com/hub/b2/categories/PwwIr9wlKn242y79nkEv69Oc0H4gh8tGQ4lrYP4j.png" alt=""><span class="styles__Name-sc-1yplnui-2 ddtuqH">Mitolojik</span></a></div>
+                                    </div>
+                                    <div data-index="-3" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href="/tr/casino/asian"><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src="https://s3.bgelmedia.com/hub/b2/categories/yicQpG6WI0QpyobtoaerArJ7RrHz3OceuoPkgRjp.png" alt=""><span class="styles__Name-sc-1yplnui-2 ddtuqH">Asya</span></a></div>
+                                    </div>
+                                    <div data-index="-2" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href="/tr/casino/classic"><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src="https://s3.bgelmedia.com/hub/b2/categories/sMdPRdim1PDKaXKjnSFbbX8OMEzKRcpodYDbSjv2.png" alt=""><span class="styles__Name-sc-1yplnui-2 ddtuqH">Klasikler</span></a></div>
+                                    </div>
+                                    <div data-index="-1" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href="/tr/casino/newyear"><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src="https://s3.bgelmedia.com/hub/b2/categories/V8tpthHhc45uJ2JUNbNCDO3yWQp4a4eubMBjclq1.png" alt=""><span class="styles__Name-sc-1yplnui-2 ddtuqH">Yeni Yıl</span></a></div>
+                                    </div>
+                                    <div data-index="0" class="slick-slide slick-active slick-current" tabindex="-1" aria-hidden="false" style="outline: none;">
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href="/tr/casino/bonus-buy"><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src="https://s3.bgelmedia.com/hub/b2/categories/LN6MO3HG1K45gC4rLEGVpzIgRYSeSidCKkRHNsZo.png" alt=""><span class="styles__Name-sc-1yplnui-2 ddtuqH">Freespin</span></a></div>
+                                    </div>
+                                    <div data-index="1" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href="/tr/casino/megaways"><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src="https://s3.bgelmedia.com/hub/b2/categories/4775YIIPFPZz9kwOKcRZRWL2855cNqcKhEMO3K5k.png" alt=""><span class="styles__Name-sc-1yplnui-2 ddtuqH">Megaways</span></a></div>
+                                    </div>
+                                    <div data-index="2" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href="/tr/casino/fruits"><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src="https://s3.bgelmedia.com/hub/b2/categories/yiBZ6Tm1ZrhXJUxvQx0ir1oMQbKHFZyRLfpXu3YT.png" alt=""><span class="styles__Name-sc-1yplnui-2 ddtuqH">Meyve</span></a></div>
+                                    </div>
+                                    <div data-index="3" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href="/tr/casino/gold"><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src="https://s3.bgelmedia.com/hub/b2/categories/MB01bH2yprbgj2pl6vPn1ED5ou14CGNVaBr9u6Ww.png" alt=""><span class="styles__Name-sc-1yplnui-2 ddtuqH">Altın</span></a></div>
+                                    </div>
+                                    <div data-index="4" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href="/tr/casino/egypt"><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src="https://s3.bgelmedia.com/hub/b2/categories/3mAETjDSIxdKuZ9czJSdbtKUQ9UvRqG7tSKgQtjZ.png" alt=""><span class="styles__Name-sc-1yplnui-2 ddtuqH">Mısır</span></a></div>
+                                    </div>
+                                    <div data-index="5" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href="/tr/casino/horror"><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src="https://s3.bgelmedia.com/hub/b2/categories/k0NpEvxBmcwQKJTVa1fRGxYAaeVcpAWEPEnqLH9p.png" alt=""><span class="styles__Name-sc-1yplnui-2 ddtuqH">Korku</span></a></div>
+                                    </div>
+                                    <div data-index="6" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href="/tr/casino/advanture"><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src="https://s3.bgelmedia.com/hub/b2/categories/YnGIVqbr08BiR7lv4LZetxZ6G2e11OZy06NbSLA0.png" alt=""><span class="styles__Name-sc-1yplnui-2 ddtuqH">Macera</span></a></div>
+                                    </div>
+                                    <div data-index="7" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href="/tr/casino/animals"><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src="https://s3.bgelmedia.com/hub/b2/categories/LpefzDEdJw7WplyFHpuQ9lsvyhLROKFJVzY9r4xL.png" alt=""><span class="styles__Name-sc-1yplnui-2 ddtuqH">Hayvanlar</span></a></div>
+                                    </div>
+                                    <div data-index="8" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href="/tr/casino/irish"><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src="https://s3.bgelmedia.com/hub/b2/categories/LvVhy8FBNFmngoqDCEaQt8UnpdNNJgV3KTD2tLzg.png" alt=""><span class="styles__Name-sc-1yplnui-2 ddtuqH">İrlanda</span></a></div>
+                                    </div>
+                                    <div data-index="9" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href="/tr/casino/cartoon"><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src="https://s3.bgelmedia.com/hub/b2/categories/N8EWCiKW1Hgn6BVDwFpHwsBXVQWWznnMUKCUOJoK.png" alt=""><span class="styles__Name-sc-1yplnui-2 ddtuqH">Çizgi Karakterler</span></a></div>
+                                    </div>
+                                    <div data-index="10" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href="/tr/casino/fantasy"><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src="https://s3.bgelmedia.com/hub/b2/categories/MbwHgowX9sgoZw6wOKbIsrLjvh49lp48YBzjF3QM.png" alt=""><span class="styles__Name-sc-1yplnui-2 ddtuqH">Fantezi</span></a></div>
+                                    </div>
+                                    <div data-index="11" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href="/tr/casino/myth"><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src="https://s3.bgelmedia.com/hub/b2/categories/PwwIr9wlKn242y79nkEv69Oc0H4gh8tGQ4lrYP4j.png" alt=""><span class="styles__Name-sc-1yplnui-2 ddtuqH">Mitolojik</span></a></div>
+                                    </div>
+                                    <div data-index="12" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href="/tr/casino/asian"><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src="https://s3.bgelmedia.com/hub/b2/categories/yicQpG6WI0QpyobtoaerArJ7RrHz3OceuoPkgRjp.png" alt=""><span class="styles__Name-sc-1yplnui-2 ddtuqH">Asya</span></a></div>
+                                    </div>
+                                    <div data-index="13" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href="/tr/casino/classic"><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src="https://s3.bgelmedia.com/hub/b2/categories/sMdPRdim1PDKaXKjnSFbbX8OMEzKRcpodYDbSjv2.png" alt=""><span class="styles__Name-sc-1yplnui-2 ddtuqH">Klasikler</span></a></div>
+                                    </div>
+                                    <div data-index="14" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href="/tr/casino/newyear"><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src="https://s3.bgelmedia.com/hub/b2/categories/V8tpthHhc45uJ2JUNbNCDO3yWQp4a4eubMBjclq1.png" alt=""><span class="styles__Name-sc-1yplnui-2 ddtuqH">Yeni Yıl</span></a></div>
+                                    </div>
+                                    <div data-index="15" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href="/tr/casino/bonus-buy"><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src="https://s3.bgelmedia.com/hub/b2/categories/LN6MO3HG1K45gC4rLEGVpzIgRYSeSidCKkRHNsZo.png" alt=""><span class="styles__Name-sc-1yplnui-2 ddtuqH">Freespin</span></a></div>
+                                    </div>
+                                    <div data-index="16" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href="/tr/casino/megaways"><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src="https://s3.bgelmedia.com/hub/b2/categories/4775YIIPFPZz9kwOKcRZRWL2855cNqcKhEMO3K5k.png" alt=""><span class="styles__Name-sc-1yplnui-2 ddtuqH">Megaways</span></a></div>
+                                    </div>
+                                    <div data-index="17" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href="/tr/casino/fruits"><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src="https://s3.bgelmedia.com/hub/b2/categories/yiBZ6Tm1ZrhXJUxvQx0ir1oMQbKHFZyRLfpXu3YT.png" alt=""><span class="styles__Name-sc-1yplnui-2 ddtuqH">Meyve</span></a></div>
+                                    </div>
+                                    <div data-index="18" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href="/tr/casino/gold"><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src="https://s3.bgelmedia.com/hub/b2/categories/MB01bH2yprbgj2pl6vPn1ED5ou14CGNVaBr9u6Ww.png" alt=""><span class="styles__Name-sc-1yplnui-2 ddtuqH">Altın</span></a></div>
+                                    </div>
+                                    <div data-index="19" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href="/tr/casino/egypt"><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src="https://s3.bgelmedia.com/hub/b2/categories/3mAETjDSIxdKuZ9czJSdbtKUQ9UvRqG7tSKgQtjZ.png" alt=""><span class="styles__Name-sc-1yplnui-2 ddtuqH">Mısır</span></a></div>
+                                    </div>
+                                    <div data-index="20" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href="/tr/casino/horror"><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src="https://s3.bgelmedia.com/hub/b2/categories/k0NpEvxBmcwQKJTVa1fRGxYAaeVcpAWEPEnqLH9p.png" alt=""><span class="styles__Name-sc-1yplnui-2 ddtuqH">Korku</span></a></div>
+                                    </div>
+                                    <div data-index="21" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href="/tr/casino/advanture"><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src="https://s3.bgelmedia.com/hub/b2/categories/YnGIVqbr08BiR7lv4LZetxZ6G2e11OZy06NbSLA0.png" alt=""><span class="styles__Name-sc-1yplnui-2 ddtuqH">Macera</span></a></div>
+                                    </div>
+                                    <div data-index="22" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href="/tr/casino/animals"><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src="https://s3.bgelmedia.com/hub/b2/categories/LpefzDEdJw7WplyFHpuQ9lsvyhLROKFJVzY9r4xL.png" alt=""><span class="styles__Name-sc-1yplnui-2 ddtuqH">Hayvanlar</span></a></div>
+                                    </div>
+                                    <div data-index="23" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href="/tr/casino/irish"><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src="https://s3.bgelmedia.com/hub/b2/categories/LvVhy8FBNFmngoqDCEaQt8UnpdNNJgV3KTD2tLzg.png" alt=""><span class="styles__Name-sc-1yplnui-2 ddtuqH">İrlanda</span></a></div>
+                                    </div>
+                                    <div data-index="24" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href="/tr/casino/cartoon"><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src="https://s3.bgelmedia.com/hub/b2/categories/N8EWCiKW1Hgn6BVDwFpHwsBXVQWWznnMUKCUOJoK.png" alt=""><span class="styles__Name-sc-1yplnui-2 ddtuqH">Çizgi Karakterler</span></a></div>
+                                    </div>
+                                    <div data-index="25" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href="/tr/casino/fantasy"><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src="https://s3.bgelmedia.com/hub/b2/categories/MbwHgowX9sgoZw6wOKbIsrLjvh49lp48YBzjF3QM.png" alt=""><span class="styles__Name-sc-1yplnui-2 ddtuqH">Fantezi</span></a></div>
+                                    </div>
+                                    <div data-index="26" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href="/tr/casino/myth"><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src="https://s3.bgelmedia.com/hub/b2/categories/PwwIr9wlKn242y79nkEv69Oc0H4gh8tGQ4lrYP4j.png" alt=""><span class="styles__Name-sc-1yplnui-2 ddtuqH">Mitolojik</span></a></div>
+                                    </div>
+                                    <div data-index="27" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href="/tr/casino/asian"><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src="https://s3.bgelmedia.com/hub/b2/categories/yicQpG6WI0QpyobtoaerArJ7RrHz3OceuoPkgRjp.png" alt=""><span class="styles__Name-sc-1yplnui-2 ddtuqH">Asya</span></a></div>
+                                    </div>
+                                    <div data-index="28" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href="/tr/casino/classic"><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src="https://s3.bgelmedia.com/hub/b2/categories/sMdPRdim1PDKaXKjnSFbbX8OMEzKRcpodYDbSjv2.png" alt=""><span class="styles__Name-sc-1yplnui-2 ddtuqH">Klasikler</span></a></div>
+                                    </div>
+                                    <div data-index="29" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href="/tr/casino/newyear"><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src="https://s3.bgelmedia.com/hub/b2/categories/V8tpthHhc45uJ2JUNbNCDO3yWQp4a4eubMBjclq1.png" alt=""><span class="styles__Name-sc-1yplnui-2 ddtuqH">Yeni Yıl</span></a></div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div>
+                        <div class="game-slider casino-sliders__slider">
+                           <div class="game-slider__top-panel">
+                              <div class="game-slider__header">
+                                 <div class="game-slider__title">Türk Kurpiyerler</div>
+                              </div>
+                              <div class="game-slider__control">
+                                 <div class="slider-control">
+                                    <div class="slider-control__label">
+                                       <div class="text-link"><span class="text-link__label">Tümünü Göster</span></div>
+                                    </div>
+                                    <div class="slider-control__button-wrap"></div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="slick-slider slick-initialized" dir="ltr">
+                              <button type="button" class="slick-arrow slick-prev custom-prev-arrow"></button>
+                              <div class="slick-list">
+                                 <div class="slick-track" style="width: 9864px; opacity: 1; transform: translate3d(-1280px, 0px, 0px);">
+                                    <div data-index="-8" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">ONE Blackjack 5 - Turkish</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="-7" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Türkçe Lightning Rulet</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="-6" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Türkçe Blackjack 1</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="-5" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Türkçe Blackjack 2</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="-4" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Turkish Roulette</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="-3" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Turkish Football Studio</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="-2" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Ezugi Turkish Roulette</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="-1" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;https://s3.bgelmedia.com/hub/games/6uYyAVIHdwfbvT0iB4prMqDu82XoHhFAlCpwnzJo.jpg&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Turkish Football Studio</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="0" class="slick-slide slick-active slick-current" tabindex="-1" aria-hidden="false" style="outline: none;">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;https://s3.bgelmedia.com/hub/games/hUzOLKziMcnjPO1xLKVljBfSzmBkYSb9hEhXVxLs.jpg&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">ONE Blackjack 5 - Turkish</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="1" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;https://s3.bgelmedia.com/hub/games/j48fRa8bHKVJJbzt7AMSipwNpCzEOojOwTY3FiQA.jpg&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Türkçe Lightning Rulet</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="2" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;https://s3.bgelmedia.com/hub/games/q8KkM6gFMoFidgZVZxjrYiclIGaUMow9SpiKY6nY.jpg&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Türkçe Blackjack 1</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="3" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Türkçe Blackjack 2</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="4" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Turkish Roulette</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="5" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Turkish Football Studio</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="6" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Ezugi Turkish Roulette</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="7" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Turkish Football Studio</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="8" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">ONE Blackjack 5 - Turkish</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="9" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Türkçe Lightning Rulet</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="10" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Türkçe Blackjack 1</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="11" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Türkçe Blackjack 2</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="12" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Turkish Roulette</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="13" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Turkish Football Studio</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="14" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Ezugi Turkish Roulette</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index="15" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                       <div>
+                                          <div>
+                                             <div class="game-card game-card--touch">
+                                                <div class="game-card__inner">
+                                                   <div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div>
+                                                   <div class="game-card__buttons">
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type="button">
+                                                         <span class="btn__icon">
+                                                            <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class="game-card__name">Turkish Football Studio</span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <button type="button" class="slick-arrow slick-next custom-next-arrow"></button>
+                           </div>
+                        </div>
+                     </div>
+                     <div>
+                        <div class="styles__Container-sc-jceey0-3 vohiO" style="min-height: 280px;">
+                           <div class="styles__Animation-sc-jceey0-0 dyvtJu"></div>
+                        </div>
+                     </div>
+                  </div>
+                  <section class="reg-section">
+                     <div class="reg-section__form-background">
+                        <div class="reg-section__banner" style="background-image: url(&quot;https://s3.bgelmedia.com/hub/b2/banners/YcFS3FILLHxNQj5yCahlnSQbGFcR7UYjTGJqqNXb.jpg&quot;);"></div>
+                        <div class="reg-section__form-wrap">
+                           <div class="reg-section__sub-title">Henüz üye değil misiniz?</div>
+                           <div class="reg-section__title">30.000TL Hoşgeldin Bonusu Sizi Bekliyor!</div>
+                           <form class="form form--in-modal" style="">
+                              <div class="custom-input__container custom-input__container--responsive">
+                                 <div class="custom-input__wrap"><input name="email" class="custom-input__input-field" type="email" placeholder="" autocomplete="off" value=""><span class="custom-input__placeholder">E-posta</span></div>
+                              </div>
+                              <div class="custom-input__container custom-input__container--responsive">
+                                 <div class="custom-input__wrap"><input name="password" class="custom-input__input-field" type="password" placeholder="" value=""><span class="custom-input__placeholder">Şifre</span><span class="custom-input__icon password"><img class="lazy-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="icon"></span></div>
+                              </div>
+                              <div class="styles__Container-sc-sbmxda-0 eeWGBi">
+                                 <div class="custom-checkbox">
+                                    <input name="agreeTermAndConditions" type="checkbox">
+                                    <label>
+                                       <div class="terms-and_cond__label">
+                                          Kayıt olarak&nbsp;
+                                          <div class="modal-link sign-up__termsLink">
+                                             <div class="text-link"><span class="text-link__label">Genel Kurallar</span></div>
+                                          </div>
+                                          &nbsp;'ı kabul ediyor ve 18 yaş üzerinde olduğumu onaylıyorum.
+                                       </div>
+                                    </label>
+                                 </div>
+                                 <a href="https://s3.bgelmedia.com/hub/b2/files/TermsAndConditions-TR.pdf" download="" class="styles__Link-sc-bw3xak-0 gaOKhM">
+                                    <svg id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 537.794 537.795" xml:space="preserve" class="styles__Icon-sc-bw3xak-1 gvLUQm">
+                                       <path fill="#1095b5" d="M463.091,466.114H74.854c-11.857,0-21.497,9.716-21.497,21.497v28.688c0,11.857,9.716,21.496,21.497,21.496h388.084 c11.857,0,21.496-9.716,21.496-21.496v-28.688C484.665,475.677,474.949,466.114,463.091,466.114z"></path>
+                                       <path fill="#1095b5" d="M253.94,427.635c4.208,4.208,9.716,6.35,15.147,6.35c5.508,0,11.016-2.142,15.147-6.35l147.033-147.033 c8.339-8.338,8.339-21.955,0-30.447l-20.349-20.349c-8.339-8.339-21.956-8.339-30.447,0l-75.582,75.659V21.497 C304.889,9.639,295.173,0,283.393,0h-28.688c-11.857,0-21.497,9.562-21.497,21.497v284.044l-75.658-75.659 c-8.339-8.338-22.032-8.338-30.447,0l-20.349,20.349c-8.338,8.338-8.338,22.032,0,30.447L253.94,427.635z"></path>
+                                    </svg>
+                                 </a>
+                              </div>
+                              <button class="btn btn-md btn-primary btn-block form__submit" type="submit"><span class="btn__label">Hesap oluştur</span></button>
+                           </form>
+                           <div class="styles__CaptchaDescription-sc-1g77hbl-0 jAYhSf">Bu Site reCAPTCHA tarafından koruma altındadır ayrıca Google <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Gizlilik Sözleşmesi</a> ve <a href="https://policies.google.com/terms" target="_blank" rel="noopener noreferrer">Kullanım Şartları</a> kuralları geçerlidir.</div>
+                        </div>
+                     </div>
+                  </section>
                </div>
-               <div class="main-button-content ng-scope">
-                  <!-- ngIf: $root.currentTrader.wcOpen && isSpecialEventsOpen -->
-                  <div class="flex-container">
-                     <div class="flex-item"><a class="btn-large mar-5 main-button ng-binding" routerlinkactive="active" href="/sportsbook"><i class="fa fa-list main-icons" aria-hidden="true"></i> Spor A-Z</a></div>
-                     <div class="flex-item"><a class="btn-large mar-5 main-button ng-binding" routerlinkactive="active" href="/livesports"><i class="pg-icons material-icons main-icons">ondemand_video</i> Canlı Bahis</a></div>
-                  </div>
-                  <div class="flex-container">
-                     <div class="flex-item"><a class="btn-large mar-5 main-button ng-binding" routerlinkactive="active" href="/livecasino"><i class="icon cards-fill pg-icons" aria-hidden="true"></i> Canlı Casino</a></div>
-                     <div class="flex-item"><a class="btn-large mar-5 main-button ng-binding" routerlinkactive="active" href="/casino"><i class="icon cherry pg-icons" aria-hidden="true"></i> Casino</a></div>
-                  </div>
-                  <div class="flex-container">
-                     <div class="flex-item"><a class="btn-large mar-5 main-button ng-binding" routerlinkactive="active" href="/virtualsports"><i class="fa fa-futbol-o main-icons" aria-hidden="true"></i> Sanal Bahis</a></div>
-                     <div class="flex-item"><a class="btn-large mar-5 main-button ng-binding" ui-sref="contents({pageUrl:'promotions'})" href="/crash"><i class="fa fa-gamepad pg-icons"></i>Crash Games</a></div>
-                  </div>
-                  <div class="flex-container">
-                     <!-- ngIf: isOpenPoker -->
-                     <div class="flex-item"><a class="btn-large mar-5 main-button" href="/poker" routerlinkactive="active"><i class="pg-icons icon chip"></i> Poker</a></div>
-                     <!-- end ngIf: isOpenPoker -->
-                     <div class="flex-item"><a class="btn-large mar-5 main-button" href="/tombala" routerlinkactive="active"><i class="pg-icons icon spades"></i>  Canlı Tombala</a></div>
-                  </div>
-                  <div class="flex-container">
-                     <div class="flex-item"><a class="btn-large mar-5 main-button ng-binding" href="/tvgames" target="_blank"><i class="material-icons main-icons" aria-hidden="true">tv</i>Canlı Tv</a></div>
-                     <div class="flex-item truncate"><a class="btn-large mar-5 main-button" routerlinkactive="active" href="/promotions"><i class="material-icons main-icons">redeem</i> <span class="truncate ng-binding"> Promosyonlar</span></a></div>
-                     <!-- ngIf: isFifa20Enabled -->
-                  </div>
-               </div>
-               <script>
-               $(document).ready(function() {
-                  $("#sync1").owlCarousel({
-                  items: 1,
-                  nav: true,
-                  autoplay: true,
-                  dots: false,
-                  autoHeight: false,
-                  loop: true,
-                  smartSpeed: 2000,
-                  touchDrag: true,
-                  mouseDrag: true,
-                  margin: 0,
-                  responsiveRefreshRate: 700,
-                  navText: ['<svg width="100%" height="100%" viewBox="0 0 11 20"><path style="fill:none;stroke-width: 1px;stroke: #fff;" d="M9.554,1.001l-8.607,8.607l8.607,8.606"></path></svg>', '<svg width="100%" height="100%" viewBox="0 0 11 20" version="1.1"><path style="fill:none;stroke-width: 1px;stroke: #fff;" d="M1.054,18.214l8.606,-8.606l-8.606,-8.607"></path></svg>'],
-                  });
-               });
-            </script>
             </div>
-            <panel-ticker height="40px" ticker="4" vce-ready="">
-               <div id="ticker_4" class="bmm ticker_cover mobile_ticker marquee_ticker" style="height: 40px;">
-                  <!---->
-                  <div class="ticker marquee-text-wrap">
-                     <div class="marquee-text-content">
-                        <div class="marquee-text-text" style="animation-duration: 247.14s;">
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>G**n ,</span> <img class="ttw_game_img" src="/images/common/assets/images/livecasino/300x200/18190.jpg"> <span> <strong class="game">Crazy Time</strong> oyununda <strong class="bet_amount">₺50</strong>  karşılığı , <strong class="win_amount">₺50,010</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <div class="news">
-                                    <div class="news_inner">Güvenliğiniz için <strong><span style="color: #e03e2d; --darkreader-inline-color: #ff4d38;" data-darkreader-inline-color=""><span style="background-color: #000000; --darkreader-inline-bgcolor: #000000; font-size: 16px;" data-darkreader-inline-bgcolor="">"İki Aşamalı Giriş"</span> </span></strong>&nbsp;aktif ediniz!</div>
-                                 </div>
-                                 <!----><!----><!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>S***l1 ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/17737.jpg"> <span> <strong class="game">Gold Party™</strong> oyununda <strong class="bet_amount">₺2,000</strong>  karşılığı , <strong class="win_amount">₺691,200</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>h*********et ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/6461.jpg"> <span> <strong class="game">40 Burning Hot 6 Reels</strong> oyununda <strong class="bet_amount">₺500</strong>  karşılığı , <strong class="win_amount">₺254,000</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>b****27 ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/19982.jpg"> <span> <strong class="game">Big Bass Splash</strong> oyununda <strong class="bet_amount">₺1,000</strong>  karşılığı , <strong class="win_amount">₺634,200</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>H**n ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/6461.jpg"> <span> <strong class="game">40 Burning Hot 6 Reels</strong> oyununda <strong class="bet_amount">₺150</strong>  karşılığı , <strong class="win_amount">₺120,000</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>E******87 ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/16624.jpg"> <span> <strong class="game">Bigger Bass Bonanza™</strong> oyununda <strong class="bet_amount">₺576</strong>  karşılığı , <strong class="win_amount">₺233,280</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>y**el ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/6461.jpg"> <span> <strong class="game">40 Burning Hot 6 Reels</strong> oyununda <strong class="bet_amount">₺300</strong>  karşılığı , <strong class="win_amount">₺72,900</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>b*******53 ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/20053.jpg"> <span> <strong class="game">Sugar Rush</strong> oyununda <strong class="bet_amount">₺5,000</strong>  karşılığı , <strong class="win_amount">₺171,312</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>o********an ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/20053.jpg"> <span> <strong class="game">Sugar Rush</strong> oyununda <strong class="bet_amount">₺7,500</strong>  karşılığı , <strong class="win_amount">₺58,672</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>S*****er ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/13485.jpg"> <span> <strong class="game">Gates of Olympus™</strong> oyununda <strong class="bet_amount">₺125</strong>  karşılığı , <strong class="win_amount">₺97,500</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>c****81 ,</span> <img class="ttw_game_img" src="/images/common/assets/images/livecasino/300x200/18225.jpg"> <span> <strong class="game">Auto-Roulette</strong> oyununda <strong class="bet_amount">₺4,350</strong>  karşılığı , <strong class="win_amount">₺45,000</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>E********47 ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/26163.jpg"> <span> <strong class="game">Gates of Olympus 1000™</strong> oyununda <strong class="bet_amount">₺10</strong>  karşılığı , <strong class="win_amount">₺150,000</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>N**y ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/21001.jpg"> <span> <strong class="game">Big Bass Keeping it Reel™</strong> oyununda <strong class="bet_amount">₺1,500</strong>  karşılığı , <strong class="win_amount">₺24,399</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>H******31 ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/8888.jpg"> <span> <strong class="game">Sweet Bonanza</strong> oyununda <strong class="bet_amount">₺30,000</strong>  karşılığı , <strong class="win_amount">₺118,995</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>k****16 ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/8888.jpg"> <span> <strong class="game">Sweet Bonanza</strong> oyununda <strong class="bet_amount">₺50</strong>  karşılığı , <strong class="win_amount">₺32,595</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>S*******IM ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/6461.jpg"> <span> <strong class="game">40 Burning Hot 6 Reels</strong> oyununda <strong class="bet_amount">₺300</strong>  karşılığı , <strong class="win_amount">₺60,000</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>A***31 ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/6461.jpg"> <span> <strong class="game">40 Burning Hot 6 Reels</strong> oyununda <strong class="bet_amount">₺250</strong>  karşılığı , <strong class="win_amount">₺22,750</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>d******ey ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/26163.jpg"> <span> <strong class="game">Gates of Olympus 1000™</strong> oyununda <strong class="bet_amount">₺10</strong>  karşılığı , <strong class="win_amount">₺41,000</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>T**sy ,</span> <img class="ttw_game_img" src="/images/common/assets/images/livecasino/300x200/19884.jpg"> <span> <strong class="game">XXXtreme Lightning Roulette</strong> oyununda <strong class="bet_amount">₺380</strong>  karşılığı , <strong class="win_amount">₺40,180</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>S****ap ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/26163.jpg"> <span> <strong class="game">Gates of Olympus 1000™</strong> oyununda <strong class="bet_amount">₺2,000</strong>  karşılığı , <strong class="win_amount">₺121,964</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>S***l1 ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/17737.jpg"> <span> <strong class="game">Gold Party™</strong> oyununda <strong class="bet_amount">₺1,250</strong>  karşılığı , <strong class="win_amount">₺64,500</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>P*********34 ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/20163.jpg"> <span> <strong class="game">Candy Palace</strong> oyununda <strong class="bet_amount">₺8,000</strong>  karşılığı , <strong class="win_amount">₺48,660</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                        </div>
-                        <div class="marquee-text-text" style="animation-duration: 247.14s;">
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>G**n ,</span> <img class="ttw_game_img" src="/images/common/assets/images/livecasino/300x200/18190.jpg"> <span> <strong class="game">Crazy Time</strong> oyununda <strong class="bet_amount">₺50</strong>  karşılığı , <strong class="win_amount">₺50,010</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <div class="news">
-                                    <div class="news_inner">Güvenliğiniz için <strong><span style="color: #e03e2d; --darkreader-inline-color: #ff4d38;" data-darkreader-inline-color=""><span style="background-color: #000000; --darkreader-inline-bgcolor: #000000; font-size: 16px;" data-darkreader-inline-bgcolor="">"İki Aşamalı Giriş"</span> </span></strong>&nbsp;aktif ediniz!</div>
-                                 </div>
-                                 <!----><!----><!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>S***l1 ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/17737.jpg"> <span> <strong class="game">Gold Party™</strong> oyununda <strong class="bet_amount">₺2,000</strong>  karşılığı , <strong class="win_amount">₺691,200</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>h*********et ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/6461.jpg"> <span> <strong class="game">40 Burning Hot 6 Reels</strong> oyununda <strong class="bet_amount">₺500</strong>  karşılığı , <strong class="win_amount">₺254,000</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>b****27 ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/19982.jpg"> <span> <strong class="game">Big Bass Splash</strong> oyununda <strong class="bet_amount">₺1,000</strong>  karşılığı , <strong class="win_amount">₺634,200</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>H**n ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/6461.jpg"> <span> <strong class="game">40 Burning Hot 6 Reels</strong> oyununda <strong class="bet_amount">₺150</strong>  karşılığı , <strong class="win_amount">₺120,000</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>E******87 ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/16624.jpg"> <span> <strong class="game">Bigger Bass Bonanza™</strong> oyununda <strong class="bet_amount">₺576</strong>  karşılığı , <strong class="win_amount">₺233,280</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>y**el ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/6461.jpg"> <span> <strong class="game">40 Burning Hot 6 Reels</strong> oyununda <strong class="bet_amount">₺300</strong>  karşılığı , <strong class="win_amount">₺72,900</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>b*******53 ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/20053.jpg"> <span> <strong class="game">Sugar Rush</strong> oyununda <strong class="bet_amount">₺5,000</strong>  karşılığı , <strong class="win_amount">₺171,312</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>o********an ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/20053.jpg"> <span> <strong class="game">Sugar Rush</strong> oyununda <strong class="bet_amount">₺7,500</strong>  karşılığı , <strong class="win_amount">₺58,672</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>S*****er ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/13485.jpg"> <span> <strong class="game">Gates of Olympus™</strong> oyununda <strong class="bet_amount">₺125</strong>  karşılığı , <strong class="win_amount">₺97,500</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>c****81 ,</span> <img class="ttw_game_img" src="/images/common/assets/images/livecasino/300x200/18225.jpg"> <span> <strong class="game">Auto-Roulette</strong> oyununda <strong class="bet_amount">₺4,350</strong>  karşılığı , <strong class="win_amount">₺45,000</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>E********47 ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/26163.jpg"> <span> <strong class="game">Gates of Olympus 1000™</strong> oyununda <strong class="bet_amount">₺10</strong>  karşılığı , <strong class="win_amount">₺150,000</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>N**y ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/21001.jpg"> <span> <strong class="game">Big Bass Keeping it Reel™</strong> oyununda <strong class="bet_amount">₺1,500</strong>  karşılığı , <strong class="win_amount">₺24,399</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>H******31 ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/8888.jpg"> <span> <strong class="game">Sweet Bonanza</strong> oyununda <strong class="bet_amount">₺30,000</strong>  karşılığı , <strong class="win_amount">₺118,995</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>k****16 ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/8888.jpg"> <span> <strong class="game">Sweet Bonanza</strong> oyununda <strong class="bet_amount">₺50</strong>  karşılığı , <strong class="win_amount">₺32,595</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>S*******IM ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/6461.jpg"> <span> <strong class="game">40 Burning Hot 6 Reels</strong> oyununda <strong class="bet_amount">₺300</strong>  karşılığı , <strong class="win_amount">₺60,000</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>A***31 ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/6461.jpg"> <span> <strong class="game">40 Burning Hot 6 Reels</strong> oyununda <strong class="bet_amount">₺250</strong>  karşılığı , <strong class="win_amount">₺22,750</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>d******ey ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/26163.jpg"> <span> <strong class="game">Gates of Olympus 1000™</strong> oyununda <strong class="bet_amount">₺10</strong>  karşılığı , <strong class="win_amount">₺41,000</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>T**sy ,</span> <img class="ttw_game_img" src="/images/common/assets/images/livecasino/300x200/19884.jpg"> <span> <strong class="game">XXXtreme Lightning Roulette</strong> oyununda <strong class="bet_amount">₺380</strong>  karşılığı , <strong class="win_amount">₺40,180</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>S****ap ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/26163.jpg"> <span> <strong class="game">Gates of Olympus 1000™</strong> oyununda <strong class="bet_amount">₺2,000</strong>  karşılığı , <strong class="win_amount">₺121,964</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>S***l1 ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/17737.jpg"> <span> <strong class="game">Gold Party™</strong> oyununda <strong class="bet_amount">₺1,250</strong>  karşılığı , <strong class="win_amount">₺64,500</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>P*********34 ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/20163.jpg"> <span> <strong class="game">Candy Palace</strong> oyununda <strong class="bet_amount">₺8,000</strong>  karşılığı , <strong class="win_amount">₺48,660</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                        </div>
-                        <div class="marquee-text-text" style="animation-duration: 247.14s;">
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>G**n ,</span> <img class="ttw_game_img" src="/images/common/assets/images/livecasino/300x200/18190.jpg"> <span> <strong class="game">Crazy Time</strong> oyununda <strong class="bet_amount">₺50</strong>  karşılığı , <strong class="win_amount">₺50,010</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <div class="news">
-                                    <div class="news_inner">Güvenliğiniz için <strong><span style="color: #e03e2d; --darkreader-inline-color: #ff4d38;" data-darkreader-inline-color=""><span style="background-color: #000000; --darkreader-inline-bgcolor: #000000; font-size: 16px;" data-darkreader-inline-bgcolor="">"İki Aşamalı Giriş"</span> </span></strong>&nbsp;aktif ediniz!</div>
-                                 </div>
-                                 <!----><!----><!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>S***l1 ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/17737.jpg"> <span> <strong class="game">Gold Party™</strong> oyununda <strong class="bet_amount">₺2,000</strong>  karşılığı , <strong class="win_amount">₺691,200</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>h*********et ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/6461.jpg"> <span> <strong class="game">40 Burning Hot 6 Reels</strong> oyununda <strong class="bet_amount">₺500</strong>  karşılığı , <strong class="win_amount">₺254,000</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>b****27 ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/19982.jpg"> <span> <strong class="game">Big Bass Splash</strong> oyununda <strong class="bet_amount">₺1,000</strong>  karşılığı , <strong class="win_amount">₺634,200</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>H**n ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/6461.jpg"> <span> <strong class="game">40 Burning Hot 6 Reels</strong> oyununda <strong class="bet_amount">₺150</strong>  karşılığı , <strong class="win_amount">₺120,000</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>E******87 ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/16624.jpg"> <span> <strong class="game">Bigger Bass Bonanza™</strong> oyununda <strong class="bet_amount">₺576</strong>  karşılığı , <strong class="win_amount">₺233,280</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>y**el ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/6461.jpg"> <span> <strong class="game">40 Burning Hot 6 Reels</strong> oyununda <strong class="bet_amount">₺300</strong>  karşılığı , <strong class="win_amount">₺72,900</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>b*******53 ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/20053.jpg"> <span> <strong class="game">Sugar Rush</strong> oyununda <strong class="bet_amount">₺5,000</strong>  karşılığı , <strong class="win_amount">₺171,312</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>o********an ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/20053.jpg"> <span> <strong class="game">Sugar Rush</strong> oyununda <strong class="bet_amount">₺7,500</strong>  karşılığı , <strong class="win_amount">₺58,672</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>S*****er ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/13485.jpg"> <span> <strong class="game">Gates of Olympus™</strong> oyununda <strong class="bet_amount">₺125</strong>  karşılığı , <strong class="win_amount">₺97,500</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>c****81 ,</span> <img class="ttw_game_img" src="/images/common/assets/images/livecasino/300x200/18225.jpg"> <span> <strong class="game">Auto-Roulette</strong> oyununda <strong class="bet_amount">₺4,350</strong>  karşılığı , <strong class="win_amount">₺45,000</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>E********47 ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/26163.jpg"> <span> <strong class="game">Gates of Olympus 1000™</strong> oyununda <strong class="bet_amount">₺10</strong>  karşılığı , <strong class="win_amount">₺150,000</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>N**y ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/21001.jpg"> <span> <strong class="game">Big Bass Keeping it Reel™</strong> oyununda <strong class="bet_amount">₺1,500</strong>  karşılığı , <strong class="win_amount">₺24,399</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>H******31 ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/8888.jpg"> <span> <strong class="game">Sweet Bonanza</strong> oyununda <strong class="bet_amount">₺30,000</strong>  karşılığı , <strong class="win_amount">₺118,995</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>k****16 ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/8888.jpg"> <span> <strong class="game">Sweet Bonanza</strong> oyununda <strong class="bet_amount">₺50</strong>  karşılığı , <strong class="win_amount">₺32,595</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>S*******IM ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/6461.jpg"> <span> <strong class="game">40 Burning Hot 6 Reels</strong> oyununda <strong class="bet_amount">₺300</strong>  karşılığı , <strong class="win_amount">₺60,000</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>A***31 ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/6461.jpg"> <span> <strong class="game">40 Burning Hot 6 Reels</strong> oyununda <strong class="bet_amount">₺250</strong>  karşılığı , <strong class="win_amount">₺22,750</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>d******ey ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/26163.jpg"> <span> <strong class="game">Gates of Olympus 1000™</strong> oyununda <strong class="bet_amount">₺10</strong>  karşılığı , <strong class="win_amount">₺41,000</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>T**sy ,</span> <img class="ttw_game_img" src="/images/common/assets/images/livecasino/300x200/19884.jpg"> <span> <strong class="game">XXXtreme Lightning Roulette</strong> oyununda <strong class="bet_amount">₺380</strong>  karşılığı , <strong class="win_amount">₺40,180</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>S****ap ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/26163.jpg"> <span> <strong class="game">Gates of Olympus 1000™</strong> oyununda <strong class="bet_amount">₺2,000</strong>  karşılığı , <strong class="win_amount">₺121,964</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>S***l1 ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/17737.jpg"> <span> <strong class="game">Gold Party™</strong> oyununda <strong class="bet_amount">₺1,250</strong>  karşılığı , <strong class="win_amount">₺64,500</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>P*********34 ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/20163.jpg"> <span> <strong class="game">Candy Palace</strong> oyununda <strong class="bet_amount">₺8,000</strong>  karşılığı , <strong class="win_amount">₺48,660</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                        </div>
-                        <div class="marquee-text-text" style="animation-duration: 247.14s;">
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>G**n ,</span> <img class="ttw_game_img" src="/images/common/assets/images/livecasino/300x200/18190.jpg"> <span> <strong class="game">Crazy Time</strong> oyununda <strong class="bet_amount">₺50</strong>  karşılığı , <strong class="win_amount">₺50,010</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <div class="news">
-                                    <div class="news_inner">Güvenliğiniz için <strong><span style="color: #e03e2d; --darkreader-inline-color: #ff4d38;" data-darkreader-inline-color=""><span style="background-color: #000000; --darkreader-inline-bgcolor: #000000; font-size: 16px;" data-darkreader-inline-bgcolor="">"İki Aşamalı Giriş"</span> </span></strong>&nbsp;aktif ediniz!</div>
-                                 </div>
-                                 <!----><!----><!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>S***l1 ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/17737.jpg"> <span> <strong class="game">Gold Party™</strong> oyununda <strong class="bet_amount">₺2,000</strong>  karşılığı , <strong class="win_amount">₺691,200</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>h*********et ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/6461.jpg"> <span> <strong class="game">40 Burning Hot 6 Reels</strong> oyununda <strong class="bet_amount">₺500</strong>  karşılığı , <strong class="win_amount">₺254,000</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>b****27 ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/19982.jpg"> <span> <strong class="game">Big Bass Splash</strong> oyununda <strong class="bet_amount">₺1,000</strong>  karşılığı , <strong class="win_amount">₺634,200</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>H**n ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/6461.jpg"> <span> <strong class="game">40 Burning Hot 6 Reels</strong> oyununda <strong class="bet_amount">₺150</strong>  karşılığı , <strong class="win_amount">₺120,000</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>E******87 ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/16624.jpg"> <span> <strong class="game">Bigger Bass Bonanza™</strong> oyununda <strong class="bet_amount">₺576</strong>  karşılığı , <strong class="win_amount">₺233,280</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>y**el ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/6461.jpg"> <span> <strong class="game">40 Burning Hot 6 Reels</strong> oyununda <strong class="bet_amount">₺300</strong>  karşılığı , <strong class="win_amount">₺72,900</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>b*******53 ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/20053.jpg"> <span> <strong class="game">Sugar Rush</strong> oyununda <strong class="bet_amount">₺5,000</strong>  karşılığı , <strong class="win_amount">₺171,312</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>o********an ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/20053.jpg"> <span> <strong class="game">Sugar Rush</strong> oyununda <strong class="bet_amount">₺7,500</strong>  karşılığı , <strong class="win_amount">₺58,672</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>S*****er ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/13485.jpg"> <span> <strong class="game">Gates of Olympus™</strong> oyununda <strong class="bet_amount">₺125</strong>  karşılığı , <strong class="win_amount">₺97,500</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>c****81 ,</span> <img class="ttw_game_img" src="/images/common/assets/images/livecasino/300x200/18225.jpg"> <span> <strong class="game">Auto-Roulette</strong> oyununda <strong class="bet_amount">₺4,350</strong>  karşılığı , <strong class="win_amount">₺45,000</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>E********47 ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/26163.jpg"> <span> <strong class="game">Gates of Olympus 1000™</strong> oyununda <strong class="bet_amount">₺10</strong>  karşılığı , <strong class="win_amount">₺150,000</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>N**y ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/21001.jpg"> <span> <strong class="game">Big Bass Keeping it Reel™</strong> oyununda <strong class="bet_amount">₺1,500</strong>  karşılığı , <strong class="win_amount">₺24,399</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>H******31 ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/8888.jpg"> <span> <strong class="game">Sweet Bonanza</strong> oyununda <strong class="bet_amount">₺30,000</strong>  karşılığı , <strong class="win_amount">₺118,995</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>k****16 ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/8888.jpg"> <span> <strong class="game">Sweet Bonanza</strong> oyununda <strong class="bet_amount">₺50</strong>  karşılığı , <strong class="win_amount">₺32,595</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>S*******IM ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/6461.jpg"> <span> <strong class="game">40 Burning Hot 6 Reels</strong> oyununda <strong class="bet_amount">₺300</strong>  karşılığı , <strong class="win_amount">₺60,000</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>A***31 ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/6461.jpg"> <span> <strong class="game">40 Burning Hot 6 Reels</strong> oyununda <strong class="bet_amount">₺250</strong>  karşılığı , <strong class="win_amount">₺22,750</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>d******ey ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/26163.jpg"> <span> <strong class="game">Gates of Olympus 1000™</strong> oyununda <strong class="bet_amount">₺10</strong>  karşılığı , <strong class="win_amount">₺41,000</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>T**sy ,</span> <img class="ttw_game_img" src="/images/common/assets/images/livecasino/300x200/19884.jpg"> <span> <strong class="game">XXXtreme Lightning Roulette</strong> oyununda <strong class="bet_amount">₺380</strong>  karşılığı , <strong class="win_amount">₺40,180</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>S****ap ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/26163.jpg"> <span> <strong class="game">Gates of Olympus 1000™</strong> oyununda <strong class="bet_amount">₺2,000</strong>  karşılığı , <strong class="win_amount">₺121,964</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>S***l1 ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/17737.jpg"> <span> <strong class="game">Gold Party™</strong> oyununda <strong class="bet_amount">₺1,250</strong>  karşılığı , <strong class="win_amount">₺64,500</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div class="marquee_news">
-                              <div class="ticker_content_cover">
-                                 <!----><!---->
-                                 <div class="news">
-                                    <div class="bmm ticker_top_winners">
-                                       <div class="ttw_inner"><span>P*********34 ,</span> <img class="ttw_game_img" src="/images/common/assets/images/casino/300x200/20163.jpg"> <span> <strong class="game">Candy Palace</strong> oyununda <strong class="bet_amount">₺8,000</strong>  karşılığı , <strong class="win_amount">₺48,660</strong> kazandı. </span></div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </panel-ticker>
-         </div>
-         <div class="ng-star-inserted">
-            
-         </div>
-         <div class="ng-star-inserted"></div>
-         <!----><!---->
-      </app-static-inner-content>
-      <app-static-inner-content contentcode="m_sportsbet">
-         <!---->
-      </app-static-inner-content>
-      <main>
-         <!---->
-         <div id="type1" class="ng-star-inserted" onclick="window.location.href = '/livesports'">
-            <app-main-tabs class="ng-star-inserted">
-               <ul class="main tabs flex-container ng-star-inserted">
-                  <li class="tab flex-item ng-star-inserted">
-                     <a class="active">
-                        <div>
-                           <span class="ng-star-inserted">Canlı </span><!----><!----><!----><!----><!----><!---->
-                        </div>
-                     </a>
-                  </li>
-                  <li class="tab flex-item ng-star-inserted">
-                     <a>
-                        <div>
-                           <!----><span class="ng-star-inserted">Günün Maçları</span><!----><!----><!----><!----><!---->
-                        </div>
-                     </a>
-                  </li>
-                  <li class="tab flex-item ng-star-inserted">
-                     <a>
-                        <div>
-                           <!----><!----><!----><span class="ng-star-inserted">Birazdan Oynanacaklar</span><!----><!----><!---->
-                        </div>
-                     </a>
-                  </li>
-                  <!---->
-               </ul>
-               <!---->
-               <div id="type-live-at-now" class="ng-star-inserted">
-                  <live-at-now class="ng-star-inserted">
-                     <div accordion="" class="liveOverview-modul ng-star-inserted">
-                        <div class="liveOverview-container">
-                           <div accordion="" class="modul-accordion compact-view">
-                              <div class="modul-header" hidden=""><span class="header-text"> Canlı </span><i class="fa fa-chevron-right right"></i></div>
-                              <div class="modul-content">
-                                 <div class="fixture-container">
-                                    <div class="liveOverview-tabs-container tabsAndOtherTab">
-                                       <owl-carousel-o _nghost-lmt-c77="" class="ng-star-inserted">
-                                          <div _ngcontent-lmt-c77="" class="owl-carousel owl-theme owl-loaded owl-responsive owl-drag">
-                                             <div _ngcontent-lmt-c77="" class="owl-stage-outer ng-star-inserted">
-                                                <owl-stage _ngcontent-lmt-c77="" class="ng-tns-c78-4 ng-star-inserted">
-                                                   <div class="ng-tns-c78-4">
-                                                      <div class="owl-stage ng-tns-c78-4" style="width: 1265px; transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s;">
-                                                         <div class="owl-item ng-tns-c78-4 ng-trigger ng-trigger-autoHeight active ng-star-inserted" style="width: 126.5px;">
-                                                            <div class="events ng-star-inserted" style=""><a class="href-item active"><span class="icon"><i class="sport-types-1 st-font-icons"></i></span><span class="type truncate"> Futbol (25) </span></a></div>
-                                                            <!----><!---->
-                                                         </div>
-                                                         <!---->
-                                                         <div class="owl-item ng-tns-c78-4 ng-trigger ng-trigger-autoHeight active ng-star-inserted" style="width: 126.5px;">
-                                                            <div class="events ng-star-inserted" style=""><a class="href-item"><span class="icon"><i class="sport-types-2 st-font-icons"></i></span><span class="type truncate"> Basketbol (12) </span></a></div>
-                                                            <!----><!---->
-                                                         </div>
-                                                         <!---->
-                                                         <div class="owl-item ng-tns-c78-4 ng-trigger ng-trigger-autoHeight active ng-star-inserted" style="width: 126.5px;">
-                                                            <div class="events ng-star-inserted" style=""><a class="href-item"><span class="icon"><i class="sport-types-4 st-font-icons"></i></span><span class="type truncate"> Buz Hokeyi (3) </span></a></div>
-                                                            <!----><!---->
-                                                         </div>
-                                                         <!---->
-                                                         <div class="owl-item ng-tns-c78-4 ng-trigger ng-trigger-autoHeight active ng-star-inserted" style="width: 126.5px;">
-                                                            <div class="events ng-star-inserted" style=""><a class="href-item"><span class="icon"><i class="sport-types-5 st-font-icons"></i></span><span class="type truncate"> Tenis (11) </span></a></div>
-                                                            <!----><!---->
-                                                         </div>
-                                                         <!---->
-                                                         <div class="owl-item ng-tns-c78-4 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 126.5px;">
-                                                            <div class="events ng-star-inserted" style=""><a class="href-item"><span class="icon"><i class="sport-types-23 st-font-icons"></i></span><span class="type truncate"> Voleybol (3) </span></a></div>
-                                                            <!----><!---->
-                                                         </div>
-                                                         <!---->
-                                                         <div class="owl-item ng-tns-c78-4 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 126.5px;">
-                                                            <div class="events ng-star-inserted" style=""><a class="href-item"><span class="icon"><i class="sport-types-19 st-font-icons"></i></span><span class="type truncate"> Snooker (2) </span></a></div>
-                                                            <!----><!---->
-                                                         </div>
-                                                         <!---->
-                                                         <div class="owl-item ng-tns-c78-4 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 126.5px;">
-                                                            <div class="events ng-star-inserted" style=""><a class="href-item"><span class="icon"><i class="sport-types-6 st-font-icons"></i></span><span class="type truncate"> Hentbol (1) </span></a></div>
-                                                            <!----><!---->
-                                                         </div>
-                                                         <!---->
-                                                         <div class="owl-item ng-tns-c78-4 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 126.5px;">
-                                                            <div class="events ng-star-inserted" style=""><a class="href-item"><span class="icon"><i class="sport-types-3 st-font-icons"></i></span><span class="type truncate"> Beyzbol (1) </span></a></div>
-                                                            <!----><!---->
-                                                         </div>
-                                                         <!---->
-                                                         <div class="owl-item ng-tns-c78-4 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 126.5px;">
-                                                            <div class="events ng-star-inserted" style=""><a class="href-item"><span class="icon"><i class="sport-types-20 st-font-icons"></i></span><span class="type truncate"> Masa Tenisi (11) </span></a></div>
-                                                            <!----><!---->
-                                                         </div>
-                                                         <!---->
-                                                         <div class="owl-item ng-tns-c78-4 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 126.5px;">
-                                                            <div class="events ng-star-inserted" style=""><a class="href-item"><span class="icon"><i class="sport-types-21 st-font-icons"></i></span><span class="type truncate"> Kriket (1) </span></a></div>
-                                                            <!----><!---->
-                                                         </div>
-                                                         <!----><!---->
-                                                      </div>
-                                                   </div>
-                                                </owl-stage>
-                                             </div>
-                                             <!---->
-                                             <div _ngcontent-lmt-c77="" class="owl-nav ng-star-inserted">
-                                                <div _ngcontent-lmt-c77="" class="owl-prev disabled"><i class="fa fa-chevron-left"></i></div>
-                                                <div _ngcontent-lmt-c77="" class="owl-next"><i class="fa fa fa-chevron-right"></i></div>
-                                             </div>
-                                             <div _ngcontent-lmt-c77="" class="owl-dots disabled ng-star-inserted">
-                                                <!---->
-                                             </div>
-                                             <!----><!---->
-                                          </div>
-                                       </owl-carousel-o>
-                                       <!---->
-                                    </div>
-                                    <div class="widget-compact-header ng-star-inserted">
-                                       <div class="compact-header-left"></div>
-                                       <div class="compact-header-right">
-                                          <div class="match-market ng-star-inserted">1</div>
-                                          <!---->
-                                          <div class="match-market ng-star-inserted">X</div>
-                                          <!---->
-                                          <div class="match-market ng-star-inserted">2</div>
-                                          <!----><!---->
-                                       </div>
-                                    </div>
-                                    <div class="match-content flex-container ng-star-inserted">
-                                       <a routerlinkactive="active" class="match-header flex-container" href="#">
-                                          <span class="match-title flex-item">
-                                             <div class="team content-left">
-                                                <div class="team-content-left team-name">
-                                                   <div class="team-content-info">
-                                                      <app-teams-logo classes="team-flag">
-                                                         <img class="team-flag ng-star-inserted" src="https://img-cdn001.akamaized.net/ls/crest/medium/23488.png"><!----><!----><!---->
-                                                      </app-teams-logo>
-                                                      <div class="text truncate">Tacikistan</div>
-                                                   </div>
-                                                   <div class="team-content-info">
-                                                      <app-teams-logo classes="team-flag">
-                                                         <img class="team-flag ng-star-inserted" src="https://img-cdn001.akamaized.net/ls/crest/medium/4771.png"><!----><!----><!---->
-                                                      </app-teams-logo>
-                                                      <div class="text truncate">Ürdün</div>
-                                                   </div>
-                                                </div>
-                                                <div class="team-period">
-                                                   <div class="team-period-content">
-                                                      <div class="item ng-star-inserted"><span class="now">0 </span><span class="now"> 1</span></div>
-                                                      <!----><!----><!---->
-                                                   </div>
-                                                </div>
-                                             </div>
-                                             <div class="live-score-panel match-data"></div>
-                                             <div class="date">
-                                                <app-live-favorite classes="material-icons fvrt-add">
-                                       <a href="javascript:;"><i class="fvrt-add material-icons">star_border</i></a></app-live-favorite><b><span class="minutes"> 2. Devre <span class="ng-star-inserted">66:51''</span><!----></span></b><span class="btn other-btn">+315</span><!----></div></span></a>
-                                       <div class="match-header-right flex-container flex-item">
-                                          <a href="javascript:;" bet-button="" class="btn bet-btn flex-item twoRow ng-star-inserted rate-down-small" title="Tacikistan" foid="7844393125">
-                                             <!----><span class="bet-btn-odd">44.49</span>
-                                          </a>
-                                          <!----><!---->
-                                          <a href="javascript:;" bet-button="" class="btn bet-btn flex-item twoRow ng-star-inserted rate-down-small" title="Beraberlik" foid="7844393126">
-                                             <!----><span class="bet-btn-odd">6.43</span>
-                                          </a>
-                                          <!----><!---->
-                                          <a href="javascript:;" bet-button="" class="btn bet-btn flex-item twoRow ng-star-inserted rate-down-small" title="Ürdün" foid="7844393127">
-                                             <!----><span class="bet-btn-odd">1.15</span>
-                                          </a>
-                                          <!----><!----><!----><!----><!----><!---->
-                                       </div>
-                                    </div>
-                                    <!----><!----><!----><!---->
-                                    <div class="match-content flex-container ng-star-inserted">
-                                       <a routerlinkactive="active" class="match-header flex-container" href="#">
-                                          <span class="match-title flex-item">
-                                             <div class="team content-left">
-                                                <div class="team-content-left team-name">
-                                                   <div class="team-content-info">
-                                                      <app-teams-logo classes="team-flag">
-                                                         <img class="team-flag ng-star-inserted" src="https://img-cdn001.akamaized.net/ls/crest/medium/25837.png"><!----><!----><!---->
-                                                      </app-teams-logo>
-                                                      <div class="text truncate">NK Gosk Gabela</div>
-                                                   </div>
-                                                   <div class="team-content-info">
-                                                      <app-teams-logo classes="team-flag">
-                                                         <img class="team-flag ng-star-inserted" src="https://img-cdn001.akamaized.net/ls/crest/medium/258743.png"><!----><!----><!---->
-                                                      </app-teams-logo>
-                                                      <div class="text truncate">Nk Jadran Lp</div>
-                                                   </div>
-                                                </div>
-                                                <div class="team-period">
-                                                   <div class="team-period-content">
-                                                      <div class="item ng-star-inserted"><span class="now">0 </span><span class="now"> 3</span></div>
-                                                      <!----><!----><!---->
-                                                   </div>
-                                                </div>
-                                             </div>
-                                             <div class="live-score-panel match-data"></div>
-                                             <div class="date">
-                                                <app-live-favorite classes="material-icons fvrt-add">
-                                       <a href="javascript:;"><i class="fvrt-add material-icons">star_border</i></a></app-live-favorite><b><span class="minutes"> Devre Arası <span class="ng-star-inserted">45:00''</span><!----></span></b><span class="btn other-btn">+108</span><!----></div></span></a>
-                                       <div class="match-header-right flex-container flex-item">
-                                          <a href="javascript:;" bet-button="" class="btn bet-btn flex-item twoRow ng-star-inserted" title="NK Gosk Gabela" foid="7857131830">
-                                             <!----><span class="bet-btn-odd">98.13</span>
-                                          </a>
-                                          <!----><!---->
-                                          <a href="javascript:;" bet-button="" class="btn bet-btn flex-item twoRow ng-star-inserted" title="Beraberlik" foid="7857131831">
-                                             <!----><span class="bet-btn-odd">32.38</span>
-                                          </a>
-                                          <!----><!---->
-                                          <a href="javascript:;" bet-button="" class="btn bet-btn flex-item twoRow ng-star-inserted" title="Nk Jadran Lp" foid="7857131832">
-                                             <!----><span class="bet-btn-odd">1.01</span>
-                                          </a>
-                                          <!----><!----><!----><!----><!----><!---->
-                                       </div>
-                                    </div>
-                                    <!----><!---->
-                                    <div class="match-content flex-container ng-star-inserted">
-                                       <a routerlinkactive="active" class="match-header flex-container" href="#">
-                                          <span class="match-title flex-item">
-                                             <div class="team content-left">
-                                                <div class="team-content-left team-name">
-                                                   <div class="team-content-info">
-                                                      <app-teams-logo classes="team-flag">
-                                                         <img class="team-flag ng-star-inserted" src="https://img-cdn001.akamaized.net/ls/crest/medium/35607.png"><!----><!----><!---->
-                                                      </app-teams-logo>
-                                                      <div class="text truncate">BG Pat. Uni. FC</div>
-                                                   </div>
-                                                   <div class="team-content-info">
-                                                      <app-teams-logo classes="team-flag">
-                                                         <img class="team-flag ng-star-inserted" src="https://img-cdn001.akamaized.net/ls/crest/medium/3141.png"><!----><!----><!---->
-                                                      </app-teams-logo>
-                                                      <div class="text truncate">Cerezo Osaka</div>
-                                                   </div>
-                                                </div>
-                                                <div class="team-period">
-                                                   <div class="team-period-content">
-                                                      <div class="item ng-star-inserted"><span class="now">1 </span><span class="now"> 1</span></div>
-                                                      <!----><!----><!---->
-                                                   </div>
-                                                </div>
-                                             </div>
-                                             <div class="live-score-panel match-data"></div>
-                                             <div class="date">
-                                                <app-live-favorite classes="material-icons fvrt-add">
-                                       <a href="javascript:;"><i class="fvrt-add material-icons">star_border</i></a></app-live-favorite><b><span class="minutes"> Devre Arası <span class="ng-star-inserted">45:00''</span><!----></span></b><span class="btn other-btn">+125</span><!----></div></span></a>
-                                       <div class="match-header-right flex-container flex-item">
-                                          <a href="javascript:;" bet-button="" class="btn bet-btn flex-item twoRow rate-up-small ng-star-inserted" title="BG Pathum United FC" foid="7853659115">
-                                             <!----><span class="bet-btn-odd">5.27</span>
-                                          </a>
-                                          <!----><!---->
-                                          <a href="javascript:;" bet-button="" class="btn bet-btn flex-item twoRow rate-down-small ng-star-inserted" title="Beraberlik" foid="7853659116">
-                                             <!----><span class="bet-btn-odd">2.88</span>
-                                          </a>
-                                          <!----><!---->
-                                          <a href="javascript:;" bet-button="" class="btn bet-btn flex-item twoRow rate-down-small ng-star-inserted" title="Cerezo Osaka" foid="7853659117">
-                                             <!----><span class="bet-btn-odd">1.95</span>
-                                          </a>
-                                          <!----><!----><!----><!----><!----><!---->
-                                       </div>
-                                    </div>
-                                    <!----><!---->
-                                    <div class="match-content flex-container ng-star-inserted">
-                                       <a routerlinkactive="active" class="match-header flex-container" href="#">
-                                          <span class="match-title flex-item">
-                                             <div class="team content-left">
-                                                <div class="team-content-left team-name">
-                                                   <div class="team-content-info">
-                                                      <app-teams-logo classes="team-flag">
-                                                         <img class="team-flag ng-star-inserted" src="https://img-cdn001.akamaized.net/ls/crest/medium/2052.png"><!----><!----><!---->
-                                                      </app-teams-logo>
-                                                      <div class="text truncate">Grazer AK</div>
-                                                   </div>
-                                                   <div class="team-content-info">
-                                                      <app-teams-logo classes="team-flag">
-                                                         <img class="team-flag ng-star-inserted" src="https://img-cdn001.akamaized.net/ls/crest/medium/2067.png"><!----><!----><!---->
-                                                      </app-teams-logo>
-                                                      <div class="text truncate">KSV 1919</div>
-                                                   </div>
-                                                </div>
-                                                <div class="team-period">
-                                                   <div class="team-period-content">
-                                                      <div class="item ng-star-inserted"><span class="now">0 </span><span class="now"> 0</span></div>
-                                                      <!----><!----><!---->
-                                                   </div>
-                                                </div>
-                                             </div>
-                                             <div class="live-score-panel match-data"></div>
-                                             <div class="date">
-                                                <app-live-favorite classes="material-icons fvrt-add">
-                                       <a href="javascript:;"><i class="fvrt-add material-icons">star_border</i></a></app-live-favorite><b><span class="minutes"> 1. Devre <span class="ng-star-inserted">25:53''</span><!----></span></b><span class="btn other-btn">+283</span><!----></div></span></a>
-                                       <div class="match-header-right flex-container flex-item">
-                                          <a href="javascript:;" bet-button="" class="btn bet-btn flex-item twoRow ng-star-inserted" title="Grazer AK" foid="7853297274">
-                                             <!----><span class="bet-btn-odd">1.81</span>
-                                          </a>
-                                          <!----><!---->
-                                          <a href="javascript:;" bet-button="" class="btn bet-btn flex-item twoRow ng-star-inserted" title="Beraberlik" foid="7853297275">
-                                             <!----><span class="bet-btn-odd">3.62</span>
-                                          </a>
-                                          <!----><!---->
-                                          <a href="javascript:;" bet-button="" class="btn bet-btn flex-item twoRow ng-star-inserted" title="KSV 1919" foid="7853297276">
-                                             <!----><span class="bet-btn-odd">4.50</span>
-                                          </a>
-                                          <!----><!----><!----><!----><!----><!---->
-                                       </div>
-                                    </div>
-                                    <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
-                                 </div>
-                                 <div class="ng-star-inserted"><a routerlinkactive="active" class="show-more-other" href="#">Tümünü Göster</a></div>
-                                 <!---->
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <!----><!----><!---->
-                  </live-at-now>
-                  <!---->
-               </div>
-               <!----><!----><!---->
-               <div id="type-today-matches" hidden="" class="ng-star-inserted">
-                  <todays-sport-types class="ng-star-inserted">
-                     <div accordion="" class="modul-accordion ng-star-inserted">
-                        <div class="modul-header" hidden=""><span class="header-text"> Günün Maçları </span><i class="fa fa-chevron-right right"></i></div>
-                        <div class="modul-content">
-                           <div class="list-btn-cont">
-                              <a class="btn list-btn flex-container ng-star-inserted" href="#"><i class="pg-icons sport-types-1 svg-font-icons"></i><span class="flex-item text">Futbol</span><span class="count">151</span></a><!----><!----><a class="btn list-btn flex-container ng-star-inserted" href="#"><i class="pg-icons sport-types-137 svg-font-icons"></i><span class="flex-item text">e-Futbol</span><span class="count">15</span></a><!----><!----><a class="btn list-btn flex-container ng-star-inserted" href="#"><i class="pg-icons sport-types-2 svg-font-icons"></i><span class="flex-item text">Basketbol</span><span class="count">63</span></a><!----><!----><a class="btn list-btn flex-container ng-star-inserted" href="#"><i class="pg-icons sport-types-4 svg-font-icons"></i><span class="flex-item text">Buz Hokeyi</span><span class="count">106</span></a><a href="#" class="btn list-btn flex-container ng-star-inserted"><i class="pg-icons sport-types-1 svg-font-icons"></i><span class="flex-item text">Sanal Sporlar</span></a><!----><!----><!----><!----><a class="btn list-btn flex-container ng-star-inserted" href="#"><i class="pg-icons sport-types-5 svg-font-icons"></i><span class="flex-item text">Tenis</span><span class="count">76</span></a><!----><!----><a class="btn list-btn flex-container ng-star-inserted" href="#"><i class="pg-icons sport-types-23 svg-font-icons"></i><span class="flex-item text">Voleybol</span><span class="count">19</span></a><!----><!----><a class="btn list-btn flex-container ng-star-inserted" href="#"><i class="pg-icons sport-types-19 svg-font-icons"></i><span class="flex-item text">Snooker</span><span class="count">4</span></a><!----><!----><a class="btn list-btn flex-container ng-star-inserted" href="#"><i class="pg-icons sport-types-6 svg-font-icons"></i><span class="flex-item text">Hentbol</span><span class="count">31</span></a><!----><!----><a class="btn list-btn flex-container ng-star-inserted" href="#"><i class="pg-icons sport-types-3 svg-font-icons"></i><span class="flex-item text">Beyzbol</span><span class="count">2</span></a><!----><!----><a class="btn list-btn flex-container ng-star-inserted" href="#"><i class="pg-icons sport-types-29 svg-font-icons"></i><span class="flex-item text">Salon Futbolu</span><span class="count">3</span></a><!----><!----><a class="btn list-btn flex-container ng-star-inserted" href="#"><i class="pg-icons sport-types-12 svg-font-icons"></i><span class="flex-item text">Ragbi</span><span class="count">3</span></a><!----><!----><a class="btn list-btn flex-container ng-star-inserted" href="#"><i class="pg-icons sport-types-22 svg-font-icons"></i><span class="flex-item text">Dart</span><span class="count">19</span></a><!----><!----><a class="btn list-btn flex-container ng-star-inserted" href="#"><i class="pg-icons sport-types-20 svg-font-icons"></i><span class="flex-item text">Masa Tenisi</span><span class="count">130</span></a><!----><!----><a class="btn list-btn flex-container ng-star-inserted" href="#"><i class="pg-icons sport-types-21 svg-font-icons"></i><span class="flex-item text">Kriket</span><span class="count">5</span></a><!----><!----><a class="btn list-btn flex-container ng-star-inserted" href="#"><i class="pg-icons sport-types-15 svg-font-icons"></i><span class="flex-item text">Bandy</span><span class="count">8</span></a><!----><!----><!----><!---->
-                           </div>
-                        </div>
-                     </div>
-                     <!----><!----><!---->
-                  </todays-sport-types>
-                  <!---->
-               </div>
-               <!----><!----><!---->
-               <div id="type-upcoming-matches" hidden="" class="ng-star-inserted">
-                  <upcoming-events class="ng-star-inserted">
-                     <div id="type11">
-                        <div accordion="" class="modul-accordion compact-view">
-                           <div class="modul-header" hidden=""><span class="header-text"> Birazdan Oynanacaklar </span><i class="fa fa-chevron-right right"></i></div>
-                           <div class="modul-content">
-                              <div class="fixture-container ng-star-inserted">
-                                 <!---->
-                                 <select id="btgsList" class="browser-default bet-type-select flex-item ng-untouched ng-pristine ng-valid ng-star-inserted">
-                                    <optgroup label="Ana Bahisler" class="ng-star-inserted">
-                                       <option value="5715" class="ng-star-inserted">1x2 </option>
-                                       <!----><!----><!----><!---->
-                                       <option value="5645" class="ng-star-inserted">Çifte Şans </option>
-                                       <!----><!---->
-                                       <option value="5728" class="ng-star-inserted">Doğru Skor </option>
-                                       <!----><!---->
-                                       <option value="6598" class="ng-star-inserted">Finali Hangi Takım Kazanır? </option>
-                                       <!----><!---->
-                                       <option value="5846" class="ng-star-inserted">İlk Yarı/Maç Sonucu </option>
-                                       <!----><!---->
-                                       <option value="5839" class="ng-star-inserted">Her İki Takım da Gol Atar </option>
-                                       <!----><!----><!----><!---->
-                                       <option value="5870" class="ng-star-inserted">Avrupa Handikap  </option>
-                                       <!----><!----><!---->
-                                    </optgroup>
-                                    <optgroup label="Gol Bahisleri" class="ng-star-inserted">
-                                       <option value="5714" class="ng-star-inserted">Tek/Çift </option>
-                                       <!----><!---->
-                                       <option value="5733" class="ng-star-inserted">Ev Sahibi Kazanırsa İade </option>
-                                       <!----><!---->
-                                       <option value="5718" class="ng-star-inserted">Deplasman Kazanırsa İade </option>
-                                       <!----><!---->
-                                       <option value="5698" class="ng-star-inserted">Ev Sahibi Toplam Gol </option>
-                                       <!----><!---->
-                                       <option value="5745" class="ng-star-inserted">Deplasman Toplam Gol </option>
-                                       <!----><!---->
-                                       <option value="5808" class="ng-star-inserted">Ev Sahibi Kazanır mı? </option>
-                                       <!----><!---->
-                                       <option value="5664" class="ng-star-inserted">Deplasman Kazanır mı? </option>
-                                       <!----><!---->
-                                       <option value="5815" class="ng-star-inserted">Herhangi Bir Takım Kazanır mı? </option>
-                                       <!----><!---->
-                                       <option value="5799" class="ng-star-inserted">Golü Atacak Takım </option>
-                                       <!----><!---->
-                                       <option value="5769" class="ng-star-inserted">Ev Sahibi Tam Gol Sayısı </option>
-                                       <!----><!---->
-                                       <option value="5849" class="ng-star-inserted">Deplasman Tam Gol Sayısı </option>
-                                       <!----><!---->
-                                       <option value="5868" class="ng-star-inserted">Gol Aralığı </option>
-                                       <!----><!---->
-                                       <option value="5871" class="ng-star-inserted">Hangi Yarıda Daha Fazla Gol Olur? </option>
-                                       <!----><!---->
-                                       <option value="5792" class="ng-star-inserted">Ev Sahibi Gol Yemez </option>
-                                       <!----><!---->
-                                       <option value="5796" class="ng-star-inserted">Deplasman Gol Yemez </option>
-                                       <!----><!---->
-                                       <option value="5881" class="ng-star-inserted">Ev Sahibi Her İki Yarı da Gol Atar </option>
-                                       <!----><!---->
-                                       <option value="5884" class="ng-star-inserted">Deplasman Her İki Yarı da Gol Atar </option>
-                                       <!----><!---->
-                                       <option value="5885" class="ng-star-inserted">Her İki Yarı Toplam Üst </option>
-                                       <!----><!---->
-                                       <option value="5886" class="ng-star-inserted">Her İki Yarı Toplam Alt </option>
-                                       <!----><!---->
-                                       <option value="5891" class="ng-star-inserted">Ev Sahibi Hangi Yarıda Daha Çok Gol Atar? </option>
-                                       <!----><!---->
-                                       <option value="5892" class="ng-star-inserted">Deplasman Hangi Yarıda Daha Çok Gol Atar? </option>
-                                       <!----><!---->
-                                       <option value="5858" class="ng-star-inserted">Ev Sahibi Tek/Çift </option>
-                                       <!----><!---->
-                                       <option value="5861" class="ng-star-inserted">Deplasman Tek/Çift </option>
-                                       <!----><!---->
-                                       <option value="5777" class="ng-star-inserted">Tam Gol Sayısı </option>
-                                       <!----><!---->
-                                       <option value="5782" class="ng-star-inserted">Sonraki Gol </option>
-                                       <!----><!----><!---->
-                                    </optgroup>
-                                    <optgroup label="1. Yarı " class="ng-star-inserted">
-                                       <option value="5700" class="ng-star-inserted">İlk Yarı Toplam Gol </option>
-                                       <!----><!---->
-                                       <option value="5810" class="ng-star-inserted">İlk Yarı 1x2 </option>
-                                       <!----><!---->
-                                       <option value="5780" class="ng-star-inserted">İlk Yarı Gollerin Tam Sayısı </option>
-                                       <!----><!---->
-                                       <option value="5765" class="ng-star-inserted">İlk Yarı Çifte Şans </option>
-                                       <!----><!---->
-                                       <option value="5831" class="ng-star-inserted">İlk Yarı Beraberlikte İade </option>
-                                       <!----><!---->
-                                       <option value="5869" class="ng-star-inserted">İlk Yarı Doğru Skor </option>
-                                       <!----><!---->
-                                       <option value="5890" class="ng-star-inserted">İlk Yarı İki Takım da Gol Atar </option>
-                                       <!----><!---->
-                                       <option value="5841" class="ng-star-inserted">İlk Yarı Ev Sahibi Toplam Gol </option>
-                                       <!----><!---->
-                                       <option value="5811" class="ng-star-inserted">İlk Yarı - DeplasmanToplam Gol </option>
-                                       <!----><!---->
-                                       <option value="5840" class="ng-star-inserted">İlk Yarı Sonraki Gol </option>
-                                       <!----><!---->
-                                       <option value="5847" class="ng-star-inserted">İlk Yarı Ev Sahibi Gol Yemez </option>
-                                       <!----><!---->
-                                       <option value="5848" class="ng-star-inserted">İlk Yarı Deplasman Gol Yemez </option>
-                                       <!----><!---->
-                                       <option value="5902" class="ng-star-inserted">İlk Yarı Tek/Çift </option>
-                                       <!----><!---->
-                                       <option value="5850" class="ng-star-inserted">İlk Yarı Avrupa Handikap  </option>
-                                       <!----><!---->
-                                       <option value="5917" class="ng-star-inserted">İlk Yarı Kırmızı Kart Olur mu? </option>
-                                       <!----><!---->
-                                       <option value="5773" class="ng-star-inserted">1. Yarı Ev Sahibi Kırmızı Kart Görür mü? </option>
-                                       <!----><!---->
-                                       <option value="5776" class="ng-star-inserted">1.Yarı Deplasman Kırmızı Kart Görür mü? </option>
-                                       <!----><!----><!---->
-                                    </optgroup>
-                                    <optgroup label="2. Yarı" class="ng-star-inserted">
-                                       <option value="5781" class="ng-star-inserted">İkinci Yarı Toplam Gol </option>
-                                       <!----><!---->
-                                       <option value="5778" class="ng-star-inserted">İkinci Yarı 1x2 </option>
-                                       <!----><!---->
-                                       <option value="5803" class="ng-star-inserted">İkinci Yarı Tam Goller </option>
-                                       <!----><!---->
-                                       <option value="5897" class="ng-star-inserted">İkinci Yarı Çifte Şans </option>
-                                       <!----><!---->
-                                       <option value="5895" class="ng-star-inserted">İkinci Yarı Beraberlikte İade </option>
-                                       <!----><!---->
-                                       <option value="5854" class="ng-star-inserted">İkinci Yarı Doğru Skor </option>
-                                       <!----><!---->
-                                       <option value="5641" class="ng-star-inserted">İkinci Yarı İki Takım da Gol Atar </option>
-                                       <!----><!---->
-                                       <option value="5797" class="ng-star-inserted">İkinci Yarı Ev Sahibi Toplam Gol </option>
-                                       <!----><!---->
-                                       <option value="5709" class="ng-star-inserted">İkinci Yarı Deplasman Toplam Gol </option>
-                                       <!----><!---->
-                                       <option value="5855" class="ng-star-inserted">İkinci Yarı Sonraki Gol </option>
-                                       <!----><!---->
-                                       <option value="5851" class="ng-star-inserted">İkinci Yarı Ev Sahibi Gol Yemez </option>
-                                       <!----><!---->
-                                       <option value="5852" class="ng-star-inserted">İkinci Yarı Deplasman Gol Yemez </option>
-                                       <!----><!---->
-                                       <option value="5894" class="ng-star-inserted">İkinci Yarı Tek/Çift </option>
-                                       <!----><!---->
-                                       <option value="5857" class="ng-star-inserted">İkinci Yarı Avrupa Handikap  </option>
-                                       <!----><!----><!---->
-                                    </optgroup>
-                                    <optgroup label="Asya Bahisleri" class="ng-star-inserted">
-                                       <option value="5689" class="ng-star-inserted">Asya Handikap </option>
-                                       <!----><!---->
-                                       <option value="5837" class="ng-star-inserted">İlk Yarı Asya Handikap </option>
-                                       <!----><!---->
-                                       <option value="5783" class="ng-star-inserted">İkinci Yarı Asya Handikap </option>
-                                       <!----><!----><!---->
-                                    </optgroup>
-                                    <optgroup label="Korner Bahisleri" class="ng-star-inserted">
-                                       <option value="5805" class="ng-star-inserted">Toplam Korner Sayısı </option>
-                                       <!----><!---->
-                                       <option value="5821" class="ng-star-inserted">Xth Korner </option>
-                                       <!----><!---->
-                                       <option value="5806" class="ng-star-inserted">İlk Yarı Toplam Korner Sayısı </option>
-                                       <!----><!---->
-                                       <option value="5822" class="ng-star-inserted">İlk Yarı Xth Korner </option>
-                                       <!----><!---->
-                                       <option value="5735" class="ng-star-inserted">Korner Handikap </option>
-                                       <!----><!---->
-                                       <option value="5809" class="ng-star-inserted">İlk Yarı Korner Handikap </option>
-                                       <!----><!---->
-                                       <option value="5814" class="ng-star-inserted">Korner 1x2 </option>
-                                       <!----><!---->
-                                       <option value="5817" class="ng-star-inserted">İlk Yarı Korner 1x2 </option>
-                                       <!----><!---->
-                                       <option value="5819" class="ng-star-inserted">Tek/Çift Kornerler </option>
-                                       <!----><!---->
-                                       <option value="5820" class="ng-star-inserted">İlk Yarı Tek/Çift Kornerler </option>
-                                       <!----><!---->
-                                       <option value="5827" class="ng-star-inserted">Son Korner </option>
-                                       <!----><!---->
-                                       <option value="5828" class="ng-star-inserted">İlk Yarı Son Korner </option>
-                                       <!----><!---->
-                                       <option value="5823" class="ng-star-inserted">Ev Sahibi Korner Aralığı </option>
-                                       <!----><!---->
-                                       <option value="5824" class="ng-star-inserted">İlk Yarı Ev Sahibi Tam Korner Sayısı </option>
-                                       <!----><!---->
-                                       <option value="5829" class="ng-star-inserted">Deplasman Korner Aralığı </option>
-                                       <!----><!---->
-                                       <option value="5830" class="ng-star-inserted">İlk Yarı Deplasman Tam Korner Sayısı </option>
-                                       <!----><!---->
-                                       <option value="5835" class="ng-star-inserted">Korner Aralığı </option>
-                                       <!----><!---->
-                                       <option value="5845" class="ng-star-inserted">İlk Yarı Korner Aralığı </option>
-                                       <!----><!----><!---->
-                                    </optgroup>
-                                    <optgroup label="Kart Bahisleri" class="ng-star-inserted">
-                                       <option value="5910" class="ng-star-inserted">Toplam Kart Sayısı </option>
-                                       <!----><!---->
-                                       <option value="5911" class="ng-star-inserted">İlk Yarı Toplam Kart Sayısı </option>
-                                       <!----><!---->
-                                       <option value="5690" class="ng-star-inserted">Xth Kart </option>
-                                       <!----><!---->
-                                       <option value="5719" class="ng-star-inserted">İlk Yarı Xth Kart </option>
-                                       <!----><!---->
-                                       <option value="5734" class="ng-star-inserted">Kartlar 1x2 </option>
-                                       <!----><!---->
-                                       <option value="5738" class="ng-star-inserted">İlk Yarı Kartlar 1x2 </option>
-                                       <!----><!---->
-                                       <option value="5915" class="ng-star-inserted">Kırmızı Kart Olur mu? </option>
-                                       <!----><!---->
-                                       <option value="5772" class="ng-star-inserted">Ev Sahibi Kırmızı Kart Görür mü? </option>
-                                       <!----><!---->
-                                       <option value="5775" class="ng-star-inserted">Deplasman Kırmızı Kart Görür mü? </option>
-                                       <!----><!---->
-                                       <option value="5912" class="ng-star-inserted">Toplam Kart Ceza Puanı </option>
-                                       <!----><!---->
-                                       <option value="5913" class="ng-star-inserted">İlk Yarı Toplam Kart Ceza Puanı </option>
-                                       <!----><!----><!---->
-                                    </optgroup>
-                                    <optgroup label="Özel Bahisler" class="ng-star-inserted">
-                                       <option value="5784" class="ng-star-inserted">İlk Yarı/Maç Sonucu Doğru Skor </option>
-                                       <!----><!---->
-                                       <option value="5873" class="ng-star-inserted">Ev Sahibi Her İki Yarıyı da Kazanır mı? </option>
-                                       <!----><!---->
-                                       <option value="5981" class="ng-star-inserted">Deplasman Her İki Yarıyı da Kazanır mı? </option>
-                                       <!----><!---->
-                                       <option value="5877" class="ng-star-inserted">Ev Sahibi En Az Bir Yarıyı Kazanır </option>
-                                       <!----><!---->
-                                       <option value="5882" class="ng-star-inserted">Deplasman En Az Bir Yarıyı Kazanır </option>
-                                       <!----><!---->
-                                       <option value="5747" class="ng-star-inserted">Ev Sahibi Gol Yemeden Kazanır </option>
-                                       <!----><!---->
-                                       <option value="5836" class="ng-star-inserted">Deplasman Gol Yemeden Kazanır </option>
-                                       <!----><!---->
-                                       <option value="5887" class="ng-star-inserted">Sonraki Gol Ne Zaman Olur ? (10 Dk Aralıklı) </option>
-                                       <!----><!---->
-                                       <option value="5888" class="ng-star-inserted">Sonraki Gol Ne Zaman Olur ? (15 Dk Aralıklı) </option>
-                                       <!----><!---->
-                                       <option value="5904" class="ng-star-inserted">Kazanma Marjı </option>
-                                       <!----><!---->
-                                       <option value="5961" class="ng-star-inserted">Tur Atlayan Takım Nasıl Belirlenecek? </option>
-                                       <!----><!---->
-                                       <option value="5880" class="ng-star-inserted">Sonraki Golü Kim Atar? &amp; 1x2 </option>
-                                       <!----><!---->
-                                       <option value="5889" class="ng-star-inserted"> from. ile  To. Dakika Arası 1x2  </option>
-                                       <!----><!---->
-                                       <option value="5905" class="ng-star-inserted">Son Gol </option>
-                                       <!----><!---->
-                                       <option value="5966" class="ng-star-inserted">Tur Atlar </option>
-                                       <!----><!---->
-                                       <option value="5986" class="ng-star-inserted">Uzatma Olur mu? </option>
-                                       <!----><!---->
-                                       <option value="5960" class="ng-star-inserted">Seri Penaltı Atışları Olacak mı? </option>
-                                       <!----><!---->
-                                       <option value="5959" class="ng-star-inserted">Uzatmada Gol Olur mu? </option>
-                                       <!----><!---->
-                                       <option value="5856" class="ng-star-inserted">1x2 &amp; Toplam Gol </option>
-                                       <!----><!---->
-                                       <option value="5713" class="ng-star-inserted">1x2 &amp; İki Takım da Gol Atar </option>
-                                       <!----><!---->
-                                       <option value="5908" class="ng-star-inserted">Çifte Şans &amp; Toplam Gol </option>
-                                       <!----><!---->
-                                       <option value="5638" class="ng-star-inserted">Çifte Şans &amp; İki Takım da Gol Atar </option>
-                                       <!----><!---->
-                                       <option value="5867" class="ng-star-inserted">Toplam Gol &amp; Karşılıklı Gol </option>
-                                       <!----><!---->
-                                       <option value="5863" class="ng-star-inserted">İlk Yarı Kazananı &amp; İlk yarıToplam Gol  </option>
-                                       <!----><!---->
-                                       <option value="5865" class="ng-star-inserted">İlk Yarı 1x2 &amp; İki Takım da Gol Atar </option>
-                                       <!----><!---->
-                                       <option value="5916" class="ng-star-inserted">İkinci Yarı 1x2 &amp; Toplam Gol </option>
-                                       <!----><!---->
-                                       <option value="5760" class="ng-star-inserted">İkinci Yarı 1x2 &amp; İki Takım da Gol Atar </option>
-                                       <!----><!----><!---->
-                                    </optgroup>
-                                    <optgroup label="Golcü Bahisleri" class="ng-star-inserted">
-                                       <option value="5907" class="ng-star-inserted">Maçta Gol Atar </option>
-                                       <!----><!---->
-                                       <option value="6175" class="ng-star-inserted">Sonraki Golü Atacak Oyuncu </option>
-                                       <!----><!---->
-                                       <option value="6876" class="ng-star-inserted">Son Golü Atacak Oyuncu </option>
-                                       <!----><!----><!---->
-                                    </optgroup>
-                                    <optgroup label="Diğerleri" class="ng-star-inserted">
-                                       <option value="5651" class="ng-star-inserted">Çifte Şans &amp; İki Takım da Gol Atar (1.Yarı) </option>
-                                       <!----><!---->
-                                       <option value="5680" class="ng-star-inserted">Çifte Şans &amp; İki Takım da Gol Atar (2. Yarı) </option>
-                                       <!----><!---->
-                                       <option value="5703" class="ng-star-inserted">Çoklu Doğru Skor </option>
-                                       <!----><!---->
-                                       <option value="5731" class="ng-star-inserted">Toplam Gol Aralığı </option>
-                                       <!----><!---->
-                                       <option value="5737" class="ng-star-inserted">İlk Yarı Gol Aralığı </option>
-                                       <!----><!---->
-                                       <option value="5739" class="ng-star-inserted">İkinci Yarı Gol Aralığı </option>
-                                       <!----><!---->
-                                       <option value="5750" class="ng-star-inserted">Ev Sahibi Gol Aralığı </option>
-                                       <!----><!---->
-                                       <option value="5761" class="ng-star-inserted">Deplasman Gol Aralığı </option>
-                                       <!----><!---->
-                                       <option value="5768" class="ng-star-inserted">Çifte Şans (MS) &amp; İlk Yarı Her İki Takım da Gol Atar </option>
-                                       <!----><!---->
-                                       <option value="5771" class="ng-star-inserted">Çifte Şans (MS) &amp; İkinci Yarı İki Takım da Gol Atar </option>
-                                       <!----><!---->
-                                       <option value="5906" class="ng-star-inserted">1. &amp; 2. Yarıda Her İki Takım Da Gol Atar mı? </option>
-                                       <!----><!---->
-                                       <option value="5898" class="ng-star-inserted">İlk Yarı/Maç Sonucu &amp; Toplam </option>
-                                       <!----><!---->
-                                       <option value="5899" class="ng-star-inserted">İlk Yarı/Maç Sonucu &amp; İlk Yarı Toplam </option>
-                                       <!----><!---->
-                                       <option value="5900" class="ng-star-inserted">İlk Yarı/Maç Sonucu &amp; Tam Gol Sayısı </option>
-                                       <!----><!---->
-                                       <option value="5785" class="ng-star-inserted">Ev Sahibi veya Toplam Üst </option>
-                                       <!----><!---->
-                                       <option value="5786" class="ng-star-inserted">Berabere veya Toplam Üst </option>
-                                       <!----><!---->
-                                       <option value="5787" class="ng-star-inserted">Deplasman veya Toplam Üst </option>
-                                       <!----><!---->
-                                       <option value="5788" class="ng-star-inserted">Ev Sahibi veya Toplam Alt </option>
-                                       <!----><!---->
-                                       <option value="5789" class="ng-star-inserted">Berabere veya Toplam Alt </option>
-                                       <!----><!---->
-                                       <option value="5790" class="ng-star-inserted">Deplasman veya Toplam Alt </option>
-                                       <!----><!---->
-                                       <option value="5791" class="ng-star-inserted">Ev Sahibi veya İki Takım da Gol Atar </option>
-                                       <!----><!---->
-                                       <option value="5794" class="ng-star-inserted">Berabere veya Her İki Takım da Gol Atar </option>
-                                       <!----><!---->
-                                       <option value="5798" class="ng-star-inserted">Deplasman veya İki Takım da Gol Atar </option>
-                                       <!----><!----><!---->
-                                    </optgroup>
-                                    <!---->
-                                 </select>
-                                 <!---->
-                                 <div class="widget-compact-header ng-star-inserted">
-                                    <div class="compact-header-left"></div>
-                                    <div class="compact-header-right">
-                                       <div class="match-market ng-star-inserted">1</div>
-                                       <!---->
-                                       <div class="match-market ng-star-inserted">X</div>
-                                       <!---->
-                                       <div class="match-market ng-star-inserted">2</div>
-                                       <!----><!----><!----><!---->
-                                    </div>
-                                 </div>
-                                 <!----><!---->
-                                 <div class="match-content flex-container ng-star-inserted">
-                                    <a class="match-header flex-container ng-star-inserted" href="#">
-                                       <div class="match-title flex-item">
-                                          <div class="team content-left">
-                                             <div class="team-content-left team-name ng-star-inserted">
-                                                <div class="team-content-info">
-                                                   <app-teams-logo classes="team-flag">
-                                                      <img class="team-flag ng-star-inserted" src="https://img-cdn001.akamaized.net/ls/crest/medium/380048.png"><!----><!----><!---->
-                                                   </app-teams-logo>
-                                                   <span class="text truncate">AS Kigali</span>
-                                                </div>
-                                                <div class="team-content-info">
-                                                   <app-teams-logo classes="team-flag">
-                                                      <img class="team-flag ng-star-inserted" src="https://img-cdn001.akamaized.net/ls/crest/medium/667125.png"><!----><!----><!---->
-                                                   </app-teams-logo>
-                                                   <span class="text truncate">Gorilla FC</span>
-                                                </div>
-                                             </div>
-                                             <!----><!----><!---->
-                                          </div>
-                                          <div class="date">
-                                             <b><span class="minutes"> 02/02 16:00 </span></b><!----><span class="btn other-btn">+261</span><!---->
-                                          </div>
-                                       </div>
-                                       <div class="match-header middle"><button class="statistic-btn"><i class="material-icons pg-icons">equalizer</i></button></div>
-                                    </a>
-                                    <div class="match-header-right flex-container flex-item ng-star-inserted">
-                                       <a bet-button="" class="btn bet-btn waves-effect waves-light flex-item twoRow ng-star-inserted" title="Ev Sahibi" foid="7857376223">
-                                          <!----><span class="bet-btn-odd">2.12</span>
-                                       </a>
-                                       <!----><!----><!---->
-                                       <a bet-button="" class="btn bet-btn waves-effect waves-light flex-item twoRow ng-star-inserted" title="Beraberlik" foid="7857376224">
-                                          <!----><span class="bet-btn-odd">3.04</span>
-                                       </a>
-                                       <!----><!----><!---->
-                                       <a bet-button="" class="btn bet-btn waves-effect waves-light flex-item twoRow ng-star-inserted" title="Deplasman" foid="7857376225">
-                                          <!----><span class="bet-btn-odd">3.86</span>
-                                       </a>
-                                       <!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
-                                    </div>
-                                    <!----><!----><!----><!---->
-                                 </div>
-                                 <div class="match-content flex-container ng-star-inserted">
-                                    <a class="match-header flex-container ng-star-inserted" href="#">
-                                       <div class="match-title flex-item">
-                                          <div class="team content-left">
-                                             <div class="team-content-left team-name ng-star-inserted">
-                                                <div class="team-content-info">
-                                                   <app-teams-logo classes="team-flag">
-                                                      <img class="team-flag ng-star-inserted" src="https://img-cdn001.akamaized.net/ls/crest/medium/34525.png"><!----><!----><!---->
-                                                   </app-teams-logo>
-                                                   <span class="text truncate">Sektzia Ness Ziona FC</span>
-                                                </div>
-                                                <div class="team-content-info">
-                                                   <app-teams-logo classes="team-flag">
-                                                      <img class="team-flag ng-star-inserted" src="https://img-cdn001.akamaized.net/ls/crest/medium/7385.png"><!----><!----><!---->
-                                                   </app-teams-logo>
-                                                   <span class="text truncate">Hapoel Ramat Gan Givatayim FC</span>
-                                                </div>
-                                             </div>
-                                             <!----><!----><!---->
-                                          </div>
-                                          <div class="date">
-                                             <b><span class="minutes"> 02/02 16:00 </span></b><!----><span class="btn other-btn">+675</span><!---->
-                                          </div>
-                                       </div>
-                                       <div class="match-header middle"><button class="statistic-btn"><i class="material-icons pg-icons">equalizer</i></button></div>
-                                    </a>
-                                    <div class="match-header-right flex-container flex-item ng-star-inserted">
-                                       <a bet-button="" class="btn bet-btn waves-effect waves-light flex-item twoRow ng-star-inserted" title="Ev Sahibi" foid="7853136637">
-                                          <!----><span class="bet-btn-odd">2.59</span>
-                                       </a>
-                                       <!----><!----><!---->
-                                       <a bet-button="" class="btn bet-btn waves-effect waves-light flex-item twoRow ng-star-inserted" title="Beraberlik" foid="7853136638">
-                                          <!----><span class="bet-btn-odd">3.26</span>
-                                       </a>
-                                       <!----><!----><!---->
-                                       <a bet-button="" class="btn bet-btn waves-effect waves-light flex-item twoRow ng-star-inserted" title="Deplasman" foid="7853136639">
-                                          <!----><span class="bet-btn-odd">2.72</span>
-                                       </a>
-                                       <!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
-                                    </div>
-                                    <!----><!----><!----><!---->
-                                 </div>
-                                 <div class="match-content flex-container ng-star-inserted">
-                                    <a class="match-header flex-container ng-star-inserted" href="#">
-                                       <div class="match-title flex-item">
-                                          <div class="team content-left">
-                                             <div class="team-content-left team-name ng-star-inserted">
-                                                <div class="team-content-info">
-                                                   <app-teams-logo classes="team-flag">
-                                                      <img class="team-flag ng-star-inserted" src="https://img-cdn001.akamaized.net/ls/crest/medium/662901.png"><!----><!----><!---->
-                                                   </app-teams-logo>
-                                                   <span class="text truncate">Ihud Bnei Shfaram</span>
-                                                </div>
-                                                <div class="team-content-info">
-                                                   <app-teams-logo classes="team-flag">
-                                                      <img class="team-flag ng-star-inserted" src="https://img-cdn001.akamaized.net/ls/crest/medium/39526.png"><!----><!----><!---->
-                                                   </app-teams-logo>
-                                                   <span class="text truncate">Maccabi Kabilio Jaffa</span>
-                                                </div>
-                                             </div>
-                                             <!----><!----><!---->
-                                          </div>
-                                          <div class="date">
-                                             <b><span class="minutes"> 02/02 16:00 </span></b><!----><span class="btn other-btn">+681</span><!---->
-                                          </div>
-                                       </div>
-                                       <div class="match-header middle"><button class="statistic-btn"><i class="material-icons pg-icons">equalizer</i></button></div>
-                                    </a>
-                                    <div class="match-header-right flex-container flex-item ng-star-inserted">
-                                       <a bet-button="" class="btn bet-btn waves-effect waves-light flex-item twoRow ng-star-inserted" title="Ev Sahibi" foid="7853132367">
-                                          <!----><span class="bet-btn-odd">5.37</span>
-                                       </a>
-                                       <!----><!----><!---->
-                                       <a bet-button="" class="btn bet-btn waves-effect waves-light flex-item twoRow ng-star-inserted" title="Beraberlik" foid="7853132368">
-                                          <!----><span class="bet-btn-odd">4.45</span>
-                                       </a>
-                                       <!----><!----><!---->
-                                       <a bet-button="" class="btn bet-btn waves-effect waves-light flex-item twoRow ng-star-inserted" title="Deplasman" foid="7853132369">
-                                          <!----><span class="bet-btn-odd">1.54</span>
-                                       </a>
-                                       <!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
-                                    </div>
-                                    <!----><!----><!----><!---->
-                                 </div>
-                                 <div class="match-content flex-container ng-star-inserted">
-                                    <a class="match-header flex-container ng-star-inserted" href="#">
-                                       <div class="match-title flex-item">
-                                          <div class="team content-left">
-                                             <div class="team-content-left team-name ng-star-inserted">
-                                                <div class="team-content-info">
-                                                   <app-teams-logo classes="team-flag">
-                                                      <img class="team-flag ng-star-inserted" src="https://img-cdn001.akamaized.net/ls/crest/medium/238982.png"><!----><!----><!---->
-                                                   </app-teams-logo>
-                                                   <span class="text truncate">FC Kafr Qasim</span>
-                                                </div>
-                                                <div class="team-content-info">
-                                                   <app-teams-logo classes="team-flag">
-                                                      <img class="team-flag ng-star-inserted" src="https://img-cdn001.akamaized.net/ls/crest/medium/39521.png"><!----><!----><!---->
-                                                   </app-teams-logo>
-                                                   <span class="text truncate">Hapoel Afula FC</span>
-                                                </div>
-                                             </div>
-                                             <!----><!----><!---->
-                                          </div>
-                                          <div class="date">
-                                             <b><span class="minutes"> 02/02 16:00 </span></b><!----><span class="btn other-btn">+677</span><!---->
-                                          </div>
-                                       </div>
-                                       <div class="match-header middle"><button class="statistic-btn"><i class="material-icons pg-icons">equalizer</i></button></div>
-                                    </a>
-                                    <div class="match-header-right flex-container flex-item ng-star-inserted">
-                                       <a bet-button="" class="btn bet-btn waves-effect waves-light flex-item twoRow ng-star-inserted" title="Ev Sahibi" foid="7853139059">
-                                          <!----><span class="bet-btn-odd">1.65</span>
-                                       </a>
-                                       <!----><!----><!---->
-                                       <a bet-button="" class="btn bet-btn waves-effect waves-light flex-item twoRow ng-star-inserted" title="Beraberlik" foid="7853139060">
-                                          <!----><span class="bet-btn-odd">3.87</span>
-                                       </a>
-                                       <!----><!----><!---->
-                                       <a bet-button="" class="btn bet-btn waves-effect waves-light flex-item twoRow ng-star-inserted" title="Deplasman" foid="7853139061">
-                                          <!----><span class="bet-btn-odd">5.13</span>
-                                       </a>
-                                       <!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
-                                    </div>
-                                    <!----><!----><!----><!---->
-                                 </div>
-                                 <div class="match-content flex-container ng-star-inserted">
-                                    <a class="match-header flex-container ng-star-inserted" href="#">
-                                       <div class="match-title flex-item">
-                                          <div class="team content-left">
-                                             <div class="team-content-left team-name ng-star-inserted">
-                                                <div class="team-content-info">
-                                                   <app-teams-logo classes="team-flag">
-                                                      <img class="team-flag ng-star-inserted" src="https://img-cdn001.akamaized.net/ls/crest/medium/86306.png"><!----><!----><!---->
-                                                   </app-teams-logo>
-                                                   <span class="text truncate">Hapoel Umm AL Fahm</span>
-                                                </div>
-                                                <div class="team-content-info">
-                                                   <app-teams-logo classes="team-flag">
-                                                      <img class="team-flag ng-star-inserted" src="https://img-cdn001.akamaized.net/ls/crest/medium/36274.png"><!----><!----><!---->
-                                                   </app-teams-logo>
-                                                   <span class="text truncate">Hapoel Nir Ramat Hasharon FC</span>
-                                                </div>
-                                             </div>
-                                             <!----><!----><!---->
-                                          </div>
-                                          <div class="date">
-                                             <b><span class="minutes"> 02/02 16:00 </span></b><!----><span class="btn other-btn">+681</span><!---->
-                                          </div>
-                                       </div>
-                                       <div class="match-header middle"><button class="statistic-btn"><i class="material-icons pg-icons">equalizer</i></button></div>
-                                    </a>
-                                    <div class="match-header-right flex-container flex-item ng-star-inserted">
-                                       <a bet-button="" class="btn bet-btn waves-effect waves-light flex-item twoRow ng-star-inserted" title="Ev Sahibi" foid="7853137350">
-                                          <!----><span class="bet-btn-odd">2.35</span>
-                                       </a>
-                                       <!----><!----><!---->
-                                       <a bet-button="" class="btn bet-btn waves-effect waves-light flex-item twoRow ng-star-inserted" title="Beraberlik" foid="7853137351">
-                                          <!----><span class="bet-btn-odd">3.43</span>
-                                       </a>
-                                       <!----><!----><!---->
-                                       <a bet-button="" class="btn bet-btn waves-effect waves-light flex-item twoRow ng-star-inserted" title="Deplasman" foid="7853137352">
-                                          <!----><span class="bet-btn-odd">2.91</span>
-                                       </a>
-                                       <!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
-                                    </div>
-                                    <!----><!----><!----><!---->
-                                 </div>
-                                 <div class="match-content flex-container ng-star-inserted">
-                                    <a class="match-header flex-container ng-star-inserted" href="#">
-                                       <div class="match-title flex-item">
-                                          <div class="team content-left">
-                                             <div class="team-content-left team-name ng-star-inserted">
-                                                <div class="team-content-info">
-                                                   <app-teams-logo classes="team-flag">
-                                                      <img class="team-flag ng-star-inserted" src="https://img-cdn001.akamaized.net/ls/crest/medium/7478.png"><!----><!----><!---->
-                                                   </app-teams-logo>
-                                                   <span class="text truncate">Maccabi Herzelia</span>
-                                                </div>
-                                                <div class="team-content-info">
-                                                   <app-teams-logo classes="team-flag">
-                                                      <img class="team-flag ng-star-inserted" src="https://img-cdn001.akamaized.net/ls/crest/medium/7380.png"><!----><!----><!---->
-                                                   </app-teams-logo>
-                                                   <span class="text truncate">Hapoel Acre FC</span>
-                                                </div>
-                                             </div>
-                                             <!----><!----><!---->
-                                          </div>
-                                          <div class="date">
-                                             <b><span class="minutes"> 02/02 16:00 </span></b><!----><span class="btn other-btn">+679</span><!---->
-                                          </div>
-                                       </div>
-                                       <div class="match-header middle"><button class="statistic-btn"><i class="material-icons pg-icons">equalizer</i></button></div>
-                                    </a>
-                                    <div class="match-header-right flex-container flex-item ng-star-inserted">
-                                       <a bet-button="" class="btn bet-btn waves-effect waves-light flex-item twoRow ng-star-inserted" title="Ev Sahibi" foid="7853296567">
-                                          <!----><span class="bet-btn-odd">2.53</span>
-                                       </a>
-                                       <!----><!----><!---->
-                                       <a bet-button="" class="btn bet-btn waves-effect waves-light flex-item twoRow ng-star-inserted" title="Beraberlik" foid="7853296568">
-                                          <!----><span class="bet-btn-odd">3.31</span>
-                                       </a>
-                                       <!----><!----><!---->
-                                       <a bet-button="" class="btn bet-btn waves-effect waves-light flex-item twoRow ng-star-inserted" title="Deplasman" foid="7853296569">
-                                          <!----><span class="bet-btn-odd">2.76</span>
-                                       </a>
-                                       <!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
-                                    </div>
-                                    <!----><!----><!----><!---->
-                                 </div>
-                                 <!---->
-                              </div>
-                              <!----><a href="#" class="show-more-other ng-star-inserted"> Daha Fazla Bahis </a><!----><!---->
-                           </div>
-                        </div>
-                     </div>
-                     <!----><!---->
-                  </upcoming-events>
-                  <!---->
-               </div>
-               <!----><!----><!----><!----><!----><!---->
-            </app-main-tabs>
-            <!---->
-         </div>
-         <!---->
-         <div id="type2" class="ng-star-inserted" onclick="window.location.href = '/sportsbook'">
-            <popular-events class="ng-star-inserted">
-               <div accordion="" class="modul-accordion populer-events compact-view ng-star-inserted">
-                  <div class="modul-header"><span class="header-text"> En Çok Tercih Edilenler </span><i class="fa fa-chevron-right right"></i></div>
-                  <div class="modul-content">
-                     <div class="populer-events-contaner">
-                        <!---->
-                        <div class="widget-compact-header ng-star-inserted">
-                           <div class="compact-header-left"></div>
-                           <div class="compact-header-right">
-                              <div class="match-market ng-star-inserted">1</div>
-                              <!---->
-                              <div class="match-market ng-star-inserted">X</div>
-                              <!---->
-                              <div class="match-market ng-star-inserted">2</div>
-                              <!----><!---->
-                           </div>
-                        </div>
-                        <!----><!----><!----><!---->
-                        <div class="fixture-container">
-                           <div class="match-content flex-container ng-star-inserted">
-                              <a href="javascript:;" class="match-header flex-container ng-star-inserted">
-                                 <span class="match-title flex-item">
-                                    <div class="team content-left">
-                                       <div class="team-content-left team-name">
-                                          <div class="team-content-info">
-                                             <app-teams-logo classes="team-flag">
-                                                <img class="team-flag ng-star-inserted" src="https://img-cdn001.akamaized.net/ls/crest/medium/50.png"><!----><!----><!---->
-                                             </app-teams-logo>
-                                             <span class="text truncate">Brentford</span>
-                                          </div>
-                                          <div class="team-content-info">
-                                             <app-teams-logo classes="team-flag">
-                                                <img class="team-flag ng-star-inserted" src="https://img-cdn001.akamaized.net/ls/crest/medium/17.png"><!----><!----><!---->
-                                             </app-teams-logo>
-                                             <span class="text truncate">Manchester City FC</span>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <div class="date">
-                                       <b><span class="minutes"> 05/02 23:00 </span></b><!----><span class="btn other-btn">+844</span>
-                                    </div>
-                                 </span>
-                                 <div class="match-header middle"><button class="statistic-btn"><i class="material-icons pg-icons">equalizer</i></button></div>
-                              </a>
-                              <div class="match-header-right flex-container flex-item ng-star-inserted">
-                                 <a href="javascript:;" bet-button="" class="btn bet-btn waves-effect waves-light flex-item twoRow ng-star-inserted" title="Ev Sahibi" foid="7808008372">
-                                    <!----><span class="bet-btn-odd">8.70</span>
-                                 </a>
-                                 <!----><!----><!----><!----><!---->
-                                 <a href="javascript:;" bet-button="" class="btn bet-btn waves-effect waves-light flex-item twoRow ng-star-inserted" title="Beraberlik" foid="7808008373">
-                                    <!----><span class="bet-btn-odd">4.57</span>
-                                 </a>
-                                 <!----><!----><!----><!----><!---->
-                                 <a href="javascript:;" bet-button="" class="btn bet-btn waves-effect waves-light flex-item twoRow ng-star-inserted" title="Deplasman" foid="7808008374">
-                                    <!----><span class="bet-btn-odd">1.46</span>
-                                 </a>
-                                 <!----><!----><!----><!----><!----><!---->
-                              </div>
-                              <!----><!----><!----><!---->
-                           </div>
-                           <!----><!---->
-                           <div class="match-content flex-container ng-star-inserted">
-                              <a href="javascript:;" class="match-header flex-container ng-star-inserted">
-                                 <span class="match-title flex-item">
-                                    <div class="team content-left">
-                                       <div class="team-content-left team-name">
-                                          <div class="team-content-info">
-                                             <app-teams-logo classes="team-flag">
-                                                <img class="team-flag ng-star-inserted" src="https://img-cdn001.akamaized.net/ls/crest/medium/1284.png"><!----><!----><!---->
-                                             </app-teams-logo>
-                                             <span class="text truncate">FC Kopenhag</span>
-                                          </div>
-                                          <div class="team-content-info">
-                                             <app-teams-logo classes="team-flag">
-                                                <img class="team-flag ng-star-inserted" src="https://img-cdn001.akamaized.net/ls/crest/medium/17.png"><!----><!----><!---->
-                                             </app-teams-logo>
-                                             <span class="text truncate">Manchester City FC</span>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <div class="date">
-                                       <b><span class="minutes"> 13/02 23:00 </span></b><!----><span class="btn other-btn">+704</span>
-                                    </div>
-                                 </span>
-                                 <div class="match-header middle"><button class="statistic-btn"><i class="material-icons pg-icons">equalizer</i></button></div>
-                              </a>
-                              <div class="match-header-right flex-container flex-item ng-star-inserted">
-                                 <a href="javascript:;" bet-button="" class="btn bet-btn waves-effect waves-light flex-item twoRow ng-star-inserted" title="Ev Sahibi" foid="7663591321">
-                                    <!----><span class="bet-btn-odd">10.09</span>
-                                 </a>
-                                 <!----><!----><!----><!----><!---->
-                                 <a href="javascript:;" bet-button="" class="btn bet-btn waves-effect waves-light flex-item twoRow ng-star-inserted" title="Beraberlik" foid="7663591322">
-                                    <!----><span class="bet-btn-odd">5.74</span>
-                                 </a>
-                                 <!----><!----><!----><!----><!---->
-                                 <a href="javascript:;" bet-button="" class="btn bet-btn waves-effect waves-light flex-item twoRow ng-star-inserted" title="Deplasman" foid="7663591323">
-                                    <!----><span class="bet-btn-odd">1.34</span>
-                                 </a>
-                                 <!----><!----><!----><!----><!----><!---->
-                              </div>
-                              <!----><!----><!----><!---->
-                           </div>
-                           <!----><!---->
-                           <div class="match-content flex-container ng-star-inserted">
-                              <a href="javascript:;" class="match-header flex-container ng-star-inserted">
-                                 <span class="match-title flex-item">
-                                    <div class="team content-left">
-                                       <div class="team-content-left team-name">
-                                          <div class="team-content-info">
-                                             <app-teams-logo classes="team-flag">
-                                                <img class="team-flag ng-star-inserted" src="https://img-cdn001.akamaized.net/ls/crest/medium/2699.png"><!----><!----><!---->
-                                             </app-teams-logo>
-                                             <span class="text truncate">Lazio</span>
-                                          </div>
-                                          <div class="team-content-info">
-                                             <app-teams-logo classes="team-flag">
-                                                <!----><img class="team-flag team-tshirt ng-star-inserted" src="/images/common/assets/images/uniform-grey.png"><!----><!---->
-                                             </app-teams-logo>
-                                             <span class="text truncate">Bayern Münih</span>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <div class="date">
-                                       <b><span class="minutes"> 14/02 23:00 </span></b><!----><span class="btn other-btn">+724</span>
-                                    </div>
-                                 </span>
-                                 <div class="match-header middle"><button class="statistic-btn"><i class="material-icons pg-icons">equalizer</i></button></div>
-                              </a>
-                              <div class="match-header-right flex-container flex-item ng-star-inserted">
-                                 <a href="javascript:;" bet-button="" class="btn bet-btn waves-effect waves-light flex-item twoRow ng-star-inserted" title="Ev Sahibi" foid="7663611518">
-                                    <!----><span class="bet-btn-odd">6.16</span>
-                                 </a>
-                                 <!----><!----><!----><!----><!---->
-                                 <a href="javascript:;" bet-button="" class="btn bet-btn waves-effect waves-light flex-item twoRow ng-star-inserted" title="Beraberlik" foid="7663611519">
-                                    <!----><span class="bet-btn-odd">4.63</span>
-                                 </a>
-                                 <!----><!----><!----><!----><!---->
-                                 <a href="javascript:;" bet-button="" class="btn bet-btn waves-effect waves-light flex-item twoRow ng-star-inserted" title="Deplasman" foid="7663611520">
-                                    <!----><span class="bet-btn-odd">1.56</span>
-                                 </a>
-                                 <!----><!----><!----><!----><!----><!---->
-                              </div>
-                              <!----><!----><!----><!---->
-                           </div>
-                           <!----><!---->
-                           <div class="match-content flex-container ng-star-inserted">
-                              <a href="javascript:;" class="match-header flex-container ng-star-inserted">
-                                 <span class="match-title flex-item">
-                                    <div class="team content-left">
-                                       <div class="team-content-left team-name">
-                                          <div class="team-content-info">
-                                             <app-teams-logo classes="team-flag">
-                                                <img class="team-flag ng-star-inserted" src="https://img-cdn001.akamaized.net/ls/crest/medium/3006.png"><!----><!----><!---->
-                                             </app-teams-logo>
-                                             <span class="text truncate">Benfica Lisbon</span>
-                                          </div>
-                                          <div class="team-content-info">
-                                             <app-teams-logo classes="team-flag">
-                                                <img class="team-flag ng-star-inserted" src="https://img-cdn001.akamaized.net/ls/crest/medium/1681.png"><!----><!----><!---->
-                                             </app-teams-logo>
-                                             <span class="text truncate">Toulouse FC</span>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <div class="date">
-                                       <b><span class="minutes"> 15/02 23:00 </span></b><!----><span class="btn other-btn">+716</span>
-                                    </div>
-                                 </span>
-                                 <div class="match-header middle"><button class="statistic-btn"><i class="material-icons pg-icons">equalizer</i></button></div>
-                              </a>
-                              <div class="match-header-right flex-container flex-item ng-star-inserted">
-                                 <a href="javascript:;" bet-button="" class="btn bet-btn waves-effect waves-light flex-item twoRow ng-star-inserted" title="Ev Sahibi" foid="7663733723">
-                                    <!----><span class="bet-btn-odd">1.43</span>
-                                 </a>
-                                 <!----><!----><!----><!----><!---->
-                                 <a href="javascript:;" bet-button="" class="btn bet-btn waves-effect waves-light flex-item twoRow ng-star-inserted" title="Beraberlik" foid="7663733724">
-                                    <!----><span class="bet-btn-odd">5.09</span>
-                                 </a>
-                                 <!----><!----><!----><!----><!---->
-                                 <a href="javascript:;" bet-button="" class="btn bet-btn waves-effect waves-light flex-item twoRow ng-star-inserted" title="Deplasman" foid="7663733725">
-                                    <!----><span class="bet-btn-odd">8.18</span>
-                                 </a>
-                                 <!----><!----><!----><!----><!----><!---->
-                              </div>
-                              <!----><!----><!----><!---->
-                           </div>
-                           <!----><!---->
-                           <div class="match-content flex-container ng-star-inserted">
-                              <a href="javascript:;" class="match-header flex-container ng-star-inserted">
-                                 <span class="match-title flex-item">
-                                    <div class="team content-left">
-                                       <div class="team-content-left team-name">
-                                          <div class="team-content-info">
-                                             <app-teams-logo classes="team-flag">
-                                                <img class="team-flag ng-star-inserted" src="https://img-cdn001.akamaized.net/ls/crest/medium/2999.png"><!----><!----><!---->
-                                             </app-teams-logo>
-                                             <span class="text truncate">SC Braga</span>
-                                          </div>
-                                          <div class="team-content-info">
-                                             <app-teams-logo classes="team-flag">
-                                                <img class="team-flag ng-star-inserted" src="https://img-cdn001.akamaized.net/ls/crest/medium/5962.png"><!----><!----><!---->
-                                             </app-teams-logo>
-                                             <span class="text truncate">Karabağ FK</span>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <div class="date">
-                                       <b><span class="minutes"> 15/02 23:00 </span></b><!----><span class="btn other-btn">+718</span>
-                                    </div>
-                                 </span>
-                                 <div class="match-header middle"><button class="statistic-btn"><i class="material-icons pg-icons">equalizer</i></button></div>
-                              </a>
-                              <div class="match-header-right flex-container flex-item ng-star-inserted">
-                                 <a href="javascript:;" bet-button="" class="btn bet-btn waves-effect waves-light flex-item twoRow ng-star-inserted" title="Ev Sahibi" foid="7663669448">
-                                    <!----><span class="bet-btn-odd">1.40</span>
-                                 </a>
-                                 <!----><!----><!----><!----><!---->
-                                 <a href="javascript:;" bet-button="" class="btn bet-btn waves-effect waves-light flex-item twoRow ng-star-inserted" title="Beraberlik" foid="7663669449">
-                                    <!----><span class="bet-btn-odd">5.38</span>
-                                 </a>
-                                 <!----><!----><!----><!----><!---->
-                                 <a href="javascript:;" bet-button="" class="btn bet-btn waves-effect waves-light flex-item twoRow ng-star-inserted" title="Deplasman" foid="7663669450">
-                                    <!----><span class="bet-btn-odd">8.38</span>
-                                 </a>
-                                 <!----><!----><!----><!----><!----><!---->
-                              </div>
-                              <!----><!----><!----><!---->
-                           </div>
-                           <!----><!----><!---->
-                        </div>
-                        <!---->
-                     </div>
-                  </div>
-               </div>
-               <!----><!----><!---->
-            </popular-events>
-            <!---->
-         </div>
-         <!---->
-         <div id="type3" class="ng-star-inserted" onclick="window.location.href = '/casino'">
-            <app-popular-games class="ng-star-inserted">
-               <!---->
-               <div accordion="" class="modul-accordion populer-events ng-star-inserted">
-                  <div class="modul-header"><span class="header-text"> Casino </span><i class="fa fa-chevron-right right"></i><a class="show-more-games mar-right-10 right" href="#">Daha Fazla Oyun Göster</a></div>
-                  <div class="modul-content">
-                     <owl-carousel-o _nghost-lmt-c77="">
-                        <div _ngcontent-lmt-c77="" class="owl-carousel owl-theme owl-loaded owl-responsive owl-drag">
-                           <div _ngcontent-lmt-c77="" class="owl-stage-outer ng-star-inserted">
-                              <owl-stage _ngcontent-lmt-c77="" class="ng-tns-c78-3 ng-star-inserted">
-                                 <div class="ng-tns-c78-3">
-                                    <div class="owl-stage ng-tns-c78-3" style="width: 68775px; transform: translate3d(-17226px, 0px, 0px); transition: all 0s ease 0s;">
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <div class="game-card ng-star-inserted" style="">
-                                             <div class="card-image">
-                                                <a href="javascript:;">
-                                                   <div class="image-overlay"></div>
-                                                   <img class="game-img" src="/images/m-common/assets/images/casino/300x200/22581.jpg"><img alt="" class="game-img loading" src="/images/m-common/assets/images/loading.gif">
-                                                   <span class="inf">
-                                                      <!----><span class="popular ng-star-inserted">Popüler</span><!---->
-                                                   </span>
-                                                   <span class="vendor-wrap"><span class="pg-icons"><img alt="" class="vendor-img" src="/images/m-common/assets/images/casino/32x32/fugaso_lcky.png"></span></span>
-                                                </a>
-                                             </div>
-                                             <div class="game-name truncate">Inferno  Diamonds</div>
-                                          </div>
-                                          <!----><!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <div class="game-card ng-star-inserted" style="">
-                                             <div class="card-image">
-                                                <a href="javascript:;">
-                                                   <div class="image-overlay"></div>
-                                                   <img class="game-img" src="/images/m-common/assets/images/casino/300x200/16784.jpg"><img alt="" class="game-img loading" src="/images/m-common/assets/images/loading.gif">
-                                                   <span class="inf">
-                                                      <!----><span class="popular ng-star-inserted">Popüler</span><!---->
-                                                   </span>
-                                                   <span class="vendor-wrap"><span class="pg-icons"><img alt="" class="vendor-img" src="/images/m-common/assets/images/casino/32x32/yggdrasil_lcky.png"></span></span>
-                                                </a>
-                                             </div>
-                                             <div class="game-name truncate">Vikings Go Berzerk</div>
-                                          </div>
-                                          <!----><!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <div class="game-card ng-star-inserted" style="">
-                                             <div class="card-image">
-                                                <a href="javascript:;">
-                                                   <div class="image-overlay"></div>
-                                                   <img class="game-img" src="/images/m-common/assets/images/casino/300x200/20727.jpg"><img alt="" class="game-img loading" src="/images/m-common/assets/images/loading.gif">
-                                                   <span class="inf">
-                                                      <!----><span class="popular ng-star-inserted">Popüler</span><!---->
-                                                   </span>
-                                                   <span class="vendor-wrap"><span class="pg-icons"><img alt="" class="vendor-img" src="/images/m-common/assets/images/casino/32x32/red_tiger_oss.png"></span></span>
-                                                </a>
-                                             </div>
-                                             <div class="game-name truncate">Jingle Ways Megaways</div>
-                                          </div>
-                                          <!----><!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <div class="game-card ng-star-inserted" style="">
-                                             <div class="card-image">
-                                                <a href="javascript:;">
-                                                   <div class="image-overlay"></div>
-                                                   <img class="game-img" src="/images/m-common/assets/images/casino/300x200/14707.jpg"><img alt="" class="game-img loading" src="/images/m-common/assets/images/loading.gif">
-                                                   <span class="inf">
-                                                      <!----><span class="popular ng-star-inserted">Popüler</span><!---->
-                                                   </span>
-                                                   <span class="vendor-wrap"><span class="pg-icons"><img alt="" class="vendor-img" src="/images/m-common/assets/images/casino/32x32/endorphina.png"></span></span>
-                                                </a>
-                                             </div>
-                                             <div class="game-name truncate">Hell Hot 100</div>
-                                          </div>
-                                          <!----><!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <div class="game-card ng-star-inserted" style="">
-                                             <div class="card-image">
-                                                <a href="javascript:;">
-                                                   <div class="image-overlay"></div>
-                                                   <img class="game-img" src="/images/m-common/assets/images/casino/300x200/24276.jpg"><img alt="" class="game-img loading" src="/images/m-common/assets/images/loading.gif">
-                                                   <span class="inf">
-                                                      <!----><span class="popular ng-star-inserted">Popüler</span><!---->
-                                                   </span>
-                                                   <span class="vendor-wrap"><span class="pg-icons"><img alt="" class="vendor-img" src="/images/m-common/assets/images/casino/32x32/fugaso_lcky.png"></span></span>
-                                                </a>
-                                             </div>
-                                             <div class="game-name truncate">Pop  And  Drop</div>
-                                          </div>
-                                          <!----><!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight active ng-star-inserted" style="width: 131.5px;">
-                                          <div class="game-card ng-star-inserted" style="">
-                                             <div class="card-image">
-                                                <a href="javascript:;">
-                                                   <div class="image-overlay"></div>
-                                                   <img class="game-img" src="/images/m-common/assets/images/casino/300x200/13475.jpg"><img alt="" class="game-img loading" src="/images/m-common/assets/images/loading.gif">
-                                                   <span class="inf">
-                                                      <!----><span class="popular ng-star-inserted">Popüler</span><!---->
-                                                   </span>
-                                                   <span class="vendor-wrap"><span class="pg-icons"><img alt="" class="vendor-img" src="/images/m-common/assets/images/casino/32x32/smart_soft.png"></span></span>
-                                                </a>
-                                             </div>
-                                             <div class="game-name truncate">Balloon</div>
-                                          </div>
-                                          <!----><!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight active ng-star-inserted" style="width: 131.5px;">
-                                          <div class="game-card ng-star-inserted" style="">
-                                             <div class="card-image">
-                                                <a href="javascript:;">
-                                                   <div class="image-overlay"></div>
-                                                   <img class="game-img" src="/images/m-common/assets/images/casino/300x200/19420.jpg"><img alt="" class="game-img loading" src="/images/m-common/assets/images/loading.gif">
-                                                   <span class="inf">
-                                                      <!----><span class="popular ng-star-inserted">Popüler</span><!---->
-                                                   </span>
-                                                   <span class="vendor-wrap"><span class="pg-icons"><img alt="" class="vendor-img" src="/images/m-common/assets/images/casino/32x32/smart_soft.png"></span></span>
-                                                </a>
-                                             </div>
-                                             <div class="game-name truncate">Cricket X</div>
-                                          </div>
-                                          <!----><!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight active ng-star-inserted" style="width: 131.5px;">
-                                          <div class="game-card ng-star-inserted" style="">
-                                             <div class="card-image">
-                                                <a href="javascript:;">
-                                                   <div class="image-overlay"></div>
-                                                   <img class="game-img" src="/images/m-common/assets/images/casino/300x200/13477.jpg"><img alt="" class="game-img loading" src="/images/m-common/assets/images/loading.gif">
-                                                   <span class="inf">
-                                                      <!----><span class="popular ng-star-inserted">Popüler</span><!---->
-                                                   </span>
-                                                   <span class="vendor-wrap"><span class="pg-icons"><img alt="" class="vendor-img" src="/images/m-common/assets/images/casino/32x32/smart_soft.png"></span></span>
-                                                </a>
-                                             </div>
-                                             <div class="game-name truncate">JetX</div>
-                                          </div>
-                                          <!----><!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight active ng-star-inserted" style="width: 131.5px;">
-                                          <div class="game-card ng-star-inserted" style="">
-                                             <div class="card-image">
-                                                <a href="javascript:;">
-                                                   <div class="image-overlay"></div>
-                                                   <img class="game-img" src="/images/m-common/assets/images/casino/300x200/7209.jpg"><img alt="" class="game-img loading" src="/images/m-common/assets/images/loading.gif">
-                                                   <span class="inf">
-                                                      <!----><span class="popular ng-star-inserted">Popüler</span><!---->
-                                                   </span>
-                                                   <span class="vendor-wrap"><span class="pg-icons"><img alt="" class="vendor-img" src="/images/m-common/assets/images/casino/32x32/pgsoft.png"></span></span>
-                                                </a>
-                                             </div>
-                                             <div class="game-name truncate">Mahjong Ways</div>
-                                          </div>
-                                          <!----><!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <div class="game-card ng-star-inserted" style="">
-                                             <div class="card-image">
-                                                <a href="javascript:;">
-                                                   <div class="image-overlay"></div>
-                                                   <img class="game-img" src="/images/m-common/assets/images/casino/300x200/21257.jpg"><img alt="" class="game-img loading" src="/images/m-common/assets/images/loading.gif">
-                                                   <span class="inf">
-                                                      <!----><span class="popular ng-star-inserted">Popüler</span><!---->
-                                                   </span>
-                                                   <span class="vendor-wrap"><span class="pg-icons"><img alt="" class="vendor-img" src="/images/m-common/assets/images/casino/32x32/pgsoft.png"></span></span>
-                                                </a>
-                                             </div>
-                                             <div class="game-name truncate">Wild Bounty Showdown</div>
-                                          </div>
-                                          <!----><!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <div class="game-card ng-star-inserted" style="">
-                                             <div class="card-image">
-                                                <a href="javascript:;">
-                                                   <div class="image-overlay"></div>
-                                                   <img class="game-img" src="/images/m-common/assets/images/casino/300x200/22581.jpg"><img alt="" class="game-img loading" src="/images/m-common/assets/images/loading.gif">
-                                                   <span class="inf">
-                                                      <!----><span class="popular ng-star-inserted">Popüler</span><!---->
-                                                   </span>
-                                                   <span class="vendor-wrap"><span class="pg-icons"><img alt="" class="vendor-img" src="/images/m-common/assets/images/casino/32x32/fugaso_lcky.png"></span></span>
-                                                </a>
-                                             </div>
-                                             <div class="game-name truncate">Inferno  Diamonds</div>
-                                          </div>
-                                          <!----><!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <div class="game-card ng-star-inserted" style="">
-                                             <div class="card-image">
-                                                <a href="javascript:;">
-                                                   <div class="image-overlay"></div>
-                                                   <img class="game-img" src="/images/m-common/assets/images/casino/300x200/16784.jpg"><img alt="" class="game-img loading" src="/images/m-common/assets/images/loading.gif">
-                                                   <span class="inf">
-                                                      <!----><span class="popular ng-star-inserted">Popüler</span><!---->
-                                                   </span>
-                                                   <span class="vendor-wrap"><span class="pg-icons"><img alt="" class="vendor-img" src="/images/m-common/assets/images/casino/32x32/yggdrasil_lcky.png"></span></span>
-                                                </a>
-                                             </div>
-                                             <div class="game-name truncate">Vikings Go Berzerk</div>
-                                          </div>
-                                          <!----><!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <div class="game-card ng-star-inserted" style="">
-                                             <div class="card-image">
-                                                <a href="javascript:;">
-                                                   <div class="image-overlay"></div>
-                                                   <img class="game-img" src="/images/m-common/assets/images/casino/300x200/20727.jpg"><img alt="" class="game-img loading" src="/images/m-common/assets/images/loading.gif">
-                                                   <span class="inf">
-                                                      <!----><span class="popular ng-star-inserted">Popüler</span><!---->
-                                                   </span>
-                                                   <span class="vendor-wrap"><span class="pg-icons"><img alt="" class="vendor-img" src="/images/m-common/assets/images/casino/32x32/red_tiger_oss.png"></span></span>
-                                                </a>
-                                             </div>
-                                             <div class="game-name truncate">Jingle Ways Megaways</div>
-                                          </div>
-                                          <!----><!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <div class="game-card ng-star-inserted" style="">
-                                             <div class="card-image">
-                                                <a href="javascript:;">
-                                                   <div class="image-overlay"></div>
-                                                   <img class="game-img" src="/images/m-common/assets/images/casino/300x200/14707.jpg"><img alt="" class="game-img loading" src="/images/m-common/assets/images/loading.gif">
-                                                   <span class="inf">
-                                                      <!----><span class="popular ng-star-inserted">Popüler</span><!---->
-                                                   </span>
-                                                   <span class="vendor-wrap"><span class="pg-icons"><img alt="" class="vendor-img" src="/images/m-common/assets/images/casino/32x32/endorphina.png"></span></span>
-                                                </a>
-                                             </div>
-                                             <div class="game-name truncate">Hell Hot 100</div>
-                                          </div>
-                                          <!----><!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 131.5px;">
-                                          <div class="game-card ng-star-inserted" style="">
-                                             <div class="card-image">
-                                                <a href="javascript:;">
-                                                   <div class="image-overlay"></div>
-                                                   <img class="game-img" src="/images/m-common/assets/images/casino/300x200/24276.jpg"><img alt="" class="game-img loading" src="/images/m-common/assets/images/loading.gif">
-                                                   <span class="inf">
-                                                      <!----><span class="popular ng-star-inserted">Popüler</span><!---->
-                                                   </span>
-                                                   <span class="vendor-wrap"><span class="pg-icons"><img alt="" class="vendor-img" src="/images/m-common/assets/images/casino/32x32/fugaso_lcky.png"></span></span>
-                                                </a>
-                                             </div>
-                                             <div class="game-name truncate">Pop  And  Drop</div>
-                                          </div>
-                                          <!----><!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <div class="game-card ng-star-inserted" style="">
-                                             <div class="card-image">
-                                                <a href="javascript:;">
-                                                   <div class="image-overlay"></div>
-                                                   <img class="game-img" src="/images/m-common/assets/images/casino/300x200/13475.jpg"><img alt="" class="game-img loading" src="/images/m-common/assets/images/loading.gif">
-                                                   <span class="inf">
-                                                      <!----><span class="popular ng-star-inserted">Popüler</span><!---->
-                                                   </span>
-                                                   <span class="vendor-wrap"><span class="pg-icons"><img alt="" class="vendor-img" src="/images/m-common/assets/images/casino/32x32/smart_soft.png"></span></span>
-                                                </a>
-                                             </div>
-                                             <div class="game-name truncate">Balloon</div>
-                                          </div>
-                                          <!----><!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <div class="game-card ng-star-inserted" style="">
-                                             <div class="card-image">
-                                                <a href="javascript:;">
-                                                   <div class="image-overlay"></div>
-                                                   <img class="game-img" src="/images/m-common/assets/images/casino/300x200/19420.jpg"><img alt="" class="game-img loading" src="/images/m-common/assets/images/loading.gif">
-                                                   <span class="inf">
-                                                      <!----><span class="popular ng-star-inserted">Popüler</span><!---->
-                                                   </span>
-                                                   <span class="vendor-wrap"><span class="pg-icons"><img alt="" class="vendor-img" src="/images/m-common/assets/images/casino/32x32/smart_soft.png"></span></span>
-                                                </a>
-                                             </div>
-                                             <div class="game-name truncate">Cricket X</div>
-                                          </div>
-                                          <!----><!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <div class="game-card ng-star-inserted" style="">
-                                             <div class="card-image">
-                                                <a href="javascript:;">
-                                                   <div class="image-overlay"></div>
-                                                   <img class="game-img" src="/images/m-common/assets/images/casino/300x200/13477.jpg"><img alt="" class="game-img loading" src="/images/m-common/assets/images/loading.gif">
-                                                   <span class="inf">
-                                                      <!----><span class="popular ng-star-inserted">Popüler</span><!---->
-                                                   </span>
-                                                   <span class="vendor-wrap"><span class="pg-icons"><img alt="" class="vendor-img" src="/images/m-common/assets/images/casino/32x32/smart_soft.png"></span></span>
-                                                </a>
-                                             </div>
-                                             <div class="game-name truncate">JetX</div>
-                                          </div>
-                                          <!----><!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <div class="game-card ng-star-inserted" style="">
-                                             <div class="card-image">
-                                                <a href="javascript:;">
-                                                   <div class="image-overlay"></div>
-                                                   <img class="game-img" src="/images/m-common/assets/images/casino/300x200/7209.jpg"><img alt="" class="game-img loading" src="/images/m-common/assets/images/loading.gif">
-                                                   <span class="inf">
-                                                      <!----><span class="popular ng-star-inserted">Popüler</span><!---->
-                                                   </span>
-                                                   <span class="vendor-wrap"><span class="pg-icons"><img alt="" class="vendor-img" src="/images/m-common/assets/images/casino/32x32/pgsoft.png"></span></span>
-                                                </a>
-                                             </div>
-                                             <div class="game-name truncate">Mahjong Ways</div>
-                                          </div>
-                                          <!----><!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <div class="game-card ng-star-inserted" style="">
-                                             <div class="card-image">
-                                                <a href="javascript:;">
-                                                   <div class="image-overlay"></div>
-                                                   <img class="game-img" src="/images/m-common/assets/images/casino/300x200/21257.jpg"><img alt="" class="game-img loading" src="/images/m-common/assets/images/loading.gif">
-                                                   <span class="inf">
-                                                      <!----><span class="popular ng-star-inserted">Popüler</span><!---->
-                                                   </span>
-                                                   <span class="vendor-wrap"><span class="pg-icons"><img alt="" class="vendor-img" src="/images/m-common/assets/images/casino/32x32/pgsoft.png"></span></span>
-                                                </a>
-                                             </div>
-                                             <div class="game-name truncate">Wild Bounty Showdown</div>
-                                          </div>
-                                          <!----><!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!---->
-                                       <div class="owl-item ng-tns-c78-3 ng-trigger ng-trigger-autoHeight cloned ng-star-inserted" style="width: 131.5px;">
-                                          <!---->
-                                       </div>
-                                       <!----><!---->
-                                    </div>
-                                 </div>
-                              </owl-stage>
-                           </div>
-                           <!---->
-                           <div _ngcontent-lmt-c77="" class="owl-nav ng-star-inserted">
-                              <div _ngcontent-lmt-c77="" class="owl-prev"><i class="fa fa-chevron-left"></i></div>
-                              <div _ngcontent-lmt-c77="" class="owl-next"><i class="fa fa fa-chevron-right"></i></div>
-                           </div>
-                           <div _ngcontent-lmt-c77="" class="owl-dots disabled ng-star-inserted">
-                              <!---->
-                           </div>
-                           <!----><!---->
-                        </div>
-                     </owl-carousel-o>
-                  </div>
-               </div>
-               <!---->
-            </app-popular-games>
-            <!---->
-         </div>
-         <!---->
-         <div id="type4" class="ng-star-inserted" onclick="window.location.href = '/livesports'">
-            <app-top-list-widget class="ng-star-inserted">
-               <!---->
-               <div accordion="" class="modul-accordion populer-events ng-star-inserted">
-                  <div class="modul-header"><span class="header-text">En İyiler</span><i class="fa fa-chevron-right right"></i></div>
-                  <div class="modul-content">
-                     <div class="list-btn-cont">
-                        <a class="btn list-btn flex-container ng-star-inserted" title="Süper Lig" href="#"><i class="country icon-32xTUR pg-icons svg-font-icons"></i><span class="text flex-item">Süper Lig</span></a><!----><a class="btn list-btn flex-container ng-star-inserted" title="UEFA Şampiyonlar Ligi" href="#"><i class="country icon-32xWRLD pg-icons svg-font-icons"></i><span class="text flex-item">UEFA Şampiyonlar Ligi</span></a><!----><a class="btn list-btn flex-container ng-star-inserted" title="UEFA Avrupa Ligi" href="#"><i class="country icon-32xWRLD pg-icons svg-font-icons"></i><span class="text flex-item">UEFA Avrupa Ligi</span></a><!----><a class="btn list-btn flex-container ng-star-inserted" title="UEFA Avrupa Konferans Ligi" href="#"><i class="country icon-32xWRLD pg-icons svg-font-icons"></i><span class="text flex-item">UEFA Avrupa Konferans Ligi</span></a><!----><a class="btn list-btn flex-container ng-star-inserted" title="Premier Lig" href="#"><i class="country icon-32xENG pg-icons svg-font-icons"></i><span class="text flex-item">Premier Lig</span></a><!----><a class="btn list-btn flex-container ng-star-inserted" title="LaLiga" href="#"><i class="country icon-32xESP pg-icons svg-font-icons"></i><span class="text flex-item">LaLiga</span></a><!----><a class="btn list-btn flex-container ng-star-inserted" title="Bundesliga" href="#"><i class="country icon-32xDEU pg-icons svg-font-icons"></i><span class="text flex-item">Bundesliga</span></a><!----><a class="btn list-btn flex-container ng-star-inserted" title="Serie A" href="#"><i class="country icon-32xITA pg-icons svg-font-icons"></i><span class="text flex-item">Serie A</span></a><!----><a class="btn list-btn flex-container ng-star-inserted" title="Lig 1" href="#"><i class="country icon-32xFRA pg-icons svg-font-icons"></i><span class="text flex-item">Lig 1</span></a><!----><a class="btn list-btn flex-container ng-star-inserted" title="Eredivisie" href="#"><i class="country icon-32xNLD pg-icons svg-font-icons"></i><span class="text flex-item">Eredivisie</span></a><!----><a class="btn list-btn flex-container ng-star-inserted" title="Primeira Lig" href="#"><i class="country icon-32xPRT pg-icons svg-font-icons"></i><span class="text flex-item">Primeira Lig</span></a><!----><a class="btn list-btn flex-container ng-star-inserted" title="NBA" href="#"><i class="country icon-32xUSA pg-icons svg-font-icons"></i><span class="text flex-item">NBA</span></a><!----><a class="btn list-btn flex-container ng-star-inserted" title="Euroleague" href="#"><i class="country icon-32xWRLD pg-icons svg-font-icons"></i><span class="text flex-item">Euroleague</span></a><!----><!---->
-                     </div>
-                  </div>
-               </div>
-               <!---->
-            </app-top-list-widget>
-            <!---->
-         </div>
-         <!---->
-         <div id="type5" class="ng-star-inserted" onclick="window.location.href = '/sportsbook'">
-            <popular-odds class="ng-star-inserted">
-               <div accordion="" class="modul-accordion populer-events populer-team-bets ng-star-inserted">
-                  <div class="modul-header"><span class="header-text"> Popüler Bahisler </span><i class="fa fa-chevron-right right"></i></div>
-                  <div class="modul-content">
-                     <div class="fixture-container">
-                        <div class="match-content ng-star-inserted">
-                           <div class="flex-container">
-                              <div class="flex-item truncate">
-                                 <a href="javascript:;" class="match-header flex-container">
-                                    <div class="content-left flex-container">
-                                       <div class="time"><span class="clock">23:00</span><span class="date">05/02</span></div>
-                                       <div class="team-name truncate">
-                                          <span class="item"><span class="text truncate"> Brentford - Manchester City FC </span></span>
-                                          <span class="item">
-                                             <i class="left pg-icons sport-types-1 svg-font-icons"></i>
-                                             <div class="text truncate">1x2: <span class="selection">Deplasman</span></div>
-                                          </span>
-                                       </div>
-                                    </div>
-                                 </a>
-                              </div>
-                              <div class="odd-btn-group team-bets-btn-main"><a bet-button="" class="btn bet-btn waves-effect waves-light w100" title="7808008374" foid="7808008374"><span class="bet-btn-odd">1.46</span></a></div>
-                           </div>
-                        </div>
-                        <!---->
-                        <div class="match-content ng-star-inserted">
-                           <div class="flex-container">
-                              <div class="flex-item truncate">
-                                 <a href="javascript:;" class="match-header flex-container">
-                                    <div class="content-left flex-container">
-                                       <div class="time"><span class="clock">19:00</span><span class="date">04/02</span></div>
-                                       <div class="team-name truncate">
-                                          <span class="item"><span class="text truncate"> Beşiktaş - Trabzonspor </span></span>
-                                          <span class="item">
-                                             <i class="left pg-icons sport-types-1 svg-font-icons"></i>
-                                             <div class="text truncate">Toplam, Asya Toplam - Alt/Üst: <span class="selection">2.5 Üst</span></div>
-                                          </span>
-                                       </div>
-                                    </div>
-                                 </a>
-                              </div>
-                              <div class="odd-btn-group team-bets-btn-main"><a bet-button="" class="btn bet-btn waves-effect waves-light w100" title="7839076073" foid="7839076073"><span class="bet-btn-odd">1.77</span></a></div>
-                           </div>
-                        </div>
-                        <!---->
-                        <div class="match-content ng-star-inserted">
-                           <div class="flex-container">
-                              <div class="flex-item truncate">
-                                 <a href="javascript:;" class="match-header flex-container">
-                                    <div class="content-left flex-container">
-                                       <div class="time"><span class="clock">23:00</span><span class="date">15/02</span></div>
-                                       <div class="team-name truncate">
-                                          <span class="item"><span class="text truncate"> Benfica Lisbon - Toulouse FC </span></span>
-                                          <span class="item">
-                                             <i class="left pg-icons sport-types-1 svg-font-icons"></i>
-                                             <div class="text truncate">1x2: <span class="selection">Ev Sahibi</span></div>
-                                          </span>
-                                       </div>
-                                    </div>
-                                 </a>
-                              </div>
-                              <div class="odd-btn-group team-bets-btn-main"><a bet-button="" class="btn bet-btn waves-effect waves-light w100" title="7663733723" foid="7663733723"><span class="bet-btn-odd">1.43</span></a></div>
-                           </div>
-                        </div>
-                        <!---->
-                        <div class="match-content ng-star-inserted">
-                           <div class="flex-container">
-                              <div class="flex-item truncate">
-                                 <a href="javascript:;" class="match-header flex-container">
-                                    <div class="content-left flex-container">
-                                       <div class="time"><span class="clock">22:15</span><span class="date">02/02</span></div>
-                                       <div class="team-name truncate">
-                                          <span class="item"><span class="text truncate"> FC Sion - FC Aarau </span></span>
-                                          <span class="item">
-                                             <i class="left pg-icons sport-types-1 svg-font-icons"></i>
-                                             <div class="text truncate">Toplam, Asya Toplam - Alt/Üst: <span class="selection">2.5 Üst</span></div>
-                                          </span>
-                                       </div>
-                                    </div>
-                                 </a>
-                              </div>
-                              <div class="odd-btn-group team-bets-btn-main"><a bet-button="" class="btn bet-btn waves-effect waves-light w100" title="7834762012" foid="7834762012"><span class="bet-btn-odd">1.65</span></a></div>
-                           </div>
-                        </div>
-                        <!---->
-                        <div class="match-content ng-star-inserted">
-                           <div class="flex-container">
-                              <div class="flex-item truncate">
-                                 <a href="javascript:;" class="match-header flex-container">
-                                    <div class="content-left flex-container">
-                                       <div class="time"><span class="clock">23:00</span><span class="date">15/02</span></div>
-                                       <div class="team-name truncate">
-                                          <span class="item"><span class="text truncate"> Real Betis Sevilla - Dinamo Zagreb </span></span>
-                                          <span class="item">
-                                             <i class="left pg-icons sport-types-1 svg-font-icons"></i>
-                                             <div class="text truncate">1x2: <span class="selection">Ev Sahibi</span></div>
-                                          </span>
-                                       </div>
-                                    </div>
-                                 </a>
-                              </div>
-                              <div class="odd-btn-group team-bets-btn-main"><a bet-button="" class="btn bet-btn waves-effect waves-light w100" title="7663976425" foid="7663976425"><span class="bet-btn-odd">1.75</span></a></div>
-                           </div>
-                        </div>
-                        <!---->
-                        <div class="match-content ng-star-inserted">
-                           <div class="flex-container">
-                              <div class="flex-item truncate">
-                                 <a href="javascript:;" class="match-header flex-container">
-                                    <div class="content-left flex-container">
-                                       <div class="time"><span class="clock">23:00</span><span class="date">15/02</span></div>
-                                       <div class="team-name truncate">
-                                          <span class="item"><span class="text truncate"> SC Braga - Karabağ FK </span></span>
-                                          <span class="item">
-                                             <i class="left pg-icons sport-types-1 svg-font-icons"></i>
-                                             <div class="text truncate">1x2: <span class="selection">Ev Sahibi</span></div>
-                                          </span>
-                                       </div>
-                                    </div>
-                                 </a>
-                              </div>
-                              <div class="odd-btn-group team-bets-btn-main"><a bet-button="" class="btn bet-btn waves-effect waves-light w100" title="7663669448" foid="7663669448"><span class="bet-btn-odd">1.4</span></a></div>
-                           </div>
-                        </div>
-                        <!---->
-                        <div class="match-content ng-star-inserted">
-                           <div class="flex-container">
-                              <div class="flex-item truncate">
-                                 <a href="javascript:;" class="match-header flex-container">
-                                    <div class="content-left flex-container">
-                                       <div class="time"><span class="clock">23:00</span><span class="date">15/02</span></div>
-                                       <div class="team-name truncate">
-                                          <span class="item"><span class="text truncate"> Milan - Stade Rennais </span></span>
-                                          <span class="item">
-                                             <i class="left pg-icons sport-types-1 svg-font-icons"></i>
-                                             <div class="text truncate">1x2: <span class="selection">Ev Sahibi</span></div>
-                                          </span>
-                                       </div>
-                                    </div>
-                                 </a>
-                              </div>
-                              <div class="odd-btn-group team-bets-btn-main"><a bet-button="" class="btn bet-btn waves-effect waves-light w100" title="7663669453" foid="7663669453"><span class="bet-btn-odd">1.66</span></a></div>
-                           </div>
-                        </div>
-                        <!---->
-                        <div class="match-content ng-star-inserted">
-                           <div class="flex-container">
-                              <div class="flex-item truncate">
-                                 <a href="javascript:;" class="match-header flex-container">
-                                    <div class="content-left flex-container">
-                                       <div class="time"><span class="clock">23:00</span><span class="date">13/02</span></div>
-                                       <div class="team-name truncate">
-                                          <span class="item"><span class="text truncate"> FC Kopenhag - Manchester City FC </span></span>
-                                          <span class="item">
-                                             <i class="left pg-icons sport-types-1 svg-font-icons"></i>
-                                             <div class="text truncate">1x2: <span class="selection">Deplasman</span></div>
-                                          </span>
-                                       </div>
-                                    </div>
-                                 </a>
-                              </div>
-                              <div class="odd-btn-group team-bets-btn-main"><a bet-button="" class="btn bet-btn waves-effect waves-light w100" title="7663591323" foid="7663591323"><span class="bet-btn-odd">1.34</span></a></div>
-                           </div>
-                        </div>
-                        <!---->
-                        <div class="match-content ng-star-inserted">
-                           <div class="flex-container">
-                              <div class="flex-item truncate">
-                                 <a href="javascript:;" class="match-header flex-container">
-                                    <div class="content-left flex-container">
-                                       <div class="time"><span class="clock">23:00</span><span class="date">13/02</span></div>
-                                       <div class="team-name truncate">
-                                          <span class="item"><span class="text truncate"> RB Leipzig - Real Madrid </span></span>
-                                          <span class="item">
-                                             <i class="left pg-icons sport-types-1 svg-font-icons"></i>
-                                             <div class="text truncate">1x2: <span class="selection">Deplasman</span></div>
-                                          </span>
-                                       </div>
-                                    </div>
-                                 </a>
-                              </div>
-                              <div class="odd-btn-group team-bets-btn-main"><a bet-button="" class="btn bet-btn waves-effect waves-light w100" title="7663618360" foid="7663618360"><span class="bet-btn-odd">2.2</span></a></div>
-                           </div>
-                        </div>
-                        <!---->
-                        <div class="match-content ng-star-inserted">
-                           <div class="flex-container">
-                              <div class="flex-item truncate">
-                                 <a href="javascript:;" class="match-header flex-container">
-                                    <div class="content-left flex-container">
-                                       <div class="time"><span class="clock">20:45</span><span class="date">15/02</span></div>
-                                       <div class="team-name truncate">
-                                          <span class="item"><span class="text truncate"> Galatasaray - AC Sparta Prag </span></span>
-                                          <span class="item">
-                                             <i class="left pg-icons sport-types-1 svg-font-icons"></i>
-                                             <div class="text truncate">1x2: <span class="selection">Ev Sahibi</span></div>
-                                          </span>
-                                       </div>
-                                    </div>
-                                 </a>
-                              </div>
-                              <div class="odd-btn-group team-bets-btn-main"><a bet-button="" class="btn bet-btn waves-effect waves-light w100" title="7663669472" foid="7663669472"><span class="bet-btn-odd">1.78</span></a></div>
-                           </div>
-                        </div>
-                        <!----><!---->
-                     </div>
-                  </div>
-               </div>
-               <!---->
-            </popular-odds>
-            <!---->
-         </div>
-         <!----><!----><!----><!---->
-         <!---->
-      </main>
-   </app-main-page>
-   <!---->
-   <payments-widget>
-      <!---->
-      <div id="PaymentFormModal" materialize="modal" class="modal modal-md open dshbrd-modal pymnt-mdl black-text" style="z-index: 1025;">
-         <div class="modal-header"><a href="javascript:;" class="modal-action modal-close"><i class="material-icons pg-icons white-text">close</i></a></div>
-         <!---->
-      </div>
-   </payments-widget>
-</main>
+           
