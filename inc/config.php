@@ -9,10 +9,10 @@ date_default_timezone_set('Europe/Istanbul');
 
 // Database Info
 const DB_HOST = "localhost";
-const DB_LOGIN = "admin_liman";
-const DB_PASS = "3!W6yfi43";
-const DB_NAME = "admin_liman";
-const SYSNAME = 'LimanBet';
+const DB_LOGIN = "admin_bahsegel1";
+const DB_PASS = "37g?8g3jV";
+const DB_NAME = "admin_bahsegel1";
+const SYSNAME = 'Bahsegel';
 const ENV = 'prod';
 
 const ADMIN_PATH = 'admin';
