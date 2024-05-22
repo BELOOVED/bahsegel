@@ -1,0 +1,170 @@
+﻿.top_winners__page, .no_winners {
+    display: none;
+}
+
+.top_winners__page.active, .no_winners.active {
+    display: flex;
+}
+
+.top_winners__game {
+    padding: 16px;
+    border: 1px solid var(--bg-level-3);
+    background: var(--bg-level-2);
+    border-radius: 16px;
+    display: flex;
+}
+
+.top_winners__img_link {
+    display: block;
+    width: 110px;
+    height: 110px;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-inline-end: 12px;
+    flex-shrink: 0;
+}
+
+.top_winners__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.top_winners__text {
+    row-gap: 8px;
+    align-items: flex-start;
+}
+
+.top_winners__id {
+    border: 1px solid var(--bg-level-1);
+    background-color: var(--bg-level-1);
+    border-radius: 24px;
+    row-gap: 8px;
+    padding: 8px 12px;
+    column-gap: 8px;
+    color: var(--text-level-high);
+    white-space: nowrap;
+}
+
+.top_winners__id.me_badge{
+    padding: 8px 16px;
+}
+
+.top_winners__id span {
+    margin: 0 4px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+.top_winners__id.me_badge span{
+    margin: 0;
+}
+
+.top_winners__id i{
+    font-size: 40px;
+    line-height: 24px;
+    height: 24px;
+    width: 24px;
+}
+
+.top_winners__game a {
+    outline: none;
+}
+
+.top_winners__date,
+.top_winners__bet {
+    color: var(--text-level-medium);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    white-space: nowrap;
+}
+
+.top_winners__bet {
+    border: 1px solid var(--bg-level-1);
+    background-color: var(--bg-level-1);
+    border-radius: 24px;
+    padding: 8px 16px;
+    color: var(--text-level-high);
+}
+
+.top_winners__bet span:not(.top_jackpots__crns) {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.top_winners__bet span:last-child:not(.top_jackpots__crns) {
+    margin-inline-start: 4px;
+}
+
+.top_winners__game .top_jackpots__crns {
+    font-size: 18px;
+    font-family: ProductIconsFont;
+}
+
+.top_winners__value .top_winners__value_split + span:not(.top_jackpots__crns) {
+    font-size: 18px;
+}
+
+.top_winners__bet .top_jackpots__crns {
+    color: var(--text-level-high);
+    margin-inline-start: 3px;
+}
+
+.top_winners__value {
+    color: var(--primary);
+    white-space: nowrap;
+}
+
+.top_winners__value_split {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.no_winners {
+    padding: 16px;
+    border: 1px solid var(--bg-level-2);
+    border-radius: 16px;
+    padding: 39px 16px;
+    color: var(--text-level-high);
+}
+
+
+.no_winners i {
+    line-height: 24px;
+    font-size: 52px;
+    height: 24px;
+}
+
+.no_winners_text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 8px 0;
+}
+
+.top_winners_block .rd_header_tabs {
+    max-width: calc(100% - 112px);
+}
+
+.top_winners_block .rd_header_tab_item {
+    padding: 14px 16px;
+    max-width: calc(100% / 3);
+    overflow: hidden;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+}
+
+.widget_arrow__wrapper {
+    column-gap: 8px;
+    position: absolute;
+    top: 28px;
+    inset-inline-end: 0;
+}

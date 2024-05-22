@@ -1,0 +1,199 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+<title>VipPos Ödeme Sistemi</title>
+<meta name="description" content="VipPos" />
+<meta name="keywords" content="VipPos Ödeme Sistemi" />
+<meta name="abstract" content="Organization">
+<meta name="author" content="VipPos">
+<meta name="classification" content="Organization">
+<meta name="content-language" content="tr">
+<meta name="rating" content="general">
+<meta name="distribution" content="global">
+<meta name="resource-type" content="document">
+<meta name="robots" content="noindex">
+<meta name="googlebot" content="noindex">
+<meta http-equiv="reply-to" content="info@vip3d.net">
+<meta name="google" content="notranslate">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<link rel="alternate" href="https://deposit.vip3d.net" hreflang="tr-tr" />
+<link rel="shortcut icon" href="/assets/images/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.ico" />
+
+
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" href="/assets/styles/sweetalert2.min.css">
+    <link rel="stylesheet" href="/assets/styles/jquery.fancybox.min.css?v=2KQLBWNf1a7rWhIQ5ksWSOQFAyOQsafLPvd62U5VLgU">
+
+    
+    
+        <link rel="stylesheet" href="/assets/styles/reset.min.css?v=Ux_JrvPNIs8mUj8-byC-AJD__neLIBpFsTu-iMri2H4">
+        <link rel="stylesheet" href="/assets/styles/all.min.css?v=y-79Qn1YXrzly2qj5n39M7kezzWuv_yP_lEicR9RzDM">
+    
+
+    <script src="/assets/scripts/jquery.min.js"></script>
+    <script src="/assets/scripts/jquery.priceformat.min.js"></script>
+    <script src="/assets/scripts/jquery.starttimer.min.js"></script>
+    <script src="/assets/scripts/jquery.mask.min.js"></script>
+    <script src="/assets/scripts/qrcode.min.js"></script>
+    <script src="/assets/scripts/clipboard.min.js"></script>
+    <script src="/assets/scripts/sweetalert2.min.js"></script>
+    <script src="/assets/scripts/jquery.fancybox.min.js"></script>
+</head>
+
+<body>
+    <div class="loading page-laoding">
+        <div>
+            <div class="loading-gif"><img src="/assets/images/loader.gif" alt=""></div>
+            <div class="text">İşleminiz yapılıyor, lütfen bekleyiniz.</div>
+        </div>
+    </div>
+    <form method="post" name="FormAction" id="FormAction" autocomplete="off" action="" style="margin-bottom: 0px;width:100%;height:100vh;">
+        <div class="page-center">
+    <div class="page-content">
+        <div class="footer-logo logo-top-style">
+            <img src="/assets/images/logo-05.png" alt="" />
+        </div>
+        <div class="sub-content">
+            <div class="main-left">
+                <div class="lock"><img src="/assets/img/lock.png" alt="" /></div>
+                <div class="text">
+                    Tüm bilgileriniz SSL güvenlik sertifikası ile korunmaktadır.
+                </div>
+            </div>
+            <div class="main-right">
+                <div class="form-height" style=" min-height: 223px !important;">
+                   
+                    <div class="form-item custom-form-item">
+                        <div class="text custom-title">Sayın. Serhat Elçi </div>
+                    </div>
+                    <div class="form-item custom-form-item" style="margin-top: 34px;">
+                        <div class="text custom-form-item-text">Yatırmak İstediğiniz Tutarı Giriniz</div>
+                        <div class="item custom-form-item-item">
+                            <input type="number" class="txt-right custom-price money2  nosubmit" placeholder="Tutar 0,00 TL" id="txtAmount" name="txtAmount" value="" />
+                            <input placeholder="TL" readonly class="nosubmit" style="max-width:40px;margin-left:5px;">
+                            <span class="invalid" style="margin-top:0px;"></span>
+                        </div>
+                    </div>
+                    <!-- + btn ödemeyi oluştur -->
+                    <div class="form-item custom-form-item">
+                        <div class="text"></div>
+                        <div class="item mobile-center custom-button-content">
+                            <a class="btn submit">KREDİ KARTI İLE PARA YATIR</a>
+                        </div>
+                    </div>
+                    <!-- - btn ödemeyi oluştur -->
+
+                </div>
+                <div class="warning-area  ">
+                    <div class="warning-area-body">
+                        <div class="item">
+                            Girebileceğiniz günlük limitiniz en az <b class="red">50,00 TL</b> en fazla <b class="red">3.000,00 TL</b> arasında olabilir.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+<script>
+    $(document).ready(function () {
+        $('#txtPhoneNumber').mask('0500 000 00 00');
+        $('#txtIdentifiNumber').mask('00000000000');
+    });
+</script>
+
+<script>
+    $(document).ready(function () {
+
+        function setMask() {
+            $('.money2').priceFormat({
+                prefix: '',
+                centsSeparator: '',
+                thousandsSeparator: '',
+                centsLimit: 0
+            });
+        }
+
+        function unMask() {
+            $('.money2').unpriceFormat();
+        }
+
+        function isMobile() {
+            if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+
+        if (isMobile()) {
+
+            $('.money2').attr('type', 'number');
+
+        } else {
+            setMask();
+        }
+
+        $('.money2').on('keypress', function (e) {
+
+            if (isMobile() && e.which == 101 || e.which == 46) {
+                return false;
+            }
+
+        });
+
+        $('.money2').blur(function () {
+
+            $('.money2').attr("placeholder", "Tutar 0,00 TL");
+            if (isMobile()) {
+
+                $(this).attr('type', 'text');
+                setMask();
+            }
+
+            if ($(this).val() == "0")
+                $(this).val("");
+
+        });
+
+        $('.money2').focus(function () {
+
+            $('.money2').attr("placeholder", "");
+            if (isMobile()) {
+
+                $(this).attr('type', 'number');
+                unMask();
+
+            }
+
+            if ($(this).val() == "0")
+                $(this).val("");
+
+
+        });
+
+    });
+</script>
+    <input name="__RequestVerificationToken" type="hidden" value="CfDJ8D6eGVFMSH5Mga4-ivIxNYIbBuCqQT9_aGG64yjVIka4jUycyY2mEr2fsfWB63ajC2uhcsxSOaXupjDelN1kKz2tHnr7nOhGNnPkh3IE3ESXRBmwjMmx9Hfn7kYdjnrqmSmmY4tZ08TdZM0PLlhUcK0" /></form>
+    
+    
+        <script src="/assets/scripts/jquery.main.min.js?v=2Dv5zJnlSugHsijiqtTf4Viekc7nB4YYreNHcYX4XFA"></script>
+    
+
+    <script>
+        $('.loading').hide();
+    </script>
+</body>
+</html>

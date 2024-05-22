@@ -1,0 +1,93 @@
+/* Dynamic Homepage: SEO Texts */
+.additional-infos {
+    background: var(--bg-level-2);
+    border: 1px solid var(--bg-level-3);
+    padding: 16px 16px 0 16px;
+    position: relative;
+    margin: 0 16px;
+    border-radius: 16px;
+}
+
+.additional-infos .info_section-title {
+    display: block;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--text-level-high);
+    margin-bottom: 8px;
+}
+
+.info_article p {
+    margin-top: 0;
+}
+
+.info_article > * {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: var(--text-level-medium);
+    margin-bottom: 8px;
+}
+
+.info_article + .info_article,
+.additional-infos .moretext_inner {
+    margin-top: 16px;
+}
+
+.additional-infos ul {
+    -webkit-margin-start: 16px;
+    margin-inline-start: 16px;
+    list-style: initial;
+}
+
+.additional-infos li {
+    margin-bottom: 4px;
+}
+
+.moreless_button__wrapper {
+    margin-bottom: 8px;
+}
+
+.additional-infos .moreless_button {
+    color: var(--text-level-medium);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 16px;
+}
+
+.additional-infos .moreless_button span {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: var(--text-level-medium);
+    margin: 0 8px;
+}
+
+.additional-infos .moreless_button i {
+    display: inline-flex;
+    padding: 5px 3.5px;
+    line-height: 8px;
+    color: var(--icon-level-medium);
+    font-weight: 600;
+    font-size: 29px;
+    margin: 0;
+}
+
+.additional-infos .moreless_button i:after {
+    content: "\E099";
+    font-family: "iconsDinamicMenu";
+}
+
+.additional-infos .moreless_button.active i:after {
+    content: "\E100";
+}
+
+.additional-infos .moreless_button.active svg {
+    transform: rotate(180deg);
+}
+
+.additional-infos .info_more,
+.additional-infos .less_text {
+    display: none;
+}

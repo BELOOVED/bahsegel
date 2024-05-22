@@ -1,0 +1,219 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta charset="UTF-8">
+<title>HemenÖde VipPapara</title>
+<meta name="description" content="HemenOde" />
+<meta name="keywords" content="Ödeme Sistemi" />
+<meta name="abstract" content="Organization">
+<meta name="author" content="HemenOde">
+<meta name="classification" content="Organization">
+<meta name="content-language" content="tr">
+<meta name="rating" content="general">
+<meta name="distribution" content="global">
+<meta name="resource-type" content="document">
+<meta name="robots" content="noindex">
+<meta name="googlebot" content="noindex">
+<meta http-equiv="reply-to" content="info@hmnpay.com">
+
+
+<meta name="google" content="notranslate">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+<link rel="alternate" href="https://www.hmnpay.com/" hreflang="tr-tr" />
+<link rel="apple-touch-icon" sizes="57x57" href="/assets/img/icons/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/assets/img/icons/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/assets/img/icons/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/assets/img/icons/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/assets/img/icons/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/assets/img/icons/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/assets/img/icons/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/assets/img/icons/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/icons/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/img/icons/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/assets/img/icons/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/icons/favicon-16x16.png">
+<link rel="manifest" href="/assets/img/icons/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="~/assets/img/icons/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="shortcut icon" href="/assets/img/icons/favicon.ico">
+
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" href="/assets/styles/sweetalert2.min.css">
+
+    
+    
+        <link href="/assets/sumoselect/sumoselect.min.css?v=wFQvvKL6O-ddX3u6_pa0PS894wddlBJk4H6_s3SOJqY" rel="stylesheet" />
+        <link rel="stylesheet" href="/assets/styles/all.min.css?v=IrameWlUDrbUIuBaPuOoEEVaKLWSV3kySW-Mi9RA0Ls">
+        <link rel="stylesheet" href="/assets/styles/customBtn.min.css?v=CXFO0MZu2zDE4rteq6FFJZw62lHfPTRKxRqw2-A6h5k">
+
+        <script src="/assets/scripts/jquery.min.js"></script>
+        <script src="/assets/scripts/jquery.priceformat.min.js"></script>
+        <script src="/assets/scripts/jquery.starttimer.min.js"></script>
+        <script src="/assets/scripts/jquery.mask.min.js"></script>
+        <script src="/assets/scripts/qrcode.min.js"></script>
+        <script src="/assets/scripts/clipboard.min.js"></script>
+        <script src="/assets/scripts/sweetalert2.min.js"></script>
+        <script src="/assets/sumoselect/jquery.sumoselect.min.js?v=gZAvrZ6KI5Ndr2h9hchEHR5vU-zs1ZBetkYjkrv4RUs"></script>
+    
+
+
+
+
+</head>
+
+<body>
+    <div class="loading page-laoding">
+        <div class="loadin-bg-color">
+            <div class="loading-logo"><img src="/assets/images/papara.png" alt=""></div>
+            <div class="loading-gif"><img src="/assets/images/loader.gif" alt=""></div>
+            <div class="text">İşleminiz yapılıyor, lütfen bekleyiniz.</div>
+        </div>
+    </div>
+    <form method="post" name="FormAction" id="FormAction" autocomplete="off" action="" style="margin-bottom: 0px;width:100%;height:100vh;">
+        <div class="page-center">
+            
+
+<div class="page-content">
+
+    <div class="page-right">
+        <div class="logo"><img src="/assets/images/vippapara.svg" alt="" style="width:100%;"></div>
+        <div class="page-title" style="margin-bottom:10px !important;">Yatırım Yapacağınız Papara Hesabı</div>
+        <div class="qr-area" id="qrcode"> </div>
+        <div class="mob-form-align">
+
+            <div class="form-group">
+                <div class="form-title mobile-hide">Yatırım Tutarı :</div>
+                <input readonly value="50,00" class="input-left-border" type="text">
+                <div class="right-item">
+                    <img src="/assets/images/wallet.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="mob-form-align">
+            <div class="form-group">
+                <div class="form-title mobile-hide">Hesap Sahibi :</div>
+                <input readonly value="Ba*** Bu*** " class="input-left-border" type="text">
+                <div class="right-item">
+                    <img src="/assets/images/user.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="mob-form-align">
+            <div class="form-group">
+                <div class="form-title mobile-hide">Papara Hesabı :</div>
+                <input id="txtPaparaAccount" class="copyedAccount input-left-border" readonly value="2087028694" type="text">
+                <div class="right-item copy-item">
+                    <button type="button" class="btn btnAccount" id="btnAccountCopy" data-clipboard-target="#txtPaparaAccount">
+                        <img src="/assets/images/copy.svg" alt="">
+                    </button>
+                </div>
+            </div>
+        </div>
+            <div class="login-buttons-area-center">
+                <button class="btn-blue1 btnYatirimiYaptim" type="button" style=" margin-bottom: 5px; margin-top: 5px;">YATIRIMI YAPTIM</button>
+            </div>
+            <script type="text/javascript">
+                $(document).on("click", ".btnYatirimiYaptim", function () {
+                    $(".loading").fadeIn(1);
+                    $.post("/api/set-request-approved", $("#FormAction").serialize(), function (data) {
+                        location.reload();
+                    });
+                    return false;
+                });
+            </script>
+
+        <div class="warning-area mt5 ">
+            <div class="warning-area-head">
+                <div class="title">Bilgilendirme</div>
+                <div class="time" style="display: flex;color: #383838;">Yatırım Süresi : <p class="time" id="timeOut" data-seconds-left="900">00:00</p></div>
+            </div>
+            <div class="warning-area-body">
+                <div class="item">
+                    Papara hesabınızdan yukarıda size verilen <b>Papara</b> numarasına para transfer işlemini gerçekleştirmeniz gerekmektedir.
+                </div>
+                <div class="item">
+                    Transfer işleminiz sistemlerimize geçtiğinde hesabınıza otomatik olarak yansıtılacaktır.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    $(document).ready(function () {
+
+        var qrcode = new QRCode(document.getElementById("qrcode"), {
+            width: 120,
+            height: 120
+        });
+        qrcode.makeCode("https://www.papara.com/personal/qr?accountNumber=2087028694&amp;amount=50");
+
+
+        var clipboardUser = new ClipboardJS('#btnAccountCopy');
+
+        var alert = false;
+        $('#timeOut').startTimer({
+            onComplete: function (element) {
+                if (alert == false) {
+                    alert = true;
+                    Swal.fire({
+                        type: 'error',
+                        title: 'Yatırım Yapma Süreniz Doldu',
+                        showConfirmButton: false,
+                        timer: 2500,
+                    });
+                }
+            }
+        });
+
+    });
+</script>
+<input type="hidden" name="txtRequestID" value="65509abc52270b2c9dff66f3" />
+<script type="text/javascript">
+    var isRunning = false;
+    var timerPapara = setInterval(function () {
+        if (isRunning == false) {
+            isRunning = true;
+            $.post("/api/check-request", $("#FormAction").serialize(), function (data) {
+                if (data.ID == 100) {
+                    location.href = "/payment-success?token=65509abc52270b2c9dff66f3";
+                    clearInterval(timerPapara);
+                } else if (data.ID == 200) {
+                    clearInterval(timerPapara);
+                    location.reload();
+                } else {
+                    isRunning = false;
+                }
+            });
+        }
+    }, 20000);
+</script>
+
+
+
+        </div>
+    <input name="__RequestVerificationToken" type="hidden" value="CfDJ8NPK2uSmAI1LlNTQLg3-dwbXAaafYw8u6BQRzfPF9Z64xMTKk-9u3PfVG53Y9bZBQqKcxxcLHCG-VXKLi0QF_WNyJTXXugC3fsZBvNV6wz51bg4j6BnBGh7x_EpKZZ41K7GYkecJYKWMxZKg2IemcBY" /></form>
+    
+    
+        <script src="/assets/scripts/jquery.main.min.js?v=lCnWWQGi6xbQeyWjuFzZFjO4p5qDIKBsALYQKStzupY"></script>
+    
+
+    <script>
+        $('.loading').fadeOut("slow");
+    </script>
+<script>(function(){var js = "window['__CF$cv$params']={r:'824dbeba69d26978',t:'MTY5OTc4MTMwOC42MTcwMDA='};_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js',document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
+</html>

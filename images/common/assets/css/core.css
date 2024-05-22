@@ -1,0 +1,45 @@
+/* for desktop
+
+*** useful examples
+
+	html[lang=en] {}                   // choose by languages
+	body#trader-betofcourse {}         // select by trader name
+	body.platform-pg {}                // choose pg platform
+	body.platform-st {}                // choose st platform
+	body.page-sports-main {}           // select by page
+	
+	a[href*="live-racing"] {}          // used to select elements whose attribute value contains a specified value.
+	more examples                      // https://www.w3schools.com/css/css_attribute_selectors.asp
+
+*/
+
+body#trader-straikabet .hdr-cntr .hdr-other-btn a.invest-btn{display: none;}
+body#trader-straikabet .hdr-cntr .login-menu .balance-dropdropdown .deposit{display: none;}
+body#trader-straikabet .login-menu .user-name .info .deposit{display: none;}
+
+
+body#trader-betsalone a[href*="casino"] {display:none!important;}
+body#trader-betsalone a[href*="livecasino"] {display:none!important;}
+body#trader-betsalone a[href*="games"] {display:none!important;}
+
+body#trader-betsalone .helio-games {display:none!important;}
+
+body.platform-st .cup-view-button-content .cup-view-button .cup-view-text{padding: 5px;}
+body.platform-st #container-main-left .modul-accordion.cup-view-modul .modul-header .header-text{font-weight: normal;}
+
+html[lang=tr] body.platform-pg .cup-view-button-content .cup-view-button .cup-view-logo {top:-1px;left:2px;width: 200px;}
+
+html[lang=tr] #container-main-left .modul-accordion.cup-view-modul .modul-header .cup-view-logo-content .cup-view-logo{width: 130px;top:-7px;}
+
+#container-main-left .modul-accordion.cup-view-modul .modul-header .header-text {color: #fff!important;}
+#container-main-left .modul-accordion.cup-view-modul .modul-header i.right {color: #fff!important;}
+
+body.platform-st #container-main-left .modul-accordion.cup-view-modul .modul-header .cup-view-logo-content span{color:#fff;}
+
+.dropdown-content {visibility:hidden;}
+.dropdown-content.active {visibility:visible;}
+
+.fa-twitter:before, .fa-twitter-square:before{content: "\e9001" !important;}
+
+.team .team-area img.team-img{display: none;}
+.fixture-container .fixture-header .match.flex-item .team-name .item img, .fixture-container .fixture-body .match.flex-item .team-name .item img{display: none;}

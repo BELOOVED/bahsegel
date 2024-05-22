@@ -1,0 +1,176 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+<title>PepPara Ödeme Sistemi</title>
+<meta name="description" content="PepPara" />
+<meta name="keywords" content="PepPara Ödeme Sistemi" />
+<meta name="abstract" content="Organization">
+<meta name="author" content="PepPara">
+<meta name="classification" content="Organization">
+<meta name="content-language" content="tr">
+<meta name="rating" content="general">
+<meta name="distribution" content="global">
+<meta name="resource-type" content="document">
+<meta name="robots" content="noindex">
+<meta name="googlebot" content="noindex">
+<meta http-equiv="reply-to" content="info@vippep.com">
+<meta name="google" content="notranslate">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<link rel="alternate" href="https://deposit.vippep.com" hreflang="tr-tr" />
+<link rel="shortcut icon" href="/assets/images/favicon.ico">
+
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" href="/assets/styles/sweetalert2.min.css">
+
+    
+    
+        <link rel="stylesheet" href="/assets/styles/all.min.css?v=gFbnGm6BD7IouT0Lpoc2tSd7IY4IeJ2xL6xUA6vQOus">
+    
+
+    <script src="/assets/scripts/jquery.min.js"></script>
+    <script src="/assets/scripts/jquery.priceformat.min.js"></script>
+    <script src="/assets/scripts/jquery.starttimer.min.js"></script>
+    <script src="/assets/scripts/jquery.mask.min.js"></script>
+    <script src="/assets/scripts/qrcode.min.js"></script>
+    <script src="/assets/scripts/clipboard.min.js"></script>
+    <script src="/assets/scripts/sweetalert2.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="loading page-laoding">
+        <div>
+            <div class="loading-gif"><img src="/assets/images/loader.gif" alt=""></div>
+            <div class="text">İşleminiz yapılıyor, lütfen bekleyiniz.</div>
+        </div>
+    </div>
+
+    <div class="page-center">
+        <div class="page-content">
+            <div class="head-logo fix"><img src="/assets/images/hemenpep.svg" alt=""></div>
+            <form method="post" name="FormAction" id="FormAction" autocomplete="off" action="" style="width: 100%;height: 100%;">
+                
+
+<div class="sub-page-center">
+    <div class="page-full">
+        <div class="page-m" style=" max-width: 450px;">
+            <h3 class="txt-center mb-10" style="font-size: 18px; margin-bottom: 20px;">8458018</h3>
+            <div class="form-group">
+                <input type="text" id="txtPrice" value="300" name="txtPrice" placeholder="0" class="money2">
+                <div class="right-item">TRY</div>
+            </div>
+            <span class="error">Uygun hesap bulunamadı. Lütfen 10 saniye sonra tekrar deneyin</span>
+            <button class="btn-green" style=" min-width: 170px;">DEVAM ET</button>
+        </div>
+        <div class="page-full">
+            <div class="warning-area">
+                <div class="warning-area-head">
+                    <div class="title">Dikkat Edilmesi Gerekenler</div>
+                </div>
+                <div class="warning-area-body">
+                    <div class="item">Girebileceğiniz yatırım aralığı en az <b class="txt-red">50,00 TL</b> en fazla <b class="txt-red">20.000,00 TL</b> olmalıdır.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+
+        $('#txtPrice').focus();
+
+        function setMask() {
+            $('.money2').priceFormat({
+                prefix: '',
+                centsSeparator: '',
+                thousandsSeparator: '',
+                centsLimit: 0
+            });
+        }
+
+        function unMask() {
+            $('.money2').unpriceFormat();
+        }
+
+
+        function isMobile() {
+            if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+
+        if (isMobile()) {
+
+            $('.money2').attr('type', 'number');
+
+        } else {
+            setMask();
+        }
+
+        $(document).on('keypress', function (e) {
+
+            if (isMobile() && e.which == 101 || e.which == 46) {
+                return false;
+            }
+
+        });
+
+        $('.money2').blur(function () {
+
+            $('.money2').attr("placeholder", "0,00");
+            if (isMobile()) {
+
+                $(this).attr('type', 'text');
+                setMask();
+
+            }
+
+        });
+
+        $('.money2').focus(function () {
+
+            $('.money2').attr("placeholder", "");
+            if (isMobile()) {
+
+                $(this).attr('type', 'number');
+                unMask();
+
+            }
+
+            if ($(this).val() == "0")
+                $(this).val("");
+
+        });
+
+    });
+</script>
+            <input name="__RequestVerificationToken" type="hidden" value="CfDJ8DioDnb9RQVMu9Jq1ltJuIMM-s_4OoFLDTcunXowdUZOueB0trnoedBx2tjpIwyxcgBdaiqetvv8A6NkXfkV-83qVHICu59V2dj7fiu7M5lVa4U7-9YrBLdeskXT-cV-bzmlMHxbgUJ3XDFLUPhdtdI" /></form>
+        </div>
+    </div>
+
+
+    
+    
+        <script src="/assets/scripts/jquery.main.min.js?v=RLG9VvgH-G6f7OJPhn89ygVW1wJBpKqfAHHlorgyo1U"></script>
+    
+
+</body>
+
+</html>

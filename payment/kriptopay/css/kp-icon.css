@@ -1,0 +1,4983 @@
+@font-face {
+    font-family: 'KpCoin';
+    src:  url('../fonts/KpCoin.eot?38ibkd');
+    src:  url('../fonts/KpCoin.eot?38ibkd#iefix') format('embedded-opentype'),
+    url('../fonts/KpCoin.ttf?38ibkd') format('truetype'),
+    url('../fonts/KpCoin.woff?38ibkd') format('woff'),
+    url('../fonts/KpCoin.svg?38ibkd#KpCoin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.kp-coin {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'KpCoin' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.kp-xbtc-coin .path1:before {
+    content: "\e900";
+    color: rgb(255, 145, 77);
+}
+.kp-xbtc-coin .path2:before {
+    content: "\e901";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-xbtc-coin .path3:before {
+    content: "\e902";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-give-coin .path1:before {
+    content: "\e903";
+    color: rgb(241, 203, 96);
+}
+.kp-give-coin .path2:before {
+    content: "\e904";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-give-coin .path3:before {
+    content: "\e905";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-give-coin .path4:before {
+    content: "\e906";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-give-coin .path5:before {
+    content: "\e907";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-give-coin .path6:before {
+    content: "\e908";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-abt-coin .path1:before {
+    content: "\e909";
+    color: rgb(62, 255, 255);
+}
+.kp-abt-coin .path2:before {
+    content: "\e90a";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-act-coin .path1:before {
+    content: "\e90b";
+    color: rgb(118, 125, 255);
+}
+.kp-act-coin .path2:before {
+    content: "\e90c";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-actn-coin .path1:before {
+    content: "\e90d";
+    color: rgb(255, 0, 0);
+}
+.kp-actn-coin .path2:before {
+    content: "\e90e";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-ada-coin .path1:before {
+    content: "\e90f";
+    color: rgb(13, 30, 48);
+}
+.kp-ada-coin .path2:before {
+    content: "\e910";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+}
+.kp-ada-coin .path3:before {
+    content: "\e911";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-add-coin .path1:before {
+    content: "\e912";
+    color: rgb(254, 200, 7);
+}
+.kp-add-coin .path2:before {
+    content: "\e913";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-adx-coin .path1:before {
+    content: "\e914";
+    color: rgb(27, 117, 188);
+}
+.kp-adx-coin .path2:before {
+    content: "\e915";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-ae-coin .path1:before {
+    content: "\e916";
+    color: rgb(222, 63, 107);
+}
+.kp-ae-coin .path2:before {
+    content: "\e917";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-aeon-coin .path1:before {
+    content: "\e918";
+    color: rgb(19, 68, 81);
+}
+.kp-aeon-coin .path2:before {
+    content: "\e919";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-aeon-coin .path3:before {
+    content: "\e91a";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-aeon-coin .path4:before {
+    content: "\e91b";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-aeon-coin .path5:before {
+    content: "\e91c";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-aeur-coin .path1:before {
+    content: "\e91d";
+    color: rgb(5, 29, 45);
+}
+.kp-aeur-coin .path2:before {
+    content: "\e91e";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+}
+.kp-aeur-coin .path3:before {
+    content: "\e91f";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+}
+.kp-agi-coin .path1:before {
+    content: "\e920";
+    color: rgb(105, 22, 255);
+}
+.kp-agi-coin .path2:before {
+    content: "\e921";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.5;
+}
+.kp-agi-coin .path3:before {
+    content: "\e922";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-agrs-coin .path1:before {
+    content: "\e923";
+    color: rgb(244, 158, 0);
+}
+.kp-agrs-coin .path2:before {
+    content: "\e924";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-aion-coin .path1:before {
+    content: "\e925";
+    color: rgb(0, 191, 236);
+}
+.kp-aion-coin .path2:before {
+    content: "\e926";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-aion-coin .path3:before {
+    content: "\e927";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.5;
+}
+.kp-algo-coin .path1:before {
+    content: "\e928";
+    color: rgb(0, 0, 0);
+}
+.kp-algo-coin .path2:before {
+    content: "\e929";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-amb-coin .path1:before {
+    content: "\e92a";
+    color: rgb(60, 91, 224);
+}
+.kp-amb-coin .path2:before {
+    content: "\e92b";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-amp-coin .path1:before {
+    content: "\e92c";
+    color: rgb(45, 174, 228);
+}
+.kp-amp-coin .path2:before {
+    content: "\e92d";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-ampl-coin .path1:before {
+    content: "\e92e";
+    color: rgb(0, 0, 0);
+}
+.kp-ampl-coin .path2:before {
+    content: "\e92f";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-ant-coin .path1:before {
+    content: "\e930";
+    color: rgb(44, 211, 225);
+}
+.kp-ant-coin .path2:before {
+    content: "\e931";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-apex-coin .path1:before {
+    content: "\e932";
+    color: rgb(31, 76, 159);
+}
+.kp-apex-coin .path2:before {
+    content: "\e933";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-appc-coin .path1:before {
+    content: "\e934";
+    color: rgb(253, 135, 94);
+}
+.kp-appc-coin .path2:before {
+    content: "\e935";
+    margin-left: -1em;
+    color: rgb(254, 254, 254);
+}
+.kp-ardr-coin .path1:before {
+    content: "\e936";
+    color: rgb(60, 135, 199);
+}
+.kp-ardr-coin .path2:before {
+    content: "\e937";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-arg-coin .path1:before {
+    content: "\e938";
+    color: rgb(167, 20, 53);
+}
+.kp-arg-coin .path2:before {
+    content: "\e939";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-arg-coin .path3:before {
+    content: "\e93a";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-ark-coin .path1:before {
+    content: "\e93b";
+    color: rgb(247, 0, 0);
+}
+.kp-ark-coin .path2:before {
+    content: "\e93c";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-arn-coin .path1:before {
+    content: "\e93d";
+    color: rgb(0, 146, 181);
+}
+.kp-arn-coin .path2:before {
+    content: "\e93e";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-arnx-coin .path1:before {
+    content: "\e93f";
+    color: rgb(67, 102, 151);
+}
+.kp-arnx-coin .path2:before {
+    content: "\e940";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-arnx-coin .path3:before {
+    content: "\e941";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-ary-coin .path1:before {
+    content: "\e942";
+    color: rgb(52, 52, 52);
+}
+.kp-ary-coin .path2:before {
+    content: "\e943";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-ast-coin .path1:before {
+    content: "\e944";
+    color: rgb(0, 97, 255);
+}
+.kp-ast-coin .path2:before {
+    content: "\e945";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-atm-coin .path1:before {
+    content: "\e946";
+    color: rgb(52, 111, 206);
+}
+.kp-atm-coin .path2:before {
+    content: "\e947";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-atom-coin .path1:before {
+    content: "\e948";
+    color: rgb(46, 49, 72);
+}
+.kp-atom-coin .path2:before {
+    content: "\e949";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-atom-coin .path3:before {
+    content: "\e94a";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-atom-coin .path4:before {
+    content: "\e94b";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-atom-coin .path5:before {
+    content: "\e94c";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-atom-coin .path6:before {
+    content: "\e94d";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-atom-coin .path7:before {
+    content: "\e94e";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-atom-coin .path8:before {
+    content: "\e94f";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-audr-coin .path1:before {
+    content: "\e950";
+    color: rgb(52, 49, 138);
+}
+.kp-audr-coin .path2:before {
+    content: "\e951";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-auto-coin .path1:before {
+    content: "\e952";
+    color: rgb(250, 180, 49);
+}
+.kp-auto-coin .path2:before {
+    content: "\e953";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-aywa-coin .path1:before {
+    content: "\e954";
+    color: rgb(51, 85, 181);
+}
+.kp-aywa-coin .path2:before {
+    content: "\e955";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-aywa-coin .path3:before {
+    content: "\e956";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-aywa-coin .path4:before {
+    content: "\e957";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-bab-coin .path1:before {
+    content: "\e958";
+    color: rgb(241, 159, 19);
+}
+.kp-bab-coin .path2:before {
+    content: "\e959";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-bal-coin .path1:before {
+    content: "\e95a";
+    color: rgb(30, 30, 30);
+}
+.kp-bal-coin .path2:before {
+    content: "\e95b";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-bal-coin .path3:before {
+    content: "\e95c";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-bal-coin .path4:before {
+    content: "\e95d";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-band-coin .path1:before {
+    content: "\e95e";
+    color: rgb(81, 106, 255);
+}
+.kp-band-coin .path2:before {
+    content: "\e95f";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-band-coin .path3:before {
+    content: "\e960";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-bat-coin .path1:before {
+    content: "\e961";
+    color: rgb(255, 80, 0);
+}
+.kp-bat-coin .path2:before {
+    content: "\e962";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-bay-coin .path1:before {
+    content: "\e963";
+    color: rgb(99, 86, 171);
+}
+.kp-bay-coin .path2:before {
+    content: "\e964";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-bcbc-coin .path1:before {
+    content: "\e965";
+    color: rgb(0, 74, 181);
+}
+.kp-bcbc-coin .path2:before {
+    content: "\e966";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-bcc-coin .path1:before {
+    content: "\e967";
+    color: rgb(247, 147, 28);
+}
+.kp-bcc-coin .path2:before {
+    content: "\e968";
+    margin-left: -1em;
+    color: rgb(254, 253, 252);
+}
+.kp-bcd-coin .path1:before {
+    content: "\e969";
+    color: rgb(252, 195, 57);
+}
+.kp-bcd-coin .path2:before {
+    content: "\e96a";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-bch-coin .path1:before {
+    content: "\e96b";
+    color: rgb(141, 195, 81);
+}
+.kp-bch-coin .path2:before {
+    content: "\e96c";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-bcio-coin .path1:before {
+    content: "\e96d";
+    color: rgb(63, 67, 173);
+}
+.kp-bcio-coin .path2:before {
+    content: "\e96e";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-bcn-coin .path1:before {
+    content: "\e96f";
+    color: rgb(240, 64, 134);
+}
+.kp-bcn-coin .path2:before {
+    content: "\e970";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-bco-coin .path1:before {
+    content: "\e971";
+    color: rgb(44, 118, 183);
+}
+.kp-bco-coin .path2:before {
+    content: "\e972";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-bcpt-coin .path1:before {
+    content: "\e973";
+    color: rgb(64, 64, 64);
+}
+.kp-bcpt-coin .path2:before {
+    content: "\e974";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-bdl-coin .path1:before {
+    content: "\e975";
+    color: rgb(229, 76, 64);
+}
+.kp-bdl-coin .path2:before {
+    content: "\e976";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-beam-coin .path1:before {
+    content: "\e977";
+    color: rgb(11, 118, 255);
+}
+.kp-beam-coin .path2:before {
+    content: "\e978";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-bela-coin .path1:before {
+    content: "\e979";
+    color: rgb(19, 160, 246);
+}
+.kp-bela-coin .path2:before {
+    content: "\e97a";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-bix-coin .path1:before {
+    content: "\e97b";
+    color: rgb(0, 0, 0);
+}
+.kp-bix-coin .path2:before {
+    content: "\e97c";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-blcn-coin .path1:before {
+    content: "\e97d";
+    color: rgb(42, 171, 228);
+}
+.kp-blcn-coin .path2:before {
+    content: "\e97e";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-blk-coin .path1:before {
+    content: "\e97f";
+    color: rgb(24, 24, 24);
+}
+.kp-blk-coin .path2:before {
+    content: "\e980";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-block-coin .path1:before {
+    content: "\e981";
+    color: rgb(16, 19, 65);
+}
+.kp-block-coin .path2:before {
+    content: "\e982";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-block-coin .path3:before {
+    content: "\e983";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.5;
+}
+.kp-blz-coin .path1:before {
+    content: "\e984";
+    color: rgb(24, 87, 140);
+}
+.kp-blz-coin .path2:before {
+    content: "\e985";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-bnb-coin .path1:before {
+    content: "\e986";
+    color: rgb(243, 186, 47);
+}
+.kp-bnb-coin .path2:before {
+    content: "\e987";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-bnt-coin .path1:before {
+    content: "\e988";
+    color: rgb(0, 13, 43);
+}
+.kp-bnt-coin .path2:before {
+    content: "\e989";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-bnty-coin .path1:before {
+    content: "\e98a";
+    color: rgb(253, 122, 61);
+}
+.kp-bnty-coin .path2:before {
+    content: "\e98b";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-booty-coin .path1:before {
+    content: "\e98c";
+    color: rgb(0, 180, 244);
+}
+.kp-booty-coin .path2:before {
+    content: "\e98d";
+    margin-left: -1em;
+    color: rgb(254, 255, 255);
+}
+.kp-bos-coin .path1:before {
+    content: "\e98e";
+    color: rgb(0, 168, 214);
+}
+.kp-bos-coin .path2:before {
+    content: "\e98f";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-bpt-coin .path1:before {
+    content: "\e990";
+    color: rgb(15, 99, 216);
+}
+.kp-bpt-coin .path2:before {
+    content: "\e991";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-bq-coin .path1:before {
+    content: "\e992";
+    color: rgb(29, 29, 29);
+}
+.kp-bq-coin .path2:before {
+    content: "\e993";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-brd-coin .path1:before {
+    content: "\e994";
+    color: rgb(254, 93, 134);
+}
+.kp-brd-coin .path2:before {
+    content: "\e995";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-bsd-coin .path1:before {
+    content: "\e996";
+    color: rgb(0, 0, 0);
+}
+.kp-bsd-coin .path2:before {
+    content: "\e997";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-bsv-coin .path1:before {
+    content: "\e998";
+    color: rgb(234, 179, 4);
+}
+.kp-bsv-coin .path2:before {
+    content: "\e999";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-btc-coin .path1:before {
+    content: "\e99a";
+    color: rgb(247, 147, 26);
+}
+.kp-btc-coin .path2:before {
+    content: "\e99b";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-btcd-coin .path1:before {
+    content: "\e99c";
+    color: rgb(255, 102, 0);
+}
+.kp-btcd-coin .path2:before {
+    content: "\e99d";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-btch-coin .path1:before {
+    content: "\e99e";
+    color: rgb(71, 0, 194);
+}
+.kp-btch-coin .path2:before {
+    content: "\e99f";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-btch-coin .path3:before {
+    content: "\e9a0";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-btch-coin .path4:before {
+    content: "\e9a1";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-btcp-coin .path1:before {
+    content: "\e9a2";
+    color: rgb(39, 45, 99);
+}
+.kp-btcp-coin .path2:before {
+    content: "\e9a3";
+    margin-left: -1em;
+    color: rgb(254, 254, 254);
+}
+.kp-btcz-coin .path1:before {
+    content: "\e9a4";
+    color: rgb(248, 194, 74);
+}
+.kp-btcz-coin .path2:before {
+    content: "\e9a5";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-btdx-coin .path1:before {
+    content: "\e9a6";
+    color: rgb(0, 170, 255);
+}
+.kp-btdx-coin .path2:before {
+    content: "\e9a7";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-btdx-coin .path3:before {
+    content: "\e9a8";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-btg-coin .path1:before {
+    content: "\e9a9";
+    color: rgb(235, 168, 9);
+}
+.kp-btg-coin .path2:before {
+    content: "\e9aa";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-btm-coin .path1:before {
+    content: "\e9ab";
+    color: rgb(80, 76, 76);
+}
+.kp-btm-coin .path2:before {
+    content: "\e9ac";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-bts-coin .path1:before {
+    content: "\e9ad";
+    color: rgb(53, 186, 235);
+}
+.kp-bts-coin .path2:before {
+    content: "\e9ae";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-btt-coin .path1:before {
+    content: "\e9af";
+    color: rgb(0, 0, 0);
+}
+.kp-btt-coin .path2:before {
+    content: "\e9b0";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-btt-coin .path3:before {
+    content: "\e9b1";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-btt-coin .path4:before {
+    content: "\e9b2";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-btt-coin .path5:before {
+    content: "\e9b3";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-btx-coin .path1:before {
+    content: "\e9b4";
+    color: rgb(251, 46, 163);
+}
+.kp-btx-coin .path2:before {
+    content: "\e9b5";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-burst-coin .path1:before {
+    content: "\e9b6";
+    color: rgb(45, 45, 45);
+}
+.kp-burst-coin .path2:before {
+    content: "\e9b7";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-bze-coin .path1:before {
+    content: "\e9b8";
+    color: rgb(0, 174, 239);
+}
+.kp-bze-coin .path2:before {
+    content: "\e9b9";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-call-coin .path1:before {
+    content: "\e9ba";
+    color: rgb(251, 180, 19);
+}
+.kp-call-coin .path2:before {
+    content: "\e9bb";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-call-coin .path3:before {
+    content: "\e9bc";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-cc-coin .path1:before {
+    content: "\e9bd";
+    color: rgb(54, 176, 243);
+}
+.kp-cc-coin .path2:before {
+    content: "\e9be";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-cc-coin .path3:before {
+    content: "\e9bf";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-cdn-coin .path1:before {
+    content: "\e9c0";
+    color: rgb(247, 8, 8);
+}
+.kp-cdn-coin .path2:before {
+    content: "\e9c1";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-cdt-coin .path1:before {
+    content: "\e9c2";
+    color: rgb(39, 39, 49);
+}
+.kp-cdt-coin .path2:before {
+    content: "\e9c3";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-cenz-coin .path1:before {
+    content: "\e9c4";
+    color: rgb(48, 137, 242);
+}
+.kp-cenz-coin .path2:before {
+    content: "\e9c5";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-chain-coin .path1:before {
+    content: "\e9c6";
+    color: rgb(0, 172, 237);
+}
+.kp-chain-coin .path2:before {
+    content: "\e9c7";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-chain-coin .path3:before {
+    content: "\e9c8";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+}
+.kp-chat-coin .path1:before {
+    content: "\e9c9";
+    color: rgb(28, 152, 247);
+}
+.kp-chat-coin .path2:before {
+    content: "\e9ca";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-chips-coin .path1:before {
+    content: "\e9cb";
+    color: rgb(89, 129, 130);
+}
+.kp-chips-coin .path2:before {
+    content: "\e9cc";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-cix-coin .path1:before {
+    content: "\e9cd";
+    color: rgb(5, 118, 180);
+}
+.kp-cix-coin .path2:before {
+    content: "\e9ce";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-cix-coin .path3:before {
+    content: "\e9cf";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.5;
+}
+.kp-clam-coin .path1:before {
+    content: "\e9d0";
+    color: rgb(32, 197, 211);
+}
+.kp-clam-coin .path2:before {
+    content: "\e9d1";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-cloak-coin .path1:before {
+    content: "\e9d2";
+    color: rgb(255, 58, 0);
+}
+.kp-cloak-coin .path2:before {
+    content: "\e9d3";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-cmm-coin .path1:before {
+    content: "\e9d4";
+    color: rgb(47, 210, 229);
+}
+.kp-cmm-coin .path2:before {
+    content: "\e9d5";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-cmt-coin .path1:before {
+    content: "\e9d6";
+    color: rgb(193, 160, 92);
+}
+.kp-cmt-coin .path2:before {
+    content: "\e9d7";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-cnd-coin .path1:before {
+    content: "\e9d8";
+    color: rgb(56, 57, 57);
+}
+.kp-cnd-coin .path2:before {
+    content: "\e9d9";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-cnx-coin .path1:before {
+    content: "\e9da";
+    color: rgb(76, 107, 174);
+}
+.kp-cnx-coin .path2:before {
+    content: "\e9db";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.5;
+}
+.kp-cnx-coin .path3:before {
+    content: "\e9dc";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-cny-coin .path1:before {
+    content: "\e9dd";
+    color: rgb(255, 67, 20);
+}
+.kp-cny-coin .path2:before {
+    content: "\e9de";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-cob-coin .path1:before {
+    content: "\e9df";
+    color: rgb(19, 191, 153);
+}
+.kp-cob-coin .path2:before {
+    content: "\e9e0";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-colx-coin .path1:before {
+    content: "\e9e1";
+    color: rgb(119, 195, 176);
+}
+.kp-colx-coin .path2:before {
+    content: "\e9e2";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-comp-coin .path1:before {
+    content: "\e9e3";
+    color: rgb(0, 211, 149);
+}
+.kp-comp-coin .path2:before {
+    content: "\e9e4";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-coqui-coin .path1:before {
+    content: "\e9e5";
+    color: rgb(113, 200, 0);
+}
+.kp-coqui-coin .path2:before {
+    content: "\e9e6";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-cred-coin .path1:before {
+    content: "\e9e7";
+    color: rgb(55, 232, 163);
+}
+.kp-cred-coin .path2:before {
+    content: "\e9e8";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-crpt-coin .path1:before {
+    content: "\e9e9";
+    color: rgb(0, 189, 205);
+}
+.kp-crpt-coin .path2:before {
+    content: "\e9ea";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-crw-coin .path1:before {
+    content: "\e9eb";
+    color: rgb(15, 21, 41);
+}
+.kp-crw-coin .path2:before {
+    content: "\e9ec";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-cs-coin .path1:before {
+    content: "\e9ed";
+    color: rgb(38, 38, 38);
+}
+.kp-cs-coin .path2:before {
+    content: "\e9ee";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-ctr-coin .path1:before {
+    content: "\e9ef";
+    color: rgb(253, 222, 108);
+}
+.kp-ctr-coin .path2:before {
+    content: "\e9f0";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-ctxc-coin .path1:before {
+    content: "\e9f1";
+    color: rgb(0, 0, 0);
+}
+.kp-ctxc-coin .path2:before {
+    content: "\e9f2";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-ctxc-coin .path3:before {
+    content: "\e9f3";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-ctxc-coin .path4:before {
+    content: "\e9f4";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-cvc-coin .path1:before {
+    content: "\e9f5";
+    color: rgb(58, 176, 62);
+}
+.kp-cvc-coin .path2:before {
+    content: "\e9f6";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-d-coin .path1:before {
+    content: "\e9f7";
+    color: rgb(184, 184, 184);
+}
+.kp-d-coin .path2:before {
+    content: "\e9f8";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-dai-coin .path1:before {
+    content: "\e9f9";
+    color: rgb(244, 183, 49);
+}
+.kp-dai-coin .path2:before {
+    content: "\e9fa";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-dash-coin .path1:before {
+    content: "\e9fb";
+    color: rgb(0, 140, 231);
+}
+.kp-dash-coin .path2:before {
+    content: "\e9fc";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-dash-coin .path3:before {
+    content: "\e9fd";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-dat-coin .path1:before {
+    content: "\e9fe";
+    color: rgb(45, 156, 219);
+}
+.kp-dat-coin .path2:before {
+    content: "\e9ff";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-data-coin .path1:before {
+    content: "\ea00";
+    color: rgb(233, 87, 15);
+}
+.kp-data-coin .path2:before {
+    content: "\ea01";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-dbc-coin .path1:before {
+    content: "\ea02";
+    color: rgb(91, 193, 212);
+}
+.kp-dbc-coin .path2:before {
+    content: "\ea03";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-dcn-coin .path1:before {
+    content: "\ea04";
+    color: rgb(19, 100, 133);
+}
+.kp-dcn-coin .path2:before {
+    content: "\ea05";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-dcr-coin .path1:before {
+    content: "\ea06";
+    color: rgb(46, 214, 161);
+}
+.kp-dcr-coin .path2:before {
+    content: "\ea07";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-deez-coin .path1:before {
+    content: "\ea08";
+    color: rgb(147, 147, 147);
+}
+.kp-deez-coin .path2:before {
+    content: "\ea09";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-dent-coin .path1:before {
+    content: "\ea0a";
+    color: rgb(102, 102, 102);
+}
+.kp-dent-coin .path2:before {
+    content: "\ea0b";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-dew-coin .path1:before {
+    content: "\ea0c";
+    color: rgb(254, 201, 7);
+}
+.kp-dew-coin .path2:before {
+    content: "\ea0d";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-dgb-coin .path1:before {
+    content: "\ea0e";
+    color: rgb(0, 106, 210);
+}
+.kp-dgb-coin .path2:before {
+    content: "\ea0f";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-dgd-coin .path1:before {
+    content: "\ea10";
+    color: rgb(244, 208, 41);
+}
+.kp-dgd-coin .path2:before {
+    content: "\ea11";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-dlt-coin .path1:before {
+    content: "\ea12";
+    color: rgb(244, 174, 149);
+}
+.kp-dlt-coin .path2:before {
+    content: "\ea13";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-dnt-coin .path1:before {
+    content: "\ea14";
+    color: rgb(44, 57, 143);
+}
+.kp-dnt-coin .path2:before {
+    content: "\ea15";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-dock-coin .path1:before {
+    content: "\ea16";
+    color: rgb(120, 109, 188);
+}
+.kp-dock-coin .path2:before {
+    content: "\ea17";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-doge-coin .path1:before {
+    content: "\ea18";
+    color: rgb(195, 166, 52);
+}
+.kp-doge-coin .path2:before {
+    content: "\ea19";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-dot-coin .path1:before {
+    content: "\ea1a";
+    color: rgb(230, 0, 122);
+}
+.kp-dot-coin .path2:before {
+    content: "\ea1b";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-drgn-coin .path1:before {
+    content: "\ea1c";
+    color: rgb(201, 17, 17);
+}
+.kp-drgn-coin .path2:before {
+    content: "\ea1d";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.6;
+}
+.kp-drgn-coin .path3:before {
+    content: "\ea1e";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-drop-coin .path1:before {
+    content: "\ea1f";
+    color: rgb(36, 45, 61);
+}
+.kp-drop-coin .path2:before {
+    content: "\ea20";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-drop-coin .path3:before {
+    content: "\ea21";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-drop-coin .path4:before {
+    content: "\ea22";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-drop-coin .path5:before {
+    content: "\ea23";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-dta-coin .path1:before {
+    content: "\ea24";
+    color: rgb(116, 210, 105);
+}
+.kp-dta-coin .path2:before {
+    content: "\ea25";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-dth-coin .path1:before {
+    content: "\ea26";
+    color: rgb(60, 128, 241);
+}
+.kp-dth-coin .path2:before {
+    content: "\ea27";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-dth-coin .path3:before {
+    content: "\ea28";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-dtr-coin .path1:before {
+    content: "\ea29";
+    color: rgb(18, 23, 71);
+}
+.kp-dtr-coin .path2:before {
+    content: "\ea2a";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-dtr-coin .path3:before {
+    content: "\ea2b";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.5;
+}
+.kp-ebst-coin .path1:before {
+    content: "\ea2c";
+    color: rgb(22, 147, 212);
+}
+.kp-ebst-coin .path2:before {
+    content: "\ea2d";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-eca-coin .path1:before {
+    content: "\ea2e";
+    color: rgb(170, 21, 221);
+}
+.kp-eca-coin .path2:before {
+    content: "\ea2f";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-edg-coin .path1:before {
+    content: "\ea30";
+    color: rgb(43, 21, 68);
+}
+.kp-edg-coin .path2:before {
+    content: "\ea31";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-edo-coin .path1:before {
+    content: "\ea32";
+    color: rgb(36, 36, 36);
+}
+.kp-edo-coin .path2:before {
+    content: "\ea33";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-edoge-coin .path1:before {
+    content: "\ea34";
+    color: rgb(15, 172, 243);
+}
+.kp-edoge-coin .path2:before {
+    content: "\ea35";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-ela-coin .path1:before {
+    content: "\ea36";
+    color: rgb(63, 186, 223);
+}
+.kp-ela-coin .path2:before {
+    content: "\ea37";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.4;
+}
+.kp-ela-coin .path3:before {
+    content: "\ea38";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+}
+.kp-ela-coin .path4:before {
+    content: "\ea39";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.8;
+}
+.kp-ela-coin .path5:before {
+    content: "\ea3a";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-ela-coin .path6:before {
+    content: "\ea3b";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.6;
+}
+.kp-ela-coin .path7:before {
+    content: "\ea3c";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.5;
+}
+.kp-elec-coin .path1:before {
+    content: "\ea3d";
+    color: rgb(255, 153, 0);
+}
+.kp-elec-coin .path2:before {
+    content: "\ea3e";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-elec-coin .path3:before {
+    content: "\ea3f";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-elec-coin .path4:before {
+    content: "\ea40";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-elf-coin .path1:before {
+    content: "\ea41";
+    color: rgb(43, 94, 187);
+}
+.kp-elf-coin .path2:before {
+    content: "\ea42";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-elix-coin .path1:before {
+    content: "\ea43";
+    color: rgb(0, 173, 237);
+}
+.kp-elix-coin .path2:before {
+    content: "\ea44";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-elix-coin .path3:before {
+    content: "\ea45";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.8;
+}
+.kp-elix-coin .path4:before {
+    content: "\ea46";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.5;
+}
+.kp-elix-coin .path5:before {
+    content: "\ea47";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.145;
+}
+.kp-ella-coin .path1:before {
+    content: "\ea48";
+    color: rgb(57, 106, 40);
+}
+.kp-ella-coin .path2:before {
+    content: "\ea49";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-emc-coin .path1:before {
+    content: "\ea4a";
+    color: rgb(180, 159, 252);
+}
+.kp-emc-coin .path2:before {
+    content: "\ea4b";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-emc2-coin .path1:before {
+    content: "\ea4c";
+    color: rgb(0, 204, 255);
+}
+.kp-emc2-coin .path2:before {
+    content: "\ea4d";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.4;
+}
+.kp-emc2-coin .path3:before {
+    content: "\ea4e";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.6;
+}
+.kp-emc2-coin .path4:before {
+    content: "\ea4f";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-eng-coin .path1:before {
+    content: "\ea50";
+    color: rgb(47, 47, 47);
+}
+.kp-eng-coin .path2:before {
+    content: "\ea51";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-enj-coin .path1:before {
+    content: "\ea52";
+    color: rgb(98, 77, 191);
+}
+.kp-enj-coin .path2:before {
+    content: "\ea53";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-entrp-coin .path1:before {
+    content: "\ea54";
+    color: rgb(250, 88, 54);
+}
+.kp-entrp-coin .path2:before {
+    content: "\ea55";
+    margin-left: -1em;
+    color: rgb(254, 255, 255);
+}
+.kp-eon-coin .path1:before {
+    content: "\ea56";
+    color: rgb(68, 63, 84);
+}
+.kp-eon-coin .path2:before {
+    content: "\ea57";
+    margin-left: -1em;
+    color: rgb(254, 255, 254);
+    opacity: 0.7;
+}
+.kp-eon-coin .path3:before {
+    content: "\ea58";
+    margin-left: -1em;
+    color: rgb(254, 255, 254);
+}
+.kp-eop-coin .path1:before {
+    content: "\ea59";
+    color: rgb(53, 167, 223);
+}
+.kp-eop-coin .path2:before {
+    content: "\ea5a";
+    margin-left: -1em;
+    color: rgb(254, 255, 254);
+}
+.kp-eos-coin:before {
+    content: "\ea5b";
+}
+.kp-eqli-coin .path1:before {
+    content: "\ea5c";
+    color: rgb(201, 163, 94);
+}
+.kp-eqli-coin .path2:before {
+    content: "\ea5d";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-equa-coin .path1:before {
+    content: "\ea5e";
+    color: rgb(246, 137, 34);
+}
+.kp-equa-coin .path2:before {
+    content: "\ea5f";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-etc-coin .path1:before {
+    content: "\ea60";
+    color: rgb(50, 131, 50);
+}
+.kp-etc-coin .path2:before {
+    content: "\ea61";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-etc-coin .path3:before {
+    content: "\ea62";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.6010;
+}
+.kp-etc-coin .path4:before {
+    content: "\ea63";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.2;
+}
+.kp-etc-coin .path5:before {
+    content: "\ea64";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.6030;
+}
+.kp-eth-coin .path1:before {
+    content: "\ea65";
+    color: rgb(98, 126, 234);
+}
+.kp-eth-coin .path2:before {
+    content: "\ea66";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.6020;
+}
+.kp-eth-coin .path3:before {
+    content: "\ea67";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-eth-coin .path4:before {
+    content: "\ea68";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.6020;
+}
+.kp-eth-coin .path5:before {
+    content: "\ea69";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-eth-coin .path6:before {
+    content: "\ea6a";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.2;
+}
+.kp-eth-coin .path7:before {
+    content: "\ea6b";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.6020;
+}
+.kp-ethos-coin .path1:before {
+    content: "\ea6c";
+    color: rgb(0, 255, 186);
+}
+.kp-ethos-coin .path2:before {
+    content: "\ea6d";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-ethos-coin .path3:before {
+    content: "\ea6e";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+}
+.kp-etn-coin .path1:before {
+    content: "\ea6f";
+    color: rgb(35, 190, 226);
+}
+.kp-etn-coin .path2:before {
+    content: "\ea70";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-etp-coin .path1:before {
+    content: "\ea71";
+    color: rgb(0, 165, 255);
+}
+.kp-etp-coin .path2:before {
+    content: "\ea72";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-eur-coin .path1:before {
+    content: "\ea73";
+    color: rgb(15, 143, 248);
+}
+.kp-eur-coin .path2:before {
+    content: "\ea74";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-evx-coin .path1:before {
+    content: "\ea75";
+    color: rgb(4, 74, 172);
+}
+.kp-evx-coin .path2:before {
+    content: "\ea76";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-exmo-coin .path1:before {
+    content: "\ea77";
+    color: rgb(52, 127, 251);
+}
+.kp-exmo-coin .path2:before {
+    content: "\ea78";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-exp-coin .path1:before {
+    content: "\ea79";
+    color: rgb(255, 170, 92);
+}
+.kp-exp-coin .path2:before {
+    content: "\ea7a";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-fair-coin .path1:before {
+    content: "\ea7b";
+    color: rgb(201, 151, 5);
+}
+.kp-fair-coin .path2:before {
+    content: "\ea7c";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-fct-coin .path1:before {
+    content: "\ea7d";
+    color: rgb(65, 123, 164);
+}
+.kp-fct-coin .path2:before {
+    content: "\ea7e";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-fil-coin .path1:before {
+    content: "\ea7f";
+    color: rgb(66, 193, 202);
+}
+.kp-fil-coin .path2:before {
+    content: "\ea80";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-fjc-coin .path1:before {
+    content: "\ea81";
+    color: rgb(0, 175, 236);
+}
+.kp-fjc-coin .path2:before {
+    content: "\ea82";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-fjc-coin .path3:before {
+    content: "\ea83";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-fjc-coin .path4:before {
+    content: "\ea84";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-fldc-coin .path1:before {
+    content: "\ea85";
+    color: rgb(196, 14, 9);
+}
+.kp-fldc-coin .path2:before {
+    content: "\ea86";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-flo-coin .path1:before {
+    content: "\ea87";
+    color: rgb(32, 128, 162);
+}
+.kp-flo-coin .path2:before {
+    content: "\ea88";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-fsn-coin .path1:before {
+    content: "\ea89";
+    color: rgb(29, 154, 215);
+}
+.kp-fsn-coin .path2:before {
+    content: "\ea8a";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-ftc-coin .path1:before {
+    content: "\ea8b";
+    color: rgb(39, 50, 58);
+}
+.kp-ftc-coin .path2:before {
+    content: "\ea8c";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-fuel-coin .path1:before {
+    content: "\ea8d";
+    color: rgb(64, 150, 208);
+}
+.kp-fuel-coin .path2:before {
+    content: "\ea8e";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-fun-coin .path1:before {
+    content: "\ea8f";
+    color: rgb(237, 25, 104);
+}
+.kp-fun-coin .path2:before {
+    content: "\ea90";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-game-coin .path1:before {
+    content: "\ea91";
+    color: rgb(45, 71, 91);
+}
+.kp-game-coin .path2:before {
+    content: "\ea92";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-gas-coin .path1:before {
+    content: "\ea93";
+    color: rgb(88, 191, 0);
+}
+.kp-gas-coin .path2:before {
+    content: "\ea94";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-gbp-coin .path1:before {
+    content: "\ea95";
+    color: rgb(188, 63, 224);
+}
+.kp-gbp-coin .path2:before {
+    content: "\ea96";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-gbx-coin .path1:before {
+    content: "\ea97";
+    color: rgb(22, 102, 175);
+}
+.kp-gbx-coin .path2:before {
+    content: "\ea98";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-gbyte-coin .path1:before {
+    content: "\ea99";
+    color: rgb(48, 44, 44);
+}
+.kp-gbyte-coin .path2:before {
+    content: "\ea9a";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-generic-coin .path1:before {
+    content: "\ea9b";
+    color: rgb(239, 185, 20);
+}
+.kp-generic-coin .path2:before {
+    content: "\ea9c";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-gin-coin .path1:before {
+    content: "\ea9d";
+    color: rgb(0, 141, 222);
+}
+.kp-gin-coin .path2:before {
+    content: "\ea9e";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-gin-coin .path3:before {
+    content: "\ea9f";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-glxt-coin .path1:before {
+    content: "\eaa0";
+    color: rgb(0, 83, 150);
+}
+.kp-glxt-coin .path2:before {
+    content: "\eaa1";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-gmr-coin .path1:before {
+    content: "\eaa2";
+    color: rgb(55, 45, 44);
+}
+.kp-gmr-coin .path2:before {
+    content: "\eaa3";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+}
+.kp-gmr-coin .path3:before {
+    content: "\eaa4";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-gmr-coin .path4:before {
+    content: "\eaa5";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+}
+.kp-gmr-coin .path5:before {
+    content: "\eaa6";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-gno-coin .path1:before {
+    content: "\eaa7";
+    color: rgb(0, 166, 196);
+}
+.kp-gno-coin .path2:before {
+    content: "\eaa8";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-gnt-coin .path1:before {
+    content: "\eaa9";
+    color: rgb(0, 29, 87);
+}
+.kp-gnt-coin .path2:before {
+    content: "\eaaa";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-gold-coin .path1:before {
+    content: "\eaab";
+    color: rgb(241, 179, 43);
+}
+.kp-gold-coin .path2:before {
+    content: "\eaac";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-grc-coin .path1:before {
+    content: "\eaad";
+    color: rgb(84, 17, 179);
+}
+.kp-grc-coin .path2:before {
+    content: "\eaae";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-grin-coin .path1:before {
+    content: "\eaaf";
+    color: rgb(255, 243, 0);
+}
+.kp-grin-coin .path2:before {
+    content: "\eab0";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-grs-coin .path1:before {
+    content: "\eab1";
+    color: rgb(55, 126, 150);
+}
+.kp-grs-coin .path2:before {
+    content: "\eab2";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-gsc-coin .path1:before {
+    content: "\eab3";
+    color: rgb(255, 0, 96);
+}
+.kp-gsc-coin .path2:before {
+    content: "\eab4";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-gto-coin .path1:before {
+    content: "\eab5";
+    color: rgb(127, 39, 255);
+}
+.kp-gto-coin .path2:before {
+    content: "\eab6";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-gup-coin .path1:before {
+    content: "\eab7";
+    color: rgb(55, 220, 216);
+}
+.kp-gup-coin .path2:before {
+    content: "\eab8";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-gusd-coin .path1:before {
+    content: "\eab9";
+    color: rgb(0, 220, 250);
+}
+.kp-gusd-coin .path2:before {
+    content: "\eaba";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-gvt-coin .path1:before {
+    content: "\eabb";
+    color: rgb(22, 185, 173);
+}
+.kp-gvt-coin .path2:before {
+    content: "\eabc";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-gxs-coin .path1:before {
+    content: "\eabd";
+    color: rgb(53, 165, 243);
+}
+.kp-gxs-coin .path2:before {
+    content: "\eabe";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-gzr-coin .path1:before {
+    content: "\eabf";
+    color: rgb(86, 201, 233);
+}
+.kp-gzr-coin .path2:before {
+    content: "\eac0";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-gzr-coin .path3:before {
+    content: "\eac1";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-gzr-coin .path4:before {
+    content: "\eac2";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-gzr-coin .path5:before {
+    content: "\eac3";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-hight-coin .path1:before {
+    content: "\eac4";
+    color: rgb(17, 127, 192);
+}
+.kp-hight-coin .path2:before {
+    content: "\eac5";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-hodl-coin .path1:before {
+    content: "\eac6";
+    color: rgb(213, 145, 67);
+}
+.kp-hodl-coin .path2:before {
+    content: "\eac7";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-hot-coin .path1:before {
+    content: "\eac8";
+    color: rgb(136, 52, 255);
+}
+.kp-hot-coin .path2:before {
+    content: "\eac9";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-hpb-coin .path1:before {
+    content: "\eaca";
+    color: rgb(21, 145, 202);
+}
+.kp-hpb-coin .path2:before {
+    content: "\eacb";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-hpb-coin .path3:before {
+    content: "\eacc";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.5;
+}
+.kp-hsr-coin .path1:before {
+    content: "\eacd";
+    color: rgb(86, 66, 142);
+}
+.kp-hsr-coin .path2:before {
+    content: "\eace";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-ht-coin .path1:before {
+    content: "\eacf";
+    color: rgb(42, 48, 105);
+}
+.kp-ht-coin .path2:before {
+    content: "\ead0";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-ht-coin .path3:before {
+    content: "\ead1";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-html-coin .path1:before {
+    content: "\ead2";
+    color: rgb(207, 169, 103);
+}
+.kp-html-coin .path2:before {
+    content: "\ead3";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-huc-coin .path1:before {
+    content: "\ead4";
+    color: rgb(255, 192, 24);
+}
+.kp-huc-coin .path2:before {
+    content: "\ead5";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-hush-coin .path1:before {
+    content: "\ead6";
+    color: rgb(41, 41, 41);
+}
+.kp-hush-coin .path2:before {
+    content: "\ead7";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-icn-coin .path1:before {
+    content: "\ead8";
+    color: rgb(76, 111, 140);
+}
+.kp-icn-coin .path2:before {
+    content: "\ead9";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-icx-coin .path1:before {
+    content: "\eada";
+    color: rgb(31, 197, 201);
+}
+.kp-icx-coin .path2:before {
+    content: "\eadb";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-ignis-coin .path1:before {
+    content: "\eadc";
+    color: rgb(249, 192, 17);
+}
+.kp-ignis-coin .path2:before {
+    content: "\eadd";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-ilk-coin .path1:before {
+    content: "\eade";
+    color: rgb(152, 194, 58);
+}
+.kp-ilk-coin .path2:before {
+    content: "\eadf";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-ink-coin .path1:before {
+    content: "\eae0";
+    color: rgb(223, 26, 20);
+}
+.kp-ink-coin .path2:before {
+    content: "\eae1";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-ins-coin .path1:before {
+    content: "\eae2";
+    color: rgb(178, 163, 246);
+}
+.kp-ins-coin .path2:before {
+    content: "\eae3";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-ins-coin .path3:before {
+    content: "\eae4";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.5;
+}
+.kp-ion-coin .path1:before {
+    content: "\eae5";
+    color: rgb(87, 190, 234);
+}
+.kp-ion-coin .path2:before {
+    content: "\eae6";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-iop-coin .path1:before {
+    content: "\eae7";
+    color: rgb(12, 175, 165);
+}
+.kp-iop-coin .path2:before {
+    content: "\eae8";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-iop-coin .path3:before {
+    content: "\eae9";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-iop-coin .path4:before {
+    content: "\eaea";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-iost-coin .path1:before {
+    content: "\eaeb";
+    color: rgb(28, 28, 28);
+}
+.kp-iost-coin .path2:before {
+    content: "\eaec";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-iotx-coin .path1:before {
+    content: "\eaed";
+    color: rgb(0, 212, 213);
+}
+.kp-iotx-coin .path2:before {
+    content: "\eaee";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-iotx-coin .path3:before {
+    content: "\eaef";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.9;
+}
+.kp-iotx-coin .path4:before {
+    content: "\eaf0";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.8;
+}
+.kp-iotx-coin .path5:before {
+    content: "\eaf1";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.8;
+}
+.kp-iotx-coin .path6:before {
+    content: "\eaf2";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-iotx-coin .path7:before {
+    content: "\eaf3";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.4;
+}
+.kp-iotx-coin .path8:before {
+    content: "\eaf4";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.2;
+}
+.kp-iotx-coin .path9:before {
+    content: "\eaf5";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.3;
+}
+.kp-iotx-coin .path10:before {
+    content: "\eaf6";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.9;
+}
+.kp-iotx-coin .path11:before {
+    content: "\eaf7";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+}
+.kp-iotx-coin .path12:before {
+    content: "\eaf8";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.9;
+}
+.kp-iotx-coin .path13:before {
+    content: "\eaf9";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.8;
+}
+.kp-iotx-coin .path14:before {
+    content: "\eafa";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.6;
+}
+.kp-iotx-coin .path15:before {
+    content: "\eafb";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.6;
+}
+.kp-iotx-coin .path16:before {
+    content: "\eafc";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.95;
+}
+.kp-iotx-coin .path17:before {
+    content: "\eafd";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.6;
+}
+.kp-iotx-coin .path18:before {
+    content: "\eafe";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.55;
+}
+.kp-iotx-coin .path19:before {
+    content: "\eaff";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-iotx-coin .path20:before {
+    content: "\eb00";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.95;
+}
+.kp-iotx-coin .path21:before {
+    content: "\eb01";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.9;
+}
+.kp-iotx-coin .path22:before {
+    content: "\eb02";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+}
+.kp-iotx-coin .path23:before {
+    content: "\eb03";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.4;
+}
+.kp-iotx-coin .path24:before {
+    content: "\eb04";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-iq-coin .path1:before {
+    content: "\eb05";
+    color: rgb(85, 221, 255);
+}
+.kp-iq-coin .path2:before {
+    content: "\eb06";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-itc-coin .path1:before {
+    content: "\eb07";
+    color: rgb(16, 32, 68);
+}
+.kp-itc-coin .path2:before {
+    content: "\eb08";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-jnt-coin .path1:before {
+    content: "\eb09";
+    color: rgb(0, 80, 219);
+}
+.kp-jnt-coin .path2:before {
+    content: "\eb0a";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-jpy-coin .path1:before {
+    content: "\eb0b";
+    color: rgb(234, 199, 73);
+}
+.kp-jpy-coin .path2:before {
+    content: "\eb0c";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-kcs-coin .path1:before {
+    content: "\eb0d";
+    color: rgb(0, 147, 221);
+}
+.kp-kcs-coin .path2:before {
+    content: "\eb0e";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-kin-coin .path1:before {
+    content: "\eb0f";
+    color: rgb(0, 95, 255);
+}
+.kp-kin-coin .path2:before {
+    content: "\eb10";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-klown-coin .path1:before {
+    content: "\eb11";
+    color: rgb(234, 0, 23);
+}
+.kp-klown-coin .path2:before {
+    content: "\eb12";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-klown-coin .path3:before {
+    content: "\eb13";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-klown-coin .path4:before {
+    content: "\eb14";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-kmd-coin .path1:before {
+    content: "\eb15";
+    color: rgb(43, 102, 128);
+}
+.kp-kmd-coin .path2:before {
+    content: "\eb16";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-kmd-coin .path3:before {
+    content: "\eb17";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-knc-coin .path1:before {
+    content: "\eb18";
+    color: rgb(24, 140, 146);
+}
+.kp-knc-coin .path2:before {
+    content: "\eb19";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-krb-coin .path1:before {
+    content: "\eb1a";
+    color: rgb(0, 174, 239);
+}
+.kp-krb-coin .path2:before {
+    content: "\eb1b";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-lbc-coin .path1:before {
+    content: "\eb1c";
+    color: rgb(0, 97, 73);
+}
+.kp-lbc-coin .path2:before {
+    content: "\eb1d";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-lend-coin .path1:before {
+    content: "\eb1e";
+    color: rgb(15, 169, 201);
+}
+.kp-lend-coin .path2:before {
+    content: "\eb1f";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-leo-coin .path1:before {
+    content: "\eb20";
+    color: rgb(17, 2, 30);
+}
+.kp-leo-coin .path2:before {
+    content: "\eb21";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-leo-coin .path3:before {
+    content: "\eb22";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-leo-coin .path4:before {
+    content: "\eb23";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-leo-coin .path5:before {
+    content: "\eb24";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-link-coin .path1:before {
+    content: "\eb25";
+    color: rgb(42, 90, 218);
+}
+.kp-link-coin .path2:before {
+    content: "\eb26";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-lkk-coin .path1:before {
+    content: "\eb27";
+    color: rgb(157, 1, 235);
+}
+.kp-lkk-coin .path2:before {
+    content: "\eb28";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-loom-coin .path1:before {
+    content: "\eb29";
+    color: rgb(72, 190, 255);
+}
+.kp-loom-coin .path2:before {
+    content: "\eb2a";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-loom-coin .path3:before {
+    content: "\eb2b";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-loom-coin .path4:before {
+    content: "\eb2c";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-lpt-coin .path1:before {
+    content: "\eb2d";
+    color: rgb(0, 0, 0);
+}
+.kp-lpt-coin .path2:before {
+    content: "\eb2e";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-lrc-coin .path1:before {
+    content: "\eb2f";
+    color: rgb(42, 182, 246);
+}
+.kp-lrc-coin .path2:before {
+    content: "\eb30";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-lsk-coin .path1:before {
+    content: "\eb31";
+    color: rgb(13, 78, 160);
+}
+.kp-lsk-coin .path2:before {
+    content: "\eb32";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-ltc-coin .path1:before {
+    content: "\eb33";
+    color: rgb(191, 187, 187);
+}
+.kp-ltc-coin .path2:before {
+    content: "\eb34";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-lun-coin .path1:before {
+    content: "\eb35";
+    color: rgb(245, 87, 73);
+}
+.kp-lun-coin .path2:before {
+    content: "\eb36";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-maid-coin .path1:before {
+    content: "\eb37";
+    color: rgb(85, 146, 215);
+}
+.kp-maid-coin .path2:before {
+    content: "\eb38";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-maid-coin .path3:before {
+    content: "\eb39";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.6;
+}
+.kp-maid-coin .path4:before {
+    content: "\eb3a";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.2;
+}
+.kp-mana-coin .path1:before {
+    content: "\eb3b";
+    color: rgb(255, 45, 85);
+}
+.kp-mana-coin .path2:before {
+    content: "\eb3c";
+    margin-left: -1em;
+    color: rgb(22, 20, 26);
+}
+.kp-matic-coin .path1:before {
+    content: "\eb3d";
+    color: rgb(43, 109, 239);
+}
+.kp-matic-coin .path2:before {
+    content: "\eb3e";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-mcap-coin .path1:before {
+    content: "\eb3f";
+    color: rgb(3, 59, 74);
+}
+.kp-mcap-coin .path2:before {
+    content: "\eb40";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-mco-coin .path1:before {
+    content: "\eb41";
+    color: rgb(16, 63, 104);
+}
+.kp-mco-coin .path2:before {
+    content: "\eb42";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-mda-coin .path1:before {
+    content: "\eb43";
+    color: rgb(1, 166, 79);
+}
+.kp-mda-coin .path2:before {
+    content: "\eb44";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-mds-coin .path1:before {
+    content: "\eb45";
+    color: rgb(30, 37, 44);
+}
+.kp-mds-coin .path2:before {
+    content: "\eb46";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-med-coin .path1:before {
+    content: "\eb47";
+    color: rgb(0, 176, 255);
+}
+.kp-med-coin .path2:before {
+    content: "\eb48";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-meetone-coin .path1:before {
+    content: "\eb49";
+    color: rgb(0, 0, 0);
+}
+.kp-meetone-coin .path2:before {
+    content: "\eb4a";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.7030;
+}
+.kp-meetone-coin .path3:before {
+    content: "\eb4b";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-mft-coin .path1:before {
+    content: "\eb4c";
+    color: rgb(218, 17, 87);
+}
+.kp-mft-coin .path2:before {
+    content: "\eb4d";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-miota-coin .path1:before {
+    content: "\eb4e";
+    color: rgb(36, 36, 36);
+}
+.kp-miota-coin .path2:before {
+    content: "\eb4f";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-mith-coin .path1:before {
+    content: "\eb50";
+    color: rgb(0, 49, 109);
+}
+.kp-mith-coin .path2:before {
+    content: "\eb51";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-mkr-coin .path1:before {
+    content: "\eb52";
+    color: rgb(26, 171, 155);
+}
+.kp-mkr-coin .path2:before {
+    content: "\eb53";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-mln-coin .path1:before {
+    content: "\eb54";
+    color: rgb(11, 21, 41);
+}
+.kp-mln-coin .path2:before {
+    content: "\eb55";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-mnx-coin .path1:before {
+    content: "\eb56";
+    color: rgb(0, 173, 239);
+}
+.kp-mnx-coin .path2:before {
+    content: "\eb57";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-mnz-coin .path1:before {
+    content: "\eb58";
+    color: rgb(127, 54, 138);
+}
+.kp-mnz-coin .path2:before {
+    content: "\eb59";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-moac-coin .path1:before {
+    content: "\eb5a";
+    color: rgb(0, 0, 0);
+}
+.kp-moac-coin .path2:before {
+    content: "\eb5b";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-mod-coin .path1:before {
+    content: "\eb5c";
+    color: rgb(9, 84, 125);
+}
+.kp-mod-coin .path2:before {
+    content: "\eb5d";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.5;
+}
+.kp-mod-coin .path3:before {
+    content: "\eb5e";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-mona-coin .path1:before {
+    content: "\eb5f";
+    color: rgb(222, 199, 153);
+}
+.kp-mona-coin .path2:before {
+    content: "\eb60";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-msr-coin .path1:before {
+    content: "\eb61";
+    color: rgb(71, 185, 92);
+}
+.kp-msr-coin .path2:before {
+    content: "\eb62";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-msr-coin .path3:before {
+    content: "\eb63";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-mth-coin .path1:before {
+    content: "\eb64";
+    color: rgb(16, 79, 202);
+}
+.kp-mth-coin .path2:before {
+    content: "\eb65";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.5;
+}
+.kp-mth-coin .path3:before {
+    content: "\eb66";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.6;
+}
+.kp-mth-coin .path4:before {
+    content: "\eb67";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.8;
+}
+.kp-mth-coin .path5:before {
+    content: "\eb68";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-mtl-coin .path1:before {
+    content: "\eb69";
+    color: rgb(30, 31, 37);
+}
+.kp-mtl-coin .path2:before {
+    content: "\eb6a";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-music-coin .path1:before {
+    content: "\eb6b";
+    color: rgb(255, 255, 255);
+}
+.kp-music-coin .path2:before {
+    content: "\eb6c";
+    margin-left: -1em;
+    color: rgb(251, 191, 2);
+}
+.kp-mzc-coin .path1:before {
+    content: "\eb6d";
+    color: rgb(255, 170, 5);
+}
+.kp-mzc-coin .path2:before {
+    content: "\eb6e";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-nano-coin .path1:before {
+    content: "\eb6f";
+    color: rgb(74, 144, 226);
+}
+.kp-nano-coin .path2:before {
+    content: "\eb70";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-nas-coin .path1:before {
+    content: "\eb71";
+    color: rgb(34, 34, 34);
+}
+.kp-nas-coin .path2:before {
+    content: "\eb72";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-nav-coin .path1:before {
+    content: "\eb73";
+    color: rgb(125, 89, 181);
+}
+.kp-nav-coin .path2:before {
+    content: "\eb74";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-ncash-coin .path1:before {
+    content: "\eb75";
+    color: rgb(54, 169, 207);
+}
+.kp-ncash-coin .path2:before {
+    content: "\eb76";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-ndz-coin .path1:before {
+    content: "\eb77";
+    color: rgb(98, 47, 186);
+}
+.kp-ndz-coin .path2:before {
+    content: "\eb78";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-nebl-coin .path1:before {
+    content: "\eb79";
+    color: rgb(80, 71, 158);
+}
+.kp-nebl-coin .path2:before {
+    content: "\eb7a";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-neo-coin .path1:before {
+    content: "\eb7b";
+    color: rgb(88, 191, 0);
+}
+.kp-neo-coin .path2:before {
+    content: "\eb7c";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-neos-coin .path1:before {
+    content: "\eb7d";
+    color: rgb(229, 243, 0);
+}
+.kp-neos-coin .path2:before {
+    content: "\eb7e";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-neu-coin .path1:before {
+    content: "\eb7f";
+    color: rgb(179, 186, 0);
+}
+.kp-neu-coin .path2:before {
+    content: "\eb80";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-neu-coin .path3:before {
+    content: "\eb81";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-nexo-coin .path1:before {
+    content: "\eb82";
+    color: rgb(26, 65, 153);
+}
+.kp-nexo-coin .path2:before {
+    content: "\eb83";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+}
+.kp-nexo-coin .path3:before {
+    content: "\eb84";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.9;
+}
+.kp-nexo-coin .path4:before {
+    content: "\eb85";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-nexo-coin .path5:before {
+    content: "\eb86";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.9;
+}
+.kp-nexo-coin .path6:before {
+    content: "\eb87";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.6;
+}
+.kp-nexo-coin .path7:before {
+    content: "\eb88";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+}
+.kp-ngc-coin .path1:before {
+    content: "\eb89";
+    color: rgb(248, 0, 0);
+}
+.kp-ngc-coin .path2:before {
+    content: "\eb8a";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-nio-coin .path1:before {
+    content: "\eb8b";
+    color: rgb(112, 201, 201);
+}
+.kp-nio-coin .path2:before {
+    content: "\eb8c";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-nlc2-coin .path1:before {
+    content: "\eb8d";
+    color: rgb(242, 143, 1);
+}
+.kp-nlc2-coin .path2:before {
+    content: "\eb8e";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-nlg-coin .path1:before {
+    content: "\eb8f";
+    color: rgb(42, 176, 253);
+}
+.kp-nlg-coin .path2:before {
+    content: "\eb90";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-nmc-coin .path1:before {
+    content: "\eb91";
+    color: rgb(24, 108, 157);
+}
+.kp-nmc-coin .path2:before {
+    content: "\eb92";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-nmr-coin .path1:before {
+    content: "\eb93";
+    color: rgb(5, 7, 8);
+}
+.kp-nmr-coin .path2:before {
+    content: "\eb94";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-npxs-coin .path1:before {
+    content: "\eb95";
+    color: rgb(245, 209, 0);
+}
+.kp-npxs-coin .path2:before {
+    content: "\eb96";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-npxs-coin .path3:before {
+    content: "\eb97";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-nuls-coin .path1:before {
+    content: "\eb98";
+    color: rgb(130, 189, 57);
+}
+.kp-nuls-coin .path2:before {
+    content: "\eb99";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-nxs-coin .path1:before {
+    content: "\eb9a";
+    color: rgb(64, 153, 205);
+}
+.kp-nxs-coin .path2:before {
+    content: "\eb9b";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-nxt-coin .path1:before {
+    content: "\eb9c";
+    color: rgb(0, 143, 187);
+}
+.kp-nxt-coin .path2:before {
+    content: "\eb9d";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-oax-coin .path1:before {
+    content: "\eb9e";
+    color: rgb(22, 75, 121);
+}
+.kp-oax-coin .path2:before {
+    content: "\eb9f";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-ok-coin .path1:before {
+    content: "\eba0";
+    color: rgb(0, 0, 0);
+}
+.kp-ok-coin .path2:before {
+    content: "\eba1";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-omg-coin .path1:before {
+    content: "\eba2";
+    color: rgb(16, 16, 16);
+}
+.kp-omg-coin .path2:before {
+    content: "\eba3";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-omni-coin .path1:before {
+    content: "\eba4";
+    color: rgb(28, 52, 122);
+}
+.kp-omni-coin .path2:before {
+    content: "\eba5";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-ong-coin .path1:before {
+    content: "\eba6";
+    color: rgb(0, 0, 0);
+}
+.kp-ong-coin .path2:before {
+    content: "\eba7";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-ong-coin .path3:before {
+    content: "\eba8";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-ong-coin .path4:before {
+    content: "\eba9";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-ont-coin .path1:before {
+    content: "\ebaa";
+    color: rgb(50, 164, 190);
+}
+.kp-ont-coin .path2:before {
+    content: "\ebab";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-oot-coin .path1:before {
+    content: "\ebac";
+    color: rgb(37, 170, 225);
+}
+.kp-oot-coin .path2:before {
+    content: "\ebad";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-ost-coin .path1:before {
+    content: "\ebae";
+    color: rgb(52, 68, 91);
+}
+.kp-ost-coin .path2:before {
+    content: "\ebaf";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-ox-coin .path1:before {
+    content: "\ebb0";
+    color: rgb(67, 146, 205);
+}
+.kp-ox-coin .path2:before {
+    content: "\ebb1";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-oxt-coin .path1:before {
+    content: "\ebb2";
+    color: rgb(95, 69, 186);
+}
+.kp-oxt-coin .path2:before {
+    content: "\ebb3";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-pac-coin .path1:before {
+    content: "\ebb4";
+    color: rgb(245, 235, 22);
+}
+.kp-pac-coin .path2:before {
+    content: "\ebb5";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-part-coin .path1:before {
+    content: "\ebb6";
+    color: rgb(3, 232, 176);
+}
+.kp-part-coin .path2:before {
+    content: "\ebb7";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-pasc-coin .path1:before {
+    content: "\ebb8";
+    color: rgb(247, 147, 30);
+}
+.kp-pasc-coin .path2:before {
+    content: "\ebb9";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-pasl-coin .path1:before {
+    content: "\ebba";
+    color: rgb(0, 172, 255);
+}
+.kp-pasl-coin .path2:before {
+    content: "\ebbb";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-pax-coin .path1:before {
+    content: "\ebbc";
+    color: rgb(237, 231, 8);
+}
+.kp-pax-coin .path2:before {
+    content: "\ebbd";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-pay-coin .path1:before {
+    content: "\ebbe";
+    color: rgb(48, 44, 44);
+}
+.kp-pay-coin .path2:before {
+    content: "\ebbf";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-payx-coin .path1:before {
+    content: "\ebc0";
+    color: rgb(102, 51, 0);
+}
+.kp-payx-coin .path2:before {
+    content: "\ebc1";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-payx-coin .path3:before {
+    content: "\ebc2";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-pink-coin .path1:before {
+    content: "\ebc3";
+    color: rgb(237, 121, 170);
+}
+.kp-pink-coin .path2:before {
+    content: "\ebc4";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.5;
+}
+.kp-pink-coin .path3:before {
+    content: "\ebc5";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-pirl-coin .path1:before {
+    content: "\ebc6";
+    color: rgb(150, 183, 61);
+}
+.kp-pirl-coin .path2:before {
+    content: "\ebc7";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-pivx-coin .path1:before {
+    content: "\ebc8";
+    color: rgb(94, 71, 120);
+}
+.kp-pivx-coin .path2:before {
+    content: "\ebc9";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-plr-coin .path1:before {
+    content: "\ebca";
+    color: rgb(0, 191, 255);
+}
+.kp-plr-coin .path2:before {
+    content: "\ebcb";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-poa-coin .path1:before {
+    content: "\ebcc";
+    color: rgb(68, 79, 161);
+}
+.kp-poa-coin .path2:before {
+    content: "\ebcd";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-poe-coin .path1:before {
+    content: "\ebce";
+    color: rgb(220, 214, 204);
+}
+.kp-poe-coin .path2:before {
+    content: "\ebcf";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-polis-coin .path1:before {
+    content: "\ebd0";
+    color: rgb(44, 62, 80);
+}
+.kp-polis-coin .path2:before {
+    content: "\ebd1";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-poly-coin .path1:before {
+    content: "\ebd2";
+    color: rgb(76, 90, 149);
+}
+.kp-poly-coin .path2:before {
+    content: "\ebd3";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-pot-coin .path1:before {
+    content: "\ebd4";
+    color: rgb(16, 91, 47);
+}
+.kp-pot-coin .path2:before {
+    content: "\ebd5";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-powr-coin .path1:before {
+    content: "\ebd6";
+    color: rgb(5, 188, 169);
+}
+.kp-powr-coin .path2:before {
+    content: "\ebd7";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-ppc-coin .path1:before {
+    content: "\ebd8";
+    color: rgb(60, 176, 84);
+}
+.kp-ppc-coin .path2:before {
+    content: "\ebd9";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-ppp-coin .path1:before {
+    content: "\ebda";
+    color: rgb(52, 143, 141);
+}
+.kp-ppp-coin .path2:before {
+    content: "\ebdb";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-ppt-coin .path1:before {
+    content: "\ebdc";
+    color: rgb(21, 39, 67);
+}
+.kp-ppt-coin .path2:before {
+    content: "\ebdd";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-pre-coin .path1:before {
+    content: "\ebde";
+    color: rgb(58, 140, 189);
+}
+.kp-pre-coin .path2:before {
+    content: "\ebdf";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-pre-coin .path3:before {
+    content: "\ebe0";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-pre-coin .path4:before {
+    content: "\ebe1";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-prl-coin .path1:before {
+    content: "\ebe2";
+    color: rgb(16, 97, 227);
+}
+.kp-prl-coin .path2:before {
+    content: "\ebe3";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-pungo-coin .path1:before {
+    content: "\ebe4";
+    color: rgb(34, 181, 115);
+}
+.kp-pungo-coin .path2:before {
+    content: "\ebe5";
+    margin-left: -1em;
+    color: rgb(254, 255, 255);
+}
+.kp-pura-coin .path1:before {
+    content: "\ebe6";
+    color: rgb(51, 51, 51);
+}
+.kp-pura-coin .path2:before {
+    content: "\ebe7";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-qash-coin .path1:before {
+    content: "\ebe8";
+    color: rgb(19, 71, 232);
+}
+.kp-qash-coin .path2:before {
+    content: "\ebe9";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-qiwi-coin .path1:before {
+    content: "\ebea";
+    color: rgb(255, 140, 0);
+}
+.kp-qiwi-coin .path2:before {
+    content: "\ebeb";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-qlc-coin .path1:before {
+    content: "\ebec";
+    color: rgb(97, 0, 137);
+}
+.kp-qlc-coin .path2:before {
+    content: "\ebed";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-qrl-coin .path1:before {
+    content: "\ebee";
+    color: rgb(37, 37, 37);
+}
+.kp-qrl-coin .path2:before {
+    content: "\ebef";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-qsp-coin .path1:before {
+    content: "\ebf0";
+    color: rgb(69, 69, 69);
+}
+.kp-qsp-coin .path2:before {
+    content: "\ebf1";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-qtum-coin .path1:before {
+    content: "\ebf2";
+    color: rgb(46, 154, 208);
+}
+.kp-qtum-coin .path2:before {
+    content: "\ebf3";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-r-coin .path1:before {
+    content: "\ebf4";
+    color: rgb(119, 26, 78);
+}
+.kp-r-coin .path2:before {
+    content: "\ebf5";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-rads-coin .path1:before {
+    content: "\ebf6";
+    color: rgb(157, 75, 239);
+}
+.kp-rads-coin .path2:before {
+    content: "\ebf7";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-rap-coin .path1:before {
+    content: "\ebf8";
+    color: rgb(0, 0, 0);
+}
+.kp-rap-coin .path2:before {
+    content: "\ebf9";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-rcn-coin .path1:before {
+    content: "\ebfa";
+    color: rgb(53, 85, 249);
+}
+.kp-rcn-coin .path2:before {
+    content: "\ebfb";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-rdd-coin .path1:before {
+    content: "\ebfc";
+    color: rgb(227, 6, 19);
+}
+.kp-rdd-coin .path2:before {
+    content: "\ebfd";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.75;
+}
+.kp-rdd-coin .path3:before {
+    content: "\ebfe";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-rdn-coin .path1:before {
+    content: "\ebff";
+    color: rgb(42, 42, 42);
+}
+.kp-rdn-coin .path2:before {
+    content: "\ec00";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-ren-coin .path1:before {
+    content: "\ec01";
+    color: rgb(8, 8, 23);
+}
+.kp-ren-coin .path2:before {
+    content: "\ec02";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-rep-coin .path1:before {
+    content: "\ec03";
+    color: rgb(96, 42, 82);
+}
+.kp-rep-coin .path2:before {
+    content: "\ec04";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-repv2-coin .path1:before {
+    content: "\ec05";
+    color: rgb(14, 14, 33);
+}
+.kp-repv2-coin .path2:before {
+    content: "\ec06";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-req-coin .path1:before {
+    content: "\ec07";
+    color: rgb(0, 230, 160);
+}
+.kp-req-coin .path2:before {
+    content: "\ec08";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-rhoc-coin .path1:before {
+    content: "\ec09";
+    color: rgb(204, 30, 70);
+}
+.kp-rhoc-coin .path2:before {
+    content: "\ec0a";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-ric-coin .path1:before {
+    content: "\ec0b";
+    color: rgb(96, 228, 221);
+}
+.kp-ric-coin .path2:before {
+    content: "\ec0c";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-rise-coin .path1:before {
+    content: "\ec0d";
+    color: rgb(244, 147, 82);
+}
+.kp-rise-coin .path2:before {
+    content: "\ec0e";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-rlc-coin .path1:before {
+    content: "\ec0f";
+    color: rgb(255, 216, 0);
+}
+.kp-rlc-coin .path2:before {
+    content: "\ec10";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-rpx-coin .path1:before {
+    content: "\ec11";
+    color: rgb(141, 24, 27);
+}
+.kp-rpx-coin .path2:before {
+    content: "\ec12";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-rub-coin .path1:before {
+    content: "\ec13";
+    color: rgb(100, 209, 255);
+}
+.kp-rub-coin .path2:before {
+    content: "\ec14";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-rvn-coin .path1:before {
+    content: "\ec15";
+    color: rgb(56, 65, 130);
+}
+.kp-rvn-coin .path2:before {
+    content: "\ec16";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-ryo-coin .path1:before {
+    content: "\ec17";
+    color: rgb(61, 88, 176);
+}
+.kp-ryo-coin .path2:before {
+    content: "\ec18";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-ryo-coin .path3:before {
+    content: "\ec19";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-safe-coin .path1:before {
+    content: "\ec1a";
+    color: rgb(0, 104, 140);
+}
+.kp-safe-coin .path2:before {
+    content: "\ec1b";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-safe-coin .path3:before {
+    content: "\ec1c";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-sai-coin .path1:before {
+    content: "\ec1d";
+    color: rgb(182, 137, 0);
+}
+.kp-sai-coin .path2:before {
+    content: "\ec1e";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-salt-coin .path1:before {
+    content: "\ec1f";
+    color: rgb(27, 238, 244);
+}
+.kp-salt-coin .path2:before {
+    content: "\ec20";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-san-coin .path1:before {
+    content: "\ec21";
+    color: rgb(43, 119, 179);
+}
+.kp-san-coin .path2:before {
+    content: "\ec22";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-sbd-coin .path1:before {
+    content: "\ec23";
+    color: rgb(75, 162, 242);
+}
+.kp-sbd-coin .path2:before {
+    content: "\ec24";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-sberbank-coin .path1:before {
+    content: "\ec25";
+    color: rgb(72, 178, 84);
+}
+.kp-sberbank-coin .path2:before {
+    content: "\ec26";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-sc-coin .path1:before {
+    content: "\ec27";
+    color: rgb(32, 238, 130);
+}
+.kp-sc-coin .path2:before {
+    content: "\ec28";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-shift-coin .path1:before {
+    content: "\ec29";
+    color: rgb(150, 75, 156);
+}
+.kp-shift-coin .path2:before {
+    content: "\ec2a";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.6;
+}
+.kp-shift-coin .path3:before {
+    content: "\ec2b";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+}
+.kp-shift-coin .path4:before {
+    content: "\ec2c";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.4;
+}
+.kp-shift-coin .path5:before {
+    content: "\ec2d";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.8;
+}
+.kp-sib-coin .path1:before {
+    content: "\ec2e";
+    color: rgb(5, 123, 193);
+}
+.kp-sib-coin .path2:before {
+    content: "\ec2f";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-sin-coin .path1:before {
+    content: "\ec30";
+    color: rgb(245, 52, 46);
+}
+.kp-sin-coin .path2:before {
+    content: "\ec31";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-sin-coin .path3:before {
+    content: "\ec32";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-sky-coin .path1:before {
+    content: "\ec33";
+    color: rgb(0, 114, 255);
+}
+.kp-sky-coin .path2:before {
+    content: "\ec34";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-slr-coin .path1:before {
+    content: "\ec35";
+    color: rgb(253, 166, 22);
+}
+.kp-slr-coin .path2:before {
+    content: "\ec36";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-sls-coin .path1:before {
+    content: "\ec37";
+    color: rgb(142, 148, 149);
+}
+.kp-sls-coin .path2:before {
+    content: "\ec38";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-smart-coin .path1:before {
+    content: "\ec39";
+    color: rgb(254, 198, 13);
+}
+.kp-smart-coin .path2:before {
+    content: "\ec3a";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-sngls-coin .path1:before {
+    content: "\ec3b";
+    color: rgb(179, 13, 35);
+}
+.kp-sngls-coin .path2:before {
+    content: "\ec3c";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-snm-coin .path1:before {
+    content: "\ec3d";
+    color: rgb(11, 28, 38);
+}
+.kp-snm-coin .path2:before {
+    content: "\ec3e";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-snt-coin .path1:before {
+    content: "\ec3f";
+    color: rgb(91, 109, 238);
+}
+.kp-snt-coin .path2:before {
+    content: "\ec40";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-soc-coin .path1:before {
+    content: "\ec41";
+    color: rgb(25, 146, 72);
+}
+.kp-soc-coin .path2:before {
+    content: "\ec42";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-soc-coin .path3:before {
+    content: "\ec43";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-spank-coin .path1:before {
+    content: "\ec44";
+    color: rgb(255, 59, 129);
+}
+.kp-spank-coin .path2:before {
+    content: "\ec45";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-sphtx-coin .path1:before {
+    content: "\ec46";
+    color: rgb(0, 176, 152);
+}
+.kp-sphtx-coin .path2:before {
+    content: "\ec47";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-srn-coin .path1:before {
+    content: "\ec48";
+    color: rgb(28, 28, 28);
+}
+.kp-srn-coin .path2:before {
+    content: "\ec49";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-stak-coin .path1:before {
+    content: "\ec4a";
+    color: rgb(242, 148, 27);
+}
+.kp-stak-coin .path2:before {
+    content: "\ec4b";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-start-coin .path1:before {
+    content: "\ec4c";
+    color: rgb(1, 174, 240);
+}
+.kp-start-coin .path2:before {
+    content: "\ec4d";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-steem-coin .path1:before {
+    content: "\ec4e";
+    color: rgb(75, 162, 242);
+}
+.kp-steem-coin .path2:before {
+    content: "\ec4f";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-storj-coin .path1:before {
+    content: "\ec50";
+    color: rgb(38, 131, 255);
+}
+.kp-storj-coin .path2:before {
+    content: "\ec51";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-storm-coin .path1:before {
+    content: "\ec52";
+    color: rgb(8, 13, 152);
+}
+.kp-storm-coin .path2:before {
+    content: "\ec53";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-stq-coin .path1:before {
+    content: "\ec54";
+    color: rgb(45, 196, 231);
+}
+.kp-stq-coin .path2:before {
+    content: "\ec55";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-strat-coin .path1:before {
+    content: "\ec56";
+    color: rgb(19, 135, 201);
+}
+.kp-strat-coin .path2:before {
+    content: "\ec57";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-stx-coin .path1:before {
+    content: "\ec58";
+    color: rgb(115, 36, 240);
+}
+.kp-stx-coin .path2:before {
+    content: "\ec59";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-sub-coin .path1:before {
+    content: "\ec5a";
+    color: rgb(229, 52, 49);
+}
+.kp-sub-coin .path2:before {
+    content: "\ec5b";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-sumo-coin .path1:before {
+    content: "\ec5c";
+    color: rgb(45, 156, 219);
+}
+.kp-sumo-coin .path2:before {
+    content: "\ec5d";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-sys-coin .path1:before {
+    content: "\ec5e";
+    color: rgb(0, 130, 198);
+}
+.kp-sys-coin .path2:before {
+    content: "\ec5f";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-taas-coin .path1:before {
+    content: "\ec60";
+    color: rgb(0, 35, 66);
+}
+.kp-taas-coin .path2:before {
+    content: "\ec61";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-tau-coin .path1:before {
+    content: "\ec62";
+    color: rgb(123, 52, 110);
+}
+.kp-tau-coin .path2:before {
+    content: "\ec63";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-tbx-coin .path1:before {
+    content: "\ec64";
+    color: rgb(82, 68, 212);
+}
+.kp-tbx-coin .path2:before {
+    content: "\ec65";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-tel-coin .path1:before {
+    content: "\ec66";
+    color: rgb(20, 200, 255);
+}
+.kp-tel-coin .path2:before {
+    content: "\ec67";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-ten-coin .path1:before {
+    content: "\ec68";
+    color: rgb(8, 153, 205);
+}
+.kp-ten-coin .path2:before {
+    content: "\ec69";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-tern-coin .path1:before {
+    content: "\ec6a";
+    color: rgb(244, 194, 87);
+}
+.kp-tern-coin .path2:before {
+    content: "\ec6b";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-tgch-coin .path1:before {
+    content: "\ec6c";
+    color: rgb(67, 66, 71);
+}
+.kp-tgch-coin .path2:before {
+    content: "\ec6d";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-tgch-coin .path3:before {
+    content: "\ec6e";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-theta-coin .path1:before {
+    content: "\ec6f";
+    color: rgb(42, 184, 230);
+}
+.kp-theta-coin .path2:before {
+    content: "\ec70";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-tix-coin .path1:before {
+    content: "\ec71";
+    color: rgb(239, 73, 77);
+}
+.kp-tix-coin .path2:before {
+    content: "\ec72";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-tkn-coin .path1:before {
+    content: "\ec73";
+    color: rgb(36, 221, 123);
+}
+.kp-tkn-coin .path2:before {
+    content: "\ec74";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-tks-coin .path1:before {
+    content: "\ec75";
+    color: rgb(137, 90, 248);
+}
+.kp-tks-coin .path2:before {
+    content: "\ec76";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-tks-coin .path3:before {
+    content: "\ec77";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-tnb-coin .path1:before {
+    content: "\ec78";
+    color: rgb(255, 192, 78);
+}
+.kp-tnb-coin .path2:before {
+    content: "\ec79";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-tnc-coin .path1:before {
+    content: "\ec7a";
+    color: rgb(255, 67, 155);
+}
+.kp-tnc-coin .path2:before {
+    content: "\ec7b";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-tnt-coin .path1:before {
+    content: "\ec7c";
+    color: rgb(255, 64, 129);
+}
+.kp-tnt-coin .path2:before {
+    content: "\ec7d";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-tomo-coin .path1:before {
+    content: "\ec7e";
+    color: rgb(26, 31, 54);
+}
+.kp-tomo-coin .path2:before {
+    content: "\ec7f";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-tpay-coin .path1:before {
+    content: "\ec80";
+    color: rgb(48, 88, 166);
+}
+.kp-tpay-coin .path2:before {
+    content: "\ec81";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-tpay-coin .path3:before {
+    content: "\ec82";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-tpay-coin .path4:before {
+    content: "\ec83";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-trig-coin .path1:before {
+    content: "\ec84";
+    color: rgb(48, 192, 242);
+}
+.kp-trig-coin .path2:before {
+    content: "\ec85";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-trtl-coin .path1:before {
+    content: "\ec86";
+    color: rgb(0, 132, 61);
+}
+.kp-trtl-coin .path2:before {
+    content: "\ec87";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-trtl-coin .path3:before {
+    content: "\ec88";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-trx-coin .path1:before {
+    content: "\ec89";
+    color: rgb(239, 0, 39);
+}
+.kp-trx-coin .path2:before {
+    content: "\ec8a";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-tusd-coin .path1:before {
+    content: "\ec8b";
+    color: rgb(43, 46, 127);
+}
+.kp-tusd-coin .path2:before {
+    content: "\ec8c";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-tusd-coin .path3:before {
+    content: "\ec8d";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-tusd-coin .path4:before {
+    content: "\ec8e";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-tzc-coin .path1:before {
+    content: "\ec8f";
+    color: rgb(55, 72, 81);
+}
+.kp-tzc-coin .path2:before {
+    content: "\ec90";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-ubq-coin .path1:before {
+    content: "\ec91";
+    color: rgb(0, 234, 144);
+}
+.kp-ubq-coin .path2:before {
+    content: "\ec92";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.698;
+}
+.kp-ubq-coin .path3:before {
+    content: "\ec93";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-uma-coin .path1:before {
+    content: "\ec94";
+    color: rgb(255, 74, 74);
+}
+.kp-uma-coin .path2:before {
+    content: "\ec95";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-uma-coin .path3:before {
+    content: "\ec96";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-uni-coin .path1:before {
+    content: "\ec97";
+    color: rgb(255, 0, 122);
+}
+.kp-uni-coin .path2:before {
+    content: "\ec98";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-uni-coin .path3:before {
+    content: "\ec99";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-uni-coin .path4:before {
+    content: "\ec9a";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-uni-coin .path5:before {
+    content: "\ec9b";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-unity-coin .path1:before {
+    content: "\ec9c";
+    color: rgb(245, 134, 52);
+}
+.kp-unity-coin .path2:before {
+    content: "\ec9d";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-unity-coin .path3:before {
+    content: "\ec9e";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.5;
+}
+.kp-usd-coin .path1:before {
+    content: "\ec9f";
+    color: rgb(108, 222, 7);
+}
+.kp-usd-coin .path2:before {
+    content: "\eca0";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-usdc-coin .path1:before {
+    content: "\eca1";
+    color: rgb(39, 117, 201);
+}
+.kp-usdc-coin .path2:before {
+    content: "\eca2";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-usdt-coin .path1:before {
+    content: "\eca3";
+    color: rgb(38, 161, 123);
+}
+.kp-usdt-coin .path2:before {
+    content: "\eca4";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-usdt-erc20-coin .path1:before {
+    content: "\eca3";
+    color: rgb(38, 161, 123);
+}
+.kp-usdt-erc20-coin .path2:before {
+    content: "\eca4";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-utk-coin .path1:before {
+    content: "\eca5";
+    color: rgb(48, 54, 122);
+}
+.kp-utk-coin .path2:before {
+    content: "\eca6";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-veri-coin .path1:before {
+    content: "\eca7";
+    color: rgb(255, 153, 51);
+}
+.kp-veri-coin .path2:before {
+    content: "\eca8";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-vet-coin .path1:before {
+    content: "\eca9";
+    color: rgb(21, 189, 255);
+}
+.kp-vet-coin .path2:before {
+    content: "\ecaa";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-via-coin .path1:before {
+    content: "\ecab";
+    color: rgb(86, 86, 86);
+}
+.kp-via-coin .path2:before {
+    content: "\ecac";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-vib-coin .path1:before {
+    content: "\ecad";
+    color: rgb(255, 31, 67);
+}
+.kp-vib-coin .path2:before {
+    content: "\ecae";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-vibe-coin .path1:before {
+    content: "\ecaf";
+    color: rgb(51, 139, 229);
+}
+.kp-vibe-coin .path2:before {
+    content: "\ecb0";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-vivo-coin .path1:before {
+    content: "\ecb1";
+    color: rgb(64, 138, 241);
+}
+.kp-vivo-coin .path2:before {
+    content: "\ecb2";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-vrc-coin .path1:before {
+    content: "\ecb3";
+    color: rgb(65, 139, 202);
+}
+.kp-vrc-coin .path2:before {
+    content: "\ecb4";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-vrsc-coin .path1:before {
+    content: "\ecb5";
+    color: rgb(255, 181, 0);
+}
+.kp-vrsc-coin .path2:before {
+    content: "\ecb6";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-vrsc-coin .path3:before {
+    content: "\ecb7";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-vtc-coin .path1:before {
+    content: "\ecb8";
+    color: rgb(4, 134, 87);
+}
+.kp-vtc-coin .path2:before {
+    content: "\ecb9";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-vtho-coin .path1:before {
+    content: "\ecba";
+    color: rgb(42, 82, 132);
+}
+.kp-vtho-coin .path2:before {
+    content: "\ecbb";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.7040;
+}
+.kp-vtho-coin .path3:before {
+    content: "\ecbc";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-wabi-coin .path1:before {
+    content: "\ecbd";
+    color: rgb(57, 155, 50);
+}
+.kp-wabi-coin .path2:before {
+    content: "\ecbe";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-wan-coin .path1:before {
+    content: "\ecbf";
+    color: rgb(19, 106, 173);
+}
+.kp-wan-coin .path2:before {
+    content: "\ecc0";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-waves-coin .path1:before {
+    content: "\ecc1";
+    color: rgb(1, 85, 255);
+}
+.kp-waves-coin .path2:before {
+    content: "\ecc2";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-wax-coin .path1:before {
+    content: "\ecc3";
+    color: rgb(248, 144, 34);
+}
+.kp-wax-coin .path2:before {
+    content: "\ecc4";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-wbtc-coin .path1:before {
+    content: "\ecc5";
+    color: rgb(32, 26, 45);
+}
+.kp-wbtc-coin .path2:before {
+    content: "\ecc6";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-wbtc-coin .path3:before {
+    content: "\ecc7";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-wgr-coin .path1:before {
+    content: "\ecc8";
+    color: rgb(184, 0, 0);
+}
+.kp-wgr-coin .path2:before {
+    content: "\ecc9";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-wicc-coin .path1:before {
+    content: "\ecca";
+    color: rgb(87, 131, 203);
+}
+.kp-wicc-coin .path2:before {
+    content: "\eccb";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-wicc-coin .path3:before {
+    content: "\eccc";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-wings-coin .path1:before {
+    content: "\eccd";
+    color: rgb(13, 201, 247);
+}
+.kp-wings-coin .path2:before {
+    content: "\ecce";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.3050;
+}
+.kp-wings-coin .path3:before {
+    content: "\eccf";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+}
+.kp-wings-coin .path4:before {
+    content: "\ecd0";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-wpr-coin .path1:before {
+    content: "\ecd1";
+    color: rgb(255, 230, 0);
+}
+.kp-wpr-coin .path2:before {
+    content: "\ecd2";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-wtc-coin .path1:before {
+    content: "\ecd3";
+    color: rgb(130, 0, 255);
+}
+.kp-wtc-coin .path2:before {
+    content: "\ecd4";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-wtc-coin .path3:before {
+    content: "\ecd5";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.5040;
+}
+.kp-x-coin .path1:before {
+    content: "\ecd6";
+    color: rgb(59, 89, 152);
+}
+.kp-x-coin .path2:before {
+    content: "\ecd7";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-x-coin .path3:before {
+    content: "\ecd8";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-x-coin .path4:before {
+    content: "\ecd9";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-xas-coin .path1:before {
+    content: "\ecda";
+    color: rgb(250, 160, 13);
+}
+.kp-xas-coin .path2:before {
+    content: "\ecdb";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-xbc-coin .path1:before {
+    content: "\ecdc";
+    color: rgb(247, 147, 26);
+}
+.kp-xbc-coin .path2:before {
+    content: "\ecdd";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-xbp-coin .path1:before {
+    content: "\ecde";
+    color: rgb(33, 175, 103);
+}
+.kp-xbp-coin .path2:before {
+    content: "\ecdf";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-xby-coin .path1:before {
+    content: "\ece0";
+    color: rgb(86, 244, 241);
+}
+.kp-xby-coin .path2:before {
+    content: "\ece1";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-xcp-coin .path1:before {
+    content: "\ece2";
+    color: rgb(237, 22, 80);
+}
+.kp-xcp-coin .path2:before {
+    content: "\ece3";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-xdn-coin .path1:before {
+    content: "\ece4";
+    color: rgb(79, 122, 162);
+}
+.kp-xdn-coin .path2:before {
+    content: "\ece5";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-xem-coin .path1:before {
+    content: "\ece6";
+    color: rgb(103, 178, 232);
+}
+.kp-xem-coin .path2:before {
+    content: "\ece7";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-xin-coin .path1:before {
+    content: "\ece8";
+    color: rgb(30, 181, 250);
+}
+.kp-xin-coin .path2:before {
+    content: "\ece9";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-xlm-coin .path1:before {
+    content: "\ecea";
+    color: rgb(0, 0, 0);
+}
+.kp-xlm-coin .path2:before {
+    content: "\eceb";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-xmcc-coin .path1:before {
+    content: "\ecec";
+    color: rgb(221, 6, 50);
+}
+.kp-xmcc-coin .path2:before {
+    content: "\eced";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-xmg-coin .path1:before {
+    content: "\ecee";
+    color: rgb(0, 74, 128);
+}
+.kp-xmg-coin .path2:before {
+    content: "\ecef";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-xmo-coin .path1:before {
+    content: "\ecf0";
+    color: rgb(255, 102, 0);
+}
+.kp-xmo-coin .path2:before {
+    content: "\ecf1";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-xmo-coin .path3:before {
+    content: "\ecf2";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-xmo-coin .path4:before {
+    content: "\ecf3";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-xmr-coin .path1:before {
+    content: "\ecf4";
+    color: rgb(255, 102, 0);
+}
+.kp-xmr-coin .path2:before {
+    content: "\ecf5";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-xmy-coin .path1:before {
+    content: "\ecf6";
+    color: rgb(236, 16, 118);
+}
+.kp-xmy-coin .path2:before {
+    content: "\ecf7";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-xp-coin .path1:before {
+    content: "\ecf8";
+    color: rgb(0, 130, 0);
+}
+.kp-xp-coin .path2:before {
+    content: "\ecf9";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-xpa-coin .path1:before {
+    content: "\ecfa";
+    color: rgb(79, 167, 132);
+}
+.kp-xpa-coin .path2:before {
+    content: "\ecfb";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-xpm-coin .path1:before {
+    content: "\ecfc";
+    color: rgb(255, 216, 27);
+}
+.kp-xpm-coin .path2:before {
+    content: "\ecfd";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-xrp-coin .path1:before {
+    content: "\ecfe";
+    color: rgb(35, 41, 47);
+}
+.kp-xrp-coin .path2:before {
+    content: "\ecff";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-xsg-coin .path1:before {
+    content: "\ed00";
+    color: rgb(210, 30, 43);
+}
+.kp-xsg-coin .path2:before {
+    content: "\ed01";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-xtz-coin .path1:before {
+    content: "\ed02";
+    color: rgb(166, 224, 0);
+}
+.kp-xtz-coin .path2:before {
+    content: "\ed03";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-xuc-coin .path1:before {
+    content: "\ed04";
+    color: rgb(37, 170, 227);
+}
+.kp-xuc-coin .path2:before {
+    content: "\ed05";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-xvc-coin .path1:before {
+    content: "\ed06";
+    color: rgb(181, 1, 38);
+}
+.kp-xvc-coin .path2:before {
+    content: "\ed07";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-xvg-coin .path1:before {
+    content: "\ed08";
+    color: rgb(0, 203, 255);
+}
+.kp-xvg-coin .path2:before {
+    content: "\ed09";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-xvg-coin .path3:before {
+    content: "\ed0a";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.5040;
+}
+.kp-xzc-coin .path1:before {
+    content: "\ed0b";
+    color: rgb(35, 184, 82);
+}
+.kp-xzc-coin .path2:before {
+    content: "\ed0c";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-yfi-coin .path1:before {
+    content: "\ed0d";
+    color: rgb(0, 106, 227);
+}
+.kp-yfi-coin .path2:before {
+    content: "\ed0e";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-yfi-coin .path3:before {
+    content: "\ed0f";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-yoyow-coin .path1:before {
+    content: "\ed10";
+    color: rgb(33, 165, 222);
+}
+.kp-yoyow-coin .path2:before {
+    content: "\ed11";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-zcl-coin .path1:before {
+    content: "\ed12";
+    color: rgb(200, 112, 53);
+}
+.kp-zcl-coin .path2:before {
+    content: "\ed13";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-zec-coin .path1:before {
+    content: "\ed14";
+    color: rgb(236, 178, 68);
+}
+.kp-zec-coin .path2:before {
+    content: "\ed15";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-zel-coin .path1:before {
+    content: "\ed16";
+    color: rgb(24, 60, 135);
+}
+.kp-zel-coin .path2:before {
+    content: "\ed17";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-zen-coin .path1:before {
+    content: "\ed18";
+    color: rgb(0, 234, 171);
+}
+.kp-zen-coin .path2:before {
+    content: "\ed19";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-zen-coin .path3:before {
+    content: "\ed1a";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-zen-coin .path4:before {
+    content: "\ed1b";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-zest-coin .path1:before {
+    content: "\ed1c";
+    color: rgb(7, 188, 156);
+}
+.kp-zest-coin .path2:before {
+    content: "\ed1d";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-zest-coin .path3:before {
+    content: "\ed1e";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-zest-coin .path4:before {
+    content: "\ed1f";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-zil-coin .path1:before {
+    content: "\ed20";
+    color: rgb(73, 193, 191);
+}
+.kp-zil-coin .path2:before {
+    content: "\ed21";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.3040;
+}
+.kp-zil-coin .path3:before {
+    content: "\ed22";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.646;
+}
+.kp-zil-coin .path4:before {
+    content: "\ed23";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-zilla-coin .path1:before {
+    content: "\ed24";
+    color: rgb(0, 0, 77);
+}
+.kp-zilla-coin .path2:before {
+    content: "\ed25";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kp-zrx-coin .path1:before {
+    content: "\ed26";
+    color: rgb(48, 44, 44);
+}
+.kp-zrx-coin .path2:before {
+    content: "\ed27";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}

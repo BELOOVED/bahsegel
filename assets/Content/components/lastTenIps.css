@@ -1,0 +1,87 @@
+﻿.full_data {
+    padding: 20px 20px 0 20px;
+}
+
+.icont_text {
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    margin-bottom: 20px;
+}
+
+.icont_text i {
+    color: var(--icon-level-high);
+    line-height: normal;
+}
+
+.icont_text p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    color: var(--text-level-high);
+}
+
+.full_data table {
+    width: 100%;
+    text-align: left;
+}
+
+.full_data table tr td {
+    color: var(--text-level-high);
+    font-size: 14px;
+    font-weight: 500;
+    vertical-align: middle;
+}
+
+.full_data table thead tr {
+    background-color: var(--bg-level-2);
+    color: var(--text-level-low);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.full_data table thead th {
+    width: 20%;
+    vertical-align: middle;
+}
+
+.full_data table thead th {
+    padding: 3px 8px;
+}
+
+.full_data table thead th:nth-child(1){
+    padding: 3px 8px 3px 32px;
+}
+
+.full_data table tr {
+    height: 26px;
+}
+
+.full_data table tbody tr td:nth-child(1) {
+    padding: 3px 8px 3px 32px;
+}
+
+.full_data table tbody tr td {
+    padding: 3px 8px;
+}
+
+.full_data table tbody tr:nth-child(odd) {
+    background-color: var(--bg-level-4);
+}
+
+.full_data table tbody tr:nth-child(even) {
+    background-color: var(--bg-level-3);
+}
+
+.full_data table span {
+    width: 225px;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+}
+
+.full_data table td i{
+    font-size: 25px;
+}

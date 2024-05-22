@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8">
+<title>HemenÖde Yatırım Sistemi</title>
+<meta name="description" content="HemenOde" />
+<meta name="keywords" content="Ödeme Sistemi" />
+<meta name="abstract" content="Organization">
+<meta name="author" content="HemenOde">
+<meta name="classification" content="Organization">
+<meta name="content-language" content="tr">
+<meta name="rating" content="general">
+<meta name="distribution" content="global">
+<meta name="resource-type" content="document">
+<meta name="robots" content="noindex">
+<meta name="googlebot" content="noindex">
+<meta http-equiv="reply-to" content="info@hemenode.org">
+
+
+<meta name="google" content="notranslate">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+<link rel="alternate" href="https://auth.hemenode.biz" hreflang="tr-tr" />
+<link rel="apple-touch-icon" sizes="57x57" href="/assets/img/icons/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/assets/img/icons/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/assets/img/icons/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/assets/img/icons/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/assets/img/icons/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/assets/img/icons/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/assets/img/icons/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/assets/img/icons/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/icons/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/img/icons/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/assets/img/icons/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/icons/favicon-16x16.png">
+<link rel="manifest" href="/assets/img/icons/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="~/assets/img/icons/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="shortcut icon" href="/assets/img/icons/favicon.ico">
+
+    <title></title>
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+    
+
+    
+        <link rel="stylesheet" href="/assets/styles/sweetalert2.min.css?v=bBAD4vLLGTxXRujpfbcs1JjsDI2cbSyngArRIBM8Sy4">
+        <link rel="stylesheet" href="/assets/styles/all.min.css?v=ktHJoaNQxhdDwaXby_9JFYZnAFiaOUtpfIGrfVQ3FgA">
+        <script type="text/javascript" src="/assets/scripts/jquery.min.js?v=HpPtZeKewTScq7bdviy1bCQZXa2ArgslZKG5Wa-MpxM"></script>
+        <script type="text/javascript" src="/assets/scripts/copy.min.js?v=SZ2uo3flFQb-abvJYfNyiip1LgMvb25aV0GWDV7lMB8"></script>
+        <script type="text/javascript" src="/assets/scripts/jquery.starttimer.min.js?v=UnX3h5ibTtP_VFCiVnHvM7xv2vjDO8R1LN5_xeHklQA"></script>
+        <script type="text/javascript" src="/assets/scripts/sweetalert2.min.js?v=1Q3DvST1OgLrKleSMkGXACRHYlU_nbye5Ybz5qraYEM"></script>
+        <script type="text/javascript" src="/assets/scripts/jquery.mask.min.js?v=dlMbyYTGYE91jHdRYHCIjhT1qzfR8XNV4NvBmyj3aq4"></script>
+    
+</head>
+
+<body>
+
+    <form name="FormAction" id="FormAction" class="page-center" method="post" action="" autocomplete="off" style="margin-bottom: 0px; width: 100%; height: 100vh; ">
+        
+
+<style>
+    .swal2-popup .swal2-title {
+        font-size: 20px;
+        font-weight: 600;
+    }
+</style>
+<div class="page-content">
+    <!-- + content center -->
+    <div class="content-center-area sz3">
+        <div class="content-center">
+            <div class="top-text">
+                <div class="logo"><img src="/assets/images/banks/fastHavale.png" alt=""></div>
+            </div>
+            <div class="result-title" style=" border: 1px solid #ff9700;border-bottom:0;">
+                Transferi Yapacağınız Banka IBAN Bilgileri
+            </div>
+
+            <div class="result-area">
+
+                <div class="form-group three">
+                    <div class="title">Yatırım Tutarı</div>
+                    <div class="input-area">
+                        <input type="text" readonly placeholder="2.000,00 ₺" value="2.000,00 ₺">
+                    </div>
+                    <div class="icon-area">
+                        <img src="/assets/img/wallet.svg" alt="">
+                    </div>
+                </div>
+                <div class="form-group three">
+                    <div class="title">Hesap Sahibi</div>
+                    <div class="input-area">
+                        <input type="text" id="txtHesapSahibi" readonly placeholder="ferit çiçek" value="ferit çiçek">
+                    </div>
+                    <div class="icon-area">
+                        <button type="button" class="btn-copy" id="btnHesapSahibi" data-clipboard-target="#txtHesapSahibi">
+                            <img src="/assets/img/copy.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+                <div class="form-group three">
+                    <div class="title">IBAN No</div>
+                    <div class="input-area">
+                        <input id="txtHesapNo" type="text" readonly placeholder="TR060004600423888000292774" value="TR060004600423888000292774">
+                    </div>
+                    <div class="icon-area">
+                        <button type="button" class="btn-copy" data-clipboard-target="#txtHesapNo"  id="btnHesapNo">
+                            <img src="/assets/img/copy.svg" alt="">
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+
+                <div class="button-center" style="margin-top:6px;">
+                    <button class="button-orange btnYatirimiYaptim" type="button" style=" width: 236px;">YATIRIMI YAPTIM</button>
+                </div>
+            <div class="result-list-area">
+                <div class="result-list-title" style="border: 1px solid #ff9700; border-bottom: 0; border-top-right-radius: 6px; border-top-left-radius: 6px;">
+                    <div class="left">Bilgilendirme</div>
+                    <div class="right">Kalan Süre : <span id="bankaTimeOut" class="txt-red " data-seconds-left="900">00:00</span></div>
+                </div>
+                <ul class="result-list">
+                    <li  style="color:red;">Sitede belirtilen üyelik isminize ait bankadan transfer yapınız.</li>
+                    <li>Yatırımınız yukarıda belirtilen tutarda olmalıdır.</li>
+                    <li>Yatırımınızı maksimum <b>15 dakika</b> içerisinde gerçekleştirmiş olmalısınız.</li>
+                    <li>Yatırımınızdan sonra bankanızın araması durumunda para transferine <b>onay</b> vermeniz gerekmektedir. Aksi halde yatırımınızı iptal edilecektir.</li>
+                </ul>
+            </div>
+
+
+        </div>
+    </div>
+    <!-- - content center -->
+</div>
+
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+
+             $(document).on("click", ".btnYatirimiYaptim", function () {
+
+                $(".loading").fadeIn(1);
+                $.post("/api/set-bank-request-approved", $("#FormAction").serialize(), function (data) {
+                    location.href = "/bank-success?token=65509c9c6b3e4b963ca217d4";
+                });
+
+            return false;
+        });
+
+
+                   $(document).on("click", ".btnYatirimiIptalEt", function () {
+
+                    $(".loading").fadeIn(1);
+                    $.post("/api/set-bank-request-remove", $("#FormAction").serialize(), function (data) {
+                        location.href = "/request-removed?token=65509c9c6b3e4b963ca217d4";
+                    });
+
+                    return false;
+                   });
+
+
+        });
+    </script>
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+
+
+        $('#txtTCKimlikNo').focus();
+        $("#txtTCKimlikNo").mask("00000000000");
+
+
+        var isTimerStart = true;
+
+        $('#bankaTimeOut').startTimer({
+            onComplete: function (element) {
+                if (isTimerStart == true) {
+                    console.log("Süre Bitti");
+                }
+            }
+        });
+
+
+        var clip1 = new ClipboardJS('#btnHesapNo');
+        var clip2 = new ClipboardJS('#btnHesapSahibi');
+
+
+        $(document).on("click", ".btnn", function () {
+            return false;
+        });
+
+
+
+
+        $(".loading").addClass("passive");
+    });
+</script>
+
+<input type="hidden" name="txtRequestID" value="65509c9c6b3e4b963ca217d4" />
+<script type="text/javascript">
+    var isRunning = false;
+    var timerBanka = setInterval(function () {
+        if (isRunning == false) {
+            isRunning = true;
+            $.post("/api/bank-check-request", $("#FormAction").serialize(), function (data) {
+                if (data.ID == 100) {
+                    location.href = "/success";
+                    clearInterval(timerBanka);
+                } else if (data.ID == 200) {
+                    clearInterval(timerBanka);
+                } else {
+                    isRunning = false;
+                }
+            });
+        }
+    }, 20000);
+</script>
+
+    <input name="__RequestVerificationToken" type="hidden" value="CfDJ8HSw0X7sNBlIlSFSes6AiM2gfP9yz0k2hhftihUwLvsMVnSDQVtOtB6I4sjomAng5V5zV4ObxGfZ9nZ-Sjr7nrAmBx5Ga25d12YNA3fFnknVfsJIrkQbCw0EHzC2n7zYi4EUoXA-r80exymRtQIuwOY" /></form>
+    
+
+    
+        <script type="text/javascript" src="/assets/scripts/general.min.js?v=Z-R_zO0PViNYs5bxQiMRCFavjoKfiMeWHhzH2fHrpFY"></script>
+    
+    
+
+<script>(function(){var js = "window['__CF$cv$params']={r:'824dca716c6468a7',t:'MTY5OTc4MTc4OC40NDMwMDA='};_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js',document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
+</html>

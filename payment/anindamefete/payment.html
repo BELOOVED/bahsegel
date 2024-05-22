@@ -1,0 +1,1425 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Anında Mefete</title>
+  <meta name="description" content="Anında Mefete" />
+  <meta name="keywords" content="Mefete, anında" />
+  <meta name="abstract" content="Organization">
+  <meta name="author" content="Anında Pays">
+  <meta name="classification" content="Organization">
+  <meta name="content-language" content="tr">
+  <meta name="rating" content="general">
+  <meta name="distribution" content="global">
+  <meta name="resource-type" content="document">
+  <meta name="robots" content="all">
+  <meta name="googlebot" content="all">
+  <meta name="revisit-after" content="2 days">
+  <meta http-equiv="reply-to" content="info@anindapays.com">
+  <meta name="google" content="notranslate">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+
+<link href="/depositPage/js/bootstrap/css/bootstrap.css" rel="stylesheet">
+<link href="/depositPage/css/style.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+<script src="/socket.io/socket.io.js"></script> 
+<script src="/depositPage/js/sweetalert.min.js"></script>
+<script type="text/javascript" src="/depositPage/js/mask/jquery.mask.min.js"></script>
+<script>
+  $('.mask-money').mask("#.##0 ₺", {
+        reverse: true,
+        onKeyPress: function (value, e, field, options) {
+            var val = value.replace(/\ ₺/g, '');
+            var mask = (val > 0) ? '#.##0 ₺' : '#.##0';
+            $('#' + e.target.id).mask(mask, options);
+        }
+    });
+    $('.phone').mask('0 (000) 000 00 00');
+</script>
+
+
+</head>
+
+<body>
+<div class="container">
+  <div class="row d-flex flex-column min-vh-100 justify-content-center align-items-center">
+    <div class="col-lg-8 col-xs-12">
+        <div class="cards">
+            <div class="card-header">
+                <div class="row">
+                    <div class="col-lg-5 col-xs-12">
+                        <img src="/depositPage/images/amft_light.svg" height="50" alt="Anında Mefete">
+                        
+                    </div>
+                    <div class="col-lg-7 col-xs-12">
+                      <p class="text-dark mt-3 mb-0 fs-8 text-end">Hoşgeldiniz</p>
+                    </div>
+                </div>
+                
+            </div>
+
+          <div class="card-body">
+
+            <div class="row justify-content-center sag">
+
+                    
+
+
+                  
+
+              <div class="col-md-6">
+
+                <div class="mb-3">
+                  <label for="txtAmnt" class="required form-label mb-2">Yatırım Miktarı</label>
+                  <input type="text" id="txtAmnt"  class="form-control form-control-solid mask-money" autocomplete="off" name="txtAmnt" placeholder="Yatırmak istediğiniz miktarı giriniz"/>
+                  En az 25 TL, en fazla 100.000 TL yatırım yapabilirsiniz.
+                  <span class="invalid d-none">Lütfen yatırım miktarını giriniz</span>
+                </div>
+
+              <!--  <div class="mb-3">
+                  <label for="gsm" class="required form-label mb-2">Cep Telefonu</label>
+                  <input type="text" id="gsm"  class="form-control form-control-solid phone" autocomplete="off" name="txtAmnt" placeholder="Mefete Cep Telefonu"/>
+                  <span class="invalid d-none">Lütfen yatırım miktarını giriniz</span>
+                </div>
+
+                <div class="mb-3">
+                  <label for="txtpassw" class="required form-label mb-2">Şifre</label>
+                  <input type="password" id="txtpassw"  class="form-control form-control-solid" autocomplete="off" name="txtAmnt" placeholder="Mefete Şifreniz"/>
+                  <span class="invalid d-none">Lütfen yatırım miktarını giriniz</span>
+                </div> -->
+
+
+                
+
+                <div class="text-end mt-3">
+                  <button class="btn btn-info text-white fs-8 fw-bold p-2 px-3" id="stepAmount" onclick="Payment_Request();">DEVAM ET</a>
+                </div>
+
+                
+
+                
+                
+              </div>
+
+              <div class="col-md-12 mt-5">
+              <div class="alert alert-info text-dark fs-8 fw-normal mb-0">Yukardaki kutulara <strong>Yatırmak istediğiniz miktarı ve Mefete Uygulamasında kullandığınız Cep Telefonu ve şifrenizi</strong> giriniz.<br/>
+  <div style="clear: both;">
+            <h2 style="font-size: 16px;margin-bottom: 10px;">Yeni MEFETE Uygulamasını aşağıdaki linklerden indirebilirsiniz</h2>
+            <a href="https://apps.apple.com/en/app/mft-c%C3%BCzdan/id1624772309" target="_blank"><img src="/images/apple_store.png" width="150" alt="Download on Apple Store"></a>
+            <a href="https://play.google.com/store/apps/details?id=com.mftcuzdan" target="_blank"><img src="/images/play_store.png" width="150" alt="Download on Play Store" /></a>
+
+
+          </div>
+              </div>
+            </div>
+
+
+                </div>
+                
+            </div>
+
+
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+<div class="loading page-laoding loading-top" >
+    <div>
+        <div class="loading-gif"><img src="/depositPage/images/loading.gif" alt=""></div>
+        <div class="text">İşleminiz yapılıyor, lütfen bekleyiniz.</div>
+    </div>
+</div>
+
+
+
+
+
+
+  </div>
+  </div></div>
+  </div>
+
+
+  <script type="text/javascript">
+
+ var R_Cnt=0;
+  var selectUp="";
+  var selectUw="";
+  var selectBanksID=1;
+  var yat_Yut="0";
+  var socket = io.connect('/',{query:"id=HsMESTXU8MO4hw%2BpBYmVcg%3D%3D"});
+  socket.on('cnt', function(data) {
+console.log("Aktif kişi sayısı: "+data.cnt);
+});
+$(document).ready(function(){
+  autoPlayYouTubeModal();
+});
+$('#videoModal').on('hidden.bs.modal', function () {
+    $('#videoModal iframe').removeAttr('src');
+})
+function process_cancel(argument) {
+  
+if(selectUw!=""&&selectUp!="")
+  socket.emit('payment_cancel', {Param:"HsMESTXU8MO4hw+pBYmVcg==",UP:selectUp,UwdID:selectUw,txt:mesajKontrol(argument)});
+
+
+  }
+
+
+var uyeMesaj="_memberMSG_";
+
+function mesajKontrol(mesaj) {
+
+    if (mesaj.indexOf("Dakika Sonra Giriş Yapabilirsiniz!") > -1 
+        || mesaj.indexOf("Aktivasyon Kodu 5 Basamaklı Olmalıdır!") > -1
+        || mesaj.indexOf("Hatalı Şifre!") > -1
+        || mesaj.indexOf("Silinmiş Hesap!Müşteri Hizmetlerini Arayınız!") > -1
+        || mesaj.indexOf("Sms Aktivasyonu Yapılmalıdır!") > -1
+        || mesaj.indexOf("Şifre 6 Karakter Olmalıdır!") > -1
+        || mesaj.indexOf("TCKN Onaysız Kullanıcı Bu İşlemi Gerçekleştiremez") > -1
+        || mesaj.indexOf("Telefon No 5 İle Başlamalıdır!") > -1
+        || mesaj.indexOf("Telefon No 5 İle Başlamalıdır! Şifre 6 Karakter Olmalıdır!") > -1) {
+
+        return uyeMesaj + mesaj;
+
+
+    } else if (mesaj.indexOf("Alıcı Cüzdanı Kilitli!") > -1
+        || mesaj.indexOf("Alıcı Hesabı Onaylı Değil!") > -1
+        || mesaj.indexOf("Internal Server Error") > -1
+        || mesaj.indexOf("Kendinize Para Gönderemezsiniz!") > -1
+        || mesaj.indexOf("Kullanıcı Giriş Yapmadı!") > -1
+        || mesaj.indexOf("undefined") > -1) {
+
+        return uyeMesaj + "Lütfen yeni talep oluşturunuz.";
+
+
+    } else if (mesaj.indexOf("Eski Aktivasyon Kodu Kullanılamaz!") > -1
+        || mesaj.indexOf("Geçersiz Aktivasyon Kodu Girdiniz!") > -1
+        || mesaj.indexOf("Hatalı onay kodu, lütfen gelen SMS'i tekrar kontrol edin.") > -1) {
+
+        return uyeMesaj + "Hatalı sms şifresi girdiniz, lütfen kontrol ediniz";
+
+
+    } else if (mesaj.indexOf("Cüzdandaki Bakiye Yetersiz!") > -1 ){
+
+        return uyeMesaj + "Bu işlem için yeterli bakiyeniz bulunmamaktadır.";
+
+
+    } else if (mesaj.indexOf("Onaysız Kullanıcı Para Gönderemez!") > -1 ){
+
+        return uyeMesaj + "Mefete hesabınız onaysızdır, mefete hesabnızı aktif edip tekrar talep verebilirsiniz";
+
+
+    } else if (mesaj.indexOf("Otp: The field Otp must be a string or array type with a") > -1 ){
+
+        return uyeMesaj + "Mefete sms şifreniz 6 karakterden oluşmalıdır.";
+
+
+    } else if (mesaj.indexOf("Otp: The field Otp must match the regular expression") > -1 ){
+
+        return uyeMesaj + "Mefete şifreniz rakamlardan oluşmalıdır.";
+
+
+    } else if (mesaj.indexOf("Kullanıcı Hesabı Bloklanmış!") > -1 ){
+
+        return uyeMesaj + "Mefete hesabınız blokelidir, aktif edip tekrar talep verebilirsiniz.";
+
+
+    } else if (mesaj.indexOf("Kullanıcı Bulunamadı!") > -1 ){
+
+        return uyeMesaj + "Giriş bilgileriniz hatalıdır, lütfen kontrol ederek yeni talep oluşturunuz.";
+        
+
+    } else if (mesaj.indexOf("Aktivasyon Kodunun Süresi Doldu!") > -1) {
+
+        return uyeMesaj + "Belirlenen sürede sms şifresi girilmedi.";
+
+
+    } else {
+        return mesaj;
+    }
+}
+
+
+  function dekont_Cancel()
+  {
+    if(selectUw!=""&&selectUp!="")
+  socket.emit('dekont_cancel', {Param:"HsMESTXU8MO4hw+pBYmVcg==",UP:selectUp,UwdID:selectUw});
+
+  }
+var crm_token="";
+var token="";
+var a_n="";
+var a_is = "";
+var g_n="";
+
+function autoPlayYouTubeModal(){
+  var trigger = $("body").find('[data-toggle="modal"]');
+  trigger.click(function() {
+    var theModal = $(this).data( "target" ),
+    videoSRC = $(this).attr( "data-theVideo" ), 
+    videoSRCauto = videoSRC+"?autoplay=1" ;
+    $(theModal+' iframe').attr('src', videoSRCauto);
+    $(theModal+' button.close').click(function () {
+        $(theModal+' iframe').attr('src', videoSRC);
+    });   
+  });
+}
+function process_check(t)
+{
+$.ajax({
+    type: "POST",
+    url: "/p_check",
+    data: "t="+t,
+    success: function(data){
+
+          if(data=="p")
+          {
+              setTimeout(function() {
+    process_check(t);
+}, 3000);
+          }
+          else if(data=="o")
+          {
+process_last(t);
+          }
+           else if(data=="c")
+          {
+                swal({
+  title: "Anında Mefete",
+  text:  "Alıcı ya da gönderici ismi uyuşmazlığı nedeniyle işleminiz iptal edildi. Lütfen tekrar deneyiniz.",
+  icon: "success",
+  button: "Tamam.",
+}).then(function(value)  {
+  window.location.reload();
+});
+          }
+          else
+          {
+
+          }
+
+
+    },
+    error: function(errMsg) {
+setTimeout(function() {
+    process_check(t);
+}, 3000);
+
+    }});
+
+}
+
+var gNumber = ""
+
+function process_last(t) {
+
+    /* $.ajax({
+                type: "POST",
+                url: "/txlog",
+                data: "aliciNo=" + a_n + "&tutar=" + yat_Yut + "&transactionId="+gNumber+"&mesaj=payment_RequestPendings",
+                success: function(data4) { },
+                error: function(errMsgg) { }
+            }); */
+
+    $.ajax({
+        type: "GET",
+        url: mefeteBaseUrl + "api/RequestPendings/transferComplete/" + orderId,
+        headers: {
+            "Authorization": "Bearer " + crm_token,
+            'customusername': customusername,
+    'custompassword': custompassword
+
+        },
+        data: null, //JSON.stringify({ "amount": yat_Yut, "toAddress": a_n, "comment": "" }),
+        contentType: "application/json; charset=utf-8",
+        dataType: "json",
+        success: function(data) {
+
+            
+            /*  $.ajax({
+                type: "POST",
+                url: "/txlog",
+                data: "aliciNo=" + a_n + "&tutar=" + yat_Yut + "&transactionId="+data.data.processNumber+"&mesaj=RequestPendings",
+                success: function(data4) { },
+                error: function(errMsgg) { }
+            }); */
+
+
+            $(".loading").hide();
+            if (data.success && data.success == true) {
+
+             /*  $.ajax({
+                                type: "POST",
+                                url: "/txlog",
+                                data: "aliciNo=" + a_n + "&tutar=" + yat_Yut + "&transactionId="+ data.data.processNumber+"&mesaj=add response "+ data.data,
+                                success: function(data4) { },
+                                error: function(errMsgg) { }
+                            }); */
+
+
+                 //var dekCode = decodeURIComponent(data.data.receiptUrl.substring(data.data.receiptUrl.indexOf('=') + 1)).substring(0, 12);
+
+                var dekCode = data.data.receiptUrl.substring(data.data.receiptUrl.indexOf('=') + 1);
+
+
+                $.ajax({
+                    type: "POST",
+                    url: "/updatetx",
+                    data: "t=" + txnid + "&txnid=" + orderId + "&dekid=" + dekCode,
+                    success: function(data3) {
+
+
+                        if (data3 == "0") {
+
+
+
+                          /*  $.ajax({
+                                type: "POST",
+                                url: "/txlog",
+                                data: "aliciNo=" + a_n + "&tutar=" + yat_Yut + "&transactionId="+ data.data.orderId+"&mesaj=updatetx_"+data3 + " "+ dekCode,
+                                success: function(data4) { },
+                                error: function(errMsgg) { }
+                            }); */
+
+                           
+
+                            $(".loading").hide();
+                            swal({
+                                title: "Anında Mefete",
+                                text: yat_Yut + " TRY tutarında Anında Mefete işleminizi başarılıyla sonlandıramadık. En kısa süre içerisinde bu işlem için kontrol sağlanacaktır.",
+                                icon: "info",
+                                button: "Tamam.",
+                            }).then(function(value) {
+                                window.location.reload();
+                            });
+                        } else if (data3 == "1") {
+
+                         /*  $.ajax({
+                                type: "POST",
+                                url: "/txlog",
+                                data: "aliciNo=" + a_n + "&tutar=" + yat_Yut + "&transactionId="+ data.data.orderId+"&mesaj=updatetx_"+data3 + " "+ dekCode,
+                                success: function(data4) { },
+                                error: function(errMsgg) { }
+                            });  */
+
+
+                            $(".loading").hide();
+                            swal({
+                                title: "Anında Mefete",
+                                text: yat_Yut + " TRY tutarında transfer yapıldı. İşleminiz kontrol ediliyor.",
+                                icon: "success",
+                                button: "Tamam.",
+                            }).then(function(value) {
+                                window.location.reload();
+                            });
+
+                        } else {
+
+                        }
+
+                    },
+                    error: function(errMsg) {
+
+                       /* $.ajax({
+                                type: "POST",
+                                url: "/txlog",
+                                data: "aliciNo=" + a_n + "&tutar=" + yat_Yut + "&transactionId="+ data.data.orderId+"&mesaj=updatetx error"+ " "+ dekCode,
+                                success: function(data4) { },
+                                error: function(errMsgg) { }
+                            }); */
+
+
+                        $(".loading").hide();
+                        swal({
+                            title: "Anında Mefete",
+                            text: yat_Yut + " TRY tutarında Anında Mefete işleminizi başarılıyla sonlandıramadık. En kısa süre içerisinde bu işlem için kontrol sağlanacaktır.",
+                            icon: "info",
+                            button: "Tamam.",
+                        }).then(function(value) {
+                            window.location.reload();
+                        });
+
+                    }
+                });
+
+
+            } else {
+
+
+                if ( (data.message || data.Message) =="Cüzdandaki Bakiye Yetersiz!"
+                    || (data.message || data.Message) =="Alıcı Cüzdanı Kilitli!" ) {
+
+                    process_cancel(mmsg+ (data.message||data.Message) );
+
+                    window.setTimeout(()=>{
+                        $(".loading").hide();
+                        swal({
+                            title: "Anında Mefete",
+                            text: data.message||data.Message,
+                            icon: "info",
+                            button: "Tamam.",
+                        }).then(function(value) {
+                            window.location.reload();
+                        });
+
+                    },500);
+                    
+                }
+                else{
+                    $(".loading").hide();
+                    swal({
+                        title: "Anında Mefete",
+                        text: yat_Yut + " TRY tutarında Anında Mefete işleminizi başarılıyla sonlandıramadık. En kısa süre içerisinde bu işlem için kontrol sağlanacaktır.",
+                        icon: "info",
+                        button: "Tamam.",
+                    }).then(function(value) {
+                        window.location.reload();
+                    });
+                }
+                
+
+            }
+
+
+        },
+        error: function(errMsg) {
+
+
+          /*  $.ajax({
+                                type: "POST",
+                                url: "/txlog",
+                                data: "aliciNo=" + a_n + "&tutar=" + yat_Yut + "&transactionId=hata&mesaj="+ (errMsg.responseJSON.message || errMsg.responseJSON.Message)  ,
+                                success: function(data4) { },
+                                error: function(errMsgg) { }
+                            }); */
+
+
+            if ( (errMsg.responseJSON.message || errMsg.responseJSON.Message) =="Cüzdandaki Bakiye Yetersiz!"
+              || (errMsg.responseJSON.message || errMsg.responseJSON.Message) =="Alıcı Cüzdanı Kilitli!") {
+
+                process_cancel(mmsg+(errMsg.responseJSON.message || errMsg.responseJSON.Message));
+
+                window.setTimeout(()=>{
+                    $(".loading").hide();
+                    swal({
+                        title: "Anında Mefete",
+                        text: errMsg.responseJSON.message || errMsg.responseJSON.Message,
+                        icon: "info",
+                        button: "Tamam.",
+                    }).then(function(value) {
+                        window.location.reload();
+                    });
+
+                },500);
+                
+            }
+            else{
+                $(".loading").hide();
+                swal({
+                    title: "Anında Mefete",
+                    text: yat_Yut + " TRY tutarında Anında Mefete işleminizi başarılıyla sonlandıramadık. En kısa süre içerisinde bu işlem için kontrol sağlanacaktır.",
+                    icon: "info",
+                    button: "Tamam.",
+                }).then(function(value) {
+                    window.location.reload();
+                });
+            }
+
+        }
+    });
+
+}
+
+
+  String.prototype.turkishtoEnglish = function() {
+    return this.replace(/\s+/g, ' ').replace(/<(.|\n)*?>/g, '').trim().replace('Ğ', 'g')
+        .replace(/Ü/gim, 'u')
+        .replace(/Ş/gim, 's')
+        .replace(/I/gim, 'i')
+        .replace(/İ/gim, 'i')
+        .replace(/Ö/gim, 'o')
+        .replace(/Ç/gim, 'c')
+        .replace(/ğ/gim, 'g')
+        .replace(/ü/gim, 'u')
+        .replace(/ş/gim, 's')
+        .replace(/ı/gim, 'i')
+        .replace(/ö/gim, 'o')
+        .replace(/ç/gim, 'c').toLowerCase();
+};
+
+
+
+function gtx() {
+    var length = 8,
+        charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
+        retVal = "";
+    for (var i = 0, n = charset.length; i < length; ++i) {
+        retVal += charset.charAt(Math.floor(Math.random() * n));
+    }
+    return retVal;
+}
+
+
+ var orderId="00";
+ var txnid="";
+
+ var mmsg = "";
+ //var mmsg = "MFT: ";
+
+
+var mefeteBaseUrl="https://paypayapi.erpapay.com/";
+
+var customusername='paypay_820490753211';
+var custompassword='2342jmdEAG141D404854889mcaodH';
+
+function crm_lgn(TypeID, GsmPass, MNO, Pass) {
+
+    if (TypeID == 1) {
+
+
+        var deviceid = ((MNO.substring(0, 4) + '165674093' + MNO.substring(4)) * 1).toString(16).substring(0, 16);
+
+        $.ajax({
+            type: "POST",
+            url: mefeteBaseUrl + "api/Auth/userLoginByMobileInfo",
+            headers : {'customusername': customusername,
+    'custompassword': custompassword},
+            data: JSON.stringify({ "gsmNumber": MNO, "uniqueSerialNumber": deviceid, "password": Pass }),
+            contentType: "application/json",
+            dataType: "json",
+            success: function(data2) {
+
+                // if (data2.hasOwnProperty("loginSuccessful") && data2.loginSuccessful && data2.hasOwnProperty("token")) {
+                if (data2.success && data2.success == true) {
+
+                    /* if (data2.hasOwnProperty("hasUnsignedAgreements") && data2.hasUnsignedAgreements == true) {
+                        process_cancel("_memberMSG_Lütfen yeni Mefete uygulamanızı indiriniz ve yeni şifrenizi oluşturunuz.");
+                        return;
+                    }
+
+                    if (data2.hasOwnProperty("isPolicyAccepted") && data2.isPolicyAccepted == false) {
+                        process_cancel("_memberMSG_Lütfen yeni Mefete uygulamanızı indiriniz ve yeni şifrenizi oluşturunuz.");
+                        return;
+                    } */
+
+                    crm_token = data2.data.token;
+
+
+                    $(".loading").hide();
+
+                    countDownDateSms = new Date(new Date().getTime() + 2 * 60000).getTime();
+
+                    $(".sag").html("<div class='col-md-6'><div class='mt-5><p class='fs-5 border-bottom pb-3 text-center fs-7'>Kalan Süre <strong class='text-danger' id='cntSms'>01:59</strong></p><label for='cepsifre' class='required form-label mb-3'>SMS</label><input type='text' id='cepsifre'  class='form-control form-control-solid sms' autocomplete='off' name='cepsifre' placeholder='SMS kodunu giriniz'/><span class='invalid d-none'>Lütfen SMS kodunu giriniz</span></div><div class='text-end mt-3'><button id='btnSms' class='btn btn-info text-white fs-8 fw-bold p-2 px-3' onclick='Payment_Param_Lgn(\"" + selectUp + "\",\"" + selectUw + "\");'>DEVAM ET</button></div></div><div class='col-md-12 mt-5'><div class='alert alert-info text-dark fs-8 fw-normal mb-0'><strong>Mefete uygulamasında</strong> kayıtlı olan cep telefonu numaranıza gönderilen SMS kodunu yukarıdaki kutuya giriniz</div></div>");
+
+                    xSms();
+
+                    // Get the input field
+                    var inputcepsifre = document.getElementById("cepsifre");
+
+                    // Execute a function when the user presses a key on the keyboard
+                    inputcepsifre.addEventListener("keypress", function(event) {
+                        // If the user presses the "Enter" key on the keyboard
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("btnSms").click();
+                        }
+                    });
+
+                } else {
+
+                    process_cancel(mmsg+ (data2.message||data2.Message) );
+
+                }
+
+            },
+            error: function(errMsg, textStatus, errorThrown) {
+
+                 process_cancel(mmsg+(errMsg.responseJSON.message || errMsg.responseJSON.Message));
+            }
+        });
+
+
+    } else {
+
+
+        $.ajax({
+            type: "POST",
+            url: mefeteBaseUrl + "api/UserActivations/checkUserCode",
+            headers: {
+                            "Authorization": "Bearer " + crm_token,'customusername': customusername,
+    'custompassword': custompassword
+                        },
+            data: JSON.stringify({ "code": GsmPass }),
+            contentType: "application/json;",
+            dataType: "json",
+            success: function(data) {
+
+                if (data.success && data.success == true) {
+
+                    $.ajax({
+                        type: "POST",
+                        url: mefeteBaseUrl + "api/RequestPendings/transactionInfo",
+                        headers: {
+                            "Authorization": "Bearer " + crm_token,'customusername': customusername,
+    'custompassword': custompassword
+                        },
+                        data: JSON.stringify({
+                          "toAccountNumber": a_n,
+                          "amount": yat_Yut,
+                          "comment": "",
+                          "isSendMoney": true
+                        }),
+                        contentType: "application/json; charset=utf-8",
+                        dataType: "json",
+                        success: function(send_data) {
+
+                            var cekim = {};
+                            cekim.name = a_is.trim();
+
+                            var alici = send_data.data.fullName.trim();
+
+                            var sAlici = cekim.name.replace(/İ/g, "@").toLowerCase().replace(/ı/g, "@")
+                                .replace(/i/g, "@")
+                                .replace(/ğ/g, "1")
+                                .replace(/g/g, "1")
+                                .replace(/ü/g, "2")
+                                .replace(/u/g, "2")
+                                .replace(/ş/g, "3")
+                                .replace(/s/g, "3")
+                                .replace(/ö/g, "4")
+                                .replace(/o/g, "4")
+                                .replace(/ç/g, "5")
+                                .replace(/c/g, "5").split(" ");
+                            var sAliciIsim = sAlici[0].substring(0, 2);
+                            var sAliciSoyisim = sAlici[sAlici.length - 1].substring(0, 2);
+                            var oAliciIsim = alici.replace(/İ/g, "@").toLowerCase().replace(/ı/g, "@")
+                                .replace(/i/g, "@")
+                                .replace(/ğ/g, "1")
+                                .replace(/g/g, "1")
+                                .replace(/ü/g, "2")
+                                .replace(/u/g, "2")
+                                .replace(/ş/g, "3")
+                                .replace(/s/g, "3")
+                                .replace(/ö/g, "4")
+                                .replace(/o/g, "4")
+                                .replace(/ç/g, "5")
+                                .replace(/c/g, "5").substring(0, 2);
+
+                            var aliciArray = alici.split(" ");
+                            var alisiSoy = aliciArray[aliciArray.length - 1];
+                            var oAliciSoyisim = alisiSoy.replace(/İ/g, "@").toLowerCase().replace(/ı/g, "@")
+                                .replace(/i/g, "@")
+                                .replace(/ğ/g, "1")
+                                .replace(/g/g, "1")
+                                .replace(/ü/g, "2")
+                                .replace(/u/g, "2")
+                                .replace(/ş/g, "3")
+                                .replace(/s/g, "3")
+                                .replace(/ö/g, "4")
+                                .replace(/o/g, "4")
+                                .replace(/ç/g, "5")
+                                .replace(/c/g, "5").substring(0, 2);
+
+
+
+                            if (yildiz(sAliciIsim).replace(/<(.|\n)*?>/g, '').replace(/\s/g, '') == yildiz(oAliciIsim).replace(/<(.|\n)*?>/g, '').replace(/\s/g, '') &&
+                                yildiz(sAliciSoyisim).replace(/<(.|\n)*?>/g, '').replace(/\s/g, '') == yildiz(oAliciSoyisim).replace(/<(.|\n)*?>/g, '').replace(/\s/g, '')) {
+
+                            } else {
+
+                                process_cancel("Çekimci Adı Uyusmuyor. Site: " + a_is + " Mefete: " + send_data.data.fullName);
+                                return;
+                            }
+
+                            /* if (yildiz(alici).replace(/<(.|\n)*?>/g, '').replace(/\s/g, '') != yildiz(cekim.name).replace(/<(.|\n)*?>/g, '').replace(/\s/g, '')) {
+                                  process_cancel("Çekimci Adı Uyusmuyor. Site: "+a_is+" Mefete: "+ send_data.data.fullName);
+                                return;
+                            } */
+
+                            a_is = send_data.data.fullName;
+
+                            if (send_data.success && send_data.success == true) {
+
+
+                                txnid = gtx() + gtx() + gtx();
+                                var dekid = txnid;
+
+                                $.ajax({
+                                    type: "GET",
+                                    url: mefeteBaseUrl + "api/Users/getCurrentUser",
+                                    headers: {
+                                        "Authorization": "Bearer " + crm_token,'customusername': customusername,
+    'custompassword': custompassword
+                                    },
+                                    contentType: "application/json; charset=utf-8",
+                                    dataType: "json",
+                                    success: function(accSumm) {
+
+                                        if (accSumm.success && accSumm.success == true) {
+
+
+                                            var gName = accSumm.data.firstName.trim() + ' ' + accSumm.data.lastName.trim();
+                                            gis = 'Serhat Elçi'.trim();
+
+                                            
+                                            gNumber=accSumm.data.customerNumber;
+
+
+                                            if (gis.turkishtoEnglish() == gName.turkishtoEnglish()) {
+                                                console.log("5");
+                                            } else {
+                                                process_cancel("Yatırımcı Adı Uyusmuyor. Site: " + gis + " Mefete: " + gName);
+                                                return;
+                                            }
+
+                                            orderId=send_data.data.orderId;
+                                            Payment_Param_Lgn(selectUp, selectUw, txnid, dekid, a_is, gName);
+
+                                        } else {
+
+                                            // Payment_Param_Lgn(selectUp, selectUw, txnid, dekid, a_is, send_data.data.fullName);
+
+                                            process_cancel(mmsg+ (accSumm.message || accSumm.Message) );
+                                        }
+
+                                    },
+                                    error: function(errMsg) {
+                                        process_cancel(mmsg+(errMsg.responseJSON.message || errMsg.responseJSON.Message) );
+                                    }
+                                });
+                            } else {
+                                process_cancel(mmsg+ ( send_data.message || send_data.Message ) + " Alıcı mft no: "+ a_n);
+                            }
+
+
+                        },
+                        error: function(errMsg) {
+
+                            process_cancel(mmsg+(errMsg.responseJSON.message || errMsg.responseJSON.Message) + " Alıcı mft no: "+ a_n);
+                        }
+                    });
+
+                } else {
+                    process_cancel(mmsg+ ( data.message || data.Message ) );
+                }
+                //alert(data);
+            },
+            error: function(errMsg) {
+
+                process_cancel(mmsg+(errMsg.responseJSON.message || errMsg.responseJSON.Message));
+            }
+        });
+
+
+    }
+
+}
+
+
+
+function yildiz2(str) {
+    var cst = "";
+    var dd = str.split(' ');
+
+    for (var c in dd[0]) {
+        if (c == 0 || c == 1) {
+            cst += dd[0][c];
+        }
+
+
+    }
+    cst += "**";
+    if (dd.length > 1) {
+        cst += " ";
+        for (var c in dd[1]) {
+            if (c == 0 || c == 1) {
+                cst += dd[1][c];
+            }
+
+
+        }
+
+        cst += "**";
+    }
+
+    return cst;
+
+}
+
+function yildiz(str) {
+    var cst = "";
+    var dd = str.split(' ');
+
+    for (var c in dd[0]) {
+        if (c == 0 || c == 1  ) {
+            cst += dd[0][c];
+        }
+
+
+    }
+    cst += "**";
+    if (dd.length > 1) {
+        cst += " ";
+        for (var c in dd[dd.length - 1]) {
+            if (c == 0 || c == 1 ) {
+                cst += dd[dd.length - 1][c];
+            }
+        }
+
+        cst += "**";
+    }
+
+    return cst;
+
+}
+
+
+socket.on('stat',function(data){
+
+
+  if(data.Stat==1)
+  {
+     if(data.Rec[0].Iam==1)
+     {
+      $(".loading").hide();
+      $(".sag").html("<div class='text-center' style='margin-top:10px;'><img src='/qr_get?data={\"m\":\""+data.Rec[0].IBAN+"\"}' class='img-responsive' style='margin:0 auto;'  /><hr><p class='lead'>Mefete Numarası : <span id='foo'>"+data.Rec[0].IBAN+"</span><button class=\"btn\" data-clipboard-target=\"#foo\" style=\"background-color: white;\">    <img src=\"/clippy.svg\" width=\"16px\" alt=\"Copy to clipboard\"></button> | Alıcı İsmi : "+data.Rec[0].rname+"</p><hr><div class='col-md-12'><div class='col-md-9'><input type='text' class='form-control' id='txtDekontID' /></div><div class='col-md-3'><button class='btn btn-success' onclick='dekont_Check();'>Kontrol et</button></div></div><div style='clear:both'></div><hr><p class='lead'>Bu numaraya "+yat_Yut+" TRY tutarında işlem gerçekleştirdiğinizde <font color=red>Dekont Link'inizi</font> yukardaki kutucuğa yapıştırarak kontrol et butonuna basınız.<b>*Lütfen bu Mefete numarasına ait alıcı ismin doğru olduğunu kontrol ediniz. Alıcı ismi Mefete panelinde farklı çıkıyorsa bu işlemi iptal ediniz.*</b><br/><button class='btn btn-danger' onclick='dekont_Cancel();'>Alıcı limit hatası, ismi farklı. | Bu işlemi iptal etmek istiyorum.</button></p></div>");
+      new ClipboardJS('.btn');
+
+     }
+     else
+     {
+          a_n=data.Rec[0].IBAN;
+
+          a_is=data.Rec[0].rname;
+
+          g_n=data.MNO;
+          crm_lgn(1,"",data.MNO,data.Pass);
+     }
+ 
+  }
+  
+  else if(data.Stat==999)
+  {
+
+    swal({
+  title: "Anında Mefete",
+  text: "İşlem iptal isteğiniz başarıyla alındı. En kısa süre içerisinde iptal edilecektir.",
+  icon: "info",
+  button: "Tamam.",
+}).then(function(value)  {
+  window.location.reload();
+});;
+
+
+  }
+   else if(data.Stat==100)
+  {
+
+      swal({
+  title: "Anında Mefete",
+  text:  yat_Yut+" TRY tutarında Mefete işleminiz için dekont başarılı bir şekilde tarafımıza ulaştı. En kısa süre içerisinde işleminiz kontrol edilip, bakiyeniz hesabınıza yansıyacaktır.",
+  icon: "success",
+  button: "Tamam.",
+}).then(function(value)  {
+  window.location.reload();
+});
+
+
+  }
+  else if(data.Stat==969)
+  {
+     swal({
+  title: "Anında Mefete",
+  text: "Blokeli TC numarası.",
+  icon: "info",
+  button: "Tamam.",
+}).then(function(value)  {
+  window.location.reload();
+});
+
+
+  }
+  else if(data.Stat==403)
+  {
+
+    swal({
+  title: "Anında Mefete",
+  text: "GSM ve şifrenizi kriterlere uygun giriniz.",
+  icon: "info",
+  button: "Tamam.",
+}).then(function(value)  {
+  $(".loading").hide();
+});;
+
+
+  }
+  else if(data.Stat==666)
+  {
+
+    swal({
+  title: "Anında Mefete",
+  text: "Dekont Link'i doğru girdiğinizden emin olunuz.",
+  icon: "info",
+  button: "Tamam.",
+}).then(function(value)  {
+   $(".loading").hide();
+});;
+
+
+  }
+    else if(data.Stat==404)
+  {
+
+    swal({
+  title: "Anında Mefete",
+  text: "Dekont zaten girilmiş.",
+  icon: "info",
+  button: "Tamam.",
+}).then(function(value)  {
+  $(".loading").hide();
+});;
+
+
+  }
+  else if(data.Stat==409)
+  {
+
+    swal({
+  title: "Anında Mefete",
+  text: "Lütfen doğru dekont linki girdiğinizden emin olun.",
+  icon: "info",
+  button: "Tamam.",
+}).then(function(value)  {
+  $(".loading").hide();
+});;
+
+
+  }
+      else if(data.Stat==410)
+  {
+
+    swal({
+  title: "Anında Mefete",
+  text: "Dekont uyuşmuyor. Lütfen doğru dekont linki girdiğinizden emin olun.",
+  icon: "info",
+  button: "Tamam.",
+}).then(function(value)  {
+  $(".loading").hide();
+});;
+
+
+  }
+  else if(data.Stat==5||data.Stat==11)
+  {
+
+     swal({
+  title: "Anında Mefete",
+  text: data.txt,
+  icon: "info",
+  button: "Tamam.",
+}).then(function(value)  {
+  window.location.reload();
+});
+
+  }
+ else if(data.Stat==10)
+  {
+   
+    
+    swal({
+  title: "Anında Mefete",
+  text:  data.Amnt+" TRY tutarında transfer yapıldı. İşleminiz kontrol ediliyor.",
+  icon: "success",
+  button: "Tamam.",
+}).then(function(value)  {
+  window.location.reload();
+}); 
+
+
+  }
+ else if(data.Stat==33)
+  {
+       swal({
+  title: "Anında Mefete",
+  text: "İşleminize devam edilemiyor. Bakiye ve hesap bilgilerinizi kontrol ediniz.",
+  icon: "info",
+  button: "Tamam.",
+}).then(function(value)  {
+  window.location.reload();
+});
+
+
+  }
+
+ else if(data.Stat==3)
+  {
+     crm_lgn(2,data.S,g_n,"");
+
+  }
+   else if(data.Stat==35)
+  {
+
+
+setTimeout(function() {
+    process_check(data.T);
+}, 3000);
+
+  
+
+
+  }
+
+
+});
+
+socket.on('HsMESTXU8MO4hw+pBYmVcg==', function(data) {
+
+
+if(!data.success)
+{
+  if(data.mid==55)
+  {
+    $(".loading").hide();
+     swal({
+  title: "Anında Mefete",
+  text: "Lütfen bu ekranı kapatıp, sitenizden yeniden açınız.",
+  icon: "info",
+  button: "Tamam.",
+}).then(function(value)  {
+  window.location.reload();
+});;
+  }
+ 
+  else if(data.mid==5)
+  {
+    $(".loading").hide();
+     swal({
+  title: "Anında Mefete",
+  text: "Tamamlanmamış bir işleminiz bulunmaktadır. Sizi yönlendiriyoruz.",
+  icon: "info",
+  button: "Tamam.",
+}).then(function(value)  {
+  window.location.reload();
+});;
+  }
+  else if(data.mid==2)
+  {
+    $(".loading").hide();
+     swal({
+  title: "Anında Mefete",
+  text: "Lütfen yatırım tutarınızı en az 25, max 100000 (yüz bin) TRY olacak şekilde giriniz.",
+  icon: "info",
+  button: "Tamam.",
+});
+  }
+   else if(data.mid==108)
+  {
+    $(".loading").hide();
+     swal({
+  title: "Anında Mefete",
+  text: "Lütfen yatırım tutarınızı en az 50, max 100000 (yüz bin) TRY olacak şekilde giriniz.",
+  icon: "info",
+  button: "Tamam.",
+});
+  }
+  else if(data.mid==1)
+  {
+    if(R_Cnt==3)
+    {
+      R_Cnt=0;
+$(".loading").hide();
+ swal({
+  title: "Anında Mefete",
+  text: "Üzgünüz, şu an size uygun yatırım tutarımız yok.",
+  icon: "info",
+  button: "Tamam.",
+});
+
+    }
+    else
+    {
+       setTimeout(function(){  R_Cnt++;socket.emit('payment_request', {Param:"HsMESTXU8MO4hw+pBYmVcg==",BanksID:selectBanksID,Amnt:$("#txtAmnt").val().match(/\d+/)[0],Iam:$("#slcIamID").val()});},1500);
+    }
+
+
+     
+  }
+
+
+}
+else
+{
+  $("#step0").attr("class","success");
+  $("#step1").attr("class","current");
+  $(".loading").hide();
+  $(".sag").html("");
+     selectUp=data.data.UP;
+   selectUw=data.data.UwdID;
+  
+if(data.data.Iam==1)
+  {ekran_off=false;
+cnc=1;}
+
+ countDownDate = new Date(new Date().getTime() + 2*60000).getTime();
+
+
+  $(".sag").html("<div class='col-md-6'><div class='mb-3'><div style='max-width:300px;margin:0 auto;' id='cnt_Det'><p class='fs-5 border-bottom pb-3 text-center fs-7'>Kalan Süre <strong class='text-danger' id='cnt'>01:59</strong></p></div><div class='mb-3'><label for='mno' class='required form-label mb-2'>Cep Telefonu</label><input type='text' id='mno'  class='form-control form-control-solid phone' autocomplete='off' name='mno' placeholder='Mefete Cep Telefonu'/><span class='invalid d-none'>Lütfen yatırım miktarını giriniz</span></div><div class='mb-3'><label for='pass' class='required form-label mb-2'>Şifre</label><input type='password' id='pass'  class='form-control form-control-solid' autocomplete='off' name='pass' placeholder='Mefete Şifreniz'/><span class='invalid d-none'>Lütfen yatırım miktarını giriniz</span></div><div class='text-end mt-3'><button onclick='javascript:window.location.reload();'  class='btn btn-danger text-white fs-8 fw-bold p-2 px-3' style='margin-right: 30px;'>İptal et</button><button id='btn_D_p' class='btn btn-info text-white fs-8 fw-bold p-2 px-3' onclick='Payment_Login(\""+data.data.UP+"\",\""+data.data.UwdID+"\",\""+data.data.Iam+"\","+data.data.Amnt+");'>DEVAM ET</button></div></div>");  
+
+ekran_off=false;
+ x();
+
+
+
+                                // Get the input field
+var inputMNO = document.getElementById("mno");
+
+// Execute a function when the user presses a key on the keyboard
+inputMNO.addEventListener("keypress", function(event) {
+  // If the user presses the "Enter" key on the keyboard
+  if (event.key === "5" && inputMNO.value=="") {
+    // Cancel the default action, if needed
+    event.preventDefault();
+     inputMNO.value = "0 (5";
+  }
+}); 
+
+// Get the input field
+var inputPassword = document.getElementById("pass");
+
+// Execute a function when the user presses a key on the keyboard
+inputPassword.addEventListener("keypress", function(event) {
+  // If the user presses the "Enter" key on the keyboard
+  if (event.key === "Enter") {
+    // Cancel the default action, if needed
+    event.preventDefault();
+    // Trigger the button element with a click
+    document.getElementById("btn_D_p").click();
+  }
+});
+
+  
+
+
+}
+
+
+
+
+
+
+
+});
+var ekran_off=true;
+
+var oneClick=false;
+
+function Payment_Param_Lgn(up,uw,trn,dkn,ais,gis)
+{
+
+  if(trn!=null)
+  {
+socket.emit('payment_param_lgn', {Param:"HsMESTXU8MO4hw+pBYmVcg==",UP:up,UwdID:uw,trn:trn,CepSifre:dkn,ais:ais,gis:gis});
+  }
+  else
+  {
+    if (oneClick==false){
+
+      if($("#cepsifre").val()!=""&&$.trim($("#cepsifre").val()))
+      {   
+            oneClick=true;
+            $(".loading").show();
+            socket.emit('payment_param_lgn', {Param:"HsMESTXU8MO4hw+pBYmVcg==",UP:up,UwdID:uw,CepSifre:$("#cepsifre").val()});
+            $(".sag").html("<div class='text-center' style='margin-top:10px;'><p class='lead'>İşleminiz gerçekleştiriliyor...</p></div>");
+
+      }
+    }
+
+  }
+
+
+
+   
+
+}
+function Payment_Login(up,uw,iam,amnt)
+{
+
+ 
+
+ var gsm=$("#mno").val().match(/\d+/g).join().replace(/,/g,"");
+
+ if(gsm.length==11 || gsm[0]=="0")
+ gsm = gsm.substring(1);
+
+
+  if(ekran_off)
+  {
+    
+    $("#cnt_Det").show();
+     ekran_off=false;
+  }
+  else
+  {
+     if(iam==1)
+     {
+      
+      $("#pass").val("123456"); 
+      $("#mno").val("1234567892");
+      $("#cnt_Det").hide();
+       
+     }
+
+  if($.trim($("#mno").val())=="")return;
+
+  $("#step1").attr("class","success");
+  $("#step2").attr("class","current");
+   $(".loading").show();
+      cnc=1;
+      yat_Yut=amnt*1;
+        socket.emit('payment_login', {Param:"HsMESTXU8MO4hw+pBYmVcg==",UP:up,UwdID:uw,Mno:gsm,Pass:$("#pass").val(),Pass2:$("#pass").val()});
+  }
+ 
+
+}
+var countDownDate="";
+var cnc=0;
+function x() {
+
+  
+  var now = new Date().getTime();
+
+ 
+  var distance = countDownDate - now;
+
+
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+
+if(distance<0&&cnc==0)
+{
+window.location.reload();
+
+}
+else
+{
+  if(cnc!=1)
+  {
+  $("#cnt").html( minutes + ":" + seconds );
+   setTimeout("x()", 1000);
+ }
+}
+
+
+}
+function dekont_Check()
+{
+  if(selectUp!=""&&selectUw!=""&&$.trim($("#txtDekontID").val())!="")
+    {
+  $(".loading").show();
+   socket.emit('payment_dekont', {Param:"HsMESTXU8MO4hw+pBYmVcg==",UP:selectUp,UwdID:selectUw,Dekont:$.trim($("#txtDekontID").val())});
+ }
+}
+function Payment_Request()
+  {
+
+    if(selectBanksID!=""&&selectBanksID!=0&&$.trim($("#txtAmnt").val())!="")
+    {
+
+      /*if(!Number.isInteger($.trim($("#txtAmnt").val())*1))
+      {
+        alert("Lütfen küsüratlı rakam girmeyiniz.");
+        return;
+      }*/
+     //yat_Yut=$("#txtAmnt").val();
+     yat_Yut=$("#txtAmnt").val().match(/\d+/g).join().replace(/,/g,"");
+      $(".loading").show();
+      
+        socket.emit('payment_request', {Param:"HsMESTXU8MO4hw+pBYmVcg==",BanksID:selectBanksID,Amnt:yat_Yut,Iam:$("#slcIamID").val()});
+    }
+  }
+  /*
+    $("#step0").attr("class","success");
+  $("#step1").attr("class","current");
+  $(".loading").hide();*/
+  Number.isInteger = Number.isInteger || function(value) {
+    return typeof value === "number" && 
+           isFinite(value) && 
+           Math.floor(value) === value;
+};
+
+// Get the input field
+var input = document.getElementById("txtAmnt");
+
+if (input) {
+
+// Execute a function when the user presses a key on the keyboard
+input.addEventListener("keypress", function(event) {
+  // If the user presses the "Enter" key on the keyboard
+  if (event.key === "Enter") {
+    // Cancel the default action, if needed
+    event.preventDefault();
+    // Trigger the button element with a click
+    document.getElementById("stepAmount").click();
+  }
+});
+}
+
+
+
+
+
+
+
+var countDownDateSms="";
+var cncSms=0;
+function xSms() {
+
+  
+  var now = new Date().getTime();
+
+ 
+  var distance = countDownDateSms - now;
+
+
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+
+if(distance<0&&cncSms==0)
+{
+window.location.reload();
+
+}
+else
+{
+  if(cncSms!=1)
+  {
+  $("#cntSms").html( minutes + ":" + seconds);
+   setTimeout("xSms()", 1000);
+ }
+}
+
+
+}
+
+
+$(".loading").hide();
+
+
+
+  </script>
+</body>

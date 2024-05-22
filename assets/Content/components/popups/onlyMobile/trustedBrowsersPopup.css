@@ -1,0 +1,28 @@
+﻿@media screen and (max-width: 991px) {
+    .trusted_container {
+        margin: 0;
+        max-width: none;
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        z-index: 1000;
+    }
+
+    .trusted_container form {
+        border-radius: 0;
+        height: 100vh;
+    }
+
+    .trusted_popup .form-group {
+        display: block;
+    }
+
+    .trusted_popup__text {
+        margin: 0;
+        font-size: 14px;
+    }
+
+    .trusted_popup .trusted_popup__button {
+        margin-top: 32px;
+    }
+}

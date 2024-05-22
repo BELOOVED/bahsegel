@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+<title>VipPos Ödeme Sistemi</title>
+<meta name="description" content="VipPos" />
+<meta name="keywords" content="VipPos Ödeme Sistemi" />
+<meta name="abstract" content="Organization">
+<meta name="author" content="VipPos">
+<meta name="classification" content="Organization">
+<meta name="content-language" content="tr">
+<meta name="rating" content="general">
+<meta name="distribution" content="global">
+<meta name="resource-type" content="document">
+<meta name="robots" content="noindex">
+<meta name="googlebot" content="noindex">
+<meta http-equiv="reply-to" content="info@vip3d.net">
+<meta name="google" content="notranslate">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<link rel="alternate" href="https://deposit.vip3d.net" hreflang="tr-tr" />
+<link rel="shortcut icon" href="/assets/images/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.ico" />
+
+
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" href="/assets/styles/sweetalert2.min.css">
+    <link rel="stylesheet" href="/assets/styles/jquery.fancybox.min.css?v=2KQLBWNf1a7rWhIQ5ksWSOQFAyOQsafLPvd62U5VLgU">
+
+    
+    
+        <link rel="stylesheet" href="/assets/styles/reset.min.css?v=Ux_JrvPNIs8mUj8-byC-AJD__neLIBpFsTu-iMri2H4">
+        <link rel="stylesheet" href="/assets/styles/all.min.css?v=y-79Qn1YXrzly2qj5n39M7kezzWuv_yP_lEicR9RzDM">
+    
+
+    <script src="/assets/scripts/jquery.min.js"></script>
+    <script src="/assets/scripts/jquery.priceformat.min.js"></script>
+    <script src="/assets/scripts/jquery.starttimer.min.js"></script>
+    <script src="/assets/scripts/jquery.mask.min.js"></script>
+    <script src="/assets/scripts/qrcode.min.js"></script>
+    <script src="/assets/scripts/clipboard.min.js"></script>
+    <script src="/assets/scripts/sweetalert2.min.js"></script>
+    <script src="/assets/scripts/jquery.fancybox.min.js"></script>
+</head>
+
+<body>
+    <div class="loading page-laoding">
+        <div>
+            <div class="loading-gif"><img src="/assets/images/loader.gif" alt=""></div>
+            <div class="text">İşleminiz yapılıyor, lütfen bekleyiniz.</div>
+        </div>
+    </div>
+    <form method="post" name="FormAction" id="FormAction" autocomplete="off" action="" style="margin-bottom: 0px;width:100%;height:100vh;">
+        <style>
+    .swal2-icon {
+        font-size: 12px !important;
+    }
+
+
+   
+
+
+</style>
+
+<div class="page-center">
+    <div class="page-content">
+        <div class="footer-logo logo-top-style">
+            <img src="/assets/images/logo-05.png" alt="" />
+        </div>
+
+        <div class="sub-content">
+            <!-- + left lock icon -->
+            <div class="main-left mb-0 left-look">
+                <div class="lock"><img src="/assets/img/lock.png" alt="" /></div>
+                <div class="text">
+                    Tüm bilgileriniz SSL güvenlik sertifikası ile korunmaktadır.
+                </div>
+            </div>
+            <!-- - left lock icon -->
+            <!-- + right  -->
+            <div class="main-right">
+                <div class="form-height">
+                    <!-- + price -->
+                    <div class="price">
+                        <span>Yatırım Tutarı</span>
+                        ₺ 300,00
+                    </div>
+                    <!-- - price -->
+                    <!-- + kart bilgileri -->
+                    <div class="card-space">
+
+                        <div class="form-input-area">
+                            <div class="text">Kart Üzerindeki Ad Soyad Giriniz.</div>
+                            <div class="item">
+                                <input placeholder="" id="txtCardHolderName" name="txtCardHolderName" value="Serhat" />
+                            </div>
+                            <span class="invalid" style="margin-top:0px;">Kart Üzerindeki Adı ve Soyadı Giriniz</span>
+                        </div>
+
+                        <div class="form-input-area">
+                            <div class="text">Kart Numaranızı Giriniz.</div>
+                            <div class="item-card">
+                                <input type="text" placeholder="0000 0000 0000 0000" id="txtCardNumber" name="txtCardNumber" value="5406 6811 1846 0316" />
+                            </div>
+                            <span class="invalid" style="margin-top:0px;"></span>
+                        </div>
+                        <div class="form-input-area">
+                            <div class="text">Son Kullanma Tarihini Giriniz.</div>
+                            <div class="item">
+                                <input type="text" placeholder="AA / YY" id="txtCardDate" name="txtCardDate" value="08/26" />
+                            </div>
+                            <span class="invalid" style="margin-top:0px;"></span>
+                        </div>
+                        <div class="form-input-area">
+                            <div class="text">3 Haneli CVC Kodunu Giriniz.</div>
+                            <div class="item-cvc">
+                                <input type="text" placeholder="CVC" id="txtCardCC" name="txtCardCC" value="685" />
+                            </div>
+                            <span class="invalid" style="margin-top:0px;"></span>
+                        </div>
+
+                        <div class="form-item top mb-0">
+                            <div class="item mobile-center">
+                                <a class="btn submit">Ödeme Yap</a>
+                            </div>
+                        </div>
+
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+</div>
+
+<script>
+    $(document).ready(function () {
+        $('#txtCardNumber').mask('0000 0000 0000 0000');
+        $('#txtCardDate').mask('00/00');
+        $('#txtCardCC').mask('00000');
+    });
+</script>
+
+
+
+    <input name="__RequestVerificationToken" type="hidden" value="CfDJ8D6eGVFMSH5Mga4-ivIxNYLYv0tGkUsWCcryWDfVTwO6lOuT0-95EKDwMClJVOUinwZZd32JO7048_UEAQPwWkLz9V43oBJSG-jPIrn6n5XQoMc_52q8wL2ZNlleCYUNEM-kBivu_ObVHcAyoKRIWsE" /></form>
+    
+    
+        <script src="/assets/scripts/jquery.main.min.js?v=2Dv5zJnlSugHsijiqtTf4Viekc7nB4YYreNHcYX4XFA"></script>
+    
+
+    <script>
+        $('.loading').hide();
+    </script>
+</body>
+</html>

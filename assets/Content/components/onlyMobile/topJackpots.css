@@ -1,0 +1,267 @@
+.top_jackpots__container {
+    /*grid-template-columns: repeat(2, 1fr);*/
+    grid-template-columns: repeat(2, minmax(140px, 1fr));
+    grid-gap: 8px;
+    z-index: 12;
+}
+
+.top_jackpots__anim {
+    min-height: 58px;
+    z-index: auto;
+}
+
+.top_jackpots__block {
+    border-radius: 12px;
+    padding: 12px 8px;
+    min-height: 58px;
+    z-index: auto;
+}
+
+.top_jackpots__value {
+    margin-inline-end: 3px;
+}
+
+.top_jackpots__content {
+    row-gap: 2px;
+    max-width: calc(100% - 40px);
+}
+
+.top_jackpots__content .my-04 {
+    margin: 3px 0;
+}
+
+.top_jackpots__name {
+    font-size: 12px;
+    line-height: 18px;
+    border: 0;
+    background-color: transparent;
+    border-radius: 0;
+    padding: 0;
+    text-align: initial;
+}
+
+.top_jackpots__winners{
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: 700;
+}
+
+.top_jackpots__crns {
+    font-size: 18px;
+    line-height: 12px;
+    height: 14px;
+}
+
+.top_jackpots__crns.IRT,
+.top_jackpots__crns.irt {
+    font-size: 14px;
+    line-height: 12px;
+    height: 14px;
+}
+
+.top_jackpots__crns:after {
+    padding: 0;
+}
+
+.top_jackpots__hover_btn {
+    margin-top: auto;
+}
+
+.top_jackpot_icon {
+    height: 32px;
+    width: 32px;
+    border-radius: 4px;
+    margin-inline-end: 8px;
+    background-size: 32px auto;
+}
+
+.top_jackpot_icon.ic_01,
+.prg_jackpot_icon.ic_grand{
+    background-position: 0 -105px;
+}
+
+.top_jackpot_icon.ic_02,
+.prg_jackpot_icon.ic_mega{
+    background-position: 0 -70px;
+}
+
+.top_jackpot_icon.ic_03,
+.prg_jackpot_icon.ic_major{
+    background-position: 0 -35px;
+}
+
+.top_jackpots__hover_block {
+    inset-inline-start: 0px;
+    width: 100%;
+    bottom: -420px;
+    padding: 0;
+    position: fixed;
+    z-index: 88888888888;
+    display: block;
+    opacity: 1;
+    background-color: rgba(0,0,0,.6);
+}
+
+.topJackpot-cover {
+    position: fixed;
+    background-color: rgba(0,0,0,.6);
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1111111;
+    height: calc(100% - 394px);
+    height: calc(100dvh - 394px);
+}
+
+.top_jackpots__hover_content {
+    border-radius: 16px 16px 0px 0px;
+    border: 0;
+    box-shadow: none;
+    padding: 12px 16px;
+    min-height: 394px;
+}
+
+.top_jackpots__hover__game:last-child{
+    margin-bottom: 12px;
+}
+
+.top_jackpots__hover_winners {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.top_jackpots__hover_winners__count {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.top_jackpots__hover__text{
+    font-size: 14px;
+}
+
+.top_jackpots__hover_win__name{
+    line-height: 20px;
+}
+
+.top_jackpots__hover__value {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.top_jackpots__hover__value span {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.top_jackpots__hover__value .top_jackpots__crns {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.top_jackpots__hover_win {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.top_jackpots__hover_header {
+    padding: 8px 0 20px;
+    border-bottom: 1px solid var(--bg-level-1);
+    margin-bottom: 12px;
+    position: relative;
+}
+
+.top_jackpots__hover_close {
+    margin-inline-start: auto;
+    color: var(--icon-level-high);
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    inset-inline-end: -8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top_jackpots__hover_close .dynamic_icon {
+    font-size: 30px;
+    line-height: 18px;
+    margin: 0;
+}
+
+.top_jackpot__hover_icon.top_jackpot_icon {
+    width: 20px;
+    height: 20px;
+    background-size: 20px auto;
+    margin-inline-end: 12px;
+    display: inline-block;
+}
+
+.top_jackpot__hover_icon.ic_01 {
+    background-position: 0 -64px;
+}
+
+.top_jackpot__hover_icon.ic_02 {
+    background-position: 0 -44px;
+}
+
+.top_jackpot__hover_icon.ic_03 {
+    background-position: 0 -20px;
+}
+
+.top_jackpot__hover_title {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: var(--text-level-high);
+}
+
+@media screen and (max-width: 400px) {
+    .top_jackpots__crns.IRT,
+    .top_jackpots__crns.irt {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .top_jackpots__crns {
+        font-size: 16px;
+        height: 13px;
+        line-height: 13px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .top_jackpots__crns.IRT,
+    .top_jackpots__crns.irt {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .top_jackpots__crns {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .top_jackpots__crns.IRT,
+    .top_jackpots__crns.irt {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .top_jackpots__block {
+        padding: 6px;
+    }
+    .top_jackpots__value {
+        margin-inline-end: 2px;
+    }
+}
+
+/*Pragmatic Play Jackpots*/
+.prg_jackpots__container,
+.prg_jackpots__anim {
+    z-index: 1;
+}
