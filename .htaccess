@@ -1,12 +1,6 @@
-Options -Indexes
-ErrorDocument 404 /404.php
-
 RewriteEngine On
-
-# Redirect /tr to /
-RewriteRule ^tr$ / [R=301,L]
-
-# Route all other requests to index.php
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^(.*)$ index.php?q=$1 [L,QSA]
+RewriteRule (.*) index.php?q=$1 [L,QSA]
+ErrorDocument 404 /
+RewriteRule ^tr$ / [R=301,L]
