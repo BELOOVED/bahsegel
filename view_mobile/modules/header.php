@@ -9,7 +9,6 @@
       <meta name="google-site-verification" content="t9R4t3H94Hm6iG8oEZ36CU5cY11VlsnCT0UwVew1EDY">
       <script async="" id="cio-tracker" data-site-id="34926cc7c33a80e34ef9" data-use-array-params="true" data-use-in-app="true" src="https://assets.customer.io/assets/track.js"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-PC26PD4"></script><script src="/scripts/gtm.js"></script><script async="" src="/scripts/addFavicon.js"></script><script async="" src="/scripts/changeManifest.js"></script>
       <link rel="apple-touch-icon" href="/favicons/favicon-192.png">
-      <link rel="manifest" id="manifest-id" href="blob:https://www.bahsegel1014.com/fffc7936-2cf3-46c8-8da1-5b4215a510d2">
       <link rel="preconnect" href="https://secure.livechatinc.com">
       <link rel="preconnect" href="https://cdn.bgelmedia.com">
       <link rel="preconnect" href="https://cdn.livechatinc.com">
