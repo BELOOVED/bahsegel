@@ -3,7 +3,7 @@
    <!--
       Page saved with SingleFileZ 
       url: https://www.bahsegel1117.com/ 
-      saved date: Fri Jun 21 2024 21:05:47 GMT+0300 (GMT+03:00)
+      saved date: Fri Jun 21 2024 21:32:53 GMT+0300 (GMT+03:00)
       -->
    <meta charset=utf-8>
    <meta name=viewport content="viewport-fit=cover,width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=no">
@@ -90,3 +90,4 @@
                </div>
             </div>
             
+           

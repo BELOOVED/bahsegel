@@ -5,7 +5,7 @@
                         <div class="slick-slider landing-page__slider slick-initialized" dir=ltr>
                            <button type=button class="slick-arrow slick-prev custom-prev-arrow"></button>
                            <div class=slick-list>
-                              <div class=slick-track style=width:23010px;opacity:1;transform:translate3d(-7670px,0px,0px)>
+                              <div class=slick-track style=width:23010px;opacity:1;transform:translate3d(-1534px,0px,0px)>
                                  <div data-index=-1 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true style=width:1534px>
                                     <div>
                                        <div class="styles__Container-sc-1xwzz5u-0 kDBWc">
@@ -14,7 +14,7 @@
                                        </div>
                                     </div>
                                  </div>
-                                 <div data-index=0 class=slick-slide tabindex=-1 aria-hidden=true style=outline:none;width:1534px>
+                                 <div data-index=0 class="slick-slide slick-active slick-current" tabindex=-1 aria-hidden=false style=outline:none;width:1534px>
                                     <div>
                                        <div class="styles__Container-sc-1xwzz5u-0 kDBWc">
                                           <div class="styles__Overlay-sc-1xwzz5u-1 hdwbTk"></div>
@@ -26,7 +26,7 @@
                                     <div>
                                        <div class="styles__Container-sc-1xwzz5u-0 kDBWc">
                                           <div class="styles__Overlay-sc-1xwzz5u-1 hdwbTk"></div>
-                                          <img class="lazy-img styles__BackgroundImg-sc-1xwzz5u-2 HISEB" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt>
+                                          <img class="lazy-img styles__BackgroundImg-sc-1xwzz5u-2 HISEB" src=images/53.jpg alt>
                                        </div>
                                     </div>
                                  </div>
@@ -34,7 +34,7 @@
                                     <div>
                                        <div class="styles__Container-sc-1xwzz5u-0 kDBWc">
                                           <div class="styles__Overlay-sc-1xwzz5u-1 hdwbTk"></div>
-                                          <img class="lazy-img styles__BackgroundImg-sc-1xwzz5u-2 HISEB" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt>
+                                          <img class="lazy-img styles__BackgroundImg-sc-1xwzz5u-2 HISEB" src=images/54.jpg alt>
                                        </div>
                                     </div>
                                  </div>
@@ -42,15 +42,15 @@
                                     <div>
                                        <div class="styles__Container-sc-1xwzz5u-0 kDBWc">
                                           <div class="styles__Overlay-sc-1xwzz5u-1 hdwbTk"></div>
-                                          <img class="lazy-img styles__BackgroundImg-sc-1xwzz5u-2 HISEB" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt>
+                                          <img class="lazy-img styles__BackgroundImg-sc-1xwzz5u-2 HISEB" src=images/55.jpg alt>
                                        </div>
                                     </div>
                                  </div>
-                                 <div data-index=4 class="slick-slide slick-active slick-current" tabindex=-1 aria-hidden=false style=outline:none;width:1534px>
+                                 <div data-index=4 class=slick-slide tabindex=-1 aria-hidden=true style=outline:none;width:1534px>
                                     <div>
                                        <div class="styles__Container-sc-1xwzz5u-0 kDBWc">
                                           <div class="styles__Overlay-sc-1xwzz5u-1 hdwbTk"></div>
-                                          <img class="lazy-img styles__BackgroundImg-sc-1xwzz5u-2 HISEB" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt>
+                                          <img class="lazy-img styles__BackgroundImg-sc-1xwzz5u-2 HISEB" src=images/56.jpg alt>
                                        </div>
                                     </div>
                                  </div>
@@ -130,35 +130,35 @@
                            </div>
                            <button type=button class="slick-arrow slick-next custom-next-arrow"></button>
                            <ul class=slick-dots style=display:block>
-                              <li>
-                                 <a class=slick-dots href=#>
-                                    <svg class=slider-loader viewBox="0 0 33.83098862 33.83098862" width=26 height=26 xmlns=http://www.w3.org/2000/svg>
-                                       <circle class=slider-loader__background stroke=#767A85 stroke-width=2 fill=none cx=16.91549431 cy=16.91549431 r=15.91549431></circle>
-                                       <circle class=slider-loader__circle stroke=#FFD60E stroke-width=2.5 stroke-dasharray=100 stroke-linecap=round fill=none cx=16.91549431 cy=16.91549431 r=15.91549431></circle>
-                                    </svg>
-                                 </a>
-                              <li>
-                                 <a class=slick-dots href=#>
-                                    <svg class=slider-loader viewBox="0 0 33.83098862 33.83098862" width=26 height=26 xmlns=http://www.w3.org/2000/svg>
-                                       <circle class=slider-loader__background stroke=#767A85 stroke-width=2 fill=none cx=16.91549431 cy=16.91549431 r=15.91549431></circle>
-                                       <circle class=slider-loader__circle stroke=#FFD60E stroke-width=2.5 stroke-dasharray=100 stroke-linecap=round fill=none cx=16.91549431 cy=16.91549431 r=15.91549431></circle>
-                                    </svg>
-                                 </a>
-                              <li>
-                                 <a class=slick-dots href=#>
-                                    <svg class=slider-loader viewBox="0 0 33.83098862 33.83098862" width=26 height=26 xmlns=http://www.w3.org/2000/svg>
-                                       <circle class=slider-loader__background stroke=#767A85 stroke-width=2 fill=none cx=16.91549431 cy=16.91549431 r=15.91549431></circle>
-                                       <circle class=slider-loader__circle stroke=#FFD60E stroke-width=2.5 stroke-dasharray=100 stroke-linecap=round fill=none cx=16.91549431 cy=16.91549431 r=15.91549431></circle>
-                                    </svg>
-                                 </a>
-                              <li>
-                                 <a class=slick-dots href=#>
-                                    <svg class=slider-loader viewBox="0 0 33.83098862 33.83098862" width=26 height=26 xmlns=http://www.w3.org/2000/svg>
-                                       <circle class=slider-loader__background stroke=#767A85 stroke-width=2 fill=none cx=16.91549431 cy=16.91549431 r=15.91549431></circle>
-                                       <circle class=slider-loader__circle stroke=#FFD60E stroke-width=2.5 stroke-dasharray=100 stroke-linecap=round fill=none cx=16.91549431 cy=16.91549431 r=15.91549431></circle>
-                                    </svg>
-                                 </a>
                               <li class=slick-active>
+                                 <a class=slick-dots href=#>
+                                    <svg class=slider-loader viewBox="0 0 33.83098862 33.83098862" width=26 height=26 xmlns=http://www.w3.org/2000/svg>
+                                       <circle class=slider-loader__background stroke=#767A85 stroke-width=2 fill=none cx=16.91549431 cy=16.91549431 r=15.91549431></circle>
+                                       <circle class=slider-loader__circle stroke=#FFD60E stroke-width=2.5 stroke-dasharray=100 stroke-linecap=round fill=none cx=16.91549431 cy=16.91549431 r=15.91549431></circle>
+                                    </svg>
+                                 </a>
+                              <li>
+                                 <a class=slick-dots href=#>
+                                    <svg class=slider-loader viewBox="0 0 33.83098862 33.83098862" width=26 height=26 xmlns=http://www.w3.org/2000/svg>
+                                       <circle class=slider-loader__background stroke=#767A85 stroke-width=2 fill=none cx=16.91549431 cy=16.91549431 r=15.91549431></circle>
+                                       <circle class=slider-loader__circle stroke=#FFD60E stroke-width=2.5 stroke-dasharray=100 stroke-linecap=round fill=none cx=16.91549431 cy=16.91549431 r=15.91549431></circle>
+                                    </svg>
+                                 </a>
+                              <li>
+                                 <a class=slick-dots href=#>
+                                    <svg class=slider-loader viewBox="0 0 33.83098862 33.83098862" width=26 height=26 xmlns=http://www.w3.org/2000/svg>
+                                       <circle class=slider-loader__background stroke=#767A85 stroke-width=2 fill=none cx=16.91549431 cy=16.91549431 r=15.91549431></circle>
+                                       <circle class=slider-loader__circle stroke=#FFD60E stroke-width=2.5 stroke-dasharray=100 stroke-linecap=round fill=none cx=16.91549431 cy=16.91549431 r=15.91549431></circle>
+                                    </svg>
+                                 </a>
+                              <li>
+                                 <a class=slick-dots href=#>
+                                    <svg class=slider-loader viewBox="0 0 33.83098862 33.83098862" width=26 height=26 xmlns=http://www.w3.org/2000/svg>
+                                       <circle class=slider-loader__background stroke=#767A85 stroke-width=2 fill=none cx=16.91549431 cy=16.91549431 r=15.91549431></circle>
+                                       <circle class=slider-loader__circle stroke=#FFD60E stroke-width=2.5 stroke-dasharray=100 stroke-linecap=round fill=none cx=16.91549431 cy=16.91549431 r=15.91549431></circle>
+                                    </svg>
+                                 </a>
+                              <li>
                                  <a class=slick-dots href=#>
                                     <svg class=slider-loader viewBox="0 0 33.83098862 33.83098862" width=26 height=26 xmlns=http://www.w3.org/2000/svg>
                                        <circle class=slider-loader__background stroke=#767A85 stroke-width=2 fill=none cx=16.91549431 cy=16.91549431 r=15.91549431></circle>
@@ -186,11 +186,11 @@
                         <div>
                            <div class="styles__Row-sc-1adhk5t-0 hgfhfv">
                               <div class=ticker style=position:relative;overflow:hidden;height:27px>
-                                 <div class=ticker__element style=will-change:transform;position:absolute;left:0px;top:0px;transform:translate3d(-1163.27px,0px,0px)>
+                                 <div class=ticker__element style=will-change:transform;position:absolute;left:0px;top:0px;transform:translate3d(-4528.88px,0px,0px)>
                                     <div class="styles__Line-sc-1adhk5t-5 bjZxfh">
                                        <div class="styles__Item-sc-1adhk5t-1 gOroKF">
                                           <a class="styles__Container-sc-1fgvnf7-5 gwhLIO" href=https://www.bahsegel1117.com/tr/game/gates-of-olympus-1000/play-for-real>
-                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src=images/53.jpg alt>
+                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src=images/57.jpg alt>
                                              <span class="styles__Text-sc-1fgvnf7-1 deTYBV">
                                                 <span class="styles__Player-sc-1fgvnf7-2 hkZRTC">Emr**</span> 
                                                 <div class="text-link styles__GameLink-sc-1fgvnf7-4 cYCUZm"><span class=text-link__label>Gates of Olympus 1000™</span></div>
@@ -200,7 +200,7 @@
                                        </div>
                                        <div class="styles__Item-sc-1adhk5t-1 gOroKF">
                                           <a class="styles__Container-sc-1fgvnf7-5 gwhLIO" href=https://www.bahsegel1117.com/tr/game/gates-of-olympus-1000/play-for-real>
-                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src=images/53.jpg alt>
+                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src=images/57.jpg alt>
                                              <span class="styles__Text-sc-1fgvnf7-1 deTYBV">
                                                 <span class="styles__Player-sc-1fgvnf7-2 hkZRTC">Gam**</span> 
                                                 <div class="text-link styles__GameLink-sc-1fgvnf7-4 cYCUZm"><span class=text-link__label>Gates of Olympus 1000™</span></div>
@@ -210,7 +210,7 @@
                                        </div>
                                        <div class="styles__Item-sc-1adhk5t-1 gOroKF">
                                           <a class="styles__Container-sc-1fgvnf7-5 gwhLIO" href=https://www.bahsegel1117.com/tr/game/sweet-bonanza/play-for-real>
-                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src=images/54.jpg alt>
+                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src=images/58.jpg alt>
                                              <span class="styles__Text-sc-1fgvnf7-1 deTYBV">
                                                 <span class="styles__Player-sc-1fgvnf7-2 hkZRTC">Nih**</span> 
                                                 <div class="text-link styles__GameLink-sc-1fgvnf7-4 cYCUZm"><span class=text-link__label>Sweet Bonanza</span></div>
@@ -220,7 +220,7 @@
                                        </div>
                                        <div class="styles__Item-sc-1adhk5t-1 gOroKF">
                                           <a class="styles__Container-sc-1fgvnf7-5 gwhLIO" href=https://www.bahsegel1117.com/tr/game/sweet-bonanza-1000/play-for-real>
-                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src=images/55.jpg alt>
+                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src=images/59.jpg alt>
                                              <span class="styles__Text-sc-1fgvnf7-1 deTYBV">
                                                 <span class="styles__Player-sc-1fgvnf7-2 hkZRTC">Ram****</span> 
                                                 <div class="text-link styles__GameLink-sc-1fgvnf7-4 cYCUZm"><span class=text-link__label>Sweet Bonanza 1000</span></div>
@@ -230,7 +230,7 @@
                                        </div>
                                        <div class="styles__Item-sc-1adhk5t-1 gOroKF">
                                           <a class="styles__Container-sc-1fgvnf7-5 gwhLIO" href=https://www.bahsegel1117.com/tr/game/sweet-bonanza/play-for-real>
-                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src=images/54.jpg alt>
+                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src=images/58.jpg alt>
                                              <span class="styles__Text-sc-1fgvnf7-1 deTYBV">
                                                 <span class="styles__Player-sc-1fgvnf7-2 hkZRTC">Sez***</span> 
                                                 <div class="text-link styles__GameLink-sc-1fgvnf7-4 cYCUZm"><span class=text-link__label>Sweet Bonanza</span></div>
@@ -240,7 +240,7 @@
                                        </div>
                                        <div class="styles__Item-sc-1adhk5t-1 gOroKF">
                                           <a class="styles__Container-sc-1fgvnf7-5 gwhLIO" href=https://www.bahsegel1117.com/tr/game/big-bass-splash/play-for-real>
-                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src=images/56.jpg alt>
+                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src=images/60.jpg alt>
                                              <span class="styles__Text-sc-1fgvnf7-1 deTYBV">
                                                 <span class="styles__Player-sc-1fgvnf7-2 hkZRTC">SER***</span> 
                                                 <div class="text-link styles__GameLink-sc-1fgvnf7-4 cYCUZm"><span class=text-link__label>Big Bass Splash</span></div>
@@ -250,7 +250,7 @@
                                        </div>
                                        <div class="styles__Item-sc-1adhk5t-1 gOroKF">
                                           <a class="styles__Container-sc-1fgvnf7-5 gwhLIO" href=https://www.bahsegel1117.com/tr/game/turkish-roulette/play-for-real>
-                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src=images/57.jpg alt>
+                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src=images/61.jpg alt>
                                              <span class="styles__Text-sc-1fgvnf7-1 deTYBV">
                                                 <span class="styles__Player-sc-1fgvnf7-2 hkZRTC">Kem**</span> 
                                                 <div class="text-link styles__GameLink-sc-1fgvnf7-4 cYCUZm"><span class=text-link__label>Turkish Roulette</span></div>
@@ -260,7 +260,7 @@
                                        </div>
                                        <div class="styles__Item-sc-1adhk5t-1 gOroKF">
                                           <a class="styles__Container-sc-1fgvnf7-5 gwhLIO" href=https://www.bahsegel1117.com/tr/game/big-bass-splash/play-for-real>
-                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src=images/56.jpg alt>
+                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src=images/60.jpg alt>
                                              <span class="styles__Text-sc-1fgvnf7-1 deTYBV">
                                                 <span class="styles__Player-sc-1fgvnf7-2 hkZRTC">nur**</span> 
                                                 <div class="text-link styles__GameLink-sc-1fgvnf7-4 cYCUZm"><span class=text-link__label>Big Bass Splash</span></div>
@@ -270,7 +270,7 @@
                                        </div>
                                        <div class="styles__Item-sc-1adhk5t-1 gOroKF">
                                           <a class="styles__Container-sc-1fgvnf7-5 gwhLIO" href=https://www.bahsegel1117.com/tr/game/starlight-princesstm/play-for-real>
-                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src=images/58.jpg alt>
+                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src=images/62.jpg alt>
                                              <span class="styles__Text-sc-1fgvnf7-1 deTYBV">
                                                 <span class="styles__Player-sc-1fgvnf7-2 hkZRTC">Bek**</span> 
                                                 <div class="text-link styles__GameLink-sc-1fgvnf7-4 cYCUZm"><span class=text-link__label>Starlight Princess™</span></div>
@@ -280,7 +280,111 @@
                                        </div>
                                        <div class="styles__Item-sc-1adhk5t-1 gOroKF">
                                           <a class="styles__Container-sc-1fgvnf7-5 gwhLIO" href=https://www.bahsegel1117.com/tr/game/royal-coins/play-for-real>
+                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src=images/63.jpg alt>
+                                             <span class="styles__Text-sc-1fgvnf7-1 deTYBV">
+                                                <span class="styles__Player-sc-1fgvnf7-2 hkZRTC">Bin***</span> 
+                                                <div class="text-link styles__GameLink-sc-1fgvnf7-4 cYCUZm"><span class=text-link__label>Royal Coins</span></div>
+                                                oyununda <span class="styles__Amount-sc-1fgvnf7-3 cJOMgU">₺253000</span> kazandı
+                                             </span>
+                                          </a>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class=ticker__element style=will-change:transform;position:absolute;left:0px;top:0px;transform:translate3d(990.72px,0px,0px)>
+                                    <div class="styles__Line-sc-1adhk5t-5 bjZxfh">
+                                       <div class="styles__Item-sc-1adhk5t-1 gOroKF">
+                                          <a class="styles__Container-sc-1fgvnf7-5 gwhLIO" href=https://www.bahsegel1117.com/tr/game/gates-of-olympus-1000/play-for-real>
+                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src=images/57.jpg alt>
+                                             <span class="styles__Text-sc-1fgvnf7-1 deTYBV">
+                                                <span class="styles__Player-sc-1fgvnf7-2 hkZRTC">Emr**</span> 
+                                                <div class="text-link styles__GameLink-sc-1fgvnf7-4 cYCUZm"><span class=text-link__label>Gates of Olympus 1000™</span></div>
+                                                oyununda <span class="styles__Amount-sc-1fgvnf7-3 cJOMgU">₺600000</span> kazandı
+                                             </span>
+                                          </a>
+                                       </div>
+                                       <div class="styles__Item-sc-1adhk5t-1 gOroKF">
+                                          <a class="styles__Container-sc-1fgvnf7-5 gwhLIO" href=https://www.bahsegel1117.com/tr/game/gates-of-olympus-1000/play-for-real>
+                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src=images/57.jpg alt>
+                                             <span class="styles__Text-sc-1fgvnf7-1 deTYBV">
+                                                <span class="styles__Player-sc-1fgvnf7-2 hkZRTC">Gam**</span> 
+                                                <div class="text-link styles__GameLink-sc-1fgvnf7-4 cYCUZm"><span class=text-link__label>Gates of Olympus 1000™</span></div>
+                                                oyununda <span class="styles__Amount-sc-1fgvnf7-3 cJOMgU">₺450000</span> kazandı
+                                             </span>
+                                          </a>
+                                       </div>
+                                       <div class="styles__Item-sc-1adhk5t-1 gOroKF">
+                                          <a class="styles__Container-sc-1fgvnf7-5 gwhLIO" href=https://www.bahsegel1117.com/tr/game/sweet-bonanza/play-for-real>
+                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src=images/58.jpg alt>
+                                             <span class="styles__Text-sc-1fgvnf7-1 deTYBV">
+                                                <span class="styles__Player-sc-1fgvnf7-2 hkZRTC">Nih**</span> 
+                                                <div class="text-link styles__GameLink-sc-1fgvnf7-4 cYCUZm"><span class=text-link__label>Sweet Bonanza</span></div>
+                                                oyununda <span class="styles__Amount-sc-1fgvnf7-3 cJOMgU">₺423425</span> kazandı
+                                             </span>
+                                          </a>
+                                       </div>
+                                       <div class="styles__Item-sc-1adhk5t-1 gOroKF">
+                                          <a class="styles__Container-sc-1fgvnf7-5 gwhLIO" href=https://www.bahsegel1117.com/tr/game/sweet-bonanza-1000/play-for-real>
                                              <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src=images/59.jpg alt>
+                                             <span class="styles__Text-sc-1fgvnf7-1 deTYBV">
+                                                <span class="styles__Player-sc-1fgvnf7-2 hkZRTC">Ram****</span> 
+                                                <div class="text-link styles__GameLink-sc-1fgvnf7-4 cYCUZm"><span class=text-link__label>Sweet Bonanza 1000</span></div>
+                                                oyununda <span class="styles__Amount-sc-1fgvnf7-3 cJOMgU">₺371433</span> kazandı
+                                             </span>
+                                          </a>
+                                       </div>
+                                       <div class="styles__Item-sc-1adhk5t-1 gOroKF">
+                                          <a class="styles__Container-sc-1fgvnf7-5 gwhLIO" href=https://www.bahsegel1117.com/tr/game/sweet-bonanza/play-for-real>
+                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src=images/58.jpg alt>
+                                             <span class="styles__Text-sc-1fgvnf7-1 deTYBV">
+                                                <span class="styles__Player-sc-1fgvnf7-2 hkZRTC">Sez***</span> 
+                                                <div class="text-link styles__GameLink-sc-1fgvnf7-4 cYCUZm"><span class=text-link__label>Sweet Bonanza</span></div>
+                                                oyununda <span class="styles__Amount-sc-1fgvnf7-3 cJOMgU">₺317407</span> kazandı
+                                             </span>
+                                          </a>
+                                       </div>
+                                       <div class="styles__Item-sc-1adhk5t-1 gOroKF">
+                                          <a class="styles__Container-sc-1fgvnf7-5 gwhLIO" href=https://www.bahsegel1117.com/tr/game/big-bass-splash/play-for-real>
+                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src=images/60.jpg alt>
+                                             <span class="styles__Text-sc-1fgvnf7-1 deTYBV">
+                                                <span class="styles__Player-sc-1fgvnf7-2 hkZRTC">SER***</span> 
+                                                <div class="text-link styles__GameLink-sc-1fgvnf7-4 cYCUZm"><span class=text-link__label>Big Bass Splash</span></div>
+                                                oyununda <span class="styles__Amount-sc-1fgvnf7-3 cJOMgU">₺300940</span> kazandı
+                                             </span>
+                                          </a>
+                                       </div>
+                                       <div class="styles__Item-sc-1adhk5t-1 gOroKF">
+                                          <a class="styles__Container-sc-1fgvnf7-5 gwhLIO" href=https://www.bahsegel1117.com/tr/game/turkish-roulette/play-for-real>
+                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src=images/61.jpg alt>
+                                             <span class="styles__Text-sc-1fgvnf7-1 deTYBV">
+                                                <span class="styles__Player-sc-1fgvnf7-2 hkZRTC">Kem**</span> 
+                                                <div class="text-link styles__GameLink-sc-1fgvnf7-4 cYCUZm"><span class=text-link__label>Turkish Roulette</span></div>
+                                                oyununda <span class="styles__Amount-sc-1fgvnf7-3 cJOMgU">₺288000</span> kazandı
+                                             </span>
+                                          </a>
+                                       </div>
+                                       <div class="styles__Item-sc-1adhk5t-1 gOroKF">
+                                          <a class="styles__Container-sc-1fgvnf7-5 gwhLIO" href=https://www.bahsegel1117.com/tr/game/big-bass-splash/play-for-real>
+                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src=images/60.jpg alt>
+                                             <span class="styles__Text-sc-1fgvnf7-1 deTYBV">
+                                                <span class="styles__Player-sc-1fgvnf7-2 hkZRTC">nur**</span> 
+                                                <div class="text-link styles__GameLink-sc-1fgvnf7-4 cYCUZm"><span class=text-link__label>Big Bass Splash</span></div>
+                                                oyununda <span class="styles__Amount-sc-1fgvnf7-3 cJOMgU">₺286500</span> kazandı
+                                             </span>
+                                          </a>
+                                       </div>
+                                       <div class="styles__Item-sc-1adhk5t-1 gOroKF">
+                                          <a class="styles__Container-sc-1fgvnf7-5 gwhLIO" href=https://www.bahsegel1117.com/tr/game/starlight-princesstm/play-for-real>
+                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src=images/62.jpg alt>
+                                             <span class="styles__Text-sc-1fgvnf7-1 deTYBV">
+                                                <span class="styles__Player-sc-1fgvnf7-2 hkZRTC">Bek**</span> 
+                                                <div class="text-link styles__GameLink-sc-1fgvnf7-4 cYCUZm"><span class=text-link__label>Starlight Princess™</span></div>
+                                                oyununda <span class="styles__Amount-sc-1fgvnf7-3 cJOMgU">₺280175</span> kazandı
+                                             </span>
+                                          </a>
+                                       </div>
+                                       <div class="styles__Item-sc-1adhk5t-1 gOroKF">
+                                          <a class="styles__Container-sc-1fgvnf7-5 gwhLIO" href=https://www.bahsegel1117.com/tr/game/royal-coins/play-for-real>
+                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src=images/63.jpg alt>
                                              <span class="styles__Text-sc-1fgvnf7-1 deTYBV">
                                                 <span class="styles__Player-sc-1fgvnf7-2 hkZRTC">Bin***</span> 
                                                 <div class="text-link styles__GameLink-sc-1fgvnf7-4 cYCUZm"><span class=text-link__label>Royal Coins</span></div>
@@ -294,7 +398,7 @@
                                     <div class="styles__Line-sc-1adhk5t-5 bjZxfh">
                                        <div class="styles__Item-sc-1adhk5t-1 gOroKF">
                                           <a class="styles__Container-sc-1fgvnf7-5 gwhLIO" href=https://www.bahsegel1117.com/tr/game/gates-of-olympus-1000/play-for-real>
-                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src=images/53.jpg alt>
+                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src=images/57.jpg alt>
                                              <span class="styles__Text-sc-1fgvnf7-1 deTYBV">
                                                 <span class="styles__Player-sc-1fgvnf7-2 hkZRTC">Emr**</span> 
                                                 <div class="text-link styles__GameLink-sc-1fgvnf7-4 cYCUZm"><span class=text-link__label>Gates of Olympus 1000™</span></div>
@@ -304,7 +408,7 @@
                                        </div>
                                        <div class="styles__Item-sc-1adhk5t-1 gOroKF">
                                           <a class="styles__Container-sc-1fgvnf7-5 gwhLIO" href=https://www.bahsegel1117.com/tr/game/gates-of-olympus-1000/play-for-real>
-                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src=images/53.jpg alt>
+                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src=images/57.jpg alt>
                                              <span class="styles__Text-sc-1fgvnf7-1 deTYBV">
                                                 <span class="styles__Player-sc-1fgvnf7-2 hkZRTC">Gam**</span> 
                                                 <div class="text-link styles__GameLink-sc-1fgvnf7-4 cYCUZm"><span class=text-link__label>Gates of Olympus 1000™</span></div>
@@ -314,7 +418,7 @@
                                        </div>
                                        <div class="styles__Item-sc-1adhk5t-1 gOroKF">
                                           <a class="styles__Container-sc-1fgvnf7-5 gwhLIO" href=https://www.bahsegel1117.com/tr/game/sweet-bonanza/play-for-real>
-                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src=images/54.jpg alt>
+                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src=images/58.jpg alt>
                                              <span class="styles__Text-sc-1fgvnf7-1 deTYBV">
                                                 <span class="styles__Player-sc-1fgvnf7-2 hkZRTC">Nih**</span> 
                                                 <div class="text-link styles__GameLink-sc-1fgvnf7-4 cYCUZm"><span class=text-link__label>Sweet Bonanza</span></div>
@@ -324,7 +428,7 @@
                                        </div>
                                        <div class="styles__Item-sc-1adhk5t-1 gOroKF">
                                           <a class="styles__Container-sc-1fgvnf7-5 gwhLIO" href=https://www.bahsegel1117.com/tr/game/sweet-bonanza-1000/play-for-real>
-                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src=images/55.jpg alt>
+                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src=images/59.jpg alt>
                                              <span class="styles__Text-sc-1fgvnf7-1 deTYBV">
                                                 <span class="styles__Player-sc-1fgvnf7-2 hkZRTC">Ram****</span> 
                                                 <div class="text-link styles__GameLink-sc-1fgvnf7-4 cYCUZm"><span class=text-link__label>Sweet Bonanza 1000</span></div>
@@ -334,7 +438,7 @@
                                        </div>
                                        <div class="styles__Item-sc-1adhk5t-1 gOroKF">
                                           <a class="styles__Container-sc-1fgvnf7-5 gwhLIO" href=https://www.bahsegel1117.com/tr/game/sweet-bonanza/play-for-real>
-                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src=images/54.jpg alt>
+                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src=images/58.jpg alt>
                                              <span class="styles__Text-sc-1fgvnf7-1 deTYBV">
                                                 <span class="styles__Player-sc-1fgvnf7-2 hkZRTC">Sez***</span> 
                                                 <div class="text-link styles__GameLink-sc-1fgvnf7-4 cYCUZm"><span class=text-link__label>Sweet Bonanza</span></div>
@@ -344,7 +448,7 @@
                                        </div>
                                        <div class="styles__Item-sc-1adhk5t-1 gOroKF">
                                           <a class="styles__Container-sc-1fgvnf7-5 gwhLIO" href=https://www.bahsegel1117.com/tr/game/big-bass-splash/play-for-real>
-                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src=images/56.jpg alt>
+                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src=images/60.jpg alt>
                                              <span class="styles__Text-sc-1fgvnf7-1 deTYBV">
                                                 <span class="styles__Player-sc-1fgvnf7-2 hkZRTC">SER***</span> 
                                                 <div class="text-link styles__GameLink-sc-1fgvnf7-4 cYCUZm"><span class=text-link__label>Big Bass Splash</span></div>
@@ -354,7 +458,7 @@
                                        </div>
                                        <div class="styles__Item-sc-1adhk5t-1 gOroKF">
                                           <a class="styles__Container-sc-1fgvnf7-5 gwhLIO" href=https://www.bahsegel1117.com/tr/game/turkish-roulette/play-for-real>
-                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src=images/57.jpg alt>
+                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src=images/61.jpg alt>
                                              <span class="styles__Text-sc-1fgvnf7-1 deTYBV">
                                                 <span class="styles__Player-sc-1fgvnf7-2 hkZRTC">Kem**</span> 
                                                 <div class="text-link styles__GameLink-sc-1fgvnf7-4 cYCUZm"><span class=text-link__label>Turkish Roulette</span></div>
@@ -364,7 +468,7 @@
                                        </div>
                                        <div class="styles__Item-sc-1adhk5t-1 gOroKF">
                                           <a class="styles__Container-sc-1fgvnf7-5 gwhLIO" href=https://www.bahsegel1117.com/tr/game/big-bass-splash/play-for-real>
-                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src=images/56.jpg alt>
+                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src=images/60.jpg alt>
                                              <span class="styles__Text-sc-1fgvnf7-1 deTYBV">
                                                 <span class="styles__Player-sc-1fgvnf7-2 hkZRTC">nur**</span> 
                                                 <div class="text-link styles__GameLink-sc-1fgvnf7-4 cYCUZm"><span class=text-link__label>Big Bass Splash</span></div>
@@ -374,7 +478,7 @@
                                        </div>
                                        <div class="styles__Item-sc-1adhk5t-1 gOroKF">
                                           <a class="styles__Container-sc-1fgvnf7-5 gwhLIO" href=https://www.bahsegel1117.com/tr/game/starlight-princesstm/play-for-real>
-                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src=images/58.jpg alt>
+                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src=images/62.jpg alt>
                                              <span class="styles__Text-sc-1fgvnf7-1 deTYBV">
                                                 <span class="styles__Player-sc-1fgvnf7-2 hkZRTC">Bek**</span> 
                                                 <div class="text-link styles__GameLink-sc-1fgvnf7-4 cYCUZm"><span class=text-link__label>Starlight Princess™</span></div>
@@ -384,7 +488,7 @@
                                        </div>
                                        <div class="styles__Item-sc-1adhk5t-1 gOroKF">
                                           <a class="styles__Container-sc-1fgvnf7-5 gwhLIO" href=https://www.bahsegel1117.com/tr/game/royal-coins/play-for-real>
-                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src=images/59.jpg alt>
+                                             <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src=images/63.jpg alt>
                                              <span class="styles__Text-sc-1fgvnf7-1 deTYBV">
                                                 <span class="styles__Player-sc-1fgvnf7-2 hkZRTC">Bin***</span> 
                                                 <div class="text-link styles__GameLink-sc-1fgvnf7-4 cYCUZm"><span class=text-link__label>Royal Coins</span></div>
@@ -424,40 +528,40 @@
                                     <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="https://www.bahsegel1117.com/tr/sportsbook?page=/sport/302"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt><span class="styles__Name-sc-11gq51y-2 bAojrc">NBA 2K</span></a></div>
                                  </div>
                                  <div data-index=-5 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
-                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="https://www.bahsegel1117.com/tr/sportsbook?page=/sport/5"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src=images/60.png alt><span class="styles__Name-sc-11gq51y-2 bAojrc">Tenis</span></a></div>
+                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="https://www.bahsegel1117.com/tr/sportsbook?page=/sport/5"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src=images/64.png alt><span class="styles__Name-sc-11gq51y-2 bAojrc">Tenis</span></a></div>
                                  </div>
                                  <div data-index=-4 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
-                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="https://www.bahsegel1117.com/tr/sportsbook?page=/sport/23"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src=images/61.png alt><span class="styles__Name-sc-11gq51y-2 bAojrc">Voleybol</span></a></div>
+                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="https://www.bahsegel1117.com/tr/sportsbook?page=/sport/23"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src=images/65.png alt><span class="styles__Name-sc-11gq51y-2 bAojrc">Voleybol</span></a></div>
                                  </div>
                                  <div data-index=-3 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
-                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="https://www.bahsegel1117.com/tr/sportsbook?page=/sport/40"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src=images/62.png alt><span class="styles__Name-sc-11gq51y-2 bAojrc">Formula 1</span></a></div>
+                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="https://www.bahsegel1117.com/tr/sportsbook?page=/sport/40"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src=images/66.png alt><span class="styles__Name-sc-11gq51y-2 bAojrc">Formula 1</span></a></div>
                                  </div>
                                  <div data-index=-2 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
-                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="https://www.bahsegel1117.com/tr/sportsbook?page=/sport/10"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src=images/63.png alt><span class="styles__Name-sc-11gq51y-2 bAojrc">Boks</span></a></div>
+                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="https://www.bahsegel1117.com/tr/sportsbook?page=/sport/10"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src=images/67.png alt><span class="styles__Name-sc-11gq51y-2 bAojrc">Boks</span></a></div>
                                  </div>
                                  <div data-index=-1 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
-                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="https://www.bahsegel1117.com/tr/sportsbook?page=/sport/2"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src=images/64.png alt><span class="styles__Name-sc-11gq51y-2 bAojrc">Basketbol</span></a></div>
+                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="https://www.bahsegel1117.com/tr/sportsbook?page=/sport/2"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src=images/68.png alt><span class="styles__Name-sc-11gq51y-2 bAojrc">Basketbol</span></a></div>
                                  </div>
                                  <div data-index=0 class="slick-slide slick-active slick-center slick-current" tabindex=-1 aria-hidden=false style=outline:none>
-                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="https://www.bahsegel1117.com/tr/sportsbook?page=/sport/300"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src=images/65.png alt><span class="styles__Name-sc-11gq51y-2 bAojrc">FIFA</span></a></div>
+                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="https://www.bahsegel1117.com/tr/sportsbook?page=/sport/300"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src=images/69.png alt><span class="styles__Name-sc-11gq51y-2 bAojrc">FIFA</span></a></div>
                                  </div>
                                  <div data-index=1 class=slick-slide tabindex=-1 aria-hidden=true style=outline:none>
-                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="https://www.bahsegel1117.com/tr/sportsbook?page=/sport/1"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src=images/66.png alt><span class="styles__Name-sc-11gq51y-2 bAojrc">Futbol</span></a></div>
+                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="https://www.bahsegel1117.com/tr/sportsbook?page=/sport/1"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src=images/70.png alt><span class="styles__Name-sc-11gq51y-2 bAojrc">Futbol</span></a></div>
                                  </div>
                                  <div data-index=2 class=slick-slide tabindex=-1 aria-hidden=true style=outline:none>
-                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="https://www.bahsegel1117.com/tr/sportsbook?page=/sport/302"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src=images/67.png alt><span class="styles__Name-sc-11gq51y-2 bAojrc">NBA 2K</span></a></div>
+                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="https://www.bahsegel1117.com/tr/sportsbook?page=/sport/302"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src=images/71.png alt><span class="styles__Name-sc-11gq51y-2 bAojrc">NBA 2K</span></a></div>
                                  </div>
                                  <div data-index=3 class=slick-slide tabindex=-1 aria-hidden=true style=outline:none>
-                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="https://www.bahsegel1117.com/tr/sportsbook?page=/sport/5"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src=images/60.png alt><span class="styles__Name-sc-11gq51y-2 bAojrc">Tenis</span></a></div>
+                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="https://www.bahsegel1117.com/tr/sportsbook?page=/sport/5"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src=images/64.png alt><span class="styles__Name-sc-11gq51y-2 bAojrc">Tenis</span></a></div>
                                  </div>
                                  <div data-index=4 class=slick-slide tabindex=-1 aria-hidden=true style=outline:none>
-                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="https://www.bahsegel1117.com/tr/sportsbook?page=/sport/23"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src=images/61.png alt><span class="styles__Name-sc-11gq51y-2 bAojrc">Voleybol</span></a></div>
+                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="https://www.bahsegel1117.com/tr/sportsbook?page=/sport/23"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src=images/65.png alt><span class="styles__Name-sc-11gq51y-2 bAojrc">Voleybol</span></a></div>
                                  </div>
                                  <div data-index=5 class=slick-slide tabindex=-1 aria-hidden=true style=outline:none>
-                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="https://www.bahsegel1117.com/tr/sportsbook?page=/sport/40"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src=images/62.png alt><span class="styles__Name-sc-11gq51y-2 bAojrc">Formula 1</span></a></div>
+                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="https://www.bahsegel1117.com/tr/sportsbook?page=/sport/40"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src=images/66.png alt><span class="styles__Name-sc-11gq51y-2 bAojrc">Formula 1</span></a></div>
                                  </div>
                                  <div data-index=6 class=slick-slide tabindex=-1 aria-hidden=true style=outline:none>
-                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="https://www.bahsegel1117.com/tr/sportsbook?page=/sport/10"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src=images/63.png alt><span class="styles__Name-sc-11gq51y-2 bAojrc">Boks</span></a></div>
+                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="https://www.bahsegel1117.com/tr/sportsbook?page=/sport/10"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src=images/67.png alt><span class="styles__Name-sc-11gq51y-2 bAojrc">Boks</span></a></div>
                                  </div>
                                  <div data-index=7 class=slick-slide tabindex=-1 aria-hidden=true style=outline:none>
                                     <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="https://www.bahsegel1117.com/tr/sportsbook?page=/sport/2"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt><span class="styles__Name-sc-11gq51y-2 bAojrc">Basketbol</span></a></div>
@@ -3204,139 +3308,139 @@
                               <div class=slick-list>
                                  <div class=slick-track style=width:67230px;opacity:1;transform:translate3d(-3561px,0px,0px)>
                                     <div data-index=-15 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
-                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/bonus-buy><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/68.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Freespin</span></a></div>
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/bonus-buy><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/72.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Freespin</span></a></div>
                                     </div>
                                     <div data-index=-14 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
-                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/megaways><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/69.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Megaways</span></a></div>
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/megaways><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/73.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Megaways</span></a></div>
                                     </div>
                                     <div data-index=-13 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
-                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/fruits><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/70.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Meyve</span></a></div>
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/fruits><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/74.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Meyve</span></a></div>
                                     </div>
                                     <div data-index=-12 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
-                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/gold><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/71.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Altın</span></a></div>
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/gold><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/75.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Altın</span></a></div>
                                     </div>
                                     <div data-index=-11 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
-                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/egypt><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/72.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Mısır</span></a></div>
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/egypt><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/76.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Mısır</span></a></div>
                                     </div>
                                     <div data-index=-10 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
-                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/horror><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/73.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Korku</span></a></div>
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/horror><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/77.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Korku</span></a></div>
                                     </div>
                                     <div data-index=-9 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
-                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/advanture><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/74.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Macera</span></a></div>
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/advanture><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/78.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Macera</span></a></div>
                                     </div>
                                     <div data-index=-8 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
-                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/animals><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/75.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Hayvanlar</span></a></div>
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/animals><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/79.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Hayvanlar</span></a></div>
                                     </div>
                                     <div data-index=-7 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
-                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/irish><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/76.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">İrlanda</span></a></div>
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/irish><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/80.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">İrlanda</span></a></div>
                                     </div>
                                     <div data-index=-6 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
-                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/cartoon><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/77.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Çizgi Karakterler</span></a></div>
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/cartoon><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/81.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Çizgi Karakterler</span></a></div>
                                     </div>
                                     <div data-index=-5 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
-                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/fantasy><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/78.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Fantezi</span></a></div>
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/fantasy><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/82.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Fantezi</span></a></div>
                                     </div>
                                     <div data-index=-4 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
-                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/myth><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/79.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Mitolojik</span></a></div>
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/myth><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/83.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Mitolojik</span></a></div>
                                     </div>
                                     <div data-index=-3 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
-                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/asian><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/80.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Asya</span></a></div>
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/asian><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/84.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Asya</span></a></div>
                                     </div>
                                     <div data-index=-2 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
-                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/classic><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/81.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Klasikler</span></a></div>
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/classic><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/85.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Klasikler</span></a></div>
                                     </div>
                                     <div data-index=-1 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
-                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/newyear><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/82.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Yeni Yıl</span></a></div>
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/newyear><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/86.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Yeni Yıl</span></a></div>
                                     </div>
                                     <div data-index=0 class="slick-slide slick-active slick-current" tabindex=-1 aria-hidden=false style=outline:none>
-                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/bonus-buy><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/68.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Freespin</span></a></div>
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/bonus-buy><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/72.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Freespin</span></a></div>
                                     </div>
                                     <div data-index=1 class=slick-slide tabindex=-1 aria-hidden=true style=outline:none>
-                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/megaways><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/69.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Megaways</span></a></div>
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/megaways><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/73.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Megaways</span></a></div>
                                     </div>
                                     <div data-index=2 class=slick-slide tabindex=-1 aria-hidden=true style=outline:none>
-                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/fruits><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/70.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Meyve</span></a></div>
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/fruits><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/74.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Meyve</span></a></div>
                                     </div>
                                     <div data-index=3 class=slick-slide tabindex=-1 aria-hidden=true style=outline:none>
-                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/gold><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/71.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Altın</span></a></div>
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/gold><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/75.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Altın</span></a></div>
                                     </div>
                                     <div data-index=4 class=slick-slide tabindex=-1 aria-hidden=true style=outline:none>
-                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/egypt><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/72.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Mısır</span></a></div>
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/egypt><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/76.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Mısır</span></a></div>
                                     </div>
                                     <div data-index=5 class=slick-slide tabindex=-1 aria-hidden=true style=outline:none>
-                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/horror><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/73.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Korku</span></a></div>
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/horror><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/77.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Korku</span></a></div>
                                     </div>
                                     <div data-index=6 class=slick-slide tabindex=-1 aria-hidden=true style=outline:none>
-                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/advanture><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/74.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Macera</span></a></div>
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/advanture><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/78.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Macera</span></a></div>
                                     </div>
                                     <div data-index=7 class=slick-slide tabindex=-1 aria-hidden=true style=outline:none>
-                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/animals><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/75.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Hayvanlar</span></a></div>
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/animals><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/79.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Hayvanlar</span></a></div>
                                     </div>
                                     <div data-index=8 class=slick-slide tabindex=-1 aria-hidden=true style=outline:none>
-                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/irish><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/76.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">İrlanda</span></a></div>
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/irish><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/80.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">İrlanda</span></a></div>
                                     </div>
                                     <div data-index=9 class=slick-slide tabindex=-1 aria-hidden=true style=outline:none>
-                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/cartoon><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/77.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Çizgi Karakterler</span></a></div>
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/cartoon><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/81.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Çizgi Karakterler</span></a></div>
                                     </div>
                                     <div data-index=10 class=slick-slide tabindex=-1 aria-hidden=true style=outline:none>
-                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/fantasy><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/78.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Fantezi</span></a></div>
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/fantasy><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/82.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Fantezi</span></a></div>
                                     </div>
                                     <div data-index=11 class=slick-slide tabindex=-1 aria-hidden=true style=outline:none>
-                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/myth><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/79.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Mitolojik</span></a></div>
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/myth><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/83.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Mitolojik</span></a></div>
                                     </div>
                                     <div data-index=12 class=slick-slide tabindex=-1 aria-hidden=true style=outline:none>
-                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/asian><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/80.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Asya</span></a></div>
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/asian><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/84.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Asya</span></a></div>
                                     </div>
                                     <div data-index=13 class=slick-slide tabindex=-1 aria-hidden=true style=outline:none>
-                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/classic><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/81.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Klasikler</span></a></div>
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/classic><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/85.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Klasikler</span></a></div>
                                     </div>
                                     <div data-index=14 class=slick-slide tabindex=-1 aria-hidden=true style=outline:none>
-                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/newyear><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/82.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Yeni Yıl</span></a></div>
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/newyear><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/86.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Yeni Yıl</span></a></div>
                                     </div>
                                     <div data-index=15 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
-                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/bonus-buy><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/68.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Freespin</span></a></div>
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/bonus-buy><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/72.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Freespin</span></a></div>
                                     </div>
                                     <div data-index=16 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
-                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/megaways><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/69.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Megaways</span></a></div>
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/megaways><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/73.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Megaways</span></a></div>
                                     </div>
                                     <div data-index=17 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
-                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/fruits><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/70.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Meyve</span></a></div>
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/fruits><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/74.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Meyve</span></a></div>
                                     </div>
                                     <div data-index=18 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
-                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/gold><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/71.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Altın</span></a></div>
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/gold><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/75.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Altın</span></a></div>
                                     </div>
                                     <div data-index=19 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
-                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/egypt><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/72.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Mısır</span></a></div>
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/egypt><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/76.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Mısır</span></a></div>
                                     </div>
                                     <div data-index=20 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
-                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/horror><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/73.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Korku</span></a></div>
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/horror><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/77.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Korku</span></a></div>
                                     </div>
                                     <div data-index=21 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
-                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/advanture><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/74.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Macera</span></a></div>
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/advanture><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/78.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Macera</span></a></div>
                                     </div>
                                     <div data-index=22 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
-                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/animals><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/75.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Hayvanlar</span></a></div>
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/animals><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/79.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Hayvanlar</span></a></div>
                                     </div>
                                     <div data-index=23 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
-                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/irish><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/76.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">İrlanda</span></a></div>
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/irish><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/80.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">İrlanda</span></a></div>
                                     </div>
                                     <div data-index=24 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
-                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/cartoon><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/77.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Çizgi Karakterler</span></a></div>
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/cartoon><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/81.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Çizgi Karakterler</span></a></div>
                                     </div>
                                     <div data-index=25 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
-                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/fantasy><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/78.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Fantezi</span></a></div>
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/fantasy><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/82.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Fantezi</span></a></div>
                                     </div>
                                     <div data-index=26 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
-                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/myth><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/79.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Mitolojik</span></a></div>
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/myth><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/83.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Mitolojik</span></a></div>
                                     </div>
                                     <div data-index=27 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
-                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/asian><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/80.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Asya</span></a></div>
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/asian><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/84.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Asya</span></a></div>
                                     </div>
                                     <div data-index=28 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
-                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/classic><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/81.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Klasikler</span></a></div>
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/classic><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/85.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Klasikler</span></a></div>
                                     </div>
                                     <div data-index=29 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
-                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/newyear><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/82.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Yeni Yıl</span></a></div>
+                                       <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/newyear><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/86.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Yeni Yıl</span></a></div>
                                     </div>
                                  </div>
                               </div>
@@ -5341,7 +5445,7 @@
                                  <div class=custom-input__wrap><input name=email class=custom-input__input-field type=email placeholder autocomplete=off value><span class=custom-input__placeholder>E-posta</span></div>
                               </div>
                               <div class="custom-input__container custom-input__container--responsive">
-                                 <div class=custom-input__wrap><input name=password class=custom-input__input-field type=password placeholder value><span class=custom-input__placeholder>Şifre</span><span class="custom-input__icon password"><img class=lazy-img src=images/83.svg alt=icon></span></div>
+                                 <div class=custom-input__wrap><input name=password class=custom-input__input-field type=password placeholder value><span class=custom-input__placeholder>Şifre</span><span class="custom-input__icon password"><img class=lazy-img src=images/87.svg alt=icon></span></div>
                               </div>
                               <div class="styles__Container-sc-sbmxda-0 evAvpl">
                                  <div class=custom-checkbox>
@@ -5392,4 +5496,3 @@
                   </div>
                </div>
             </div>
-            
