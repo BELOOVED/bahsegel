@@ -177,12 +177,8 @@ window.Tawk_API.onLoad = function(){
 document.getElementById('maximizeButton').addEventListener('click', maximizeTawkToWidget);
    </script>
 
-      <div class="modal-overlay hidden" style="z-index: 1032; display: block; opacity: 0.5;"></div>
-
-   </body>
-</html>
-   <?php }else{?>
-   <app-footer>
+      
+   
                   <footer class="page-footer">
                      <div class="footer-partner">
                         <div class="container text-align"><i class="pg-icons netent"></i><i class="pg-icons xpro"></i><i class="pg-icons klas"></i><i class="pg-icons evolution"></i><i class="pg-icons betgames"></i><i class="pg-icons ezugi"></i><i class="pg-icons pronetgaming"></i></div>
@@ -3016,13 +3012,4 @@ window.Tawk_API.onLoad = function(){
 document.getElementById('maximizeButton').addEventListener('click', maximizeTawkToWidget);
    </script>
 
-      <div class="modal-overlay hidden" style="z-index: 1032; display: block; opacity: 0.5;"></div>
-
-
-   </body>
-   
-</html>
-
-
-
-<?php }?>
+    
