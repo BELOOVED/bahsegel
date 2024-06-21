@@ -197,3 +197,47 @@
     color: rgb(27, 163, 195);
     margin-top: 15px;
 }
+@media (max-width: 480px) {
+    .XogRq {
+        max-height: 140px;
+    }
+}
+@media (max-width: 812px) {
+    .XogRq {
+        width: calc(100% - 32px);
+        max-height: 200px;
+        margin: 46px auto 28px;
+    }
+}
+@media (max-width: 1024px) {
+    .XogRq {
+        margin-top: 70px;
+        width: calc(100% - 40px);
+    }
+}
+.XogRq {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 93px auto 48px;
+    padding: 0px;
+    max-height: 276px;
+    width: 89%;
+    max-width: 1222px;
+    overflow-y: scroll;
+}
+@media (max-width: 480px) {
+    .dBQpYg {
+        margin: 0px 10px 0px 0px;
+    }
+}
+@media (max-width: 1024px) {
+    .dBQpYg {
+        margin: 0px 20px 0px 0px;
+    }
+}
+.dBQpYg {
+    position: relative;
+    margin: 0px 8.5%;
+    overflow-wrap: break-word;
+}
