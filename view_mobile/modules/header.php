@@ -21,6 +21,8 @@
         <title>Bahsegel</title>
         <link href="/static/css/11.94f9a24e.chunk.css" rel="stylesheet" />
         <link href="/static/css/main.7db2c5ed.chunk.css" rel="stylesheet" />
+        <link href="/static/css/style.css" rel="stylesheet" />
+
         <link rel="icon" href="/favicons/favicon-32.png" />
         <link rel="icon" href="/favicons/favicon-192.png" />
         <style data-styled="active" data-styled-version="5.3.11"></style>
