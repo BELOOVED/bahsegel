@@ -18,5 +18,3 @@ if (file_exists($view.'/' . $q[0] . '.php')) {
 }
 
 include $view.'/modules/header.php';
-include $view.'/' . $page . '.php';
-include $view.'/modules/footer.php';
