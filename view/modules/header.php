@@ -32,7 +32,7 @@
    <meta name=keywords content="Bahsegel Güncel Adres" data-react-helmet=true>
    <meta name=referrer content=no-referrer>
    <style>.sf-hidden{display:none!important}</style>
-   <meta http-equiv=content-security-policy content="default-src 'none'; connect-src 'self' data: blob:; font-src 'self' data: blob:; img-src 'self' data: blob:; style-src 'self' 'unsafe-inline' data: blob:; frame-src 'self' data: blob:; media-src 'self' data: blob:; script-src 'self' 'unsafe-inline' data: blob:; object-src 'self' data: blob:;">
+
    <style>img[src="data:,"],source[src="data:,"]{display:none!important}</style>
    <body style=height:100%>
       <noscript>You need to enable JavaScript to run this app.</noscript>
