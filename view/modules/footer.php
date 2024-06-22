@@ -183,7 +183,7 @@ $(document).ready(function() {
   // Slick Slider'ı başlatırken
   $('.slider-slickone').slick({
     autoplay: true,
-    autoplaySpeed: 8000,
+    autoplaySpeed: 5000,
     arrows: false,
     dots: true,
     infinite: true,
