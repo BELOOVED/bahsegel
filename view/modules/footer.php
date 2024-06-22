@@ -214,7 +214,7 @@ $(document).ready(function() {
 
 
 $(document).ready(function() {
-  var $carouselSlide = $('.carousel-slide');
+  var $carouselSlide = $('.slider-slickone1 .slick-slide');
   var $carouselCount = $('.carousel-count-arrow');
   var currentIndex = 0; // Başlangıç indeksi 0 olarak ayarlandı
 
@@ -226,7 +226,8 @@ $(document).ready(function() {
     infinite: true,
     slidesToShow: $carouselSlide.length, // Tüm slaytların aynı anda görünmesi için
     slidesToScroll: 1,
-    swipeToSlide: true
+    swipeToSlide: true,
+    variableWidth: true // Elemanların genişliğini otomatik ayarla
   });
 
   // Slayt değiştiğinde
