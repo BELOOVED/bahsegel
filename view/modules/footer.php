@@ -174,33 +174,7 @@ function closemodals(id){
   $(".my-profile-info-block").addClass("hidden");
   
 }
-function showTime() {
-      var date = new Date();
 
-      var hour = date.getHours();
-      var minute = date.getMinutes();
-      var second = date.getSeconds();
-
-      hour = addZero(hour);
-      minute = addZero(minute);
-      second = addZero(second);
-
-      var time = hour + ":" + minute + ":" + second;
-
-      document.getElementById("clock").textContent = time; // HTML içindeki "clock" ID'sine saati yazdır
-    }
-
-    function addZero(num) {
-      if (num < 10) {
-        num = "0" + num;
-      }
-      return num;
-    }
-
-    setInterval(showTime, 1000);
-    function opennav(id){
-      $("#a"+id).toggleClass('active');
-    }
     $(document).ready(function() {
   var $carouselSlide = $('.carousel-slide');
   var $carouselCount = $('.carousel-count-arrow');
