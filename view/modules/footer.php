@@ -175,7 +175,7 @@ function closemodals(id){
   
 }
 
-    $(document).ready(function() {
+$(document).ready(function() {
   var $carouselSlide = $('.carousel-slide');
   var $carouselCount = $('.carousel-count-arrow');
   var currentIndex = 0; // Başlangıç indeksi 0 olarak ayarlandı
@@ -185,11 +185,15 @@ function closemodals(id){
     autoplay: true,
     autoplaySpeed: 3000,
     arrows: false,
-    dots: false,
+    dots: true,
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
-    swipeToSlide: true
+    swipeToSlide: true,
+    customPaging: function(slick, index) {
+      // Kendi özel dots yapınızı burada tanımlayabilirsiniz
+      return '<a class="slick-dots" href="#"><svg class="slider-loader" viewBox="0 0 33.83098862 33.83098862" width="26" height="26" xmlns="http://www.w3.org/2000/svg"><circle class="slider-loader__background" stroke="#767A85" stroke-width="2" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431"></circle><circle class="slider-loader__circle" stroke="#FFD60E" stroke-width="2.5" stroke-dasharray="100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431"></circle></svg></a>';
+    }
   });
 
   // Slayt değiştiğinde
@@ -201,12 +205,13 @@ function closemodals(id){
   // Slayt sayısını günceller
   function updateSlideCount() {
     var currentNumber = currentIndex + 1;
-    var totalCount = $carouselSlide.length -2;
+    var totalCount = $carouselSlide.length - 2;
     $carouselCount.text(currentNumber + ' / ' + totalCount);
   }
 
   updateSlideCount(); // Başlangıçta slayt sayısını güncelle
 });
+
 
 $(document).ready(function() {
   var $carouselSlide = $('.carousel-slide');
