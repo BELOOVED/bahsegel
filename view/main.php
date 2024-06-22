@@ -546,11 +546,35 @@
                         </span>
                         <h3 class=sport-links__title>Spor Bahisleri</h3>
                      </div>
-                     <div class=sport-links__body>
+                     <div class=sport-links__body onclick="window.location.href = '/sportsbook'">
                         <div class="slick-slider slick-initialized" dir=ltr>
                            <button type=button class="slick-arrow slick-prev custom-prev-arrow"></button>
                            <div class="slick-list" style="padding:0px; overflow: visible;">
                            <div class="slider-slickone1">
+                              <div data-index="0" class="slick-slide slick-active slick-center slick-current" tabindex="-1" aria-hidden="false" style="outline:none">
+                                 <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="https://www.bahsegel1117.com/tr/sportsbook?page=/sport/300"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src="images/69.png" alt=""><span class="styles__Name-sc-11gq51y-2 bAojrc">FIFA</span></a></div>
+                              </div>
+                              <div data-index="1" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline:none">
+                                 <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="https://www.bahsegel1117.com/tr/sportsbook?page=/sport/1"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src="images/70.png" alt=""><span class="styles__Name-sc-11gq51y-2 bAojrc">Futbol</span></a></div>
+                              </div>
+                              <div data-index="2" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline:none">
+                                 <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="https://www.bahsegel1117.com/tr/sportsbook?page=/sport/302"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src="images/71.png" alt=""><span class="styles__Name-sc-11gq51y-2 bAojrc">NBA 2K</span></a></div>
+                              </div>
+                              <div data-index="3" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline:none">
+                                 <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="https://www.bahsegel1117.com/tr/sportsbook?page=/sport/5"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src="images/64.png" alt=""><span class="styles__Name-sc-11gq51y-2 bAojrc">Tenis</span></a></div>
+                              </div>
+                              <div data-index="4" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline:none">
+                                 <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="https://www.bahsegel1117.com/tr/sportsbook?page=/sport/23"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src="images/65.png" alt=""><span class="styles__Name-sc-11gq51y-2 bAojrc">Voleybol</span></a></div>
+                              </div>
+                              <div data-index="5" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline:none">
+                                 <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="https://www.bahsegel1117.com/tr/sportsbook?page=/sport/40"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src="images/66.png" alt=""><span class="styles__Name-sc-11gq51y-2 bAojrc">Formula 1</span></a></div>
+                              </div>
+                              <div data-index="6" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline:none">
+                                 <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="https://www.bahsegel1117.com/tr/sportsbook?page=/sport/10"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src="images/67.png" alt=""><span class="styles__Name-sc-11gq51y-2 bAojrc">Boks</span></a></div>
+                              </div>
+                              <div data-index="7" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline:none">
+                                 <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="https://www.bahsegel1117.com/tr/sportsbook?page=/sport/2"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src="images/68.png" alt=""><span class="styles__Name-sc-11gq51y-2 bAojrc">Basketbol</span></a></div>
+                              </div>
                               <div data-index="0" class="slick-slide slick-active slick-center slick-current" tabindex="-1" aria-hidden="false" style="outline:none">
                                  <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="https://www.bahsegel1117.com/tr/sportsbook?page=/sport/300"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src="images/69.png" alt=""><span class="styles__Name-sc-11gq51y-2 bAojrc">FIFA</span></a></div>
                               </div>
@@ -585,7 +609,7 @@
                   </div>
                   <div class=casino-sliders>
                      <div></div>
-                     <div>
+                     <div onclick="window.location.href = '/casino'">
                         <div class="game-slider casino-sliders__slider">
                            <div class=game-slider__top-panel>
                               <div class=game-slider__header>
@@ -1936,10 +1960,7 @@
                            </div>
                         </div>
                      </div>
-                     <div></div>
-                     <div></div>
-                     <div></div>
-                     <div>
+                     <div onclick="window.location.href = '/livecasino'">
                         <div class="game-slider casino-sliders__slider">
                            <div class=game-slider__top-panel>
                               <div class=game-slider__header>
@@ -3287,7 +3308,7 @@
                            </div>
                         </div>
                      </div>
-                     <div class=casino-sliders__slider>
+                     <div class=casino-sliders__slider onclick="window.location.href = '/casino'">
                         <h2 class="casino-sliders__title casino-sliders__title--thematic">Oyun Kategorileri</h2>
                         <div class="casino-sliders__scroll-container casino-sliders__scroll-container--thematic">
                            <div class="slick-slider thematic-category-slider slick-initialized" dir=ltr>
@@ -3435,7 +3456,7 @@
                            </div>
                         </div>
                      </div>
-                     <div>
+                     <div onclick="window.location.href = '/livecasino'">
                         <div class="game-slider casino-sliders__slider">
                            <div class=game-slider__top-panel>
                               <div class=game-slider__header>
@@ -4054,7 +4075,7 @@
                            </div>
                         </div>
                      </div>
-                     <div>
+                     <div onclick="window.location.href = '/casino'">
                         <div class="game-slider casino-sliders__slider">
                            <div class=game-slider__top-panel>
                               <div class=game-slider__header>
