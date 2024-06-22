@@ -1,10 +1,5 @@
 <!DOCTYPE html> 
 <html lang=tr style=height:100% data-react-helmet=lang>
-   <!--
-      Page saved with SingleFileZ 
-      url: https://www.bahsegel1117.com/ 
-      saved date: Fri Jun 21 2024 21:36:35 GMT+0300 (GMT+03:00)
-      -->
    <meta charset=utf-8>
    <meta name=viewport content="viewport-fit=cover,width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=no">
    <meta name=theme-color content=#171b28>
