@@ -179,9 +179,9 @@
                         <div>
                            <div class="styles__Row-sc-1adhk5t-0 hgfhfv">
                            <div class="ticker" style="position:relative;overflow:hidden;height:27px">
-                              <div class="ticker__wrap">
-                                 <div class="ticker__element" style="will-change:transform;position:absolute;left:0px;top:0px;">
-                                    <div class="styles__Line-sc-1adhk5t-5 bjZxfh">
+                           <div class="ticker__wrap">
+                              <div class="ticker__element" style="will-change:transform;position:absolute;left:0px;top:0px;">
+                                 <div class="styles__Line-sc-1adhk5t-5 bjZxfh">
                                        <div class="styles__Item-sc-1adhk5t-1 gOroKF">
                                           <a class="styles__Container-sc-1fgvnf7-5 gwhLIO" href=https://www.bahsegel1117.com/tr/game/gates-of-olympus-1000/play-for-real>
                                              <img class="lazy-img styles__Img-sc-1fgvnf7-0 bTwtKm" src=images/57.jpg alt>
@@ -493,23 +493,30 @@
                                     </div>
                                  </div>
                               </div>
-                              </div>
-                              </div>
-<style>
-.ticker {
+                              <style>
+                                 .ticker {
   position: relative;
   overflow: hidden;
   height: 27px;
 }
 
-.ticker__wrap {
-  display: flex;
+.ticker__element {
+  will-change: transform;
+  position: absolute;
+  left: 0px;
+  top: 0px;
   white-space: nowrap;
+  display: inline-block;
+  animation: ticker-animation 20s linear infinite;
 }
 
-.ticker__element {
-  display: flex;
-  align-items: center;
+@keyframes ticker-animation {
+  0% {
+    transform: translate3d(100%, 0, 0);
+  }
+  100% {
+    transform: translate3d(-100%, 0, 0);
+  }
 }
 
 .styles__Line-sc-1adhk5t-5 {
@@ -520,17 +527,9 @@
 .styles__Item-sc-1adhk5t-1 {
   margin-right: 20px;
 }
-
-.lazy-img {
-  width: 20px;
-  height: 20px;
-  margin-right: 10px;
-}
-
 .styles__Text-sc-1fgvnf7-1 {
   display: inline-block;
 }
-
 
                               </style>
                            </div>
