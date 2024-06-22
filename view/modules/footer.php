@@ -244,6 +244,21 @@ $(document).ready(function() {
 
   updateSlideCount(); // Başlangıçta slayt sayısını güncelle
 });
+$(document).ready(function() {
+  function startTicker() {
+    $('.ticker__element').each(function() {
+      var tickerElement = $(this);
+      var width = tickerElement.width();
+      tickerElement.css('transform', 'translate3d(100%, 0, 0)');
+      tickerElement.animate({ left: -width }, 20000, 'linear', function() {
+        tickerElement.css('left', '100%');
+        startTicker();
+      });
+    });
+  }
+  
+  startTicker();
+});
 
 </script>
 <?=html_entity_decode($main['sources'], ENT_QUOTES, 'UTF-8')?>
