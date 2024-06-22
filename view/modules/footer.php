@@ -220,9 +220,8 @@ $(document).ready(function() {
 
   // Slick Slider'ı başlatırken
   $('.slider-slickone1').slick({
-    autoplay: true,
-    autoplaySpeed: 3000,
-    arrows: false,
+    autoplay: false,
+    arrows: true,
     dots: false,
     infinite: true,
     slidesToShow: 3,
