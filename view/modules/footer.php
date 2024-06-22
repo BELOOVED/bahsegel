@@ -245,19 +245,24 @@ $(document).ready(function() {
   updateSlideCount(); // Başlangıçta slayt sayısını güncelle
 });
 $(document).ready(function() {
-  function startTicker() {
-    $('.ticker__element').each(function() {
-      var tickerElement = $(this);
-      var width = tickerElement.width();
-      tickerElement.css('transform', 'translate3d(100%, 0, 0)');
-      tickerElement.animate({ left: -width }, 20000, 'linear', function() {
-        tickerElement.css('left', '100%');
-        startTicker();
+  function moveTicker() {
+    var $tickerWrap = $('.ticker__wrap');
+    var $tickerElement = $('.ticker__element');
+    var elementWidth = $tickerElement.width();
+    
+    $tickerWrap.append($tickerElement.clone());
+    
+    function animateTicker() {
+      $tickerWrap.animate({ left: -elementWidth }, 10000, 'linear', function() {
+        $tickerWrap.css('left', 0);
+        animateTicker();
       });
-    });
+    }
+
+    animateTicker();
   }
-  
-  startTicker();
+
+  moveTicker();
 });
 
 </script>
