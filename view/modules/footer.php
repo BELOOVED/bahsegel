@@ -224,7 +224,7 @@ $(document).ready(function() {
     arrows: true,
     dots: false,
     infinite: true,
-    slidesToShow: 14,
+    slidesToShow: 4, // Ekranda kaç slaytın gösterileceğini ayarlayın
     slidesToScroll: 1,
     swipeToSlide: true
   });
@@ -238,7 +238,7 @@ $(document).ready(function() {
   // Slayt sayısını günceller
   function updateSlideCount() {
     var currentNumber = currentIndex + 1;
-    var totalCount = $carouselSlide.length -2;
+    var totalCount = $carouselSlide.length - 2;
     $carouselCount.text(currentNumber + ' / ' + totalCount);
   }
 
