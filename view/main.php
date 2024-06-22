@@ -563,7 +563,7 @@
                            <div class="slick-slider slick-initialized" dir=ltr>
                               <button type=button class="slick-arrow slick-prev custom-prev-arrow"></button>
                               <div class=slick-list>
-                                 <div class=slick-track style=width:89640px;opacity:1;transform:translate3d(-4760px,0px,0px)>
+                                 <div class=slick-track style=width:89640px;opacity:1;transform:translate3d(0px,0px,0px)>
                                     <div data-index=-20 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
                                        <div>
                                           <div>
@@ -1917,7 +1917,7 @@
                            <div class="slick-slider slick-initialized" dir=ltr>
                               <button type=button class="slick-arrow slick-prev custom-prev-arrow"></button>
                               <div class=slick-list>
-                                 <div class=slick-track style=width:89640px;opacity:1;transform:translate3d(-4760px,0px,0px)>
+                                 <div class=slick-track style=width:89640px;opacity:1;transform:translate3d(0px,0px,0px)>
                                     <div data-index=-20 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
                                        <div>
                                           <div>
@@ -3253,7 +3253,7 @@
                            <div class="slick-slider thematic-category-slider slick-initialized" dir=ltr>
                               <button type=button class="slick-arrow slick-prev custom-prev-arrow"></button>
                               <div class=slick-list>
-                                 <div class=slick-track style=width:67230px;opacity:1;transform:translate3d(-3561px,0px,0px)>
+                                 <div class=slick-track style=width:67230px;opacity:1;transform:translate3d(0px,0px,0px)>
                                     <div data-index=-15 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
                                        <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/bonus-buy><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/72.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Freespin</span></a></div>
                                     </div>
@@ -3413,7 +3413,7 @@
                            <div class="slick-slider slick-initialized" dir=ltr>
                               <button type=button class="slick-arrow slick-prev custom-prev-arrow"></button>
                               <div class=slick-list>
-                                 <div class=slick-track style=width:40338px;opacity:1;transform:translate3d(-2142px,0px,0px)>
+                                 <div class=slick-track style=width:40338px;opacity:1;transform:translate3d(0px,0px,0px)>
                                     <div data-index=-9 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
                                        <div>
                                           <div>
@@ -4032,7 +4032,7 @@
                            <div class="slick-slider slick-initialized" dir=ltr>
                               <button type=button class="slick-arrow slick-prev custom-prev-arrow"></button>
                               <div class=slick-list>
-                                 <div class=slick-track style=width:89640px;opacity:1;transform:translate3d(-4760px,0px,0px)>
+                                 <div class=slick-track style=width:89640px;opacity:1;transform:translate3d(0px,0px,0px)>
                                     <div data-index=-20 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
                                        <div>
                                           <div>
