@@ -1,3 +1,9 @@
+<style>
+.main-template__footer{
+   display: none;
+}
+   
+   </style>
 <div class="main-template main-template--sport main-template--fixed-header">
    
    <div class="main-template__container" style="padding-top: 68px;">
