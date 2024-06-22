@@ -11,7 +11,7 @@
                                     <div>
                                        <div class="styles__Container-sc-1xwzz5u-0 kDBWc">
                                           <div class="styles__Overlay-sc-1xwzz5u-1 hdwbTk"></div>
-                                          <img class="lazy-img styles__BackgroundImg-sc-1xwzz5u-2 HISEB" src=images/52.jpg alt>
+                                          <img class="lazy-img styles__BackgroundImg-sc-1xwzz5u-2 HISEB" src=https://s3.bgelmedia.com/hub/b2/banners/kagX7FbDd9yBAKcejLqtBAedp9qVli4JtjL2Z8HQ.jpg alt>
                                        </div>
                                     </div>
                                  </div>
@@ -19,7 +19,7 @@
                                     <div>
                                        <div class="styles__Container-sc-1xwzz5u-0 kDBWc">
                                           <div class="styles__Overlay-sc-1xwzz5u-1 hdwbTk"></div>
-                                          <img class="lazy-img styles__BackgroundImg-sc-1xwzz5u-2 HISEB" src=images/53.jpg alt>
+                                          <img class="lazy-img styles__BackgroundImg-sc-1xwzz5u-2 HISEB" src=https://s3.bgelmedia.com/hub/b2/banners/eYCyCMqQfEmaNBHNGSswOaTtUXNpwIeQSNYuDmR9.jpg alt>
                                        </div>
                                     </div>
                                  </div>
@@ -27,7 +27,7 @@
                                     <div>
                                        <div class="styles__Container-sc-1xwzz5u-0 kDBWc">
                                           <div class="styles__Overlay-sc-1xwzz5u-1 hdwbTk"></div>
-                                          <img class="lazy-img styles__BackgroundImg-sc-1xwzz5u-2 HISEB" src=images/54.jpg alt>
+                                          <img class="lazy-img styles__BackgroundImg-sc-1xwzz5u-2 HISEB" src=https://s3.bgelmedia.com/hub/b2/banners/Q3T3FfWgT2dyjTgxxaLjSffgjsCaKR21wObLKJh3.jpg alt>
                                        </div>
                                     </div>
                                  </div>
@@ -35,7 +35,7 @@
                                     <div>
                                        <div class="styles__Container-sc-1xwzz5u-0 kDBWc">
                                           <div class="styles__Overlay-sc-1xwzz5u-1 hdwbTk"></div>
-                                          <img class="lazy-img styles__BackgroundImg-sc-1xwzz5u-2 HISEB" src=images/55.jpg alt>
+                                          <img class="lazy-img styles__BackgroundImg-sc-1xwzz5u-2 HISEB" src=https://s3.bgelmedia.com/hub/b2/banners/0XkC7RHaaHF3IPFwaDqhtecpZLi8mp1Ly9WFN6vX.jpg alt>
                                        </div>
                                     </div>
                                  </div>
@@ -43,7 +43,7 @@
                                     <div>
                                        <div class="styles__Container-sc-1xwzz5u-0 kDBWc">
                                           <div class="styles__Overlay-sc-1xwzz5u-1 hdwbTk"></div>
-                                          <img class="lazy-img styles__BackgroundImg-sc-1xwzz5u-2 HISEB" src=images/56.jpg alt>
+                                          <img class="lazy-img styles__BackgroundImg-sc-1xwzz5u-2 HISEB" src=https://s3.bgelmedia.com/hub/b2/banners/5Oi4rjGAi757evxhIuTvTacxiYRaiSFAHbnFzgNt.jpg alt>
                                        </div>
                                     </div>
                                  </div>
@@ -51,71 +51,7 @@
                                     <div>
                                        <div class="styles__Container-sc-1xwzz5u-0 kDBWc">
                                           <div class="styles__Overlay-sc-1xwzz5u-1 hdwbTk"></div>
-                                          <img class="lazy-img styles__BackgroundImg-sc-1xwzz5u-2 HISEB" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index=6 class=slick-slide tabindex=-1 aria-hidden=true style=outline:none;>
-                                    <div>
-                                       <div class="styles__Container-sc-1xwzz5u-0 kDBWc">
-                                          <div class="styles__Overlay-sc-1xwzz5u-1 hdwbTk"></div>
-                                          <img class="lazy-img styles__BackgroundImg-sc-1xwzz5u-2 HISEB" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index=7 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true >
-                                    <div>
-                                       <div class="styles__Container-sc-1xwzz5u-0 kDBWc">
-                                          <div class="styles__Overlay-sc-1xwzz5u-1 hdwbTk"></div>
-                                          <img class="lazy-img styles__BackgroundImg-sc-1xwzz5u-2 HISEB" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index=8 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true >
-                                    <div>
-                                       <div class="styles__Container-sc-1xwzz5u-0 kDBWc">
-                                          <div class="styles__Overlay-sc-1xwzz5u-1 hdwbTk"></div>
-                                          <img class="lazy-img styles__BackgroundImg-sc-1xwzz5u-2 HISEB" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index=9 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true >
-                                    <div>
-                                       <div class="styles__Container-sc-1xwzz5u-0 kDBWc">
-                                          <div class="styles__Overlay-sc-1xwzz5u-1 hdwbTk"></div>
-                                          <img class="lazy-img styles__BackgroundImg-sc-1xwzz5u-2 HISEB" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index=10 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true >
-                                    <div>
-                                       <div class="styles__Container-sc-1xwzz5u-0 kDBWc">
-                                          <div class="styles__Overlay-sc-1xwzz5u-1 hdwbTk"></div>
-                                          <img class="lazy-img styles__BackgroundImg-sc-1xwzz5u-2 HISEB" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index=11 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true >
-                                    <div>
-                                       <div class="styles__Container-sc-1xwzz5u-0 kDBWc">
-                                          <div class="styles__Overlay-sc-1xwzz5u-1 hdwbTk"></div>
-                                          <img class="lazy-img styles__BackgroundImg-sc-1xwzz5u-2 HISEB" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index=12 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true >
-                                    <div>
-                                       <div class="styles__Container-sc-1xwzz5u-0 kDBWc">
-                                          <div class="styles__Overlay-sc-1xwzz5u-1 hdwbTk"></div>
-                                          <img class="lazy-img styles__BackgroundImg-sc-1xwzz5u-2 HISEB" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index=13 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true >
-                                    <div>
-                                       <div class="styles__Container-sc-1xwzz5u-0 kDBWc">
-                                          <div class="styles__Overlay-sc-1xwzz5u-1 hdwbTk"></div>
-                                          <img class="lazy-img styles__BackgroundImg-sc-1xwzz5u-2 HISEB" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt>
+                                          <img class="lazy-img styles__BackgroundImg-sc-1xwzz5u-2 HISEB" src="https://s3.bgelmedia.com/hub/b2/banners/MTgoTdsFRpnCXBBJVvjhQLliQiSdzdIzXDXOEqvT.jpg" alt>
                                        </div>
                                     </div>
                                  </div>
