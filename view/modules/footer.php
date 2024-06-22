@@ -224,6 +224,7 @@ $(document).ready(function() {
     arrows: true,
     dots: false,
     infinite: true,
+    slidesToShow: 14,
     slidesToScroll: 1,
     swipeToSlide: true
   });
