@@ -4092,7 +4092,1351 @@
                            </div>
                            <div class="slick-slider slick-initialized" dir=ltr>
                               <button type=button class="slick-arrow slick-prev custom-prev-arrow"></button>
-                              <div class="slick-list"><div class="slider-slickone1" onclick="window.location.href = '/casino'"><div data-index="-20" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;https://s3.bgelmedia.com/hub/games/R0cghrxPPycE3RtrA6Ke6RgqbyYSeo9SuNwC0G0D.jpg&quot;);"></div><div class="game-card__labels"><span class="game-card__jackpot-label">1095063.43 ₺</span></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">It Came From Venus</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="-19" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;https://s3.bgelmedia.com/hub/games/8drAJ6TU1wKohCSjlPbCM69Q4u8PVLXcLhTH1vAW.jpg&quot;);"></div><div class="game-card__labels"><span class="game-card__jackpot-label">907.58 ₺</span></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">A Night in Paris</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="-18" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;https://s3.bgelmedia.com/hub/games/DG1q4f5V9CA2xJz5CMuoj95qpFxLwlsQcd5J7y9k.jpg&quot;);"></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">Mega Glam Life</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="-17" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;https://s3.bgelmedia.com/hub/games/6iKb3U2B4RV9MmOHFbIv4Xfms6j2rQzm9lSsnxa5.jpg&quot;);"></div><div class="game-card__labels"><span class="game-card__jackpot-label">546041.02 ₺</span></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">Enchanted</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="-16" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;https://s3.bgelmedia.com/hub/games/zRNDrVtjy1QX8TICZ84s2oaxb2GTLLdiWCTEkhfV.png&quot;);"></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">Dragon Kings</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="-15" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;https://s3.bgelmedia.com/hub/games/zhv15AD8beq7cofjOlpTOdmDulnt73bfuUZop6wz.jpg&quot;);"></div><div class="game-card__labels"><span class="game-card__jackpot-label">196574.77 ₺</span></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">Mr. Vegas</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="-14" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;https://s3.bgelmedia.com/hub/games/gu78k9Flgs0Wet7igHw1glEFKKWOml3tpcwNFEiv.png&quot;);"></div><div class="game-card__labels"><span class="game-card__jackpot-label">7535924.91 ₺</span></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">Divine Fortune</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="-13" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;https://s3.bgelmedia.com/hub/games/xdNk6i9SYR4mX9u4cdNb3yhAXl7pn4tC4lpxBFz1.jpg&quot;);"></div><div class="game-card__labels"><span class="game-card__jackpot-label">81201.35 ₺</span></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">Mega Joker</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="-12" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div><div class="game-card__labels"><span class="game-card__jackpot-label">234753.50 ₺</span></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">Dragon Chase</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="-11" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">Age of the Gods: God of Storms</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="-10" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">Age of the Gods: Rulers of Olympus</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="-9" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">Age of the Gods: Ruler of the Sky</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="-8" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">Age Of The Gods: Age Of The Gods</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="-7" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">Adventures in Wonderland</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="-6" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">Bounty of the Beanstalk</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="-5" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">Chests of Plenty</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="-4" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">Beach Life</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="-3" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">Christmas Jackpot Bells</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="-2" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">Coin Coin Coin</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="-1" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;https://s3.bgelmedia.com/hub/games/PFzSK0O4t6h4AHmEgP5ulw5K0gKAlogYrG8QI6tn.jpg&quot;);"></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">Esmeralda</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="0" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;https://s3.bgelmedia.com/hub/games/R0cghrxPPycE3RtrA6Ke6RgqbyYSeo9SuNwC0G0D.jpg&quot;);"></div><div class="game-card__labels"><span class="game-card__jackpot-label">1095063.43 ₺</span></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">It Came From Venus</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="1" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;https://s3.bgelmedia.com/hub/games/8drAJ6TU1wKohCSjlPbCM69Q4u8PVLXcLhTH1vAW.jpg&quot;);"></div><div class="game-card__labels"><span class="game-card__jackpot-label">907.58 ₺</span></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">A Night in Paris</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="2" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;https://s3.bgelmedia.com/hub/games/DG1q4f5V9CA2xJz5CMuoj95qpFxLwlsQcd5J7y9k.jpg&quot;);"></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">Mega Glam Life</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="3" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;https://s3.bgelmedia.com/hub/games/6iKb3U2B4RV9MmOHFbIv4Xfms6j2rQzm9lSsnxa5.jpg&quot;);"></div><div class="game-card__labels"><span class="game-card__jackpot-label">546041.02 ₺</span></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">Enchanted</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="4" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;https://s3.bgelmedia.com/hub/games/zRNDrVtjy1QX8TICZ84s2oaxb2GTLLdiWCTEkhfV.png&quot;);"></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">Dragon Kings</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="5" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;https://s3.bgelmedia.com/hub/games/zhv15AD8beq7cofjOlpTOdmDulnt73bfuUZop6wz.jpg&quot;);"></div><div class="game-card__labels"><span class="game-card__jackpot-label">196574.77 ₺</span></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">Mr. Vegas</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="6" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;https://s3.bgelmedia.com/hub/games/gu78k9Flgs0Wet7igHw1glEFKKWOml3tpcwNFEiv.png&quot;);"></div><div class="game-card__labels"><span class="game-card__jackpot-label">7535924.91 ₺</span></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">Divine Fortune</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="7" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;https://s3.bgelmedia.com/hub/games/xdNk6i9SYR4mX9u4cdNb3yhAXl7pn4tC4lpxBFz1.jpg&quot;);"></div><div class="game-card__labels"><span class="game-card__jackpot-label">81201.35 ₺</span></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">Mega Joker</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="8" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;https://s3.bgelmedia.com/hub/games/VXk7BmFqEpYsV8nbLZ1jhKA6AiO7H3g92v14gV6Q.jpg&quot;);"></div><div class="game-card__labels"><span class="game-card__jackpot-label">234753.50 ₺</span></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">Dragon Chase</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="9" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;https://s3.bgelmedia.com/hub/games/RONdXnDQdX8AigpeDfe725ydaS8gEBBCSti82xTB.jpg&quot;);"></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">Age of the Gods: God of Storms</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="10" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;https://s3.bgelmedia.com/hub/games/qr41NWzsIAhB9eBbHg9CidgjGukuvBGXmopj3uvd.jpg&quot;);"></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">Age of the Gods: Rulers of Olympus</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="11" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;https://s3.bgelmedia.com/hub/games/gKkNpNvJDkgpzZpyNUQdML6IR19ItXjXlXYvs5Km.jpg&quot;);"></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">Age of the Gods: Ruler of the Sky</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="12" class="slick-slide slick-active slick-current" tabindex="-1" aria-hidden="false" style="outline: none;"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;https://s3.bgelmedia.com/hub/games/32gVVGddITW8Pwl1xsZNIpre6AXBB8FDhrh0k4fo.jpg&quot;);"></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">Age Of The Gods: Age Of The Gods</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="13" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;https://s3.bgelmedia.com/hub/games/0jIbe7xQ26NguzyzSQF3v8iJpwCHJzHgwQsCTUYd.jpg&quot;);"></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">Adventures in Wonderland</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="14" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;https://s3.bgelmedia.com/hub/games/sPnHUGhTXufkRw1cgJv2ODZL4HfGr8fGxSNnqybd.jpg&quot;);"></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">Bounty of the Beanstalk</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="15" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;https://s3.bgelmedia.com/hub/games/SpqckBK9ke9geqcI1ZbpYc79RE6QoFfafuSYx7uo.jpg&quot;);"></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">Chests of Plenty</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="16" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;https://s3.bgelmedia.com/hub/games/MWEjqRCLfYP6NaghSR2HcnxMkUUVP5GAva1IHNIk.jpg&quot;);"></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">Beach Life</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="17" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;https://s3.bgelmedia.com/hub/games/EsSbGGwkWXq3sSuyYIGpHmFGeNJfCWexOSRT0noo.jpg&quot;);"></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">Christmas Jackpot Bells</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="18" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;https://s3.bgelmedia.com/hub/games/4RQ9j3ll0W7aIwbq7DMnXQVz9GqjFeKOGunbwRIG.jpg&quot;);"></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">Coin Coin Coin</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="19" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;https://s3.bgelmedia.com/hub/games/PFzSK0O4t6h4AHmEgP5ulw5K0gKAlogYrG8QI6tn.jpg&quot;);"></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">Esmeralda</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="20" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;https://s3.bgelmedia.com/hub/games/R0cghrxPPycE3RtrA6Ke6RgqbyYSeo9SuNwC0G0D.jpg&quot;);"></div><div class="game-card__labels"><span class="game-card__jackpot-label">1095063.43 ₺</span></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">It Came From Venus</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="21" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;https://s3.bgelmedia.com/hub/games/8drAJ6TU1wKohCSjlPbCM69Q4u8PVLXcLhTH1vAW.jpg&quot;);"></div><div class="game-card__labels"><span class="game-card__jackpot-label">907.58 ₺</span></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">A Night in Paris</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="22" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;https://s3.bgelmedia.com/hub/games/DG1q4f5V9CA2xJz5CMuoj95qpFxLwlsQcd5J7y9k.jpg&quot;);"></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">Mega Glam Life</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="23" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;https://s3.bgelmedia.com/hub/games/6iKb3U2B4RV9MmOHFbIv4Xfms6j2rQzm9lSsnxa5.jpg&quot;);"></div><div class="game-card__labels"><span class="game-card__jackpot-label">546041.02 ₺</span></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">Enchanted</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="24" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;https://s3.bgelmedia.com/hub/games/zRNDrVtjy1QX8TICZ84s2oaxb2GTLLdiWCTEkhfV.png&quot;);"></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">Dragon Kings</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="25" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;https://s3.bgelmedia.com/hub/games/zhv15AD8beq7cofjOlpTOdmDulnt73bfuUZop6wz.jpg&quot;);"></div><div class="game-card__labels"><span class="game-card__jackpot-label">196574.77 ₺</span></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">Mr. Vegas</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="26" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;https://s3.bgelmedia.com/hub/games/gu78k9Flgs0Wet7igHw1glEFKKWOml3tpcwNFEiv.png&quot;);"></div><div class="game-card__labels"><span class="game-card__jackpot-label">7535924.91 ₺</span></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">Divine Fortune</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="27" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;https://s3.bgelmedia.com/hub/games/xdNk6i9SYR4mX9u4cdNb3yhAXl7pn4tC4lpxBFz1.jpg&quot;);"></div><div class="game-card__labels"><span class="game-card__jackpot-label">81201.35 ₺</span></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">Mega Joker</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="28" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div><div class="game-card__labels"><span class="game-card__jackpot-label">234753.50 ₺</span></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">Dragon Chase</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="29" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">Age of the Gods: God of Storms</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="30" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">Age of the Gods: Rulers of Olympus</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="31" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">Age of the Gods: Ruler of the Sky</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="32" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">Age Of The Gods: Age Of The Gods</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="33" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">Adventures in Wonderland</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="34" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">Bounty of the Beanstalk</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="35" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">Chests of Plenty</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="36" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">Beach Life</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="37" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">Christmas Jackpot Bells</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="38" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">Coin Coin Coin</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div><div data-index="39" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"><div><div><div class="game-card"><div class="game-card__inner"><div class="lazy-img game-card__bg" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=&quot;);"></div><div class="game-card__buttons"><button class="btn btn-round btn-play game-card__play-for-real" type="button"><span class="btn__icon"><svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill="#FFDEB6"></path><path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke="#FF9E2C" stroke-width="2.70268" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button><span class="game-card__name">Esmeralda</span><button class="btn btn-md btn-demo game-card__play-for-fun" type="button"><span class="btn__label">Eğlencesine Oyna</span></button></div></div></div></div></div></div></div></div>
+                              <div class=slick-list>
+                              <div class="slider-slickone1"  onclick="window.location.href = '/casino'">
+                                    <div data-index=-20 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style=background-image:url(images/39.jpg)></div>
+                                                   <div class=game-card__labels><span class=game-card__jackpot-label>1096477.88 ₺</span></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>It Came From Venus</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=-19 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style=background-image:url(images/40.jpg)></div>
+                                                   <div class=game-card__labels><span class=game-card__jackpot-label>906.48 ₺</span></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>A Night in Paris</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=-18 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style=background-image:url(images/41.jpg)></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>Mega Glam Life</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=-17 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style=background-image:url(images/42.jpg)></div>
+                                                   <div class=game-card__labels><span class=game-card__jackpot-label>546746.32 ₺</span></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>Enchanted</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=-16 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style=background-image:url(images/43.png)></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>Dragon Kings</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=-15 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style=background-image:url(images/44.jpg)></div>
+                                                   <div class=game-card__labels><span class=game-card__jackpot-label>196828.68 ₺</span></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>Mr. Vegas</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=-14 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style=background-image:url(images/45.png)></div>
+                                                   <div class=game-card__labels><span class=game-card__jackpot-label>7544601.44 ₺</span></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>Divine Fortune</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=-13 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style="background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=)"></div>
+                                                   <div class=game-card__labels><span class=game-card__jackpot-label>81294.84 ₺</span></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>Mega Joker</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=-12 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style="background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=)"></div>
+                                                   <div class=game-card__labels><span class=game-card__jackpot-label>235023.79 ₺</span></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>Dragon Chase</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=-11 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style="background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=)"></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>Age of the Gods: God of Storms</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=-10 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style="background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=)"></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>Age of the Gods: Rulers of Olympus</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=-9 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style="background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=)"></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>Age of the Gods: Ruler of the Sky</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=-8 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style="background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=)"></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>Age Of The Gods: Age Of The Gods</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=-7 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style="background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=)"></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>Adventures in Wonderland</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=-6 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style="background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=)"></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>Bounty of the Beanstalk</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=-5 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style="background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=)"></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>Chests of Plenty</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=-4 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style="background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=)"></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>Beach Life</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=-3 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style="background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=)"></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>Christmas Jackpot Bells</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=-2 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style="background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=)"></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>Coin Coin Coin</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=-1 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style=background-image:url(images/46.jpg)></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>Esmeralda</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=0 class="slick-slide slick-active slick-current" tabindex=-1 aria-hidden=false style=outline:none>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style=background-image:url(images/39.jpg)></div>
+                                                   <div class=game-card__labels><span class=game-card__jackpot-label>1096477.88 ₺</span></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>It Came From Venus</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=1 class=slick-slide tabindex=-1 aria-hidden=true style=outline:none>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style=background-image:url(images/40.jpg)></div>
+                                                   <div class=game-card__labels><span class=game-card__jackpot-label>906.48 ₺</span></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>A Night in Paris</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=2 class=slick-slide tabindex=-1 aria-hidden=true style=outline:none>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style=background-image:url(images/41.jpg)></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>Mega Glam Life</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=3 class=slick-slide tabindex=-1 aria-hidden=true style=outline:none>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style=background-image:url(images/42.jpg)></div>
+                                                   <div class=game-card__labels><span class=game-card__jackpot-label>546746.32 ₺</span></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>Enchanted</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=4 class=slick-slide tabindex=-1 aria-hidden=true style=outline:none>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style=background-image:url(images/43.png)></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>Dragon Kings</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=5 class=slick-slide tabindex=-1 aria-hidden=true style=outline:none>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style=background-image:url(images/44.jpg)></div>
+                                                   <div class=game-card__labels><span class=game-card__jackpot-label>196828.68 ₺</span></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>Mr. Vegas</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=6 class=slick-slide tabindex=-1 aria-hidden=true style=outline:none>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style=background-image:url(images/45.png)></div>
+                                                   <div class=game-card__labels><span class=game-card__jackpot-label>7544601.44 ₺</span></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>Divine Fortune</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=7 class=slick-slide tabindex=-1 aria-hidden=true style=outline:none>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style="background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=)"></div>
+                                                   <div class=game-card__labels><span class=game-card__jackpot-label>81294.84 ₺</span></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>Mega Joker</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=8 class=slick-slide tabindex=-1 aria-hidden=true style=outline:none>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style="background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=)"></div>
+                                                   <div class=game-card__labels><span class=game-card__jackpot-label>235023.79 ₺</span></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>Dragon Chase</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=9 class=slick-slide tabindex=-1 aria-hidden=true style=outline:none>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style="background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=)"></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>Age of the Gods: God of Storms</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=10 class=slick-slide tabindex=-1 aria-hidden=true style=outline:none>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style="background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=)"></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>Age of the Gods: Rulers of Olympus</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=11 class=slick-slide tabindex=-1 aria-hidden=true style=outline:none>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style="background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=)"></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>Age of the Gods: Ruler of the Sky</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=12 class=slick-slide tabindex=-1 aria-hidden=true style=outline:none>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style="background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=)"></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>Age Of The Gods: Age Of The Gods</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=13 class=slick-slide tabindex=-1 aria-hidden=true style=outline:none>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style="background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=)"></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>Adventures in Wonderland</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=14 class=slick-slide tabindex=-1 aria-hidden=true style=outline:none>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style="background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=)"></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>Bounty of the Beanstalk</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=15 class=slick-slide tabindex=-1 aria-hidden=true style=outline:none>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style="background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=)"></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>Chests of Plenty</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=16 class=slick-slide tabindex=-1 aria-hidden=true style=outline:none>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style="background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=)"></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>Beach Life</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=17 class=slick-slide tabindex=-1 aria-hidden=true style=outline:none>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style="background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=)"></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>Christmas Jackpot Bells</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=18 class=slick-slide tabindex=-1 aria-hidden=true style=outline:none>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style="background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=)"></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>Coin Coin Coin</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=19 class=slick-slide tabindex=-1 aria-hidden=true style=outline:none>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style="background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=)"></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>Esmeralda</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=20 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style="background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=)"></div>
+                                                   <div class=game-card__labels><span class=game-card__jackpot-label>1096477.88 ₺</span></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>It Came From Venus</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=21 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style="background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=)"></div>
+                                                   <div class=game-card__labels><span class=game-card__jackpot-label>906.48 ₺</span></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>A Night in Paris</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=22 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style="background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=)"></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>Mega Glam Life</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=23 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style="background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=)"></div>
+                                                   <div class=game-card__labels><span class=game-card__jackpot-label>546746.32 ₺</span></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>Enchanted</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=24 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style="background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=)"></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>Dragon Kings</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=25 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style="background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=)"></div>
+                                                   <div class=game-card__labels><span class=game-card__jackpot-label>196828.68 ₺</span></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>Mr. Vegas</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=26 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style="background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=)"></div>
+                                                   <div class=game-card__labels><span class=game-card__jackpot-label>7544601.44 ₺</span></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>Divine Fortune</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=27 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style="background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=)"></div>
+                                                   <div class=game-card__labels><span class=game-card__jackpot-label>81294.84 ₺</span></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>Mega Joker</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=28 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style="background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=)"></div>
+                                                   <div class=game-card__labels><span class=game-card__jackpot-label>235023.79 ₺</span></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>Dragon Chase</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=29 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style="background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=)"></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>Age of the Gods: God of Storms</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=30 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style="background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=)"></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>Age of the Gods: Rulers of Olympus</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=31 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style="background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=)"></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>Age of the Gods: Ruler of the Sky</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=32 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style="background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=)"></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>Age Of The Gods: Age Of The Gods</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=33 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style="background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=)"></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>Adventures in Wonderland</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=34 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style="background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=)"></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>Bounty of the Beanstalk</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=35 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style="background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=)"></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>Chests of Plenty</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=36 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style="background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=)"></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>Beach Life</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=37 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style="background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=)"></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>Christmas Jackpot Bells</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=38 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style="background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=)"></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>Coin Coin Coin</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div data-index=39 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
+                                       <div>
+                                          <div>
+                                             <div class=game-card>
+                                                <div class=game-card__inner>
+                                                   <div class="lazy-img game-card__bg" style="background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=)"></div>
+                                                   <div class=game-card__buttons>
+                                                      <button class="btn btn-round btn-play game-card__play-for-real" type=button>
+                                                         <span class=btn__icon>
+                                                            <svg width=25 height=30 viewBox="0 0 25 30" fill=none xmlns=http://www.w3.org/2000/svg>
+                                                               <path d="M4.35938 8.27661C4.35938 6.30837 6.55029 5.13192 8.19099 6.21916L20.9609 14.6815C22.434 15.6576 22.434 17.8202 20.9609 18.7964L8.19099 27.2587C6.55029 28.3459 4.35938 27.1695 4.35938 25.2012V8.27661Z" fill=#FFDEB6></path>
+                                                               <path d="M1.71484 4.66332C1.71484 2.7069 3.88237 1.52817 5.52458 2.59154L19.5083 11.6464C21.0105 12.6191 21.0105 14.8172 19.5083 15.7899L5.52457 24.8447C3.88237 25.9081 1.71484 24.7294 1.71484 22.7729V4.66332Z" stroke=#FF9E2C stroke-width=2.70268 stroke-linecap=round stroke-linejoin=round></path>
+                                                            </svg>
+                                                         </span>
+                                                      </button>
+                                                      <span class=game-card__name>Esmeralda</span><button class="btn btn-md btn-demo game-card__play-for-fun" type=button><span class=btn__label>Eğlencesine Oyna</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
                               <button type=button class="slick-arrow slick-next custom-next-arrow"></button>
                            </div>
                         </div>
