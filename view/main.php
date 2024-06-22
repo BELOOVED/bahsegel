@@ -123,7 +123,7 @@
                            </div>
                            <button type=button class="slick-arrow slick-next custom-next-arrow"></button>
                            <ul class=slick-dots style=display:block>
-                              <li class=slick-active>
+                              <li>
                                  <a class=slick-dots href=#>
                                     <svg class=slider-loader viewBox="0 0 33.83098862 33.83098862" width=26 height=26 xmlns=http://www.w3.org/2000/svg>
                                        <circle class=slider-loader__background stroke=#767A85 stroke-width=2 fill=none cx=16.91549431 cy=16.91549431 r=15.91549431></circle>
