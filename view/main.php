@@ -6,7 +6,6 @@
                            <button type=button class="slick-arrow slick-prev custom-prev-arrow"></button>
                            <div class=slick-list>
                            <div class="slider-slickone">
-                              <div class=slick-track style=width:23010px;opacity:1;transform:translate3d(0px,0px,0px)>
                                  
                                  <div data-index=0 class="slick-slide slick-active slick-current" tabindex=-1 aria-hidden=false style=outline:none;width:1534px>
                                     <div>
@@ -121,7 +120,6 @@
                                     </div>
                                  </div>
                               </div>
-                           </div>
                            </div>
                            <button type=button class="slick-arrow slick-next custom-next-arrow"></button>
                            <ul class=slick-dots style=display:block>
