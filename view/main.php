@@ -546,11 +546,11 @@
                         </span>
                         <h3 class=sport-links__title>Spor Bahisleri</h3>
                      </div>
-                     <div class=sport-links__body>
+                     <div class=sport-links__body onclick="window.location.href = '/sportsbook'">
                         <div class="slick-slider slick-initialized" dir=ltr>
                            <button type=button class="slick-arrow slick-prev custom-prev-arrow"></button>
                            <div class="slick-list" style="padding:0px; overflow: visible;">
-                           <div class="slider-slickone1"  onclick="window.location.href = '/sportsbook'">
+                           <div class="slider-slickone1">
                               <div data-index="0" class="slick-slide slick-active slick-center slick-current" tabindex="-1" aria-hidden="false" style="outline:none">
                                  <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="https://www.bahsegel1117.com/tr/sportsbook?page=/sport/300"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src="images/69.png" alt=""><span class="styles__Name-sc-11gq51y-2 bAojrc">FIFA</span></a></div>
                               </div>
@@ -609,7 +609,7 @@
                   </div>
                   <div class=casino-sliders>
                      <div></div>
-                     <div>
+                     <div onclick="window.location.href = '/casino'">
                         <div class="game-slider casino-sliders__slider">
                            <div class=game-slider__top-panel>
                               <div class=game-slider__header>
@@ -627,7 +627,7 @@
                            <div class="slick-slider slick-initialized" dir=ltr>
                               <button type=button class="slick-arrow slick-prev custom-prev-arrow"></button>
                               <div class=slick-list>
-                              <div class="slider-slickone1"  onclick="window.location.href = '/casino'">
+                                 <div class=slick-track style=width:89640px;opacity:1;transform:translate3d(0px,0px,0px)>
                                     <div data-index=-20 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
                                        <div>
                                           <div>
@@ -1960,7 +1960,7 @@
                            </div>
                         </div>
                      </div>
-                     <div>
+                     <div onclick="window.location.href = '/livecasino'">
                         <div class="game-slider casino-sliders__slider">
                            <div class=game-slider__top-panel>
                               <div class=game-slider__header>
@@ -1978,7 +1978,7 @@
                            <div class="slick-slider slick-initialized" dir=ltr>
                               <button type=button class="slick-arrow slick-prev custom-prev-arrow"></button>
                               <div class=slick-list>
-                              <div class="slider-slickone1"  onclick="window.location.href = '/livecasino'">
+                                 <div class=slick-track style=width:89640px;opacity:1;transform:translate3d(0px,0px,0px)>
                                     <div data-index=-20 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
                                        <div>
                                           <div>
@@ -3308,13 +3308,13 @@
                            </div>
                         </div>
                      </div>
-                     <div class=casino-sliders__slider>
+                     <div class=casino-sliders__slider onclick="window.location.href = '/casino'">
                         <h2 class="casino-sliders__title casino-sliders__title--thematic">Oyun Kategorileri</h2>
                         <div class="casino-sliders__scroll-container casino-sliders__scroll-container--thematic">
                            <div class="slick-slider thematic-category-slider slick-initialized" dir=ltr>
                               <button type=button class="slick-arrow slick-prev custom-prev-arrow"></button>
                               <div class=slick-list>
-                              <div class="slider-slickone1"  onclick="window.location.href = '/casino'">
+                                 <div class=slick-track style=width:67230px;opacity:1;transform:translate3d(0px,0px,0px)>
                                     <div data-index=-15 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
                                        <div><a class="styles__Container-sc-1yplnui-0 epIObd" href=https://www.bahsegel1117.com/tr/casino/bonus-buy><img class="lazy-img styles__Img-sc-1yplnui-1 cblbvX" src=images/72.png alt><span class="styles__Name-sc-1yplnui-2 ddtuqH">Freespin</span></a></div>
                                     </div>
@@ -3456,7 +3456,7 @@
                            </div>
                         </div>
                      </div>
-                     <div>
+                     <div onclick="window.location.href = '/livecasino'">
                         <div class="game-slider casino-sliders__slider">
                            <div class=game-slider__top-panel>
                               <div class=game-slider__header>
@@ -3474,7 +3474,7 @@
                            <div class="slick-slider slick-initialized" dir=ltr>
                               <button type=button class="slick-arrow slick-prev custom-prev-arrow"></button>
                               <div class=slick-list>
-                              <div class="slider-slickone1"  onclick="window.location.href = '/livecasino'">
+                                 <div class=slick-track style=width:40338px;opacity:1;transform:translate3d(0px,0px,0px)>
                                     <div data-index=-9 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
                                        <div>
                                           <div>
@@ -4075,7 +4075,7 @@
                            </div>
                         </div>
                      </div>
-                     <div>
+                     <div onclick="window.location.href = '/casino'">
                         <div class="game-slider casino-sliders__slider">
                            <div class=game-slider__top-panel>
                               <div class=game-slider__header>
@@ -4093,7 +4093,7 @@
                            <div class="slick-slider slick-initialized" dir=ltr>
                               <button type=button class="slick-arrow slick-prev custom-prev-arrow"></button>
                               <div class=slick-list>
-                              <div class="slider-slickone1"  onclick="window.location.href = '/casino'">
+                                 <div class=slick-track style=width:89640px;opacity:1;transform:translate3d(0px,0px,0px)>
                                     <div data-index=-20 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
                                        <div>
                                           <div>
