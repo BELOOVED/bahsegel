@@ -214,7 +214,7 @@ $(document).ready(function() {
 
 
 $(document).ready(function() {
-  var $carouselSlide = $('.slider-slickone1 .slick-slide');
+  var $carouselSlide = $('.carousel-slide');
   var $carouselCount = $('.carousel-count-arrow');
   var currentIndex = 0; // Başlangıç indeksi 0 olarak ayarlandı
 
@@ -224,10 +224,9 @@ $(document).ready(function() {
     arrows: true,
     dots: false,
     infinite: true,
-    slidesToShow: $carouselSlide.length, // Tüm slaytların aynı anda görünmesi için
+    slidesToShow: 10, // Ekranda kaç slaytın gösterileceğini ayarlayın
     slidesToScroll: 1,
-    swipeToSlide: true,
-    variableWidth: true // Elemanların genişliğini otomatik ayarla
+    swipeToSlide: true
   });
 
   // Slayt değiştiğinde
@@ -239,13 +238,12 @@ $(document).ready(function() {
   // Slayt sayısını günceller
   function updateSlideCount() {
     var currentNumber = currentIndex + 1;
-    var totalCount = $carouselSlide.length;
+    var totalCount = $carouselSlide.length - 2;
     $carouselCount.text(currentNumber + ' / ' + totalCount);
   }
 
   updateSlideCount(); // Başlangıçta slayt sayısını güncelle
 });
-
 
 </script>
 <?=html_entity_decode($main['sources'], ENT_QUOTES, 'UTF-8')?>
