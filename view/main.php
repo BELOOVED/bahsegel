@@ -122,6 +122,7 @@
                                  </div>
                               </div>
                            </div>
+                           </div>
                            <button type=button class="slick-arrow slick-next custom-next-arrow"></button>
                            <ul class=slick-dots style=display:block>
                               <li class=slick-active>
