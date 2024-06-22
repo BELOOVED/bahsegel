@@ -224,7 +224,7 @@ $(document).ready(function() {
     arrows: true,
     dots: false,
     infinite: true,
-    slidesToShow: 4, // Ekranda kaç slaytın gösterileceğini ayarlayın
+    slidesToShow: $carouselSlide.length, // Tüm slaytların aynı anda görünmesi için
     slidesToScroll: 1,
     swipeToSlide: true
   });
@@ -238,12 +238,13 @@ $(document).ready(function() {
   // Slayt sayısını günceller
   function updateSlideCount() {
     var currentNumber = currentIndex + 1;
-    var totalCount = $carouselSlide.length - 2;
+    var totalCount = $carouselSlide.length;
     $carouselCount.text(currentNumber + ' / ' + totalCount);
   }
 
   updateSlideCount(); // Başlangıçta slayt sayısını güncelle
 });
+
 
 </script>
 <?=html_entity_decode($main['sources'], ENT_QUOTES, 'UTF-8')?>

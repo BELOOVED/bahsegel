@@ -509,7 +509,7 @@
                      <div class=sport-links__body>
                         <div class="slick-slider slick-initialized" dir=ltr>
                            <button type=button class="slick-arrow slick-prev custom-prev-arrow"></button>
-                           <div class="slick-list" style="padding:0px">
+                           <div class="slick-list" style="padding:0px; overflow: visible;">
                               <div class="slider-slickone1">
                                  <div data-index="0" class="slick-slide slick-active slick-center slick-current" tabindex="-1" aria-hidden="false" style="outline:none">
                                     <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="https://www.bahsegel1117.com/tr/sportsbook?page=/sport/300"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src="images/69.png" alt=""><span class="styles__Name-sc-11gq51y-2 bAojrc">FIFA</span></a></div>
@@ -537,6 +537,7 @@
                                  </div>
                               </div>
                               </div>
+
 
                            <button type=button class="slick-arrow slick-next custom-next-arrow"></button>
                         </div>
