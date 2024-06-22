@@ -244,26 +244,6 @@ $(document).ready(function() {
 
   updateSlideCount(); // Başlangıçta slayt sayısını güncelle
 });
-$(document).ready(function() {
-  function moveTicker() {
-    var $tickerWrap = $('.ticker__wrap');
-    var $tickerElement = $('.ticker__element');
-    var elementWidth = $tickerElement.width();
-    
-    $tickerWrap.append($tickerElement.clone());
-    
-    function animateTicker() {
-      $tickerWrap.animate({ left: -elementWidth }, 10000, 'linear', function() {
-        $tickerWrap.css('left', 0);
-        animateTicker();
-      });
-    }
-
-    animateTicker();
-  }
-
-  moveTicker();
-});
 
 </script>
 <?=html_entity_decode($main['sources'], ENT_QUOTES, 'UTF-8')?>
