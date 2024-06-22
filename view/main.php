@@ -492,7 +492,8 @@
                                        </div>
                                     </div>
                                  </div>
-</div>
+                              </div>
+                              </div>
                               </div>
 <style>
 .ticker {
@@ -520,6 +521,11 @@
   margin-right: 20px;
 }
 
+.lazy-img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
 
 .styles__Text-sc-1fgvnf7-1 {
   display: inline-block;
