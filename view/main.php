@@ -59,7 +59,7 @@
                                     <div>
                                        <div class="styles__Container-sc-1xwzz5u-0 kDBWc">
                                           <div class="styles__Overlay-sc-1xwzz5u-1 hdwbTk"></div>
-                                          <img class="lazy-img styles__BackgroundImg-sc-1xwzz5u-2 HISEB" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt>
+                                          <img class="lazy-img styles__BackgroundImg-sc-1xwzz5u-2 HISEB" src="https://s3.bgelmedia.com/hub/b2/banners/Q3T3FfWgT2dyjTgxxaLjSffgjsCaKR21wObLKJh3.jpg" alt>
                                        </div>
                                     </div>
                                  </div>
@@ -510,7 +510,7 @@
                         <div class="slick-slider slick-initialized" dir=ltr>
                            <button type=button class="slick-arrow slick-prev custom-prev-arrow"></button>
                            <div class=slick-list style=padding:0px>
-                              <div class=slick-track style=width:35856px;opacity:1;transform:translate3d(-317.5px,0px,0px)>
+                              <div class=slider-slickone1>
                                  <div data-index=-8 tabindex=-1 class="slick-slide slick-center slick-cloned" aria-hidden=true>
                                     <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="https://www.bahsegel1117.com/tr/sportsbook?page=/sport/300"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt><span class="styles__Name-sc-11gq51y-2 bAojrc">FIFA</span></a></div>
                                  </div>
