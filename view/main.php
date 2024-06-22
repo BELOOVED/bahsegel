@@ -511,30 +511,7 @@
                            <button type=button class="slick-arrow slick-prev custom-prev-arrow"></button>
                            <div class=slick-list style=padding:0px>
                               <div class=slider-slickone1>
-                                 <div data-index=-8 tabindex=-1 class="slick-slide slick-center slick-cloned" aria-hidden=true>
-                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="https://www.bahsegel1117.com/tr/sportsbook?page=/sport/300"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt><span class="styles__Name-sc-11gq51y-2 bAojrc">FIFA</span></a></div>
-                                 </div>
-                                 <div data-index=-7 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
-                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="https://www.bahsegel1117.com/tr/sportsbook?page=/sport/1"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt><span class="styles__Name-sc-11gq51y-2 bAojrc">Futbol</span></a></div>
-                                 </div>
-                                 <div data-index=-6 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
-                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="https://www.bahsegel1117.com/tr/sportsbook?page=/sport/302"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt><span class="styles__Name-sc-11gq51y-2 bAojrc">NBA 2K</span></a></div>
-                                 </div>
-                                 <div data-index=-5 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
-                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="https://www.bahsegel1117.com/tr/sportsbook?page=/sport/5"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src=images/64.png alt><span class="styles__Name-sc-11gq51y-2 bAojrc">Tenis</span></a></div>
-                                 </div>
-                                 <div data-index=-4 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
-                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="https://www.bahsegel1117.com/tr/sportsbook?page=/sport/23"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src=images/65.png alt><span class="styles__Name-sc-11gq51y-2 bAojrc">Voleybol</span></a></div>
-                                 </div>
-                                 <div data-index=-3 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
-                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="https://www.bahsegel1117.com/tr/sportsbook?page=/sport/40"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src=images/66.png alt><span class="styles__Name-sc-11gq51y-2 bAojrc">Formula 1</span></a></div>
-                                 </div>
-                                 <div data-index=-2 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
-                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="https://www.bahsegel1117.com/tr/sportsbook?page=/sport/10"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src=images/67.png alt><span class="styles__Name-sc-11gq51y-2 bAojrc">Boks</span></a></div>
-                                 </div>
-                                 <div data-index=-1 tabindex=-1 class="slick-slide slick-cloned" aria-hidden=true>
-                                    <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="https://www.bahsegel1117.com/tr/sportsbook?page=/sport/2"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src=images/68.png alt><span class="styles__Name-sc-11gq51y-2 bAojrc">Basketbol</span></a></div>
-                                 </div>
+                                 
                                  <div data-index=0 class="slick-slide slick-active slick-center slick-current" tabindex=-1 aria-hidden=false style=outline:none>
                                     <div><a class="styles__Container-sc-11gq51y-0 cVmzsc" href="https://www.bahsegel1117.com/tr/sportsbook?page=/sport/300"><img class="lazy-img styles__Image-sc-11gq51y-1 jkwYUQ" src=images/69.png alt><span class="styles__Name-sc-11gq51y-2 bAojrc">FIFA</span></a></div>
                                  </div>
