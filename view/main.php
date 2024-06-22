@@ -7,7 +7,7 @@
                            <div class=slick-list>
                               <div class=slider-slickone>
                                  
-                                 <div data-index=0 class="slick-slide slick-current" tabindex=-1 aria-hidden=false style=outline:none;width:1534px>
+                                 <div data-index=0 class="slick-slide slick-current" tabindex=-1 aria-hidden=false style=outline:none;>
                                     <div>
                                        <div class="styles__Container-sc-1xwzz5u-0 kDBWc">
                                           <div class="styles__Overlay-sc-1xwzz5u-1 hdwbTk"></div>
@@ -15,7 +15,7 @@
                                        </div>
                                     </div>
                                  </div>
-                                 <div data-index=1 class=slick-slide tabindex=-1 aria-hidden=true style=outline:none;width:1534px>
+                                 <div data-index=1 class=slick-slide tabindex=-1 aria-hidden=true style=outline:none;>
                                     <div>
                                        <div class="styles__Container-sc-1xwzz5u-0 kDBWc">
                                           <div class="styles__Overlay-sc-1xwzz5u-1 hdwbTk"></div>
@@ -23,7 +23,7 @@
                                        </div>
                                     </div>
                                  </div>
-                                 <div data-index=2 class=slick-slide tabindex=-1 aria-hidden=true style=outline:none;width:1534px>
+                                 <div data-index=2 class=slick-slide tabindex=-1 aria-hidden=true style=outline:none;>
                                     <div>
                                        <div class="styles__Container-sc-1xwzz5u-0 kDBWc">
                                           <div class="styles__Overlay-sc-1xwzz5u-1 hdwbTk"></div>
@@ -31,7 +31,7 @@
                                        </div>
                                     </div>
                                  </div>
-                                 <div data-index=3 class=slick-slide tabindex=-1 aria-hidden=true style=outline:none;width:1534px>
+                                 <div data-index=3 class=slick-slide tabindex=-1 aria-hidden=true style=outline:none;>
                                     <div>
                                        <div class="styles__Container-sc-1xwzz5u-0 kDBWc">
                                           <div class="styles__Overlay-sc-1xwzz5u-1 hdwbTk"></div>
@@ -39,7 +39,7 @@
                                        </div>
                                     </div>
                                  </div>
-                                 <div data-index=4 class=slick-slide tabindex=-1 aria-hidden=true style=outline:none;width:1534px>
+                                 <div data-index=4 class=slick-slide tabindex=-1 aria-hidden=true style=outline:none;>
                                     <div>
                                        <div class="styles__Container-sc-1xwzz5u-0 kDBWc">
                                           <div class="styles__Overlay-sc-1xwzz5u-1 hdwbTk"></div>
@@ -47,7 +47,7 @@
                                        </div>
                                     </div>
                                  </div>
-                                 <div data-index=5 class=slick-slide tabindex=-1 aria-hidden=true style=outline:none;width:1534px>
+                                 <div data-index=5 class=slick-slide tabindex=-1 aria-hidden=true style=outline:none;>
                                     <div>
                                        <div class="styles__Container-sc-1xwzz5u-0 kDBWc">
                                           <div class="styles__Overlay-sc-1xwzz5u-1 hdwbTk"></div>
@@ -55,7 +55,7 @@
                                        </div>
                                     </div>
                                  </div>
-                                 <div data-index=6 class=slick-slide tabindex=-1 aria-hidden=true style=outline:none;width:1534px>
+                                 <div data-index=6 class=slick-slide tabindex=-1 aria-hidden=true style=outline:none;>
                                     <div>
                                        <div class="styles__Container-sc-1xwzz5u-0 kDBWc">
                                           <div class="styles__Overlay-sc-1xwzz5u-1 hdwbTk"></div>
